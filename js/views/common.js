@@ -21,7 +21,7 @@ export function latamBox(latam) {
 }
 
 export function topbar(ctx, title, right, backTo = '#/') {
-  return h('div.topbar', {}, h('button.back', { onclick: () => ctx.go(backTo) }, '‹ ホーム'), h('span.title', {}, title), right ? h('span', {}, right) : null);
+  return h('div.topbar', {}, h('button.back', { onclick: () => ctx.go(backTo) }, backTo === '#/' ? '‹ ホーム' : '‹ 戻る'), h('span.title', {}, title), right ? h('span', {}, right) : null);
 }
 
 export function progressBar(ratio) {

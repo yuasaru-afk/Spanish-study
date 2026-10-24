@@ -9,6 +9,9 @@ import * as home from './views/home.js';
 import * as lesson from './views/lesson.js';
 import * as review from './views/review.js';
 import * as grammar from './views/grammar.js';
+import * as wordbook from './views/wordbook.js';
+import * as recap from './views/recap.js';
+import * as stats from './views/stats.js';
 
 window.__errors = [];
 window.addEventListener('error', e => window.__errors.push(e.message));
@@ -18,6 +21,12 @@ const ROUTES = [
   [/^#\/u\/(\w+)$/, lesson.render],
   [/^#\/done\/(\w+)$/, lesson.renderDone],
   [/^#\/review$/, review.render],
+  [/^#\/words\/new$/, review.renderNew],
+  [/^#\/words\/(phrases)$/, wordbook.render],
+  [/^#\/words$/, wordbook.render],
+  [/^#\/speak\/(\w+)\/(\d+)$/, wordbook.renderSpeak],
+  [/^#\/recap$/, recap.render],
+  [/^#\/stats$/, stats.render],
   [/^#\/grammar\/(\w+)(\/q)?$/, grammar.renderUnit],
   [/^#\/gq\/(\w+)$/, grammar.renderQuiz],
   [/^#\/grammar$/, grammar.renderList],

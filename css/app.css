@@ -135,3 +135,26 @@ p { margin: .4em 0; }
 .levelup { display: inline-block; background: var(--accent); color: var(--on-accent); font-weight: 700; border-radius: 20px; padding: 6px 16px; margin: 8px 0; }
 .levelbox { margin: 16px auto; max-width: 320px; text-align: left; }
 .levelbox .progress { margin: 6px 0; }
+.levelcard { display: block; width: 100%; text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; margin: 4px 0 12px; }
+.levelcard .progress { margin: 6px 0 4px; }
+.lvrow { display: flex; justify-content: space-between; align-items: baseline; }
+.streak { font-weight: 700; color: var(--accent-text); }
+.menu.menu4 { grid-template-columns: repeat(4, 1fr); }
+.wordbtns { display: grid; gap: 8px; margin: 10px 0; }
+.wordlist { list-style: none; padding: 0; margin: 4px 0 12px; }
+.wordlist li { border-bottom: 1px solid var(--line); padding: 8px 0; }
+.wmeta { display: flex; justify-content: space-between; gap: 8px; align-items: center; }
+.chip { font-size: .75em; border-radius: 10px; padding: 1px 8px; white-space: nowrap; }
+.chip-ok { background: var(--ok-bg); } .chip-mid { background: var(--note-bg); } .chip-new { background: var(--chip); color: var(--muted); }
+.statgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 8px 0; }
+.statgrid div { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 10px 6px; text-align: center; }
+.statgrid b { display: block; font-size: 1.4em; }
+.statgrid span { font-size: .8em; color: var(--muted); }
+.cal { display: grid; grid-template-columns: repeat(7, 1fr); gap: 5px; margin: 6px 0; }
+.calhead { text-align: center; font-size: .75em; color: var(--muted); }
+.calday { aspect-ratio: 1; border-radius: 6px; background: var(--chip); }
+.calday.c1 { background: #f6d9a8; } .calday.c2 { background: #eeb75e; } .calday.c3 { background: var(--accent); }
+.calday.future { background: transparent; border: 1px dashed var(--line); }
+.calday.today { outline: 2px solid var(--accent-text); }
+.badges { list-style: none; padding: 0; columns: 2; }
+.badges li { color: var(--muted); margin: 4px 0; } .badges li.got { color: var(--text); font-weight: 700; }

@@ -13,9 +13,10 @@ export function renderQuestion(ctx, q, body, actions, opts) {
   const done = (ok, box) => {
     opts.onAnswer(ok);
     body.append(box);
-    actions.replaceChildren(
+    actions.replaceChildren(...[
       h('button.btn', { onclick: opts.next.onclick }, opts.next.label),
-      opts.grammarHash ? h('button.btn2', { onclick: () => ctx.go(opts.grammarHash) }, '📘 文法ノートで見る') : null);
+      opts.grammarHash ? h('button.btn2', { onclick: () => ctx.go(opts.grammarHash) }, '📘 文法ノートで見る') : null,
+    ].filter(Boolean));
     box.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
   };
   if (q.type === 'order') orderQ(ctx, q, body, actions, done);
