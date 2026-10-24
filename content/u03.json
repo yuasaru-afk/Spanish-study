@@ -3,6 +3,23 @@
  "no": 3,
  "title": "名詞の男女と冠詞",
  "summary": "名詞には男性・女性がある。el / la / un / una の使い分けと複数形。",
+ "points": {
+  "lines": [
+   "名詞は男性か女性。-o はたいてい男性、-a はたいてい女性",
+   "「その」は el / la、「ある1つの」は un / una",
+   "複数は -s か -es。冠詞も los / las / unos / unas に"
+  ],
+  "examples": [
+   {
+    "es": "el libro",
+    "ja": "その本"
+   },
+   {
+    "es": "una mesa",
+    "ja": "1つのテーブル"
+   }
+  ]
+ },
  "explain": [
   {
    "title": "すべての名詞に「性」がある",

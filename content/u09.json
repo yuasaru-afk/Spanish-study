@@ -3,6 +3,23 @@
  "no": 9,
  "title": "gustar（好き嫌い）",
  "summary": "「好き」は「〜が私に気に入る」と言う。me gusta / me gustan と、相手に聞く・あいづちを打つ言い方。",
+ "points": {
+  "lines": [
+   "「好き」は「〜が私に気に入る」：Me gusta 〜",
+   "好きな物が複数なら gustan、動詞の原形なら gusta",
+   "誰がは me / te / le / nos / os / les"
+  ],
+  "examples": [
+   {
+    "es": "Me gusta el café.",
+    "ja": "コーヒーが好きです。"
+   },
+   {
+    "es": "Me gustan los gatos.",
+    "ja": "猫が好きです。"
+   }
+  ]
+ },
  "explain": [
   {
    "title": "gustar は「〜が気に入る」",
@@ -250,7 +267,7 @@
     {
      "text": "me",
      "correct": false,
-     "why": "me は「私は」。相手（usted）のことを聞くので le。"
+     "why": "me は「私に」。相手（usted）のことを聞くので le。"
     },
     {
      "text": "le",

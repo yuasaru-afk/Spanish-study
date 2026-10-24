@@ -13,6 +13,7 @@ function spanishTexts(u) {
   const out = [];
   const add = (where, s) => { if (typeof s === 'string') out.push([where, s]); };
   (u.explain || []).forEach((e, i) => (e.examples || []).forEach((x, j) => add(`explain[${i}].examples[${j}].es`, x.es)));
+  (u.points?.examples || []).forEach((x, j) => add(`points.examples[${j}].es`, x.es));
   (u.practice || []).forEach((q, i) => {
     add(`practice[${i}].es`, q.es);
     (q.tokens || []).forEach(t => add(`practice[${i}].tokens`, t));
@@ -33,6 +34,9 @@ export function validateUnit(u, seenWordIds) {
   if (e.length) return e;
 
   if (u.explain.length === 0) e.push('explain が空');
+  // レッスン最初の「文法の要点」
+  if (!u.points || !Array.isArray(u.points.lines) || u.points.lines.length === 0 || u.points.lines.some(blank)) e.push('points（文法の要点）の lines がない');
+  else (u.points.examples || []).forEach((ex, j) => { if (blank(ex.es) || blank(ex.ja)) e.push(`points.examples[${j}] の es/ja がない`); });
   u.explain.forEach((x, i) => {
     if (blank(x.title) || blank(x.body)) e.push(`explain[${i}] の title/body がない`);
     (x.examples || []).forEach((ex, j) => { if (blank(ex.es) || blank(ex.ja)) e.push(`explain[${i}].examples[${j}] の es/ja がない`); });

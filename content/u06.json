@@ -3,6 +3,23 @@
  "no": 6,
  "title": "estar と ser・estar の使い分け",
  "summary": "estar の形。場所と今の状態は estar、変わらない性質は ser。",
+ "points": {
+  "lines": [
+   "estar は estoy, estás, está, estamos, estáis, están",
+   "場所（どこにいる・ある）と今の状態は estar",
+   "変わらない性質は ser。同じ形容詞でも意味が変わる"
+  ],
+  "examples": [
+   {
+    "es": "¿Dónde está el baño?",
+    "ja": "トイレはどこですか？"
+   },
+   {
+    "es": "Estoy cansado.",
+    "ja": "疲れています。"
+   }
+  ]
+ },
  "explain": [
   {
    "title": "estar の6つの形",

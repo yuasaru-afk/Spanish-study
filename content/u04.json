@@ -3,6 +3,23 @@
  "no": 4,
  "title": "ser（〜です）と主語",
  "summary": "主語の代名詞と、ser の6つの形。国籍・職業・性質の言い方と形容詞の一致。",
+ "points": {
+  "lines": [
+   "ser（〜です）は soy, eres, es, somos, sois, son",
+   "国籍・職業・性質など、変わらないことに使う",
+   "主語は省略できる。形容詞は男女と数をそろえる"
+  ],
+  "examples": [
+   {
+    "es": "Soy japonés.",
+    "ja": "私は日本人です。"
+   },
+   {
+    "es": "Ella es alta.",
+    "ja": "彼女は背が高い。"
+   }
+  ]
+ },
  "explain": [
   {
    "title": "主語の代名詞",

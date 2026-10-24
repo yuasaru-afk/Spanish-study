@@ -3,6 +3,23 @@
  "no": 1,
  "title": "あいさつ",
  "summary": "時間帯のあいさつ、名前の言い方、tú と usted の使い分け。",
+ "points": {
+  "lines": [
+   "ていねいなあいさつは時間帯で変わる（días / tardes / noches）",
+   "名前は Me llamo ＋名前。相手には ¿Cómo te llamas?",
+   "くだけた相手は tú、目上・初対面は usted"
+  ],
+  "examples": [
+   {
+    "es": "Buenos días.",
+    "ja": "おはようございます。"
+   },
+   {
+    "es": "Me llamo Takashi.",
+    "ja": "私の名前はタカシです。"
+   }
+  ]
+ },
  "explain": [
   {
    "title": "時間帯であいさつが変わる",

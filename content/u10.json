@@ -3,6 +3,23 @@
  "no": 10,
  "title": "レストランで",
  "summary": "席の頼み方、注文（Quiero / Para mí / ¿Me pone…?）、日替わり定食、会計まで。",
+ "points": {
+  "lines": [
+   "席は Una mesa para dos, por favor.",
+   "注文は Quiero／Quisiera（ていねい）／Para mí 〜",
+   "会計は La cuenta, por favor."
+  ],
+  "examples": [
+   {
+    "es": "Para mí, el pescado.",
+    "ja": "私は魚で。"
+   },
+   {
+    "es": "La cuenta, por favor.",
+    "ja": "お会計お願いします。"
+   }
+  ]
+ },
  "explain": [
   {
    "title": "入店して席を頼む",

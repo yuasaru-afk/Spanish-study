@@ -3,6 +3,23 @@
  "no": 8,
  "title": "数字・時刻・曜日",
  "summary": "0〜100の数え方、時刻の言い方（Es la una / Son las 〜）、曜日。",
+ "points": {
+  "lines": [
+   "0〜15は丸ごと、31からは treinta y uno のように y でつなぐ",
+   "時刻は Es la una／Son las 〜。分は y でつなぐ",
+   "曜日は小文字。「〜曜日に」は el lunes"
+  ],
+  "examples": [
+   {
+    "es": "¿Qué hora es?",
+    "ja": "何時ですか？"
+   },
+   {
+    "es": "Son las ocho y media.",
+    "ja": "8時半です。"
+   }
+  ]
+ },
  "explain": [
   {
    "title": "0〜15は丸ごと覚える",
