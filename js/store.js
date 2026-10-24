@@ -1,5 +1,5 @@
 // 学習記録。端末の localStorage だけに置く。状態は毎回新しいオブジェクトで返す
-import { XP, learnedCount, newBadges } from './progress.js';
+import { XP, learnedCount, newBadges, levelInfo } from './progress.js';
 import { gradeCard } from './srs.js';
 
 const KEY = 'es-app-v1';
@@ -20,6 +20,7 @@ export function defaultState() {
     firstDone: 0,
     sinceReview: 0,
     reviews: 0,
+    shownLevel: 1,
   };
 }
 
@@ -44,9 +45,11 @@ const isCount = n => Number.isInteger(n) && n >= -1;
 const nat = n => (Number.isInteger(n) && n >= 0 ? n : 0);
 const strings = a => (Array.isArray(a) ? a.filter(x => typeof x === 'string') : []);
 
+// 単語段なのに対象語（ids）を持たない位置は初版の記録。どの語まで済んだか分からないので単語チェックの先頭へ
 function cleanPos(p) {
   const pos = { stage: migrateStage(p.stage), index: p.index };
   if (Array.isArray(p.ids)) pos.ids = strings(p.ids);
+  else if (pos.stage === 'words') pos.index = 0;
   return pos;
 }
 
@@ -61,8 +64,10 @@ function sanitize(s) {
     if (!isObj(u) || typeof u.done !== 'boolean') continue;
     units[id] = isPos(u.pos) ? { done: u.done, pos: cleanPos(u.pos) } : { done: u.done };
   }
+  // 続きからの表示はユニットの位置に合わせる（そちらが本物）
   const r = s.resume;
-  const resume = isPos(r) && typeof r.unitId === 'string' ? { unitId: r.unitId, stage: migrateStage(r.stage), index: r.index } : null;
+  const rp = isPos(r) && typeof r.unitId === 'string' ? (units[r.unitId]?.pos || cleanPos({ stage: r.stage, index: r.index })) : null;
+  const resume = rp ? { unitId: r.unitId, stage: rp.stage, index: rp.index } : null;
   const streak = Number.isFinite(s.streak.lastDay) && Number.isInteger(s.streak.count) ? { lastDay: s.streak.lastDay, count: s.streak.count } : d.streak;
   const dayMap = m => (isObj(m) ? Object.fromEntries(Object.entries(m).filter(([, v]) => Number.isFinite(v))) : {});
   return {
@@ -72,9 +77,11 @@ function sanitize(s) {
     answered: dayMap(s.answered),
     mistakes: strings(s.mistakes).slice(0, MAX_MISTAKES),
     badges: strings(s.badges),
-    firstDone: nat(s.firstDone),
+    // 初版の記録には無い。終えたユニットの数から始める
+    firstDone: s.firstDone === undefined ? Object.values(units).filter(u => u.done).length : nat(s.firstDone),
     sinceReview: nat(s.sinceReview),
     reviews: nat(s.reviews),
+    shownLevel: Number.isInteger(s.shownLevel) && s.shownLevel >= 1 ? s.shownLevel : levelInfo(nat(s.xp)).level,
   };
 }
 
@@ -124,7 +131,8 @@ const MAX_MISTAKES = 50;
 export function addXp(state, amount, today) {
   const daily = Object.fromEntries(Object.entries(state.daily).filter(([d]) => Number(d) > today - KEEP_DAYS));
   daily[today] = (daily[today] || 0) + amount;
-  return { ...state, xp: state.xp + amount, daily };
+  // 学習した日は連続日数も進める（iOS はアプリを起動し直さずに翌日も使えるため、起動時だけでは足りない）
+  return touchStreak({ ...state, xp: state.xp + amount, daily }, today);
 }
 
 // 練習・確認問題の答え。XP は1問につき1日1回まで。間違えた問題は1回正解で外す
@@ -137,9 +145,12 @@ export function recordAnswer(state, qid, correct, today, xpCorrect = XP.correct)
   return { ...s, mistakes: correct ? rest : [qid, ...rest].slice(0, MAX_MISTAKES) };
 }
 
+// 単語の XP も1語1日1回まで（忘れてたを繰り返して稼げないように）
 export function checkWord(state, wordId, remembered, today) {
   const cards = { ...state.cards, [wordId]: gradeCard(state.cards[wordId], remembered ? 'good' : 'again', today) };
-  return addXp({ ...state, cards }, XP.word, today);
+  const key = `w:${wordId}`;
+  if (state.answered[key] === today) return { ...state, cards };
+  return addXp({ ...state, cards, answered: { ...state.answered, [key]: today } }, XP.word, today);
 }
 
 // 完了ボーナス・バッジ・振り返りの数え上げは初回完了の時だけ
@@ -150,8 +161,11 @@ export function completeLesson(state, unitId, today) {
   return addXp({ ...s, firstDone: s.firstDone + 1, sinceReview: s.sinceReview + 1 }, XP.lesson, today);
 }
 
+// 回数（バッジ用）は、振り返りが出ていた時（3回以上たまっていた時）だけ数える
+export const REVIEW_EVERY = 3;
 export function completeReview(state, today) {
-  return addXp({ ...state, reviews: state.reviews + 1, sinceReview: 0 }, XP.review, today);
+  const counted = state.sinceReview >= REVIEW_EVERY;
+  return addXp(counted ? { ...state, reviews: state.reviews + 1, sinceReview: 0 } : state, XP.review, today);
 }
 
 export function exportJson(state) {

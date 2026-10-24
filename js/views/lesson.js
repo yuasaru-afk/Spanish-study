@@ -2,7 +2,7 @@
 import { h } from '../dom.js';
 import { setPosition, recordAnswer, checkWord, completeLesson, awardBadges } from '../store.js';
 import { dayNumber } from '../srs.js';
-import { stagesFor, nextPosition, stageLength, pickCheckWords, STAGE_NAMES } from '../flow.js';
+import { stagesFor, nextPosition, stageLength, startPosition, STAGE_NAMES } from '../flow.js';
 import { esLine, topbar, progressBar } from './common.js';
 import { renderQuestion } from './quiz.js';
 import { renderWordCard } from './wordcard.js';
@@ -17,11 +17,23 @@ export async function render(root, ctx, unitId) {
   const r = ctx.state.resume;
   const saved = ctx.state.units[unitId]?.pos || (r?.unitId === unitId ? r : null);
   // 単語チェックの対象は段に入った時に決めたものを使う（記録が付いても並びがずれない）
-  const wordIds = saved?.ids ?? pickCheckWords(unit, ctx.state.cards);
+  const start = startPosition(unit, saved, ctx.state.cards);
+  const wordIds = start === 'finish' ? [] : start.wordIds;
   const stages = stagesFor(unit, wordIds);
-  const pos = saved && stages.includes(saved.stage) && saved.index < stageLength(unit, saved.stage, wordIds)
-    ? { stage: saved.stage, index: saved.index } : { stage: stages[0], index: 0 };
+  const pos = start === 'finish' ? null : start.pos;
   const idsFor = stage => (stage === 'words' ? wordIds : undefined);
+  const finish = extra => {
+    const beforeXp = ctx.state.xp;
+    let earned = [];
+    ctx.setState(st => {
+      const res = awardBadges(completeLesson(extra(st), unitId, today()));
+      earned = res.earned;
+      return res.state;
+    }, { redraw: false });
+    ctx.reward = { title: `${unit.no} ${unit.title} 完了！`, beforeXp, earned, unitId };
+    ctx.go(`#/done/${unitId}`);
+  };
+  if (!pos) return finish(st => st);
   const cur = ctx.state.units[unitId]?.pos;
   if (!cur || cur.stage !== pos.stage || cur.index !== pos.index || (pos.stage === 'words' && !cur.ids)
     || (!ctx.state.units[unitId]?.done && r?.unitId !== unitId)) {
@@ -34,18 +46,6 @@ export async function render(root, ctx, unitId) {
     if (next === 'done') return finish(extra);
     ctx.setState(st => setPosition(extra(st), unitId, next.stage, next.index, idsFor(next.stage)), { top: true });
   };
-  const finish = extra => {
-    const beforeXp = ctx.state.xp;
-    let earned = [];
-    ctx.setState(st => {
-      const res = awardBadges(completeLesson(extra(st), unitId, today()));
-      earned = res.earned;
-      return res.state;
-    }, { redraw: false });
-    ctx.reward = { title: `${unit.no} ${unit.title} 完了！`, beforeXp, earned, unitId };
-    ctx.go(`#/done/${unitId}`);
-  };
-
   const total = stages.reduce((n, s) => n + stageLength(unit, s, wordIds), 0);
   const doneSoFar = stages.slice(0, stages.indexOf(pos.stage)).reduce((n, s) => n + stageLength(unit, s, wordIds), 0) + pos.index;
   const body = h('div.body');

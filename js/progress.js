@@ -20,6 +20,12 @@ export function wordStatus(card) {
   return card.step >= 1 ? 'learned' : 'shaky';
 }
 
+// 前に見せたレベルより上がっていれば新しいレベル（お祝いを出す）。上がっていなければ null
+export function levelUp(shownLevel, xp) {
+  const { level } = levelInfo(xp);
+  return level > shownLevel ? level : null;
+}
+
 export const learnedCount = cards => Object.values(cards).filter(c => wordStatus(c) === 'learned').length;
 
 const badge = (id, label, key, n) => ({ id, label, test: s => s[key] >= n });

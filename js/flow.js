@@ -30,6 +30,15 @@ export function nextPosition(unit, wordIds, { stage, index }) {
   return at + 1 < stages.length ? { stage: stages[at + 1], index: 0 } : 'done';
 }
 
+// レッスンを開いた時の位置と単語チェックの対象。単語段なのに確認する語が無ければ 'finish'（最初に戻さない）
+export function startPosition(unit, saved, cards) {
+  const wordIds = saved?.ids ?? pickCheckWords(unit, cards);
+  const stages = stagesFor(unit, wordIds);
+  if (saved?.stage === 'words' && !wordIds.length) return 'finish';
+  const ok = saved && stages.includes(saved.stage) && saved.index < stageLength(unit, saved.stage, wordIds);
+  return { pos: ok ? { stage: saved.stage, index: saved.index } : { stage: stages[0], index: 0 }, wordIds };
+}
+
 export function isUnlocked(index, units, unitId) {
   const at = index.findIndex(u => u.id === unitId);
   return at === 0 || (at > 0 && Boolean(units[index[at - 1].id]?.done));

@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { XP, levelInfo, wordStatus, learnedCount, newBadges, BADGES } from '../js/progress.js';
+import { XP, levelInfo, wordStatus, learnedCount, newBadges, BADGES, levelUp } from '../js/progress.js';
 
 test('XP の値', () => assert.deepEqual(XP, { correct: 10, wrong: 2, word: 2, lesson: 20, review: 30, grammar: 5 }));
 
@@ -29,3 +29,9 @@ test('newBadges: 達成したものだけ', () => assert.deepEqual(
 
 test('newBadges: 持っているものは返さない', () => assert.deepEqual(
   newBadges(['words25'], { learned: 60, streak: 0, firstDone: 3, reviews: 1 }), ['words50', 'units3', 'review1']));
+
+test('levelUp: 前に見せたレベルより上がっていれば新しいレベル、そうでなければ null', () => {
+  assert.equal(levelUp(1, 100), 2);
+  assert.equal(levelUp(2, 150), null);
+  assert.equal(levelUp(1, 50), null);
+});

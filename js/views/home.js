@@ -2,9 +2,8 @@ import { h } from '../dom.js';
 import { dayNumber, dueWordIds } from '../srs.js';
 import { isUnlocked, buildReview, STAGE_NAMES } from '../flow.js';
 import { levelInfo } from '../progress.js';
+import { REVIEW_EVERY } from '../store.js';
 import { progressBar } from './common.js';
-
-const REVIEW_EVERY = 3;
 
 // 終えたユニットの教材（振り返りの材料）
 export async function doneUnits(ctx, index) {
@@ -16,8 +15,13 @@ export async function render(root, ctx) {
   const index = await ctx.content.loadIndex();
   const st = ctx.state;
   const today = dayNumber(new Date());
-  const showRecap = st.sinceReview >= REVIEW_EVERY
-    && buildReview({ mistakes: st.mistakes, cards: st.cards, doneUnits: await doneUnits(ctx, index), today }).length > 0;
+  // 教材の読み込みに失敗しても、ホームは開けるようにする（振り返りを出さないだけ）
+  let showRecap = false;
+  if (st.sinceReview >= REVIEW_EVERY) {
+    try {
+      showRecap = buildReview({ mistakes: st.mistakes, cards: st.cards, doneUnits: await doneUnits(ctx, index), today }).length > 0;
+    } catch { showRecap = false; }
+  }
   if (!root.isConnected) return;
   const due = dueWordIds(st.cards, today).length;
   const lv = levelInfo(st.xp);

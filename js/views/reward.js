@@ -1,6 +1,6 @@
 // 完了画面：もらった XP、レベル（上がったらお祝い）、新しいバッジ
 import { h } from '../dom.js';
-import { levelInfo, BADGES } from '../progress.js';
+import { levelInfo, levelUp, BADGES } from '../progress.js';
 import { topbar, progressBar } from './common.js';
 
 // ctx.reward = { title, beforeXp, earned: badgeIds, buttons: [{label, hash, primary}] }
@@ -8,9 +8,10 @@ import { topbar, progressBar } from './common.js';
 export function renderReward(root, ctx) {
   const r = ctx.reward || { title: 'おつかれさま！', beforeXp: ctx.state.xp, earned: [], buttons: [{ label: 'ホームへ', hash: '#/', primary: true }] };
   const now = levelInfo(ctx.state.xp);
-  const before = levelInfo(r.beforeXp);
   const gained = ctx.state.xp - r.beforeXp;
-  const up = now.level > before.level;
+  // レッスンの途中で上がった分もここで祝う（前に見せたレベルと比べる）
+  const up = levelUp(ctx.state.shownLevel, ctx.state.xp) !== null;
+  if (up) ctx.setState(st => ({ ...st, shownLevel: now.level }), { redraw: false });
   const labels = new Map(BADGES.map(b => [b.id, b.label]));
   root.append(
     topbar(ctx, r.title),

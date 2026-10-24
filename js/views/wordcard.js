@@ -5,9 +5,17 @@ import { esLine, latamBox, withArt } from './common.js';
 export function renderWordCard(ctx, w, body, actions, onGrade) {
   const back = h('div', { hidden: true }, h('div', { style: 'font-size:1.15em;margin-top:10px' }, w.ja), latamBox(w.latam));
   const gender = w.art === 'el' ? '男性名詞' : w.art === 'la' ? '女性名詞' : '';
+  // 早押し2回で2回答えたことにならないよう、1回押したら両方止める
+  let answered = false;
+  const grade = remembered => () => {
+    if (answered) return;
+    answered = true;
+    grades.querySelectorAll('button').forEach(b => (b.disabled = true));
+    onGrade(remembered);
+  };
   const grades = h('div.grades', { hidden: true, style: 'grid-template-columns:1fr 1fr' },
-    h('button.g-again', { onclick: () => onGrade(false) }, '✗ 忘れてた'),
-    h('button.g-good', { onclick: () => onGrade(true) }, '○ 覚えてた'));
+    h('button.g-again', { onclick: grade(false) }, '✗ 忘れてた'),
+    h('button.g-good', { onclick: grade(true) }, '○ 覚えてた'));
   const hint = h('p.muted', { style: 'text-align:center' }, 'タップで意味を表示');
   const card = h('div.card.flash', { onclick: () => { back.hidden = false; grades.hidden = false; hint.remove(); } },
     esLine(ctx, withArt(w.art, w.es)), gender ? h('div.muted', {}, gender) : null, back);

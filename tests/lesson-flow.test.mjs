@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { stagesFor, nextPosition, stageLength, isUnlocked, pickCheckWords, buildReview, grammarQuiz } from '../js/flow.js';
+import { stagesFor, nextPosition, stageLength, isUnlocked, pickCheckWords, buildReview, grammarQuiz, startPosition } from '../js/flow.js';
 
 const base = JSON.parse(readFileSync(new URL('./fixtures/good-unit.json', import.meta.url), 'utf8'));
 const words = n => Array.from({ length: n }, (_, i) => ({ id: `w${i}`, es: `p${i}`, art: null, ja: 'x' }));
@@ -73,4 +73,15 @@ test('grammarQuiz: 同じ日は同じ3問、少なければ全部', () => {
   assert.equal(q.length, 3);
   assert.deepEqual(q, grammarQuiz(unitWith('u01', 9, []), 100));
   assert.deepEqual(grammarQuiz(unitWith('u01', 2, []), 100), [0, 1]);
+});
+
+test('startPosition: 記録がなければ最初の段', () => assert.deepEqual(
+  startPosition(u, null, {}), { pos: { stage: 'points', index: 0 }, wordIds: pickCheckWords(u, {}) }));
+
+test('startPosition: 単語段で ids を持っていればそのまま', () => assert.deepEqual(
+  startPosition(u, { stage: 'words', index: 1, ids: ['w3', 'w4'] }, {}), { pos: { stage: 'words', index: 1 }, wordIds: ['w3', 'w4'] }));
+
+test('startPosition: 単語段なのに確認する語が残っていなければ finish（最初に戻さない）', () => {
+  const cards = Object.fromEntries(u.words.map(w => [w.id, { step: 0, due: 1 }]));
+  assert.equal(startPosition(u, { stage: 'words', index: 0 }, cards), 'finish');
 });

@@ -43,14 +43,14 @@ test('streak: 同日据え置き・翌日+1・間が空くと1', () => {
 });
 
 test('書き出し→読み込みで同じ', () => {
-  const st = setResume(defaultState(), 'u02', 'words', 1);
+  const st = setPosition(defaultState(), 'u02', 'words', 1, ['casa', 'mesa']);
   st.cards.hola = { step: 2, due: 120 };
   assert.deepEqual(importJson(exportJson(st)), st);
 });
 
 test('別物のファイルは例外、元データは無傷', () => {
   const s = fake();
-  const st = setResume(defaultState(), 'u02', 'words', 1);
+  const st = setPosition(defaultState(), 'u02', 'words', 1, ['casa', 'mesa']);
   save(s, st);
   assert.throws(() => importJson('{"foo":1}'), /読み込めません/);
   assert.throws(() => importJson('not json'), /読み込めません/);
@@ -175,7 +175,7 @@ test('初版の記録を読むと段名が移り、XP は0', () => {
   const st = load(fake({ 'es-app-v1': JSON.stringify(v1) }));
   assert.equal(st.xp, 0);
   assert.deepEqual(st.units.u03.pos, { stage: 'points', index: 2 });
-  assert.equal(st.resume.stage, 'words');
+  assert.deepEqual(st.resume, { unitId: 'u03', stage: 'points', index: 2 });
   assert.deepEqual([st.units.u01, st.cards.hola, st.streak.count, st.settings.fontSize], [{ done: true }, { step: 1, due: 5 }, 4, 'l']);
 });
 
@@ -194,4 +194,42 @@ test('awardBadges: 達成したバッジを足して、新しく取った分を�
   assert.deepEqual(earned, ['words25', 'units3']);
   assert.deepEqual(state.badges, ['streak3', 'words25', 'units3']);
   assert.deepEqual(awardBadges(state).earned, []);
+});
+
+test('初版の単語・フレーズ・発音段の途中は単語チェックの先頭へ（ids が無いので位置は0）', () => {
+  const v1 = { ...defaultState(), units: { u02: { done: false, pos: { stage: 'speak', index: 3 } }, u03: { done: false, pos: { stage: 'words', index: 5 } } } };
+  delete v1.xp; delete v1.firstDone;
+  const st = importJson(JSON.stringify(v1));
+  assert.deepEqual(st.units.u02.pos, { stage: 'words', index: 0 });
+  assert.deepEqual(st.units.u03.pos, { stage: 'words', index: 0 });
+});
+
+test('初版で終えたユニットは初回完了の数に入る（バッジ用）', () => {
+  const v1 = { version: 1, settings: {}, units: { u01: { done: true }, u02: { done: true }, u03: { done: true }, u04: { done: false } }, resume: null, cards: {}, streak: { lastDay: 1, count: 1 } };
+  assert.equal(importJson(JSON.stringify(v1)).firstDone, 3);
+});
+
+test('XP が入った日は連続日数も進む（アプリを閉じずに翌日使っても途切れない）', () => {
+  let st = { ...defaultState(), streak: { lastDay: 99, count: 4 } };
+  st = addXp(st, 10, 100);
+  assert.deepEqual(st.streak, { lastDay: 100, count: 5 });
+});
+
+test('単語チェックの XP は1語1日1回（忘れてたを繰り返しても増えない）', () => {
+  let st = checkWord(defaultState(), 'hola', false, 100);
+  st = checkWord(st, 'hola', false, 100);
+  st = checkWord(st, 'hola', true, 100);
+  assert.equal(st.xp, 2);
+  assert.equal(checkWord(st, 'hola', true, 101).xp, 4);
+});
+
+test('振り返りの回数は、出ていた時（3回以上たまっていた時）だけ数える', () => {
+  const st = completeReview({ ...defaultState(), sinceReview: 0 }, 100);
+  assert.deepEqual([st.reviews, st.xp], [0, 30]);
+});
+
+test('見せたレベル shownLevel は初版の記録では今のレベル', () => {
+  const v1 = { version: 1, settings: {}, units: {}, resume: null, cards: {}, streak: { lastDay: 1, count: 1 } };
+  assert.equal(importJson(JSON.stringify(v1)).shownLevel, 1);
+  assert.equal(defaultState().shownLevel, 1);
 });
