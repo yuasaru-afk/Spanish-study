@@ -19,7 +19,7 @@
 
 ## 公開（push）の手順
 
-Claude の Bash からの push はログイン画面で止まる。VS Code のターミナル（Ctrl+@）で：
+初回は VS Code のターミナルで GitHub にログインした。その後は Claude の Bash から `git push` で通る（2026-10-24 確認）。通らない時は VS Code のターミナル（Ctrl+@）で：
 
 ```
 cd "C:\Users\takashi.yuasa\Desktop\Claude\020スペイン語学習"; git push
