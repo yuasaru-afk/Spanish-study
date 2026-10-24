@@ -1,84 +1,146 @@
 {
- "id": "u02",
- "no": 2,
- "title": "レストランで（仮）",
- "summary": "検査用の見本ユニット",
- "explain": [
-  {
-   "title": "ser と estar",
-   "body": "**変わらない性質**は ser。",
-   "examples": [
+  "id": "u02", "no": 2, "title": "発音とつづりのきまり",
+  "summary": "つづりを見れば読める。母音、注意が要る子音、強く読む位置のきまり。",
+  "explain": [
     {
-     "es": "Soy japonés.",
-     "ja": "私は日本人です。"
-    }
-   ]
-  }
- ],
- "practice": [
-  {
-   "type": "choice",
-   "prompt": "空欄に入るのは？",
-   "es": "La sopa ___ fría.",
-   "ja": "スープが冷めている",
-   "options": [
-    {
-     "text": "está",
-     "correct": true,
-     "why": "今の状態なので estar。"
+      "title": "母音は5つだけ、いつも同じ音",
+      "body": "母音は **a e i o u** の5つで、日本語のアイウエオとほぼ同じ音です。英語のように単語によって読み方が変わることはありません。\nつまり、**つづりのとおりに読めば通じる**言語です。耳で聞いた音とつづりを結びつけていきましょう。",
+      "examples": [
+        { "es": "casa", "ja": "家" },
+        { "es": "mesa", "ja": "テーブル" },
+        { "es": "uno", "ja": "1" }
+      ]
     },
     {
-     "text": "es",
-     "correct": false,
-     "why": "es だと冷製スープという性質の意味になる。"
+      "title": "h は読まない、j は喉の奥",
+      "body": "・**h** は読みません。hola は h を飛ばして ola と同じ音です。\n・**j** は喉の奥から強く息を出す音。日本語のハ行をもっと荒くした感じです。\n・**ll** と **y** は、日本語のヤ行やジャ行に近い音。地域や人によって幅があります。\n・**ñ** は日本語のニャ行の音。n とは別の文字です。",
+      "examples": [
+        { "es": "hijo", "ja": "息子" },
+        { "es": "calle", "ja": "通り" },
+        { "es": "año", "ja": "年" }
+      ]
+    },
+    {
+      "title": "c・z・g・qu は後ろの母音で音が変わる",
+      "body": "・**c** は a o u の前では k の音、**e i の前では舌先を歯にはさむ音**（英語の think の th）。**z** も同じ音です。\n・**g** は a o u の前では g の音、**e i の前では j と同じ喉の音**。g の音のまま e i を続けたいときは **gue / gui** と書きます（u は読まない）。\n・k の音で e i を続けるときは **que / qui**（u は読まない）。",
+      "examples": [
+        { "es": "cerveza", "ja": "ビール" },
+        { "es": "gente", "ja": "人々" },
+        { "es": "guitarra", "ja": "ギター" },
+        { "es": "queso", "ja": "チーズ" }
+      ]
+    },
+    {
+      "title": "🌎 c・z の音は中南米で違う",
+      "body": "舌を歯にはさむ c（e i の前）と z の音は、**スペイン中部・北部の発音**です。\n中南米（とスペイン南部の一部）では、これを **s と同じ音**で読みます。どちらも正しいスペイン語なので、聞いて分かれば十分です。\nこのアプリの読み上げはスペインの発音です。",
+      "examples": [
+        { "es": "gracias", "ja": "ありがとう", "note": "スペインでは ci を舌をはさむ音で、中南米では s の音で読みます。" },
+        { "es": "zumo", "ja": "ジュース（スペイン）", "note": "🌎 中南米では jugo と言います。" }
+      ]
+    },
+    {
+      "title": "r と rr、b と v",
+      "body": "・**r** は舌先を1回はじく音（日本語のラ行に近い）。語頭の r と **rr** は舌を何回もふるわせる巻き舌です。perro（犬）と pero（でも）は別の単語です。\n・**b** と **v** は同じ音です。vino（ワイン）の v も b と同じように読みます。",
+      "examples": [
+        { "es": "perro", "ja": "犬" },
+        { "es": "pero", "ja": "でも" },
+        { "es": "vino", "ja": "ワイン" }
+      ]
+    },
+    {
+      "title": "どこを強く読むか",
+      "body": "強く読む位置にはきまりがあります。\n① 母音・n・s で終わる語 → **後ろから2番目**の音節：ca-sa、ha-blan\n② それ以外の子音で終わる語 → **最後**の音節：ciu-dad、ha-blar\n③ きまりに合わないときだけ、強く読む母音に **アクセント記号**（á é í ó ú）を付けます：ja-món、ca-fé\nアクセント記号は「ここを強く」の印で、付け忘れると別の単語になることもあります。",
+      "examples": [
+        { "es": "jamón", "ja": "ハム" },
+        { "es": "ciudad", "ja": "都市" },
+        { "es": "café", "ja": "コーヒー" }
+      ]
     }
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "並べ替えてください",
-   "ja": "スペイン語を話しますか？",
-   "tokens": [
-    "¿",
-    "Hablas",
-    "español",
-    "?"
-   ],
-   "accept": [],
-   "why": "疑問文は ¿ と ? で挟む。"
-  },
-  {
-   "type": "fill",
-   "prompt": "空欄を埋めてください",
-   "es": "Yo ___ japonés.",
-   "ja": "私は日本人です。",
-   "answers": [
-    "soy"
-   ],
-   "why": "国籍は変わらない性質なので ser の yo の形 soy。"
-  }
- ],
- "words": [
-  {
-   "id": "cuenta",
-   "es": "cuenta",
-   "art": "la",
-   "ja": "会計"
-  }
- ],
- "phrases": [
-  {
-   "es": "La cuenta, por favor.",
-   "ja": "お会計お願いします",
-   "scene": "レストラン",
-   "latam": null
-  }
- ],
- "speak": [
-  {
-   "es": "La cuenta, por favor.",
-   "ja": "お会計お願いします",
-   "tip": "cuenta はクとエを続けて。"
-  }
- ]
+  ],
+  "practice": [
+    {
+      "type": "choice", "prompt": "hola の h はどう読む？", "ja": "やあ",
+      "options": [
+        { "text": "読まない", "correct": true, "why": "スペイン語の h は読みません。" },
+        { "text": "日本語のは行のように読む", "correct": false, "why": "は行に近い喉の音は j の音。h はどこにあっても読みません。" }
+      ]
+    },
+    {
+      "type": "choice", "prompt": "c が「舌を歯にはさむ音（中南米では s）」になるのはどれ？", "ja": "c の読み方",
+      "options": [
+        { "text": "cena", "correct": true, "why": "c の後ろが e なので、舌をはさむ音（中南米では s の音）になります。cena は「夕食」。" },
+        { "text": "casa", "correct": false, "why": "c の後ろが a なので k の音です。" },
+        { "text": "cuatro", "correct": false, "why": "c の後ろが u なので k の音です。cuatro は「4」。" }
+      ]
+    },
+    {
+      "type": "choice", "prompt": "g が j と同じ喉の音になるのはどれ？", "ja": "g の読み方",
+      "options": [
+        { "text": "gente", "correct": true, "why": "g の後ろが e なので、j と同じ喉の音になります。" },
+        { "text": "guitarra", "correct": false, "why": "gui と書くと g の音のまま。u は読みません。" },
+        { "text": "gato", "correct": false, "why": "g の後ろが a なので g の音です。gato は「猫」。" }
+      ]
+    },
+    {
+      "type": "choice", "prompt": "hablan（彼らは話す）で強く読むのは？", "ja": "強く読む位置",
+      "options": [
+        { "text": "ha", "correct": true, "why": "n で終わる語は後ろから2番目の音節を強く読みます。ha-blan の ha です。" },
+        { "text": "blan", "correct": false, "why": "最後を強く読むのは n・s 以外の子音で終わる語。hablan は n で終わるので後ろから2番目です。" }
+      ]
+    },
+    {
+      "type": "choice", "prompt": "perro と pero の違いは？", "ja": "r と rr",
+      "options": [
+        { "text": "rr は巻き舌、r は1回はじく音で、別の単語", "correct": true, "why": "perro は「犬」、pero は「でも」。rr と r の違いで意味が変わります。" },
+        { "text": "同じ音で、つづりの違いだけ", "correct": false, "why": "r と rr は音が違います。b と v は同じ音ですが、r と rr は別です。" }
+      ]
+    },
+    {
+      "type": "fill", "prompt": "空欄に入る1文字は？", "es": "ma___ana", "ja": "明日／朝",
+      "answers": ["ñ"],
+      "why": "mañana はニャ行の音の ñ。n とは別の文字なので、n で代わりにはできません。"
+    },
+    {
+      "type": "fill", "prompt": "アクセント記号が要る語です。正しく書いてください", "es": "Un ___, por favor.", "ja": "コーヒーを1つお願いします。",
+      "answers": ["café"],
+      "why": "母音で終わる語は本来後ろから2番目を強く読みますが、café は最後の e を強く読むので é と記号を付けます。"
+    },
+    {
+      "type": "choice", "prompt": "queso（チーズ）の u はどう読む？", "ja": "チーズ",
+      "options": [
+        { "text": "読まない", "correct": true, "why": "que / qui の u は読みません。k の音で e i を続けるための書き方です。" },
+        { "text": "u の音を入れる", "correct": false, "why": "que / qui、gue / gui の u は飾りで、読みません。" }
+      ]
+    }
+  ],
+  "words": [
+    { "id": "casa", "es": "casa", "art": "la", "ja": "家" },
+    { "id": "mesa", "es": "mesa", "art": "la", "ja": "テーブル" },
+    { "id": "perro", "es": "perro", "art": "el", "ja": "犬" },
+    { "id": "gato", "es": "gato", "art": "el", "ja": "猫" },
+    { "id": "hijo", "es": "hijo", "art": "el", "ja": "息子" },
+    { "id": "calle", "es": "calle", "art": "la", "ja": "通り" },
+    { "id": "ano", "es": "año", "art": "el", "ja": "年" },
+    { "id": "manana", "es": "mañana", "art": "la", "ja": "朝（冠詞なしの mañana は「明日」）" },
+    { "id": "ciudad", "es": "ciudad", "art": "la", "ja": "都市、街" },
+    { "id": "gente", "es": "gente", "art": "la", "ja": "人々" },
+    { "id": "cena", "es": "cena", "art": "la", "ja": "夕食" },
+    { "id": "cerveza", "es": "cerveza", "art": "la", "ja": "ビール" },
+    { "id": "vino", "es": "vino", "art": "el", "ja": "ワイン" },
+    { "id": "agua", "es": "agua", "art": "el", "ja": "水（女性名詞だが単数は el を付ける）" },
+    { "id": "cafe", "es": "café", "art": "el", "ja": "コーヒー、カフェ" },
+    { "id": "zumo", "es": "zumo", "art": "el", "ja": "ジュース", "latam": { "es": "jugo", "art": "el" } },
+    { "id": "queso", "es": "queso", "art": "el", "ja": "チーズ" },
+    { "id": "jamon", "es": "jamón", "art": "el", "ja": "ハム（生ハム）" },
+    { "id": "guitarra", "es": "guitarra", "art": "la", "ja": "ギター" },
+    { "id": "playa", "es": "playa", "art": "la", "ja": "浜辺、ビーチ" }
+  ],
+  "phrases": [],
+  "speak": [
+    { "es": "perro", "ja": "犬", "tip": "rr は舌を何回もふるわせます。" },
+    { "es": "gente", "ja": "人々", "tip": "ge は喉の奥から息を出す音。" },
+    { "es": "cerveza", "ja": "ビール", "tip": "ce と za は舌先を歯にはさみます（中南米式なら s の音）。" },
+    { "es": "mañana", "ja": "明日" },
+    { "es": "jamón", "ja": "ハム", "tip": "最後の ó を強く読みます。" }
+  ]
 }

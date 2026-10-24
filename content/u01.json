@@ -1,88 +1,139 @@
 {
- "id": "u01",
- "no": 1,
- "title": "ser と estar（仮）",
- "summary": "検査用の見本ユニット",
- "explain": [
-  {
-   "title": "ser と estar",
-   "body": "**変わらない性質**は ser。",
-   "examples": [
+  "id": "u01", "no": 1, "title": "あいさつ",
+  "summary": "時間帯のあいさつ、名前の言い方、tú と usted の使い分け。",
+  "explain": [
     {
-     "es": "Soy japonés.",
-     "ja": "私は日本人です。"
-    }
-   ]
-  }
- ],
- "practice": [
-  {
-   "type": "choice",
-   "prompt": "空欄に入るのは？",
-   "es": "La sopa ___ fría.",
-   "ja": "スープが冷めている",
-   "options": [
-    {
-     "text": "está",
-     "correct": true,
-     "why": "今の状態なので estar。"
+      "title": "時間帯であいさつが変わる",
+      "body": "**Hola** はいつでも使える「やあ／こんにちは」。ていねいに言うときは時間帯で使い分けます。\n・**Buenos días**：朝〜昼食まで\n・**Buenas tardes**：昼食後〜夕食まで\n・**Buenas noches**：夜（別れぎわの「おやすみ」にも）\nスペインは昼食が14時ごろ、夕食が21時ごろと遅いので、夜8時でも **Buenas tardes** と言うことがあります。",
+      "examples": [
+        { "es": "Buenos días.", "ja": "おはようございます。" },
+        { "es": "Buenas tardes.", "ja": "こんにちは（午後）。" },
+        { "es": "Buenas noches.", "ja": "こんばんは／おやすみなさい。" }
+      ]
     },
     {
-     "text": "es",
-     "correct": false,
-     "why": "es だと冷製スープという性質の意味になる。"
+      "title": "疑問文と感嘆文は記号で挟む",
+      "body": "スペイン語では、疑問文の頭に **¿**、感嘆文の頭に **¡** を付けて、終わりの **?** **!** と挟みます。文の途中から始めることもできます。",
+      "examples": [
+        { "es": "¿Qué tal?", "ja": "元気？／調子はどう？" },
+        { "es": "¡Hola!", "ja": "やあ！" },
+        { "es": "Hola, ¿qué tal?", "ja": "やあ、元気？", "note": "文の途中からでも ¿ を付けます。" }
+      ]
+    },
+    {
+      "title": "名前の言い方",
+      "body": "「私は〜という名前です」は **Me llamo 〜**。直訳すると「私は自分を〜と呼ぶ」です。\n相手の名前を聞くときは **¿Cómo te llamas?**（直訳：君は自分を何と呼ぶ？）。\n初対面のあいさつ「はじめまして」は **Mucho gusto**、または **Encantado**（話し手が男性）／**Encantada**（話し手が女性）。",
+      "examples": [
+        { "es": "Me llamo Takashi.", "ja": "私の名前はタカシです。" },
+        { "es": "¿Cómo te llamas?", "ja": "君の名前は？" },
+        { "es": "Encantado.", "ja": "はじめまして（男性が言う）。" },
+        { "es": "Encantada.", "ja": "はじめまして（女性が言う）。" }
+      ]
+    },
+    {
+      "title": "tú と usted：相手との距離で変える",
+      "body": "「あなた」は2種類あります。\n・**tú**：友達・家族・同年代など、くだけた相手\n・**usted**：目上・初対面の客・お店の人など、ていねいな相手\n動詞の形も変わります。名前を聞くなら、tú には **¿Cómo te llamas?**、usted には **¿Cómo se llama usted?**。\nスペインでは tú をかなり気軽に使います。迷ったら usted が無難です。",
+      "examples": [
+        { "es": "¿Cómo se llama usted?", "ja": "お名前は何とおっしゃいますか？" },
+        { "es": "¿Y tú?", "ja": "君は？" }
+      ]
     }
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "並べ替えてください",
-   "ja": "スペイン語を話しますか？",
-   "tokens": [
-    "¿",
-    "Hablas",
-    "español",
-    "?"
-   ],
-   "accept": [],
-   "why": "疑問文は ¿ と ? で挟む。"
-  },
-  {
-   "type": "fill",
-   "prompt": "空欄を埋めてください",
-   "es": "Yo ___ japonés.",
-   "ja": "私は日本人です。",
-   "answers": [
-    "soy"
-   ],
-   "why": "国籍は変わらない性質なので ser の yo の形 soy。"
-  }
- ],
- "words": [
-  {
-   "id": "ordenador",
-   "es": "ordenador",
-   "art": "el",
-   "ja": "パソコン",
-   "latam": {
-    "es": "computadora",
-    "art": "la"
-   }
-  }
- ],
- "phrases": [
-  {
-   "es": "La cuenta, por favor.",
-   "ja": "お会計お願いします",
-   "scene": "レストラン",
-   "latam": null
-  }
- ],
- "speak": [
-  {
-   "es": "La cuenta, por favor.",
-   "ja": "お会計お願いします",
-   "tip": "cuenta はクとエを続けて。"
-  }
- ]
+  ],
+  "practice": [
+    {
+      "type": "choice", "prompt": "朝9時、ホテルのフロントで。最初のあいさつは？", "ja": "おはようございます。",
+      "options": [
+        { "text": "Buenos días.", "correct": true, "why": "朝から昼食までは Buenos días。" },
+        { "text": "Buenas noches.", "correct": false, "why": "Buenas noches は夜のあいさつ。朝に言うと「おやすみなさい」と聞こえます。" },
+        { "text": "Buenas tardes.", "correct": false, "why": "Buenas tardes は昼食後から夕食まで。朝9時には早すぎます。" }
+      ]
+    },
+    {
+      "type": "choice", "prompt": "女性が初対面の人に「はじめまして」と言うときは？", "ja": "はじめまして。",
+      "options": [
+        { "text": "Encantada.", "correct": true, "why": "話し手が女性なので語尾が -a の Encantada。" },
+        { "text": "Encantado.", "correct": false, "why": "Encantado は話し手が男性のときの形。スペイン語は話し手の性で語尾が変わります。" },
+        { "text": "De nada.", "correct": false, "why": "De nada は「どういたしまして」。お礼への返事です。" }
+      ]
+    },
+    {
+      "type": "choice", "prompt": "取引先の年配の方に名前を聞くときは？", "ja": "お名前は何とおっしゃいますか？",
+      "options": [
+        { "text": "¿Cómo se llama usted?", "correct": true, "why": "目上や初対面のていねいな相手には usted を使い、動詞も se llama になります。" },
+        { "text": "¿Cómo te llamas?", "correct": false, "why": "te llamas は tú（くだけた相手）向け。目上の人には少しなれなれしく聞こえます。" }
+      ]
+    },
+    {
+      "type": "fill", "prompt": "空欄を埋めてください", "es": "Me ___ Takashi.", "ja": "私の名前はタカシです。",
+      "answers": ["llamo"],
+      "why": "「私は〜という名前です」は Me llamo 〜。llamo は「呼ぶ」の yo（私）の形です。"
+    },
+    {
+      "type": "order", "prompt": "並べ替えてください", "ja": "君の名前は？",
+      "tokens": ["¿Cómo", "te", "llamas?"], "accept": [],
+      "why": "疑問詞 cómo（どのように）を先頭に置き、te llamas（君は自分を呼ぶ）が続きます。疑問文は ¿ と ? で挟みます。"
+    },
+    {
+      "type": "choice", "prompt": "「Gracias.」と言われました。返事は？", "ja": "どういたしまして。",
+      "options": [
+        { "text": "De nada.", "correct": true, "why": "De nada は直訳すると「何でもない」。お礼への定番の返事です。" },
+        { "text": "Por favor.", "correct": false, "why": "Por favor は「お願いします」。頼みごとのときに付けます。" },
+        { "text": "Perdón.", "correct": false, "why": "Perdón は「すみません」。人を呼び止める・軽く謝るときに使います。" }
+      ]
+    },
+    {
+      "type": "fill", "prompt": "空欄を埋めてください", "es": "___, hasta mañana.", "ja": "さようなら、また明日。",
+      "answers": ["adiós"],
+      "why": "「さようなら」は adiós。最後の ó にアクセント記号が付きます（ó を強く読む印）。"
+    },
+    {
+      "type": "order", "prompt": "並べ替えてください", "ja": "こんにちは、私の名前はアナです。",
+      "tokens": ["Hola,", "me", "llamo", "Ana."], "accept": [],
+      "why": "あいさつの後に Me llamo ＋名前。me は llamo の前に置きます。"
+    },
+    {
+      "type": "choice", "prompt": "夜11時、別れぎわに言うのは？", "ja": "おやすみなさい。",
+      "options": [
+        { "text": "Buenas noches.", "correct": true, "why": "Buenas noches は「こんばんは」にも「おやすみなさい」にも使えます。" },
+        { "text": "Buenos días.", "correct": false, "why": "Buenos días は朝のあいさつです。" },
+        { "text": "¿Qué tal?", "correct": false, "why": "¿Qué tal? は「元気？」。会ったときに使い、別れのあいさつではありません。" }
+      ]
+    }
+  ],
+  "words": [
+    { "id": "hola", "es": "hola", "art": null, "ja": "やあ／こんにちは" },
+    { "id": "buenos_dias", "es": "buenos días", "art": null, "ja": "おはよう（朝〜昼食まで）" },
+    { "id": "buenas_tardes", "es": "buenas tardes", "art": null, "ja": "こんにちは（昼食後〜夕食まで）" },
+    { "id": "buenas_noches", "es": "buenas noches", "art": null, "ja": "こんばんは／おやすみ" },
+    { "id": "que_tal", "es": "¿qué tal?", "art": null, "ja": "元気？／どう？" },
+    { "id": "bien", "es": "bien", "art": null, "ja": "元気だ、良く" },
+    { "id": "adios", "es": "adiós", "art": null, "ja": "さようなら" },
+    { "id": "hasta_luego", "es": "hasta luego", "art": null, "ja": "またね" },
+    { "id": "hasta_manana", "es": "hasta mañana", "art": null, "ja": "また明日" },
+    { "id": "gracias", "es": "gracias", "art": null, "ja": "ありがとう" },
+    { "id": "de_nada", "es": "de nada", "art": null, "ja": "どういたしまして" },
+    { "id": "por_favor", "es": "por favor", "art": null, "ja": "お願いします" },
+    { "id": "perdon", "es": "perdón", "art": null, "ja": "すみません" },
+    { "id": "si", "es": "sí", "art": null, "ja": "はい" },
+    { "id": "no", "es": "no", "art": null, "ja": "いいえ" },
+    { "id": "vale", "es": "vale", "art": null, "ja": "OK／わかった（スペインでよく使う）", "latam": { "es": "está bien", "art": null } },
+    { "id": "me_llamo", "es": "me llamo", "art": null, "ja": "私の名前は〜です" },
+    { "id": "encantado", "es": "encantado / encantada", "art": null, "ja": "はじめまして（男性／女性が言う）" },
+    { "id": "mucho_gusto", "es": "mucho gusto", "art": null, "ja": "はじめまして（男女とも）" }
+  ],
+  "phrases": [
+    { "es": "Hola, ¿qué tal?", "ja": "やあ、元気？", "scene": "あいさつ", "latam": null },
+    { "es": "Bien, gracias. ¿Y tú?", "ja": "元気だよ、ありがとう。君は？", "scene": "あいさつ", "latam": null },
+    { "es": "Me llamo Takashi. ¿Y tú?", "ja": "私はタカシ。君は？", "scene": "自己紹介", "latam": null },
+    { "es": "Mucho gusto.", "ja": "はじめまして。", "scene": "自己紹介", "latam": null },
+    { "es": "Muchas gracias.", "ja": "どうもありがとう。", "scene": "お礼", "latam": null },
+    { "es": "Perdón, no entiendo.", "ja": "すみません、わかりません。", "scene": "困ったとき", "latam": null },
+    { "es": "Hasta luego.", "ja": "またね。", "scene": "別れ", "latam": null }
+  ],
+  "speak": [
+    { "es": "Buenos días.", "ja": "おはようございます。", "tip": "días の í を強く読みます。" },
+    { "es": "Me llamo Takashi.", "ja": "私の名前はタカシです。", "tip": "ll は日本語のヤ行に近い音で読みます。" },
+    { "es": "Muchas gracias.", "ja": "どうもありがとう。" },
+    { "es": "Mucho gusto.", "ja": "はじめまして。" }
+  ]
 }
