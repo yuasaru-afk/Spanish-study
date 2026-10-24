@@ -1,36 +1,76 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { stagesFor, nextPosition, stageLength, isUnlocked } from '../js/flow.js';
+import { stagesFor, nextPosition, stageLength, isUnlocked, pickCheckWords, buildReview, grammarQuiz } from '../js/flow.js';
 
-const u = JSON.parse(readFileSync(new URL('./fixtures/good-unit.json', import.meta.url), 'utf8'));
+const base = JSON.parse(readFileSync(new URL('./fixtures/good-unit.json', import.meta.url), 'utf8'));
+const words = n => Array.from({ length: n }, (_, i) => ({ id: `w${i}`, es: `p${i}`, art: null, ja: 'x' }));
+const u = { ...base, points: { lines: ['a'], examples: [] }, words: words(10) };
 
-test('基本の段の順', () => assert.deepEqual(stagesFor(u, { speak: false }), ['explain', 'practice', 'words', 'phrases']));
+test('段の順は 文法→練習→単語', () => assert.deepEqual(stagesFor(u, ['w0']), ['points', 'practice', 'words']));
 
-test('phrases が空なら飛ばす', () => assert.deepEqual(stagesFor({ ...u, phrases: [] }, { speak: false }), ['explain', 'practice', 'words']));
+test('単語の対象が無ければ単語段を出さない', () => assert.deepEqual(stagesFor(u, []), ['points', 'practice']));
 
-test('発音オンで speak が最後', () => assert.equal(stagesFor(u, { speak: true }).at(-1), 'speak'));
+test('points が無い教材は練習から', () => assert.deepEqual(stagesFor({ ...u, points: undefined }, ['w0']), ['practice', 'words']));
 
-test('speak が空なら発音オンでも出さない', () => assert.ok(!stagesFor({ ...u, speak: [] }, { speak: true }).includes('speak')));
+test('pickCheckWords: 記録のある語を除いて最大8', () => {
+  assert.deepEqual(pickCheckWords(u, { w1: { step: 0, due: 1 } }), ['w0', 'w2', 'w3', 'w4', 'w5', 'w6', 'w7', 'w8']);
+});
 
-test('段の中は index+1', () => assert.deepEqual(
-  nextPosition({ ...u, practice: [...u.practice] }, { speak: false }, { stage: 'practice', index: 0 }), { stage: 'practice', index: 1 }));
+test('単語段の長さは段に入った時の ids で決まる（記録が付いてもずれない）', () => {
+  const ids = pickCheckWords(u, {});
+  assert.equal(stageLength(u, 'words', ids), 8);
+  assert.deepEqual(nextPosition(u, ids, { stage: 'words', index: 6 }), { stage: 'words', index: 7 });
+  assert.equal(nextPosition(u, ids, { stage: 'words', index: 7 }), 'done');
+});
 
-test('段の最後の次は次の段の0', () => assert.deepEqual(
-  nextPosition(u, { speak: false }, { stage: 'explain', index: u.explain.length - 1 }), { stage: 'practice', index: 0 }));
+test('文法の要点は1画面、その次は練習の0', () => {
+  assert.equal(stageLength(u, 'points', []), 1);
+  assert.deepEqual(nextPosition(u, ['w0'], { stage: 'points', index: 0 }), { stage: 'practice', index: 0 });
+});
 
-test('最後の段の最後は done', () => assert.equal(
-  nextPosition(u, { speak: false }, { stage: 'phrases', index: u.phrases.length - 1 }), 'done'));
-
-test('発音を途中でオフにした再開位置は done 扱い', () => assert.equal(
-  nextPosition(u, { speak: false }, { stage: 'speak', index: 0 }), 'done'));
-
-test('stageLength は段の件数', () => assert.equal(stageLength(u, 'practice'), 3));
+test('練習の最後の次は単語の0、単語が無ければ done', () => {
+  const last = { stage: 'practice', index: u.practice.length - 1 };
+  assert.deepEqual(nextPosition(u, ['w0'], last), { stage: 'words', index: 0 });
+  assert.equal(nextPosition(u, [], last), 'done');
+});
 
 test('u01 は常に開放、他は前が done で開放', () => {
-  const index = [{ id: 'u01' }, { id: 'u02' }, { id: 'u03' }];
+  const index = [{ id: 'u01' }, { id: 'u02' }];
   assert.equal(isUnlocked(index, {}, 'u01'), true);
   assert.equal(isUnlocked(index, {}, 'u02'), false);
   assert.equal(isUnlocked(index, { u01: { done: true } }, 'u02'), true);
-  assert.equal(isUnlocked(index, { u01: { done: true } }, 'u03'), false);
+});
+
+const unitWith = (id, nq, wordIds) => ({ id, practice: Array.from({ length: nq }, () => ({ type: 'choice' })), words: wordIds.map(w => ({ id: w })) });
+
+test('buildReview: 間違い6問＋復習の単語4語', () => {
+  const doneUnits = [unitWith('u01', 10, ['a', 'b', 'c', 'd', 'e'])];
+  const mistakes = Array.from({ length: 8 }, (_, i) => `u01:${i}`);
+  const cards = { a: { step: 0, due: 100 }, b: { step: 0, due: 99 }, c: { step: 0, due: 100 }, d: { step: 1, due: 100 }, e: { step: 0, due: 101 } };
+  const items = buildReview({ mistakes, cards, doneUnits, today: 100 });
+  assert.equal(items.filter(x => x.kind === 'q').length, 6);
+  assert.deepEqual(items.filter(x => x.kind === 'w').map(x => x.wordId), ['b', 'a', 'c', 'd']);
+  assert.deepEqual(items[0], { kind: 'q', qid: 'u01:0', unitId: 'u01', index: 0 });
+});
+
+test('buildReview: 間違いも単語も無ければ終えたユニットの問題で10問', () => {
+  const items = buildReview({ mistakes: [], cards: {}, doneUnits: [unitWith('u01', 6, []), unitWith('u02', 6, [])], today: 100 });
+  assert.equal(items.length, 10);
+  assert.equal(new Set(items.map(x => x.qid)).size, 10);
+});
+
+test('buildReview: 終えたユニットが無ければ空', () => assert.deepEqual(buildReview({ mistakes: ['u01:1'], cards: {}, doneUnits: [], today: 100 }), []));
+
+test('buildReview: 終えたユニットに無い問題の間違いは使わない', () => {
+  const items = buildReview({ mistakes: ['u05:1'], cards: {}, doneUnits: [unitWith('u01', 3, [])], today: 100 });
+  assert.ok(items.every(x => x.unitId === 'u01'));
+  assert.equal(items.length, 3);
+});
+
+test('grammarQuiz: 同じ日は同じ3問、少なければ全部', () => {
+  const q = grammarQuiz(unitWith('u01', 9, []), 100);
+  assert.equal(q.length, 3);
+  assert.deepEqual(q, grammarQuiz(unitWith('u01', 9, []), 100));
+  assert.deepEqual(grammarQuiz(unitWith('u01', 2, []), 100), [0, 1]);
 });
