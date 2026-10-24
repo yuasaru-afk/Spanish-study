@@ -1,0 +1,5 @@
+[
+  { "out": "out/t5-settings.png", "hash": "#/settings" },
+  { "out": "out/t5-settings-xl-dark.png", "hash": "#/settings", "dark": true,
+    "state": { "version": 1, "settings": { "fontSize": "xl", "theme": "auto", "speak": false, "rate": 0.9 }, "units": {}, "resume": null, "cards": {}, "streak": { "lastDay": null, "count": 0 } } }
+]
