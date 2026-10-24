@@ -1,15 +1,96 @@
 {
-  "id": "u90", "no": 90, "title": "見本", "summary": "検査用の見本ユニット",
-  "explain": [
-    { "title": "ser と estar", "body": "**変わらない性質**は ser。", "examples": [ { "es": "Soy japonés.", "ja": "私は日本人です。" } ] }
-  ],
-  "practice": [
-    { "type": "choice", "prompt": "空欄に入るのは？", "es": "La sopa ___ fría.", "ja": "スープが冷めている",
-      "options": [ { "text": "está", "correct": true, "why": "今の状態なので estar。" }, { "text": "es", "correct": false, "why": "es だと冷製スープという性質の意味になる。" } ] },
-    { "type": "order", "prompt": "並べ替えてください", "ja": "スペイン語を話しますか？", "tokens": ["¿", "Hablas", "español", "?"], "accept": [], "why": "疑問文は ¿ と ? で挟む。" },
-    { "type": "fill", "prompt": "空欄を埋めてください", "es": "Yo ___ japonés.", "ja": "私は日本人です。", "answers": ["soy"], "why": "国籍は変わらない性質なので ser の yo の形 soy。" }
-  ],
-  "words": [ { "id": "ordenador", "es": "ordenador", "art": "el", "ja": "パソコン", "latam": { "es": "computadora", "art": "la" } } ],
-  "phrases": [ { "es": "La cuenta, por favor.", "ja": "お会計お願いします", "scene": "レストラン", "latam": null } ],
-  "speak": [ { "es": "La cuenta, por favor.", "ja": "お会計お願いします", "tip": "cuenta はクとエを続けて。" } ]
+ "id": "u90",
+ "no": 90,
+ "title": "見本",
+ "summary": "検査用の見本ユニット",
+ "explain": [
+  {
+   "title": "ser と estar",
+   "body": "**変わらない性質**は ser。",
+   "examples": [
+    {
+     "es": "Soy japonés.",
+     "ja": "私は日本人です。"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "La sopa ___ fría.",
+   "ja": "スープが冷めている",
+   "options": [
+    {
+     "text": "está",
+     "correct": true,
+     "why": "今の状態なので estar。"
+    },
+    {
+     "text": "es",
+     "correct": false,
+     "why": "es だと冷製スープという性質の意味になる。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "スペイン語を話しますか？",
+   "tokens": [
+    "¿",
+    "Hablas",
+    "español",
+    "?"
+   ],
+   "accept": [],
+   "why": "疑問文は ¿ と ? で挟む。"
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Yo ___ japonés.",
+   "ja": "私は日本人です。",
+   "options": [
+    {
+     "text": "soy",
+     "correct": true,
+     "why": "国籍は変わらない性質なので ser の yo の形 soy。"
+    },
+    {
+     "text": "estoy",
+     "correct": false,
+     "why": "estoy は estar。国籍は変わらない性質なので ser。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "ordenador",
+   "es": "ordenador",
+   "art": "el",
+   "ja": "パソコン",
+   "latam": {
+    "es": "computadora",
+    "art": "la"
+   }
+  }
+ ],
+ "phrases": [
+  {
+   "es": "La cuenta, por favor.",
+   "ja": "お会計お願いします",
+   "scene": "レストラン",
+   "latam": null
+  }
+ ],
+ "speak": [
+  {
+   "es": "La cuenta, por favor.",
+   "ja": "お会計お願いします",
+   "tip": "cuenta はクとエを続けて。"
+  }
+ ]
 }

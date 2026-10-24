@@ -1,139 +1,446 @@
 {
-  "id": "u05", "no": 5, "title": "-ar 動詞の現在形",
-  "summary": "動詞は主語で語尾が変わる。-ar 動詞の規則的な活用と、現在形の使いどころ。",
-  "explain": [
+ "id": "u05",
+ "no": 5,
+ "title": "-ar 動詞の現在形",
+ "summary": "動詞は主語で語尾が変わる。-ar 動詞の規則的な活用と、現在形の使いどころ。",
+ "explain": [
+  {
+   "title": "動詞は主語で語尾が変わる",
+   "body": "スペイン語の動詞は、原形（辞書の形）の語尾が **-ar / -er / -ir** の3種類です。まずは一番多い **-ar 動詞** から。\n使うときは語尾の **-ar を取って、主語に合った語尾を付けます**。これを「活用」と言います。日本語の「話す・話します」よりずっと規則的です。",
+   "examples": [
     {
-      "title": "動詞は主語で語尾が変わる",
-      "body": "スペイン語の動詞は、原形（辞書の形）の語尾が **-ar / -er / -ir** の3種類です。まずは一番多い **-ar 動詞** から。\n使うときは語尾の **-ar を取って、主語に合った語尾を付けます**。これを「活用」と言います。日本語の「話す・話します」よりずっと規則的です。",
-      "examples": [
-        { "es": "hablar", "ja": "話す（原形）" },
-        { "es": "Hablo español.", "ja": "私はスペイン語を話します。" }
-      ]
+     "es": "hablar",
+     "ja": "話す（原形）"
     },
     {
-      "title": "-ar 動詞の語尾（hablar の例）",
-      "body": "habl- のあとに付ける語尾：\n・yo **-o**：hablo\n・tú **-as**：hablas\n・él・ella・usted **-a**：habla\n・nosotros **-amos**：hablamos\n・vosotros **-áis**：habláis\n・ellos・ellas・ustedes **-an**：hablan\n強く読むのは、hablamos・habláis 以外は habl- の a です。",
-      "examples": [
-        { "es": "Hablas muy bien.", "ja": "君はとても上手に話すね。" },
-        { "es": "Hablamos un poco.", "ja": "私たちは少し話せます。" },
-        { "es": "Hablan inglés.", "ja": "彼らは英語を話します。" }
-      ]
-    },
-    {
-      "title": "同じ規則で使える動詞",
-      "body": "次の動詞も hablar と同じ語尾です。\n・**trabajar**（働く）：trabajo, trabajas, trabaja…\n・**estudiar**（勉強する）、**tomar**（取る・飲む・乗る）、**comprar**（買う）、**necesitar**（必要とする）、**buscar**（探す）、**llegar**（着く）、**viajar**（旅行する）、**cenar**（夕食をとる）\n語尾さえ覚えれば、何百もの動詞がすぐ使えます。",
-      "examples": [
-        { "es": "Trabajo en Tokio.", "ja": "東京で働いています。" },
-        { "es": "Estudio español.", "ja": "スペイン語を勉強しています。" },
-        { "es": "Necesito un café.", "ja": "コーヒーが必要です（コーヒーが欲しい）。" }
-      ]
-    },
-    {
-      "title": "現在形の使いどころ",
-      "body": "現在形は日本語の「〜する／〜している」の両方をカバーします。\n・習慣：Trabajo en Tokio.（東京で働いている）\n・今のこと：¿Qué buscas?（何を探しているの？）\n・近い予定：Mañana viajo a Madrid.（明日マドリードへ行く）",
-      "examples": [
-        { "es": "¿Qué buscas?", "ja": "何を探してるの？" },
-        { "es": "Mañana viajo a Madrid.", "ja": "明日マドリードに行きます。" }
-      ]
-    },
-    {
-      "title": "🌎 vosotros と ustedes の活用",
-      "body": "スペインでは「君たち」に **vosotros** の形（habláis）を使います。\n中南米では「君たち」も **ustedes** なので、**hablan** の形を使います。vosotros の形は中南米ではほぼ聞きません。\nどちらの地域でも、ustedes の形（-an）は必ず使うので先に覚えましょう。",
-      "examples": [
-        { "es": "¿Habláis inglés?", "ja": "君たち英語話せる？（スペイン）" },
-        { "es": "¿Hablan inglés?", "ja": "君たち英語話せる？（🌎 中南米）／あなた方は英語を話しますか？" }
-      ]
+     "es": "Hablo español.",
+     "ja": "私はスペイン語を話します。"
     }
-  ],
-  "practice": [
+   ]
+  },
+  {
+   "title": "-ar 動詞の語尾（hablar の例）",
+   "body": "habl- のあとに付ける語尾：\n・yo **-o**：hablo\n・tú **-as**：hablas\n・él・ella・usted **-a**：habla\n・nosotros **-amos**：hablamos\n・vosotros **-áis**：habláis\n・ellos・ellas・ustedes **-an**：hablan\n強く読むのは、hablamos・habláis 以外は habl- の a です。",
+   "examples": [
     {
-      "type": "choice", "prompt": "空欄に入るのは？", "es": "Yo ___ español.", "ja": "私はスペイン語を話します。",
-      "options": [
-        { "text": "hablo", "correct": true, "why": "yo の語尾は -o。habl- ＋ o で hablo。" },
-        { "text": "habla", "correct": false, "why": "habla は él・ella・usted の形です。" },
-        { "text": "hablar", "correct": false, "why": "hablar は原形（辞書の形）。主語に合わせて活用させます。" }
-      ]
+     "es": "Hablas muy bien.",
+     "ja": "君はとても上手に話すね。"
     },
     {
-      "type": "fill", "prompt": "trabajar を正しい形にしてください", "es": "¿Tú ___ en Tokio?", "ja": "君は東京で働いてるの？",
-      "answers": ["trabajas"],
-      "why": "tú の語尾は -as。trabaj- ＋ as で trabajas。"
+     "es": "Hablamos un poco.",
+     "ja": "私たちは少し話せます。"
     },
     {
-      "type": "fill", "prompt": "estudiar を正しい形にしてください", "es": "Nosotros ___ español.", "ja": "私たちはスペイン語を勉強しています。",
-      "answers": ["estudiamos"],
-      "why": "nosotros の語尾は -amos。estudi- ＋ amos で estudiamos。"
-    },
-    {
-      "type": "choice", "prompt": "空欄に入るのは？", "es": "Ella ___ un café.", "ja": "彼女はコーヒーを飲みます。",
-      "options": [
-        { "text": "toma", "correct": true, "why": "ella の語尾は -a。tom- ＋ a で toma。tomar は「飲む」にも使います。" },
-        { "text": "tomas", "correct": false, "why": "tomas は tú（君）の形です。" },
-        { "text": "tomo", "correct": false, "why": "tomo は yo（私）の形です。" }
-      ]
-    },
-    {
-      "type": "fill", "prompt": "necesitar を正しい形にしてください", "es": "Usted ___ un billete.", "ja": "あなたは切符が必要です。",
-      "answers": ["necesita"],
-      "why": "usted は él・ella と同じ語尾 -a。necesit- ＋ a で necesita。"
-    },
-    {
-      "type": "order", "prompt": "並べ替えてください", "ja": "彼らは英語を話します。",
-      "tokens": ["Ellos", "hablan", "inglés."], "accept": [["Hablan", "inglés", "ellos."]],
-      "why": "ellos の語尾は -an。主語＋動詞＋目的語の順がふつうです。"
-    },
-    {
-      "type": "choice", "prompt": "「明日マドリードに行きます」を現在形で言うと？", "ja": "明日マドリードに行きます。",
-      "options": [
-        { "text": "Mañana viajo a Madrid.", "correct": true, "why": "近い予定は現在形で言えます。yo なので viajo。" },
-        { "text": "Mañana viajar a Madrid.", "correct": false, "why": "viajar は原形のまま。主語 yo に合わせて viajo にします。" }
-      ]
-    },
-    {
-      "type": "choice", "prompt": "🌎 中南米で、友達2人に「君たち何を買うの？」", "ja": "君たち何を買うの？",
-      "options": [
-        { "text": "¿Qué compran?", "correct": true, "why": "中南米では「君たち」も ustedes の形 -an を使います。" },
-        { "text": "¿Qué compráis?", "correct": false, "why": "compráis は vosotros の形でスペインの言い方。中南米ではふつう使いません。" }
-      ]
-    },
-    {
-      "type": "fill", "prompt": "llegar を正しい形にしてください", "es": "El tren ___ a las tres.", "ja": "電車は3時に着きます。",
-      "answers": ["llega"],
-      "why": "el tren（電車・単数）は él と同じ扱い。lleg- ＋ a で llega。"
+     "es": "Hablan inglés.",
+     "ja": "彼らは英語を話します。"
     }
-  ],
-  "words": [
-    { "id": "hablar", "es": "hablar", "art": null, "ja": "話す" },
-    { "id": "trabajar", "es": "trabajar", "art": null, "ja": "働く" },
-    { "id": "estudiar", "es": "estudiar", "art": null, "ja": "勉強する" },
-    { "id": "tomar", "es": "tomar", "art": null, "ja": "取る；飲む；（乗り物に）乗る" },
-    { "id": "comprar", "es": "comprar", "art": null, "ja": "買う" },
-    { "id": "necesitar", "es": "necesitar", "art": null, "ja": "必要とする" },
-    { "id": "buscar", "es": "buscar", "art": null, "ja": "探す" },
-    { "id": "llegar", "es": "llegar", "art": null, "ja": "着く" },
-    { "id": "viajar", "es": "viajar", "art": null, "ja": "旅行する、（乗り物で）行く" },
-    { "id": "cenar", "es": "cenar", "art": null, "ja": "夕食をとる" },
-    { "id": "escuchar", "es": "escuchar", "art": null, "ja": "聞く" },
-    { "id": "mirar", "es": "mirar", "art": null, "ja": "見る" },
-    { "id": "ingles", "es": "inglés", "art": "el", "ja": "英語；（形容詞）イギリスの" },
-    { "id": "tren", "es": "tren", "art": "el", "ja": "電車" },
-    { "id": "en", "es": "en", "art": null, "ja": "〜で、〜に（場所）" },
-    { "id": "a", "es": "a", "art": null, "ja": "〜へ、〜に" },
-    { "id": "un_poco", "es": "un poco", "art": null, "ja": "少し" },
-    { "id": "muy", "es": "muy", "art": null, "ja": "とても" },
-    { "id": "que", "es": "¿qué?", "art": null, "ja": "何？" }
-  ],
-  "phrases": [
-    { "es": "¿Hablas inglés?", "ja": "英語話せる？", "scene": "会話", "latam": null },
-    { "es": "Hablo un poco de español.", "ja": "スペイン語を少し話します。", "scene": "会話", "latam": null },
-    { "es": "Más despacio, por favor.", "ja": "もっとゆっくりお願いします。", "scene": "困ったとき", "latam": null },
-    { "es": "Trabajo en Tokio.", "ja": "東京で働いています。", "scene": "自己紹介", "latam": null },
-    { "es": "Estudio español.", "ja": "スペイン語を勉強しています。", "scene": "自己紹介", "latam": null }
-  ],
-  "speak": [
-    { "es": "Hablo un poco de español.", "ja": "スペイン語を少し話します。", "tip": "español の ñ と、最後の ol を強く。" },
-    { "es": "Trabajo en Tokio.", "ja": "東京で働いています。", "tip": "trabajo の j は喉の奥から。" },
-    { "es": "Más despacio, por favor.", "ja": "もっとゆっくりお願いします。" },
-    { "es": "¿Hablas inglés?", "ja": "英語話せる？" }
-  ]
+   ]
+  },
+  {
+   "title": "同じ規則で使える動詞",
+   "body": "次の動詞も hablar と同じ語尾です。\n・**trabajar**（働く）：trabajo, trabajas, trabaja…\n・**estudiar**（勉強する）、**tomar**（取る・飲む・乗る）、**comprar**（買う）、**necesitar**（必要とする）、**buscar**（探す）、**llegar**（着く）、**viajar**（旅行する）、**cenar**（夕食をとる）\n語尾さえ覚えれば、何百もの動詞がすぐ使えます。",
+   "examples": [
+    {
+     "es": "Trabajo en Tokio.",
+     "ja": "東京で働いています。"
+    },
+    {
+     "es": "Estudio español.",
+     "ja": "スペイン語を勉強しています。"
+    },
+    {
+     "es": "Necesito un café.",
+     "ja": "コーヒーが必要です（コーヒーが欲しい）。"
+    }
+   ]
+  },
+  {
+   "title": "現在形の使いどころ",
+   "body": "現在形は日本語の「〜する／〜している」の両方をカバーします。\n・習慣：Trabajo en Tokio.（東京で働いている）\n・今のこと：¿Qué buscas?（何を探しているの？）\n・近い予定：Mañana viajo a Madrid.（明日マドリードへ行く）",
+   "examples": [
+    {
+     "es": "¿Qué buscas?",
+     "ja": "何を探してるの？"
+    },
+    {
+     "es": "Mañana viajo a Madrid.",
+     "ja": "明日マドリードに行きます。"
+    }
+   ]
+  },
+  {
+   "title": "🌎 vosotros と ustedes の活用",
+   "body": "スペインでは「君たち」に **vosotros** の形（habláis）を使います。\n中南米では「君たち」も **ustedes** なので、**hablan** の形を使います。vosotros の形は中南米ではほぼ聞きません。\nどちらの地域でも、ustedes の形（-an）は必ず使うので先に覚えましょう。",
+   "examples": [
+    {
+     "es": "¿Habláis inglés?",
+     "ja": "君たち英語話せる？（スペイン）"
+    },
+    {
+     "es": "¿Hablan inglés?",
+     "ja": "君たち英語話せる？（🌎 中南米）／あなた方は英語を話しますか？"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Yo ___ español.",
+   "ja": "私はスペイン語を話します。",
+   "options": [
+    {
+     "text": "hablo",
+     "correct": true,
+     "why": "yo の語尾は -o。habl- ＋ o で hablo。"
+    },
+    {
+     "text": "habla",
+     "correct": false,
+     "why": "habla は él・ella・usted の形です。"
+    },
+    {
+     "text": "hablar",
+     "correct": false,
+     "why": "hablar は原形（辞書の形）。主語に合わせて活用させます。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Tú ___ en Tokio?",
+   "ja": "君は東京で働いてるの？",
+   "options": [
+    {
+     "text": "trabaja",
+     "correct": false,
+     "why": "trabaja は él・ella・usted の形。tú の語尾は -as。"
+    },
+    {
+     "text": "trabajas",
+     "correct": true,
+     "why": "tú の語尾は -as。trabaj- ＋ as で trabajas。"
+    },
+    {
+     "text": "trabajo",
+     "correct": false,
+     "why": "trabajo は yo（私）の形です。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Nosotros ___ español.",
+   "ja": "私たちはスペイン語を勉強しています。",
+   "options": [
+    {
+     "text": "estudian",
+     "correct": false,
+     "why": "estudian は ellos・ustedes の形。nosotros の語尾は -amos。"
+    },
+    {
+     "text": "estudio",
+     "correct": false,
+     "why": "estudio は yo（私）の形です。"
+    },
+    {
+     "text": "estudiamos",
+     "correct": true,
+     "why": "nosotros の語尾は -amos。estudi- ＋ amos で estudiamos。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ella ___ un café.",
+   "ja": "彼女はコーヒーを飲みます。",
+   "options": [
+    {
+     "text": "toma",
+     "correct": true,
+     "why": "ella の語尾は -a。tom- ＋ a で toma。tomar は「飲む」にも使います。"
+    },
+    {
+     "text": "tomas",
+     "correct": false,
+     "why": "tomas は tú（君）の形です。"
+    },
+    {
+     "text": "tomo",
+     "correct": false,
+     "why": "tomo は yo（私）の形です。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Usted ___ un billete.",
+   "ja": "あなたは切符が必要です。",
+   "options": [
+    {
+     "text": "necesitas",
+     "correct": false,
+     "why": "necesitas は tú の形。usted は él・ella と同じ -a。"
+    },
+    {
+     "text": "necesita",
+     "correct": true,
+     "why": "usted は él・ella と同じ語尾 -a。necesit- ＋ a で necesita。"
+    },
+    {
+     "text": "necesito",
+     "correct": false,
+     "why": "necesito は yo（私）の形です。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "彼らは英語を話します。",
+   "tokens": [
+    "Ellos",
+    "hablan",
+    "inglés."
+   ],
+   "accept": [
+    [
+     "Hablan",
+     "inglés",
+     "ellos."
+    ]
+   ],
+   "why": "ellos の語尾は -an。主語＋動詞＋目的語の順がふつうです。"
+  },
+  {
+   "type": "choice",
+   "prompt": "「明日マドリードに行きます」を現在形で言うと？",
+   "ja": "明日マドリードに行きます。",
+   "options": [
+    {
+     "text": "Mañana viajo a Madrid.",
+     "correct": true,
+     "why": "近い予定は現在形で言えます。yo なので viajo。"
+    },
+    {
+     "text": "Mañana viajar a Madrid.",
+     "correct": false,
+     "why": "viajar は原形のまま。主語 yo に合わせて viajo にします。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "🌎 中南米で、友達2人に「君たち何を買うの？」",
+   "ja": "君たち何を買うの？",
+   "options": [
+    {
+     "text": "¿Qué compran?",
+     "correct": true,
+     "why": "中南米では「君たち」も ustedes の形 -an を使います。"
+    },
+    {
+     "text": "¿Qué compráis?",
+     "correct": false,
+     "why": "compráis は vosotros の形でスペインの言い方。中南米ではふつう使いません。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "El tren ___ a las tres.",
+   "ja": "電車は3時に着きます。",
+   "options": [
+    {
+     "text": "llegan",
+     "correct": false,
+     "why": "llegan は複数の主語の形。el tren は1本なので llega。"
+    },
+    {
+     "text": "llegar",
+     "correct": false,
+     "why": "llegar は原形のまま。主語 el tren に合わせて活用させます。"
+    },
+    {
+     "text": "llega",
+     "correct": true,
+     "why": "el tren（電車・単数）は él と同じ扱い。lleg- ＋ a で llega。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "hablar",
+   "es": "hablar",
+   "art": null,
+   "ja": "話す"
+  },
+  {
+   "id": "trabajar",
+   "es": "trabajar",
+   "art": null,
+   "ja": "働く"
+  },
+  {
+   "id": "estudiar",
+   "es": "estudiar",
+   "art": null,
+   "ja": "勉強する"
+  },
+  {
+   "id": "tomar",
+   "es": "tomar",
+   "art": null,
+   "ja": "取る；飲む；（乗り物に）乗る"
+  },
+  {
+   "id": "comprar",
+   "es": "comprar",
+   "art": null,
+   "ja": "買う"
+  },
+  {
+   "id": "necesitar",
+   "es": "necesitar",
+   "art": null,
+   "ja": "必要とする"
+  },
+  {
+   "id": "buscar",
+   "es": "buscar",
+   "art": null,
+   "ja": "探す"
+  },
+  {
+   "id": "llegar",
+   "es": "llegar",
+   "art": null,
+   "ja": "着く"
+  },
+  {
+   "id": "viajar",
+   "es": "viajar",
+   "art": null,
+   "ja": "旅行する、（乗り物で）行く"
+  },
+  {
+   "id": "cenar",
+   "es": "cenar",
+   "art": null,
+   "ja": "夕食をとる"
+  },
+  {
+   "id": "escuchar",
+   "es": "escuchar",
+   "art": null,
+   "ja": "聞く"
+  },
+  {
+   "id": "mirar",
+   "es": "mirar",
+   "art": null,
+   "ja": "見る"
+  },
+  {
+   "id": "ingles",
+   "es": "inglés",
+   "art": "el",
+   "ja": "英語；（形容詞）イギリスの"
+  },
+  {
+   "id": "tren",
+   "es": "tren",
+   "art": "el",
+   "ja": "電車"
+  },
+  {
+   "id": "en",
+   "es": "en",
+   "art": null,
+   "ja": "〜で、〜に（場所）"
+  },
+  {
+   "id": "a",
+   "es": "a",
+   "art": null,
+   "ja": "〜へ、〜に"
+  },
+  {
+   "id": "un_poco",
+   "es": "un poco",
+   "art": null,
+   "ja": "少し"
+  },
+  {
+   "id": "muy",
+   "es": "muy",
+   "art": null,
+   "ja": "とても"
+  },
+  {
+   "id": "que",
+   "es": "¿qué?",
+   "art": null,
+   "ja": "何？"
+  }
+ ],
+ "phrases": [
+  {
+   "es": "¿Hablas inglés?",
+   "ja": "英語話せる？",
+   "scene": "会話",
+   "latam": null
+  },
+  {
+   "es": "Hablo un poco de español.",
+   "ja": "スペイン語を少し話します。",
+   "scene": "会話",
+   "latam": null
+  },
+  {
+   "es": "Más despacio, por favor.",
+   "ja": "もっとゆっくりお願いします。",
+   "scene": "困ったとき",
+   "latam": null
+  },
+  {
+   "es": "Trabajo en Tokio.",
+   "ja": "東京で働いています。",
+   "scene": "自己紹介",
+   "latam": null
+  },
+  {
+   "es": "Estudio español.",
+   "ja": "スペイン語を勉強しています。",
+   "scene": "自己紹介",
+   "latam": null
+  }
+ ],
+ "speak": [
+  {
+   "es": "Hablo un poco de español.",
+   "ja": "スペイン語を少し話します。",
+   "tip": "español の ñ と、最後の ol を強く。"
+  },
+  {
+   "es": "Trabajo en Tokio.",
+   "ja": "東京で働いています。",
+   "tip": "trabajo の j は喉の奥から。"
+  },
+  {
+   "es": "Más despacio, por favor.",
+   "ja": "もっとゆっくりお願いします。"
+  },
+  {
+   "es": "¿Hablas inglés?",
+   "ja": "英語話せる？"
+  }
+ ]
 }

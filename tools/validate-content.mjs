@@ -53,9 +53,7 @@ export function validateUnit(u, seenWordIds) {
       if (!Array.isArray(q.tokens) || q.tokens.length < 2) e.push(`${at} の tokens は2つ以上`);
       if (blank(q.why)) e.push(`${at} の why がない`);
     } else if (q.type === 'fill') {
-      if (blank(q.es) || !q.es.includes('___')) e.push(`${at} の es に ___ がない`);
-      if (!Array.isArray(q.answers) || q.answers.length === 0 || q.answers.some(blank)) e.push(`${at} の answers が空`);
-      if (blank(q.why)) e.push(`${at} の why がない`);
+      e.push(`${at} は fill（キーボード入力）。使わないので choice にする`);
     } else {
       e.push(`${at} の type が不明: ${q.type}`);
     }

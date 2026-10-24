@@ -12,16 +12,21 @@ export async function renderList(root, ctx) {
   );
 }
 
-export async function renderUnit(root, ctx, unitId) {
+// fromQuiz は練習問題の「文法ノートで見る」から来た時。上に「クイズに戻る」を出す
+export async function renderUnit(root, ctx, unitId, fromQuiz) {
   const unit = await ctx.content.loadUnit(unitId);
   if (!root.isConnected) return;
+  const back = fromQuiz
+    ? h('button.back', { onclick: () => ctx.go(`#/u/${unitId}`) }, '‹ クイズに戻る')
+    : h('button.back', { onclick: () => ctx.go('#/grammar') }, '‹ 文法ノート');
   root.append(
-    h('div.topbar', {}, h('button.back', { onclick: () => history.length > 1 ? history.back() : ctx.go('#/grammar') }, '‹ 戻る'), h('span.title', {}, `文法ノート：${unit.no} ${unit.title}`)),
+    h('div.topbar', {}, back, h('span.title', {}, `文法ノート：${unit.no} ${unit.title}`)),
     h('div.body', {},
       h('p.muted', {}, unit.summary),
       unit.explain.map(x => h('section', {},
         h('h2', {}, x.title),
         h('p', { html: rich(x.body) }),
         x.examples?.length ? h('div.note', {}, x.examples.map(ex => h('div', { style: 'margin:6px 0' }, esLine(ctx, ex.es), h('div', {}, ex.ja), ex.note ? h('div.muted', {}, ex.note) : null))) : null))),
+    fromQuiz ? h('div.actions', {}, h('button.btn', { onclick: () => ctx.go(`#/u/${unitId}`) }, 'クイズに戻る')) : null,
   );
 }

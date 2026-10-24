@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { normalize, stripAccents, checkChoice, checkOrder, checkFill, matchSpoken, fillSentence } from '../js/check.js';
+import { normalize, stripAccents, checkChoice, checkOrder, checkFill, matchSpoken, fillSentence, isSpanish } from '../js/check.js';
 
 test('normalize: 全角空白・大文字・¿¡・末尾記号', () => assert.equal(normalize('　¿Hablas  ESPAÑOL? '), 'hablas español'));
 
@@ -49,3 +49,13 @@ test('全角の英字・記号も正解扱い', () => assert.equal(checkFill({ a
 test('全角？で終わっても正解扱い', () => assert.equal(normalize('¿Hablas？'), 'hablas'));
 
 test('分解されたアクセント（NFD）も正解扱い', () => assert.equal(checkFill({ answers: ['está'], why: 'w' }, 'está').ok, true));
+
+test('isSpanish: スペイン語の選択肢は読み上げ対象', () => {
+  assert.equal(isSpanish('está'), true);
+  assert.equal(isSpanish('¿Cómo se llama usted?'), true);
+});
+
+test('isSpanish: 日本語の選択肢は読み上げない', () => {
+  assert.equal(isSpanish('読まない'), false);
+  assert.equal(isSpanish('rr は巻き舌、r は1回はじく音で、別の単語'), false);
+});

@@ -18,7 +18,7 @@ const ROUTES = [
   [/^#\/u\/(\w+)$/, lesson.render],
   [/^#\/done\/(\w+)$/, lesson.renderDone],
   [/^#\/review$/, review.render],
-  [/^#\/grammar\/(\w+)$/, grammar.renderUnit],
+  [/^#\/grammar\/(\w+)(\/q)?$/, grammar.renderUnit],
   [/^#\/grammar$/, grammar.renderList],
   [/^#\/settings$/, settings.render],
   [/.*/, home.render],

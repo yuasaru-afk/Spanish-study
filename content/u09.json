@@ -1,133 +1,434 @@
 {
-  "id": "u09", "no": 9, "title": "gustar（好き嫌い）",
-  "summary": "「好き」は「〜が私に気に入る」と言う。me gusta / me gustan と、相手に聞く・あいづちを打つ言い方。",
-  "explain": [
+ "id": "u09",
+ "no": 9,
+ "title": "gustar（好き嫌い）",
+ "summary": "「好き」は「〜が私に気に入る」と言う。me gusta / me gustan と、相手に聞く・あいづちを打つ言い方。",
+ "explain": [
+  {
+   "title": "gustar は「〜が気に入る」",
+   "body": "「私はコーヒーが好き」は **Me gusta el café.** と言います。\n直訳すると「コーヒーが私に気に入る」。**好きな物が主語**で、me（私に）は「誰が好きか」を表します。日本語の「私は〜が好きだ」の「〜が」に当たる物が主語、と覚えると分かりやすいです。",
+   "examples": [
     {
-      "title": "gustar は「〜が気に入る」",
-      "body": "「私はコーヒーが好き」は **Me gusta el café.** と言います。\n直訳すると「コーヒーが私に気に入る」。**好きな物が主語**で、me（私に）は「誰が好きか」を表します。日本語の「私は〜が好きだ」の「〜が」に当たる物が主語、と覚えると分かりやすいです。",
-      "examples": [
-        { "es": "Me gusta el café.", "ja": "コーヒーが好きです。" },
-        { "es": "Me gusta Madrid.", "ja": "マドリードが好きです。" }
-      ]
+     "es": "Me gusta el café.",
+     "ja": "コーヒーが好きです。"
     },
     {
-      "title": "gusta と gustan",
-      "body": "動詞は好きな物（主語）の数に合わせます。\n・1つ・動詞の原形 → **gusta**：Me gusta la música. ／ Me gusta viajar.（旅行するのが好き）\n・複数 → **gustan**：Me gustan los gatos.（猫が好き）\n好きな物には定冠詞（el / la / los / las）を付けます。「コーヒー全般」のように種類全体を指すからです。",
-      "examples": [
-        { "es": "Me gusta viajar.", "ja": "旅行するのが好きです。" },
-        { "es": "Me gustan los gatos.", "ja": "猫が好きです。" }
-      ]
-    },
-    {
-      "title": "誰が好きかは me / te / le…で",
-      "body": "・**me** gusta（私は）／ **te** gusta（君は）／ **le** gusta（彼・彼女・あなたは）\n・**nos** gusta（私たちは）／ **os** gusta（君たちは・スペイン）／ **les** gusta（彼ら・あなた方は）\nle は誰のことか分かりにくいので、**a ella**、**a usted** などを添えます：A ella le gusta el fútbol.\n🌎 中南米では「君たちは」も **les** gusta。",
-      "examples": [
-        { "es": "¿Te gusta el fútbol?", "ja": "サッカー好き？" },
-        { "es": "A mi madre le gusta cocinar.", "ja": "母は料理が好きです。" }
-      ]
-    },
-    {
-      "title": "否定・程度・あいづち",
-      "body": "・否定は me の前に no：**No me gusta** el pescado.（魚は好きじゃない）\n・程度：Me gusta **mucho**.（とても好き）／ No me gusta **nada**.（全然好きじゃない）\n・大好き：**Me encanta** el jamón.（encantar も gustar と同じ使い方）\n・あいづち：**A mí también.**（私も好き）／ **A mí tampoco.**（私も好きじゃない）\nあいづちの también / tampoco は、相手が肯定か否定かで使い分けます。",
-      "examples": [
-        { "es": "Me gusta mucho.", "ja": "とても好きです。" },
-        { "es": "Me encanta el jamón.", "ja": "生ハムが大好きです。" },
-        { "es": "A mí también.", "ja": "私も（好き）。" },
-        { "es": "A mí tampoco.", "ja": "私も（好きじゃない）。" }
-      ]
+     "es": "Me gusta Madrid.",
+     "ja": "マドリードが好きです。"
     }
-  ],
-  "practice": [
+   ]
+  },
+  {
+   "title": "gusta と gustan",
+   "body": "動詞は好きな物（主語）の数に合わせます。\n・1つ・動詞の原形 → **gusta**：Me gusta la música. ／ Me gusta viajar.（旅行するのが好き）\n・複数 → **gustan**：Me gustan los gatos.（猫が好き）\n好きな物には定冠詞（el / la / los / las）を付けます。「コーヒー全般」のように種類全体を指すからです。",
+   "examples": [
     {
-      "type": "choice", "prompt": "空欄に入るのは？", "es": "Me ___ los gatos.", "ja": "猫が好きです。",
-      "options": [
-        { "text": "gustan", "correct": true, "why": "主語は好きな物 los gatos（複数）なので gustan。" },
-        { "text": "gusta", "correct": false, "why": "gusta は好きな物が1つ・原形のとき。los gatos は複数です。" },
-        { "text": "gusto", "correct": false, "why": "gustar の主語は「私」ではなく好きな物。yo の形 gusto は使いません。" }
-      ]
+     "es": "Me gusta viajar.",
+     "ja": "旅行するのが好きです。"
     },
     {
-      "type": "fill", "prompt": "gustar を正しい形にしてください", "es": "Me ___ viajar.", "ja": "旅行するのが好きです。",
-      "answers": ["gusta"],
-      "why": "動詞の原形（viajar）が主語のときは単数扱いで gusta。"
-    },
-    {
-      "type": "choice", "prompt": "「サッカー好き？」と友達に聞くときは？", "ja": "サッカー好き？",
-      "options": [
-        { "text": "¿Te gusta el fútbol?", "correct": true, "why": "「君は」は te。好きな物 el fútbol は単数なので gusta。" },
-        { "text": "¿Me gusta el fútbol?", "correct": false, "why": "me は「私は」。相手に聞くときは te です。" },
-        { "text": "¿Gustas el fútbol?", "correct": false, "why": "gustar は「〜が気に入る」なので、好きな人を主語にした gustas は使いません。" }
-      ]
-    },
-    {
-      "type": "choice", "prompt": "「魚は好きじゃない」はどれ？", "ja": "魚は好きじゃありません。",
-      "options": [
-        { "text": "No me gusta el pescado.", "correct": true, "why": "否定の no は me の前に置きます。" },
-        { "text": "Me no gusta el pescado.", "correct": false, "why": "no は me と gusta の間ではなく、me の前に置きます。" }
-      ]
-    },
-    {
-      "type": "choice", "prompt": "相手が「No me gusta el café.」。私も好きじゃない、と返すには？", "ja": "私も（好きじゃない）。",
-      "options": [
-        { "text": "A mí tampoco.", "correct": true, "why": "否定の文に「私も（〜ない）」と同意するときは tampoco。" },
-        { "text": "A mí también.", "correct": false, "why": "también は肯定の文への「私も」。これだと「私もコーヒー好き（じゃない…？）」とちぐはぐになります。" }
-      ]
-    },
-    {
-      "type": "order", "prompt": "並べ替えてください", "ja": "彼女はサッカーが好きです。",
-      "tokens": ["A", "ella", "le", "gusta", "el", "fútbol."], "accept": [["Le", "gusta", "el", "fútbol", "a", "ella."]],
-      "why": "le だけでは誰か分かりにくいので a ella を添えます。le は gusta の直前。"
-    },
-    {
-      "type": "fill", "prompt": "空欄を埋めてください", "es": "Nos ___ la comida japonesa.", "ja": "私たちは日本料理が好きです。",
-      "answers": ["gusta"],
-      "why": "主語は la comida japonesa（単数）なので gusta。nos は「私たちに」で、動詞の形には関係しません。"
-    },
-    {
-      "type": "choice", "prompt": "「生ハムが大好きです」はどれ？", "ja": "生ハムが大好きです。",
-      "options": [
-        { "text": "Me encanta el jamón.", "correct": true, "why": "encantar は gustar と同じ形で「大好き」。" },
-        { "text": "Me encanto el jamón.", "correct": false, "why": "encanto は「私が魅了する」になってしまいます。主語は el jamón なので encanta。" }
-      ]
-    },
-    {
-      "type": "fill", "prompt": "誰が好きかを表す語を入れてください", "es": "¿A usted ___ gusta el vino?", "ja": "ワインはお好きですか？",
-      "answers": ["le"],
-      "why": "usted（あなた）は él・ella と同じ le。"
+     "es": "Me gustan los gatos.",
+     "ja": "猫が好きです。"
     }
-  ],
-  "words": [
-    { "id": "gustar", "es": "gustar", "art": null, "ja": "（〜が）気に入る、好き" },
-    { "id": "encantar", "es": "encantar", "art": null, "ja": "（〜が）大好き" },
-    { "id": "a_mi", "es": "a mí", "art": null, "ja": "私には（強調）" },
-    { "id": "mucho", "es": "mucho", "art": null, "ja": "とても、たくさん" },
-    { "id": "nada", "es": "nada", "art": null, "ja": "何も〜ない；全然" },
-    { "id": "musica", "es": "música", "art": "la", "ja": "音楽" },
-    { "id": "futbol", "es": "fútbol", "art": "el", "ja": "サッカー" },
-    { "id": "deporte", "es": "deporte", "art": "el", "ja": "スポーツ" },
-    { "id": "comida", "es": "comida", "art": "la", "ja": "食べ物；料理；昼食" },
-    { "id": "pescado", "es": "pescado", "art": "el", "ja": "魚（食べ物として）" },
-    { "id": "carne", "es": "carne", "art": "la", "ja": "肉" },
-    { "id": "fruta", "es": "fruta", "art": "la", "ja": "果物" },
-    { "id": "verdura", "es": "verdura", "art": "la", "ja": "野菜" },
-    { "id": "patata", "es": "patata", "art": "la", "ja": "じゃがいも", "latam": { "es": "papa", "art": "la" } },
-    { "id": "chocolate", "es": "chocolate", "art": "el", "ja": "チョコレート；ココア" },
-    { "id": "cocinar", "es": "cocinar", "art": null, "ja": "料理する" },
-    { "id": "leer", "es": "leer", "art": null, "ja": "読む" },
-    { "id": "cine", "es": "cine", "art": "el", "ja": "映画館；映画（ジャンル）" }
-  ],
-  "phrases": [
-    { "es": "¿Te gusta la comida española?", "ja": "スペイン料理は好き？", "scene": "会話", "latam": null },
-    { "es": "Sí, me gusta mucho.", "ja": "うん、とても好き。", "scene": "会話", "latam": null },
-    { "es": "Me encanta el jamón.", "ja": "生ハムが大好きです。", "scene": "会話", "latam": null },
-    { "es": "No me gusta nada.", "ja": "全然好きじゃない。", "scene": "会話", "latam": null },
-    { "es": "A mí también.", "ja": "私も。", "scene": "あいづち", "latam": null },
-    { "es": "A mí tampoco.", "ja": "私も（〜ない）。", "scene": "あいづち", "latam": null }
-  ],
-  "speak": [
-    { "es": "Me gusta mucho.", "ja": "とても好きです。" },
-    { "es": "¿Te gusta el fútbol?", "ja": "サッカー好き？", "tip": "fútbol の ú を強く。" },
-    { "es": "A mí también.", "ja": "私も。" },
-    { "es": "Me encanta viajar.", "ja": "旅行が大好きです。" }
-  ]
+   ]
+  },
+  {
+   "title": "誰が好きかは me / te / le…で",
+   "body": "・**me** gusta（私は）／ **te** gusta（君は）／ **le** gusta（彼・彼女・あなたは）\n・**nos** gusta（私たちは）／ **os** gusta（君たちは・スペイン）／ **les** gusta（彼ら・あなた方は）\nle は誰のことか分かりにくいので、**a ella**、**a usted** などを添えます：A ella le gusta el fútbol.\n🌎 中南米では「君たちは」も **les** gusta。",
+   "examples": [
+    {
+     "es": "¿Te gusta el fútbol?",
+     "ja": "サッカー好き？"
+    },
+    {
+     "es": "A mi madre le gusta cocinar.",
+     "ja": "母は料理が好きです。"
+    }
+   ]
+  },
+  {
+   "title": "否定・程度・あいづち",
+   "body": "・否定は me の前に no：**No me gusta** el pescado.（魚は好きじゃない）\n・程度：Me gusta **mucho**.（とても好き）／ No me gusta **nada**.（全然好きじゃない）\n・大好き：**Me encanta** el jamón.（encantar も gustar と同じ使い方）\n・あいづち：**A mí también.**（私も好き）／ **A mí tampoco.**（私も好きじゃない）\nあいづちの también / tampoco は、相手が肯定か否定かで使い分けます。",
+   "examples": [
+    {
+     "es": "Me gusta mucho.",
+     "ja": "とても好きです。"
+    },
+    {
+     "es": "Me encanta el jamón.",
+     "ja": "生ハムが大好きです。"
+    },
+    {
+     "es": "A mí también.",
+     "ja": "私も（好き）。"
+    },
+    {
+     "es": "A mí tampoco.",
+     "ja": "私も（好きじゃない）。"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Me ___ los gatos.",
+   "ja": "猫が好きです。",
+   "options": [
+    {
+     "text": "gustan",
+     "correct": true,
+     "why": "主語は好きな物 los gatos（複数）なので gustan。"
+    },
+    {
+     "text": "gusta",
+     "correct": false,
+     "why": "gusta は好きな物が1つ・原形のとき。los gatos は複数です。"
+    },
+    {
+     "text": "gusto",
+     "correct": false,
+     "why": "gustar の主語は「私」ではなく好きな物。yo の形 gusto は使いません。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Me ___ viajar.",
+   "ja": "旅行するのが好きです。",
+   "options": [
+    {
+     "text": "gustan",
+     "correct": false,
+     "why": "gustan は好きな物が複数のとき。動詞の原形（viajar）は単数扱いで gusta。"
+    },
+    {
+     "text": "gusta",
+     "correct": true,
+     "why": "動詞の原形（viajar）が主語のときは単数扱いで gusta。"
+    },
+    {
+     "text": "gusto",
+     "correct": false,
+     "why": "gustar の主語は好きな物。「私」に合わせた gusto は使いません。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "「サッカー好き？」と友達に聞くときは？",
+   "ja": "サッカー好き？",
+   "options": [
+    {
+     "text": "¿Te gusta el fútbol?",
+     "correct": true,
+     "why": "「君は」は te。好きな物 el fútbol は単数なので gusta。"
+    },
+    {
+     "text": "¿Me gusta el fútbol?",
+     "correct": false,
+     "why": "me は「私は」。相手に聞くときは te です。"
+    },
+    {
+     "text": "¿Gustas el fútbol?",
+     "correct": false,
+     "why": "gustar は「〜が気に入る」なので、好きな人を主語にした gustas は使いません。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "「魚は好きじゃない」はどれ？",
+   "ja": "魚は好きじゃありません。",
+   "options": [
+    {
+     "text": "No me gusta el pescado.",
+     "correct": true,
+     "why": "否定の no は me の前に置きます。"
+    },
+    {
+     "text": "Me no gusta el pescado.",
+     "correct": false,
+     "why": "no は me と gusta の間ではなく、me の前に置きます。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "相手が「No me gusta el café.」。私も好きじゃない、と返すには？",
+   "ja": "私も（好きじゃない）。",
+   "options": [
+    {
+     "text": "A mí tampoco.",
+     "correct": true,
+     "why": "否定の文に「私も（〜ない）」と同意するときは tampoco。"
+    },
+    {
+     "text": "A mí también.",
+     "correct": false,
+     "why": "también は肯定の文への「私も」。これだと「私もコーヒー好き（じゃない…？）」とちぐはぐになります。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "彼女はサッカーが好きです。",
+   "tokens": [
+    "A",
+    "ella",
+    "le",
+    "gusta",
+    "el",
+    "fútbol."
+   ],
+   "accept": [
+    [
+     "Le",
+     "gusta",
+     "el",
+     "fútbol",
+     "a",
+     "ella."
+    ]
+   ],
+   "why": "le だけでは誰か分かりにくいので a ella を添えます。le は gusta の直前。"
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Nos ___ la comida japonesa.",
+   "ja": "私たちは日本料理が好きです。",
+   "options": [
+    {
+     "text": "gusta",
+     "correct": true,
+     "why": "主語は la comida japonesa（単数）なので gusta。nos は「私たちに」で、動詞の形には関係しません。"
+    },
+    {
+     "text": "gustamos",
+     "correct": false,
+     "why": "主語は好きな物 la comida japonesa（単数）。nos（私たち）に合わせて活用はしません。"
+    },
+    {
+     "text": "gustan",
+     "correct": false,
+     "why": "gustan は好きな物が複数のとき。la comida japonesa は単数なので gusta。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "「生ハムが大好きです」はどれ？",
+   "ja": "生ハムが大好きです。",
+   "options": [
+    {
+     "text": "Me encanta el jamón.",
+     "correct": true,
+     "why": "encantar は gustar と同じ形で「大好き」。"
+    },
+    {
+     "text": "Me encanto el jamón.",
+     "correct": false,
+     "why": "encanto は「私が魅了する」になってしまいます。主語は el jamón なので encanta。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿A usted ___ gusta el vino?",
+   "ja": "ワインはお好きですか？",
+   "options": [
+    {
+     "text": "te",
+     "correct": false,
+     "why": "te は tú（君）に使う形。usted には le。"
+    },
+    {
+     "text": "me",
+     "correct": false,
+     "why": "me は「私は」。相手（usted）のことを聞くので le。"
+    },
+    {
+     "text": "le",
+     "correct": true,
+     "why": "usted（あなた）は él・ella と同じ le。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "gustar",
+   "es": "gustar",
+   "art": null,
+   "ja": "（〜が）気に入る、好き"
+  },
+  {
+   "id": "encantar",
+   "es": "encantar",
+   "art": null,
+   "ja": "（〜が）大好き"
+  },
+  {
+   "id": "a_mi",
+   "es": "a mí",
+   "art": null,
+   "ja": "私には（強調）"
+  },
+  {
+   "id": "mucho",
+   "es": "mucho",
+   "art": null,
+   "ja": "とても、たくさん"
+  },
+  {
+   "id": "nada",
+   "es": "nada",
+   "art": null,
+   "ja": "何も〜ない；全然"
+  },
+  {
+   "id": "musica",
+   "es": "música",
+   "art": "la",
+   "ja": "音楽"
+  },
+  {
+   "id": "futbol",
+   "es": "fútbol",
+   "art": "el",
+   "ja": "サッカー"
+  },
+  {
+   "id": "deporte",
+   "es": "deporte",
+   "art": "el",
+   "ja": "スポーツ"
+  },
+  {
+   "id": "comida",
+   "es": "comida",
+   "art": "la",
+   "ja": "食べ物；料理；昼食"
+  },
+  {
+   "id": "pescado",
+   "es": "pescado",
+   "art": "el",
+   "ja": "魚（食べ物として）"
+  },
+  {
+   "id": "carne",
+   "es": "carne",
+   "art": "la",
+   "ja": "肉"
+  },
+  {
+   "id": "fruta",
+   "es": "fruta",
+   "art": "la",
+   "ja": "果物"
+  },
+  {
+   "id": "verdura",
+   "es": "verdura",
+   "art": "la",
+   "ja": "野菜"
+  },
+  {
+   "id": "patata",
+   "es": "patata",
+   "art": "la",
+   "ja": "じゃがいも",
+   "latam": {
+    "es": "papa",
+    "art": "la"
+   }
+  },
+  {
+   "id": "chocolate",
+   "es": "chocolate",
+   "art": "el",
+   "ja": "チョコレート；ココア"
+  },
+  {
+   "id": "cocinar",
+   "es": "cocinar",
+   "art": null,
+   "ja": "料理する"
+  },
+  {
+   "id": "leer",
+   "es": "leer",
+   "art": null,
+   "ja": "読む"
+  },
+  {
+   "id": "cine",
+   "es": "cine",
+   "art": "el",
+   "ja": "映画館；映画（ジャンル）"
+  }
+ ],
+ "phrases": [
+  {
+   "es": "¿Te gusta la comida española?",
+   "ja": "スペイン料理は好き？",
+   "scene": "会話",
+   "latam": null
+  },
+  {
+   "es": "Sí, me gusta mucho.",
+   "ja": "うん、とても好き。",
+   "scene": "会話",
+   "latam": null
+  },
+  {
+   "es": "Me encanta el jamón.",
+   "ja": "生ハムが大好きです。",
+   "scene": "会話",
+   "latam": null
+  },
+  {
+   "es": "No me gusta nada.",
+   "ja": "全然好きじゃない。",
+   "scene": "会話",
+   "latam": null
+  },
+  {
+   "es": "A mí también.",
+   "ja": "私も。",
+   "scene": "あいづち",
+   "latam": null
+  },
+  {
+   "es": "A mí tampoco.",
+   "ja": "私も（〜ない）。",
+   "scene": "あいづち",
+   "latam": null
+  }
+ ],
+ "speak": [
+  {
+   "es": "Me gusta mucho.",
+   "ja": "とても好きです。"
+  },
+  {
+   "es": "¿Te gusta el fútbol?",
+   "ja": "サッカー好き？",
+   "tip": "fútbol の ú を強く。"
+  },
+  {
+   "es": "A mí también.",
+   "ja": "私も。"
+  },
+  {
+   "es": "Me encanta viajar.",
+   "ja": "旅行が大好きです。"
+  }
+ ]
 }

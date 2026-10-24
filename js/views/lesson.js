@@ -3,11 +3,10 @@ import { h, rich } from '../dom.js';
 import { setPosition, finishUnit } from '../store.js';
 import { dayNumber } from '../srs.js';
 import { stagesFor, nextPosition, stageLength, STAGE_NAMES } from '../flow.js';
-import { checkChoice, checkOrder, checkFill, matchSpoken, fillSentence } from '../check.js';
+import { checkChoice, checkOrder, matchSpoken, fillSentence, isSpanish } from '../check.js';
+import { speak as say } from '../speech.js';
 import { canListen, listen, shouldFallback } from '../speech.js';
 import { esLine, sayButton, latamBox, withArt, topbar, progressBar } from './common.js';
-
-const ACCENT_KEYS = ['á', 'é', 'í', 'ó', 'ú', 'ñ', 'ü', '¿', '¡'];
 
 export async function render(root, ctx, unitId) {
   const unit = await ctx.content.loadUnit(unitId);
@@ -68,7 +67,7 @@ function resultBox(ok, title, lines) {
 
 function afterAnswer(ctx, unit, actions, nextBtn, box, body) {
   body.append(box);
-  actions.replaceChildren(nextBtn('わかった・次へ'), h('button.btn2', { onclick: () => ctx.go(`#/grammar/${unit.id}`) }, '📘 文法ノートで見る'));
+  actions.replaceChildren(nextBtn('わかった・次へ'), h('button.btn2', { onclick: () => ctx.go(`#/grammar/${unit.id}/q`) }, '📘 文法ノートで見る'));
   box.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
 }
 
@@ -81,8 +80,7 @@ function questionHead(ctx, q, body) {
 function practice(ctx, unit, q, body, actions, nextBtn) {
   questionHead(ctx, q, body);
   if (q.type === 'choice') return choiceQ(ctx, unit, q, body, actions, nextBtn);
-  if (q.type === 'order') return orderQ(ctx, unit, q, body, actions, nextBtn);
-  return fillQ(ctx, unit, q, body, actions, nextBtn);
+  return orderQ(ctx, unit, q, body, actions, nextBtn);
 }
 
 const filled = (q, word) => fillSentence(q.es, word);
@@ -93,6 +91,7 @@ function choiceQ(ctx, unit, q, body, actions, nextBtn) {
   body.append(h('div', {}, buttons));
   actions.append(h('p.muted', { style: 'text-align:center' }, '答えをタップ'));
   function pick(i) {
+    if (isSpanish(q.options[i].text)) say(window, q.options[i].text, ctx.state.settings.rate);
     const res = checkChoice(q, i);
     buttons.forEach((b, j) => { b.disabled = true; if (q.options[j].correct) b.classList.add('right'); });
     if (!res.ok) buttons[i].classList.add('wrong');
@@ -136,34 +135,6 @@ function orderQ(ctx, unit, q, body, actions, nextBtn) {
     const sentence = q.tokens.join(' ').replace(/¿ /g, '¿').replace(/¡ /g, '¡').replace(/ ([?!.,])/g, '$1');
     const box = resultBox(res.ok, res.ok ? '◎ 正解' : 'なぜ？', [res.ok ? null : '正解の並び：', res.why]);
     box.insertBefore(esLine(ctx, sentence), box.children[1] || null);
-    afterAnswer(ctx, unit, actions, nextBtn, box, body);
-  }
-}
-
-function fillQ(ctx, unit, q, body, actions, nextBtn) {
-  const input = h('input.fill', { type: 'text', lang: 'es', autocapitalize: 'off', autocorrect: 'off', autocomplete: 'off', spellcheck: 'false', enterkeyhint: 'done', placeholder: 'ここに入力' });
-  const insert = ch => {
-    const s = input.selectionStart ?? input.value.length;
-    const e = input.selectionEnd ?? input.value.length;
-    input.value = input.value.slice(0, s) + ch + input.value.slice(e);
-    input.focus();
-    input.setSelectionRange(s + ch.length, s + ch.length);
-  };
-  const check = h('button.btn', { onclick: submit }, '答え合わせ');
-  input.addEventListener('keydown', e => { if (e.key === 'Enter') submit(); });
-  body.append(input, h('div.keys', {}, ACCENT_KEYS.map(k => h('button', { lang: 'es', onmousedown: e => e.preventDefault(), onclick: () => insert(k) }, k))));
-  actions.append(check);
-  function submit() {
-    if (!input.value.trim() || input.disabled) return;
-    const res = checkFill(q, input.value);
-    input.disabled = true;
-    const right = q.answers[0];
-    const box = res.ok
-      ? resultBox(true, '◎ 正解', [res.why])
-      : res.nearly
-        ? resultBox(false, `おしい：アクセント記号に注意（正解は ${right}）`, [res.why])
-        : resultBox(false, `正解は「${right}」`, [res.why]);
-    box.append(esLine(ctx, filled(q, right)));
     afterAnswer(ctx, unit, actions, nextBtn, box, body);
   }
 }

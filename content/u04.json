@@ -1,144 +1,451 @@
 {
-  "id": "u04", "no": 4, "title": "ser（〜です）と主語",
-  "summary": "主語の代名詞と、ser の6つの形。国籍・職業・性質の言い方と形容詞の一致。",
-  "explain": [
+ "id": "u04",
+ "no": 4,
+ "title": "ser（〜です）と主語",
+ "summary": "主語の代名詞と、ser の6つの形。国籍・職業・性質の言い方と形容詞の一致。",
+ "explain": [
+  {
+   "title": "主語の代名詞",
+   "body": "「私・君・彼…」は次のとおりです。\n・**yo**（私）／ **tú**（君）／ **él**（彼）・**ella**（彼女）・**usted**（あなた・ていねい）\n・**nosotros / nosotras**（私たち）／ **vosotros / vosotras**（君たち）／ **ellos / ellas**（彼ら・彼女ら）・**ustedes**（あなた方）\n-as の形は全員が女性のときに使います。\n🌎 **vosotros はスペインだけ**。中南米では「君たち」も **ustedes** で言います。",
+   "examples": [
     {
-      "title": "主語の代名詞",
-      "body": "「私・君・彼…」は次のとおりです。\n・**yo**（私）／ **tú**（君）／ **él**（彼）・**ella**（彼女）・**usted**（あなた・ていねい）\n・**nosotros / nosotras**（私たち）／ **vosotros / vosotras**（君たち）／ **ellos / ellas**（彼ら・彼女ら）・**ustedes**（あなた方）\n-as の形は全員が女性のときに使います。\n🌎 **vosotros はスペインだけ**。中南米では「君たち」も **ustedes** で言います。",
-      "examples": [
-        { "es": "yo", "ja": "私" },
-        { "es": "nosotros", "ja": "私たち" },
-        { "es": "ustedes", "ja": "あなた方（🌎 中南米では「君たち」も）" }
-      ]
+     "es": "yo",
+     "ja": "私"
     },
     {
-      "title": "ser の6つの形",
-      "body": "ser は英語の be に当たる「〜です」。主語ごとに形が変わります（不規則なので丸ごと覚えます）。\n・yo **soy** ／ tú **eres** ／ él・ella・usted **es**\n・nosotros **somos** ／ vosotros **sois** ／ ellos・ellas・ustedes **son**\nusted は「あなた」ですが、動詞は él・ella と同じ形を使います。",
-      "examples": [
-        { "es": "Yo soy japonés.", "ja": "私は日本人です。" },
-        { "es": "¿Eres estudiante?", "ja": "君は学生？" },
-        { "es": "Somos amigos.", "ja": "私たちは友達です。" }
-      ]
+     "es": "nosotros",
+     "ja": "私たち"
     },
     {
-      "title": "主語はよく省略する",
-      "body": "動詞の形で主語が分かるので、**主語はふつう省略**します。Soy japonés. だけで「私は日本人です」。\n主語を言うのは、強調・対比したいとき（Yo soy japonés, y él es español.）や、es のように誰のことか分かりにくいときです。",
-      "examples": [
-        { "es": "Soy ingeniero.", "ja": "私はエンジニアです。" },
-        { "es": "Yo soy japonés y ella es española.", "ja": "私は日本人で、彼女はスペイン人です。" }
-      ]
-    },
-    {
-      "title": "ser を使う場面：変わらないこと",
-      "body": "ser は「その人・物が何者か、どんな性質か」を言うときに使います。\n・国籍・出身：Soy de Japón.（日本出身です）\n・職業：Es médico.（彼は医者です）\n・性格・見た目などの性質：Es simpática.（彼女は感じがいい）\n「今の気分・状態」には別の動詞 estar を使います（ユニット6）。",
-      "examples": [
-        { "es": "Soy de Japón.", "ja": "日本出身です。" },
-        { "es": "Ella es médica.", "ja": "彼女は医者です。" },
-        { "es": "Es simpático.", "ja": "彼は感じがいい。" }
-      ]
-    },
-    {
-      "title": "形容詞・国籍も男女と数をそろえる",
-      "body": "形容詞は説明する人・物の **性と数** に合わせて形が変わります。\n・-o の形容詞：alto（男性）／ alta（女性）／ altos ／ altas\n・国籍：japonés ／ japonesa、español ／ española（女性は -a を足す。japonés は記号が消える）\n・-e や子音で終わる形容詞は男女同じ：grande、inteligente\n職業名だけを言うときは、ふつう冠詞を付けません：Soy ingeniero.（形容詞が付くと Soy un buen ingeniero. のように un を付けます）",
-      "examples": [
-        { "es": "Ella es alta.", "ja": "彼女は背が高い。" },
-        { "es": "Somos japoneses.", "ja": "私たちは日本人です。" },
-        { "es": "La casa es grande.", "ja": "その家は大きい。" }
-      ]
+     "es": "ustedes",
+     "ja": "あなた方（🌎 中南米では「君たち」も）"
     }
-  ],
-  "practice": [
+   ]
+  },
+  {
+   "title": "ser の6つの形",
+   "body": "ser は英語の be に当たる「〜です」。主語ごとに形が変わります（不規則なので丸ごと覚えます）。\n・yo **soy** ／ tú **eres** ／ él・ella・usted **es**\n・nosotros **somos** ／ vosotros **sois** ／ ellos・ellas・ustedes **son**\nusted は「あなた」ですが、動詞は él・ella と同じ形を使います。",
+   "examples": [
     {
-      "type": "choice", "prompt": "空欄に入るのは？", "es": "Yo ___ japonés.", "ja": "私は日本人です。",
-      "options": [
-        { "text": "soy", "correct": true, "why": "主語が yo（私）なので ser は soy。" },
-        { "text": "es", "correct": false, "why": "es は él・ella・usted の形。「私」には soy を使います。" },
-        { "text": "eres", "correct": false, "why": "eres は tú（君）の形です。" }
-      ]
+     "es": "Yo soy japonés.",
+     "ja": "私は日本人です。"
     },
     {
-      "type": "fill", "prompt": "ser の正しい形を入れてください", "es": "Nosotros ___ amigos.", "ja": "私たちは友達です。",
-      "answers": ["somos"],
-      "why": "nosotros（私たち）の ser は somos。"
+     "es": "¿Eres estudiante?",
+     "ja": "君は学生？"
     },
     {
-      "type": "fill", "prompt": "ser の正しい形を入れてください", "es": "¿Tú ___ estudiante?", "ja": "君は学生？",
-      "answers": ["eres"],
-      "why": "tú（君）の ser は eres。"
-    },
-    {
-      "type": "choice", "prompt": "取引先の方に「あなたはスペイン人ですか？」", "es": "¿Usted ___ español?", "ja": "あなたはスペイン人ですか？",
-      "options": [
-        { "text": "es", "correct": true, "why": "usted は「あなた」でも、動詞は él・ella と同じ形 es を使います。" },
-        { "text": "eres", "correct": false, "why": "eres は tú の形。usted には es を使います。" }
-      ]
-    },
-    {
-      "type": "choice", "prompt": "女性が自分の国籍を言うときは？", "ja": "私は日本人です（話し手は女性）。",
-      "options": [
-        { "text": "Soy japonesa.", "correct": true, "why": "話し手が女性なので japonés に -a を足して japonesa。記号は消えます。" },
-        { "text": "Soy japonés.", "correct": false, "why": "japonés は男性形。女性は japonesa です。" },
-        { "text": "Es japonesa.", "correct": false, "why": "es は「彼女は」の意味になります。自分のことは soy。" }
-      ]
-    },
-    {
-      "type": "choice", "prompt": "「私はエンジニアです」のふつうの言い方は？", "ja": "私はエンジニアです。",
-      "options": [
-        { "text": "Soy ingeniero.", "correct": true, "why": "職業名だけを言うときは、ふつう冠詞を付けません。" },
-        { "text": "Soy un ingeniero.", "correct": false, "why": "文法的には言えますが、英語（I am an engineer）と違い、職業名だけを言うときはふつう un を付けません。un を付けるのは Soy un buen ingeniero.（いいエンジニアです）のように形容詞が付くときです。" }
-      ]
-    },
-    {
-      "type": "order", "prompt": "並べ替えてください", "ja": "私は日本出身です。",
-      "tokens": ["Soy", "de", "Japón."], "accept": [],
-      "why": "出身は ser de ＋場所。主語の yo は省略できます。"
-    },
-    {
-      "type": "fill", "prompt": "形容詞を正しい形にしてください", "es": "Ella es ___（alto）.", "ja": "彼女は背が高い。",
-      "answers": ["alta"],
-      "why": "ella（女性・単数）に合わせて alto → alta。"
-    },
-    {
-      "type": "choice", "prompt": "🌎 中南米で「君たちは学生？」と聞くときは？", "ja": "君たちは学生？",
-      "options": [
-        { "text": "¿Ustedes son estudiantes?", "correct": true, "why": "中南米では vosotros を使わず、「君たち」も ustedes。動詞は son です。" },
-        { "text": "¿Vosotros sois estudiantes?", "correct": false, "why": "これはスペインの言い方。スペインでは正しいですが、中南米では使いません。" }
-      ]
+     "es": "Somos amigos.",
+     "ja": "私たちは友達です。"
     }
-  ],
-  "words": [
-    { "id": "yo", "es": "yo", "art": null, "ja": "私" },
-    { "id": "tu_pron", "es": "tú", "art": null, "ja": "君" },
-    { "id": "el_pron", "es": "él / ella", "art": null, "ja": "彼／彼女" },
-    { "id": "usted", "es": "usted", "art": null, "ja": "あなた（ていねい）" },
-    { "id": "nosotros", "es": "nosotros / nosotras", "art": null, "ja": "私たち" },
-    { "id": "vosotros", "es": "vosotros / vosotras", "art": null, "ja": "君たち（スペインのみ）", "latam": { "es": "ustedes", "art": null } },
-    { "id": "ellos", "es": "ellos / ellas", "art": null, "ja": "彼ら／彼女ら" },
-    { "id": "ustedes", "es": "ustedes", "art": null, "ja": "あなた方" },
-    { "id": "ser", "es": "ser", "art": null, "ja": "〜である（性質・国籍・職業）" },
-    { "id": "japones", "es": "japonés / japonesa", "art": null, "ja": "日本人（の）" },
-    { "id": "espanol", "es": "español / española", "art": null, "ja": "スペイン人（の）；スペイン語" },
-    { "id": "japon", "es": "Japón", "art": null, "ja": "日本" },
-    { "id": "ingeniero", "es": "ingeniero / ingeniera", "art": null, "ja": "エンジニア、技術者" },
-    { "id": "medico", "es": "médico / médica", "art": null, "ja": "医者" },
-    { "id": "profesor", "es": "profesor / profesora", "art": null, "ja": "先生" },
-    { "id": "alto", "es": "alto / alta", "art": null, "ja": "背が高い" },
-    { "id": "simpatico", "es": "simpático / simpática", "art": null, "ja": "感じがいい" },
-    { "id": "grande", "es": "grande", "art": null, "ja": "大きい" },
-    { "id": "pequeno", "es": "pequeño / pequeña", "art": null, "ja": "小さい" },
-    { "id": "de", "es": "de", "art": null, "ja": "〜の、〜から" }
-  ],
-  "phrases": [
-    { "es": "Soy de Japón.", "ja": "日本から来ました。", "scene": "自己紹介", "latam": null },
-    { "es": "Soy ingeniero.", "ja": "エンジニアです。", "scene": "自己紹介", "latam": null },
-    { "es": "¿De dónde eres?", "ja": "どこの出身？", "scene": "自己紹介", "latam": null },
-    { "es": "¿De dónde es usted?", "ja": "どちらのご出身ですか？", "scene": "自己紹介", "latam": null },
-    { "es": "Somos japoneses.", "ja": "私たちは日本人です。", "scene": "自己紹介", "latam": null }
-  ],
-  "speak": [
-    { "es": "Soy de Japón.", "ja": "日本出身です。", "tip": "Japón の j は喉の奥から、ó を強く。" },
-    { "es": "Soy ingeniero.", "ja": "私はエンジニアです。" },
-    { "es": "¿De dónde eres?", "ja": "どこの出身？" },
-    { "es": "Somos amigos.", "ja": "私たちは友達です。" }
-  ]
+   ]
+  },
+  {
+   "title": "主語はよく省略する",
+   "body": "動詞の形で主語が分かるので、**主語はふつう省略**します。Soy japonés. だけで「私は日本人です」。\n主語を言うのは、強調・対比したいとき（Yo soy japonés, y él es español.）や、es のように誰のことか分かりにくいときです。",
+   "examples": [
+    {
+     "es": "Soy ingeniero.",
+     "ja": "私はエンジニアです。"
+    },
+    {
+     "es": "Yo soy japonés y ella es española.",
+     "ja": "私は日本人で、彼女はスペイン人です。"
+    }
+   ]
+  },
+  {
+   "title": "ser を使う場面：変わらないこと",
+   "body": "ser は「その人・物が何者か、どんな性質か」を言うときに使います。\n・国籍・出身：Soy de Japón.（日本出身です）\n・職業：Es médico.（彼は医者です）\n・性格・見た目などの性質：Es simpática.（彼女は感じがいい）\n「今の気分・状態」には別の動詞 estar を使います（ユニット6）。",
+   "examples": [
+    {
+     "es": "Soy de Japón.",
+     "ja": "日本出身です。"
+    },
+    {
+     "es": "Ella es médica.",
+     "ja": "彼女は医者です。"
+    },
+    {
+     "es": "Es simpático.",
+     "ja": "彼は感じがいい。"
+    }
+   ]
+  },
+  {
+   "title": "形容詞・国籍も男女と数をそろえる",
+   "body": "形容詞は説明する人・物の **性と数** に合わせて形が変わります。\n・-o の形容詞：alto（男性）／ alta（女性）／ altos ／ altas\n・国籍：japonés ／ japonesa、español ／ española（女性は -a を足す。japonés は記号が消える）\n・-e や子音で終わる形容詞は男女同じ：grande、inteligente\n職業名だけを言うときは、ふつう冠詞を付けません：Soy ingeniero.（形容詞が付くと Soy un buen ingeniero. のように un を付けます）",
+   "examples": [
+    {
+     "es": "Ella es alta.",
+     "ja": "彼女は背が高い。"
+    },
+    {
+     "es": "Somos japoneses.",
+     "ja": "私たちは日本人です。"
+    },
+    {
+     "es": "La casa es grande.",
+     "ja": "その家は大きい。"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Yo ___ japonés.",
+   "ja": "私は日本人です。",
+   "options": [
+    {
+     "text": "soy",
+     "correct": true,
+     "why": "主語が yo（私）なので ser は soy。"
+    },
+    {
+     "text": "es",
+     "correct": false,
+     "why": "es は él・ella・usted の形。「私」には soy を使います。"
+    },
+    {
+     "text": "eres",
+     "correct": false,
+     "why": "eres は tú（君）の形です。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Nosotros ___ amigos.",
+   "ja": "私たちは友達です。",
+   "options": [
+    {
+     "text": "son",
+     "correct": false,
+     "why": "son は ellos・ellas・ustedes の形。「私たち」は somos。"
+    },
+    {
+     "text": "somos",
+     "correct": true,
+     "why": "nosotros（私たち）の ser は somos。"
+    },
+    {
+     "text": "es",
+     "correct": false,
+     "why": "es は él・ella・usted の形です。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Tú ___ estudiante?",
+   "ja": "君は学生？",
+   "options": [
+    {
+     "text": "es",
+     "correct": false,
+     "why": "es は él・ella・usted の形。tú には eres。"
+    },
+    {
+     "text": "soy",
+     "correct": false,
+     "why": "soy は yo（私）の形です。"
+    },
+    {
+     "text": "eres",
+     "correct": true,
+     "why": "tú（君）の ser は eres。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "取引先の方に「あなたはスペイン人ですか？」",
+   "es": "¿Usted ___ español?",
+   "ja": "あなたはスペイン人ですか？",
+   "options": [
+    {
+     "text": "es",
+     "correct": true,
+     "why": "usted は「あなた」でも、動詞は él・ella と同じ形 es を使います。"
+    },
+    {
+     "text": "eres",
+     "correct": false,
+     "why": "eres は tú の形。usted には es を使います。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "女性が自分の国籍を言うときは？",
+   "ja": "私は日本人です（話し手は女性）。",
+   "options": [
+    {
+     "text": "Soy japonesa.",
+     "correct": true,
+     "why": "話し手が女性なので japonés に -a を足して japonesa。記号は消えます。"
+    },
+    {
+     "text": "Soy japonés.",
+     "correct": false,
+     "why": "japonés は男性形。女性は japonesa です。"
+    },
+    {
+     "text": "Es japonesa.",
+     "correct": false,
+     "why": "es は「彼女は」の意味になります。自分のことは soy。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "「私はエンジニアです」のふつうの言い方は？",
+   "ja": "私はエンジニアです。",
+   "options": [
+    {
+     "text": "Soy ingeniero.",
+     "correct": true,
+     "why": "職業名だけを言うときは、ふつう冠詞を付けません。"
+    },
+    {
+     "text": "Soy un ingeniero.",
+     "correct": false,
+     "why": "文法的には言えますが、英語（I am an engineer）と違い、職業名だけを言うときはふつう un を付けません。un を付けるのは Soy un buen ingeniero.（いいエンジニアです）のように形容詞が付くときです。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "私は日本出身です。",
+   "tokens": [
+    "Soy",
+    "de",
+    "Japón."
+   ],
+   "accept": [],
+   "why": "出身は ser de ＋場所。主語の yo は省略できます。"
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入る alto の形は？",
+   "es": "Ella es ___（alto）.",
+   "ja": "彼女は背が高い。",
+   "options": [
+    {
+     "text": "alto",
+     "correct": false,
+     "why": "alto は男性形。ella（女性）には alta。"
+    },
+    {
+     "text": "alta",
+     "correct": true,
+     "why": "ella（女性・単数）に合わせて alto → alta。"
+    },
+    {
+     "text": "altas",
+     "correct": false,
+     "why": "altas は女性の複数形。ella は1人なので alta。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "🌎 中南米で「君たちは学生？」と聞くときは？",
+   "ja": "君たちは学生？",
+   "options": [
+    {
+     "text": "¿Ustedes son estudiantes?",
+     "correct": true,
+     "why": "中南米では vosotros を使わず、「君たち」も ustedes。動詞は son です。"
+    },
+    {
+     "text": "¿Vosotros sois estudiantes?",
+     "correct": false,
+     "why": "これはスペインの言い方。スペインでは正しいですが、中南米では使いません。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "yo",
+   "es": "yo",
+   "art": null,
+   "ja": "私"
+  },
+  {
+   "id": "tu_pron",
+   "es": "tú",
+   "art": null,
+   "ja": "君"
+  },
+  {
+   "id": "el_pron",
+   "es": "él / ella",
+   "art": null,
+   "ja": "彼／彼女"
+  },
+  {
+   "id": "usted",
+   "es": "usted",
+   "art": null,
+   "ja": "あなた（ていねい）"
+  },
+  {
+   "id": "nosotros",
+   "es": "nosotros / nosotras",
+   "art": null,
+   "ja": "私たち"
+  },
+  {
+   "id": "vosotros",
+   "es": "vosotros / vosotras",
+   "art": null,
+   "ja": "君たち（スペインのみ）",
+   "latam": {
+    "es": "ustedes",
+    "art": null
+   }
+  },
+  {
+   "id": "ellos",
+   "es": "ellos / ellas",
+   "art": null,
+   "ja": "彼ら／彼女ら"
+  },
+  {
+   "id": "ustedes",
+   "es": "ustedes",
+   "art": null,
+   "ja": "あなた方"
+  },
+  {
+   "id": "ser",
+   "es": "ser",
+   "art": null,
+   "ja": "〜である（性質・国籍・職業）"
+  },
+  {
+   "id": "japones",
+   "es": "japonés / japonesa",
+   "art": null,
+   "ja": "日本人（の）"
+  },
+  {
+   "id": "espanol",
+   "es": "español / española",
+   "art": null,
+   "ja": "スペイン人（の）；スペイン語"
+  },
+  {
+   "id": "japon",
+   "es": "Japón",
+   "art": null,
+   "ja": "日本"
+  },
+  {
+   "id": "ingeniero",
+   "es": "ingeniero / ingeniera",
+   "art": null,
+   "ja": "エンジニア、技術者"
+  },
+  {
+   "id": "medico",
+   "es": "médico / médica",
+   "art": null,
+   "ja": "医者"
+  },
+  {
+   "id": "profesor",
+   "es": "profesor / profesora",
+   "art": null,
+   "ja": "先生"
+  },
+  {
+   "id": "alto",
+   "es": "alto / alta",
+   "art": null,
+   "ja": "背が高い"
+  },
+  {
+   "id": "simpatico",
+   "es": "simpático / simpática",
+   "art": null,
+   "ja": "感じがいい"
+  },
+  {
+   "id": "grande",
+   "es": "grande",
+   "art": null,
+   "ja": "大きい"
+  },
+  {
+   "id": "pequeno",
+   "es": "pequeño / pequeña",
+   "art": null,
+   "ja": "小さい"
+  },
+  {
+   "id": "de",
+   "es": "de",
+   "art": null,
+   "ja": "〜の、〜から"
+  }
+ ],
+ "phrases": [
+  {
+   "es": "Soy de Japón.",
+   "ja": "日本から来ました。",
+   "scene": "自己紹介",
+   "latam": null
+  },
+  {
+   "es": "Soy ingeniero.",
+   "ja": "エンジニアです。",
+   "scene": "自己紹介",
+   "latam": null
+  },
+  {
+   "es": "¿De dónde eres?",
+   "ja": "どこの出身？",
+   "scene": "自己紹介",
+   "latam": null
+  },
+  {
+   "es": "¿De dónde es usted?",
+   "ja": "どちらのご出身ですか？",
+   "scene": "自己紹介",
+   "latam": null
+  },
+  {
+   "es": "Somos japoneses.",
+   "ja": "私たちは日本人です。",
+   "scene": "自己紹介",
+   "latam": null
+  }
+ ],
+ "speak": [
+  {
+   "es": "Soy de Japón.",
+   "ja": "日本出身です。",
+   "tip": "Japón の j は喉の奥から、ó を強く。"
+  },
+  {
+   "es": "Soy ingeniero.",
+   "ja": "私はエンジニアです。"
+  },
+  {
+   "es": "¿De dónde eres?",
+   "ja": "どこの出身？"
+  },
+  {
+   "es": "Somos amigos.",
+   "ja": "私たちは友達です。"
+  }
+ ]
 }

@@ -1,148 +1,471 @@
 {
-  "id": "u08", "no": 8, "title": "数字・時刻・曜日",
-  "summary": "0〜100の数え方、時刻の言い方（Es la una / Son las 〜）、曜日。",
-  "explain": [
+ "id": "u08",
+ "no": 8,
+ "title": "数字・時刻・曜日",
+ "summary": "0〜100の数え方、時刻の言い方（Es la una / Son las 〜）、曜日。",
+ "explain": [
+  {
+   "title": "0〜15は丸ごと覚える",
+   "body": "0 **cero**、1 **uno**、2 **dos**、3 **tres**、4 **cuatro**、5 **cinco**、6 **seis**、7 **siete**、8 **ocho**、9 **nueve**、10 **diez**\n11 **once**、12 **doce**、13 **trece**、14 **catorce**、15 **quince**\n1 は名詞の前で形が変わります：**un** libro（男性）、**una** mesa（女性）。",
+   "examples": [
     {
-      "title": "0〜15は丸ごと覚える",
-      "body": "0 **cero**、1 **uno**、2 **dos**、3 **tres**、4 **cuatro**、5 **cinco**、6 **seis**、7 **siete**、8 **ocho**、9 **nueve**、10 **diez**\n11 **once**、12 **doce**、13 **trece**、14 **catorce**、15 **quince**\n1 は名詞の前で形が変わります：**un** libro（男性）、**una** mesa（女性）。",
-      "examples": [
-        { "es": "uno, dos, tres", "ja": "1, 2, 3" },
-        { "es": "Una cerveza, por favor.", "ja": "ビールを1杯ください。" }
-      ]
+     "es": "uno, dos, tres",
+     "ja": "1, 2, 3"
     },
     {
-      "title": "16〜100はしくみで作る",
-      "body": "・16〜19：**dieci** ＋ 1の位（1語）：dieciséis（16）、diecisiete（17）\n・20：**veinte**、21〜29：**veinti** ＋ 1の位（1語）：veintiuno（21）、veintidós（22）\n・30〜90：treinta（30）、cuarenta、cincuenta、sesenta、setenta、ochenta、noventa\n・31 以降は **y** でつなぐ（3語）：treinta **y** uno（31）、cuarenta **y** cinco（45）\n・100：**cien**",
-      "examples": [
-        { "es": "dieciséis", "ja": "16" },
-        { "es": "veintidós", "ja": "22" },
-        { "es": "treinta y cinco", "ja": "35" },
-        { "es": "cien", "ja": "100" }
-      ]
-    },
-    {
-      "title": "時刻：Es la una / Son las 〜",
-      "body": "「何時ですか？」は **¿Qué hora es?**\n・1時だけ単数：**Es la una.**\n・2時以降は複数：**Son las dos.** **Son las tres.**\nla / las は hora（時間・女性名詞）を指しています。\n分は y でつなぎます：Son las tres **y diez**（3時10分）。\n・**y cuarto**（15分）、**y media**（半）、**menos cuarto**（15分前）：Son las cuatro menos cuarto.（3時45分）",
-      "examples": [
-        { "es": "¿Qué hora es?", "ja": "何時ですか？" },
-        { "es": "Es la una y media.", "ja": "1時半です。" },
-        { "es": "Son las ocho y cuarto.", "ja": "8時15分です。" }
-      ]
-    },
-    {
-      "title": "「〜時に」は a las 〜",
-      "body": "予定の時刻は **a la / a las**：\n・**A la una.**（1時に）\n・El tren llega **a las tres**.（電車は3時に着く）\n・¿**A qué hora** cenamos?（何時に夕食にする？）\n日常会話は12時間制がふつう。午前・午後を言いたいときは **de la mañana**（朝の）、**de la tarde**（午後の）、**de la noche**（夜の）を付けます。",
-      "examples": [
-        { "es": "¿A qué hora llega el tren?", "ja": "電車は何時に着きますか？" },
-        { "es": "A las nueve de la noche.", "ja": "夜の9時に。" }
-      ]
-    },
-    {
-      "title": "曜日は小文字で、el を付ける",
-      "body": "lunes（月）、martes（火）、miércoles（水）、jueves（木）、viernes（金）、sábado（土）、domingo（日）\n・曜日は **小文字**で書き、すべて男性名詞。\n・「〜曜日に」は前置詞なしで **el**：**El lunes** trabajo.（月曜に働く）\n・「毎週〜曜日に」は **los**：**Los sábados** viajo.（土曜はいつも旅行する）\n・「今日は月曜日です」は Hoy es lunes.（冠詞なし）",
-      "examples": [
-        { "es": "Hoy es viernes.", "ja": "今日は金曜日です。" },
-        { "es": "El lunes trabajo en Madrid.", "ja": "月曜日はマドリードで働きます。" },
-        { "es": "Los domingos no trabajo.", "ja": "日曜日はいつも働きません。" }
-      ]
+     "es": "Una cerveza, por favor.",
+     "ja": "ビールを1杯ください。"
     }
-  ],
-  "practice": [
+   ]
+  },
+  {
+   "title": "16〜100はしくみで作る",
+   "body": "・16〜19：**dieci** ＋ 1の位（1語）：dieciséis（16）、diecisiete（17）\n・20：**veinte**、21〜29：**veinti** ＋ 1の位（1語）：veintiuno（21）、veintidós（22）\n・30〜90：treinta（30）、cuarenta、cincuenta、sesenta、setenta、ochenta、noventa\n・31 以降は **y** でつなぐ（3語）：treinta **y** uno（31）、cuarenta **y** cinco（45）\n・100：**cien**",
+   "examples": [
     {
-      "type": "choice", "prompt": "「1時です」はどれ？", "ja": "1時です。",
-      "options": [
-        { "text": "Es la una.", "correct": true, "why": "1時だけは単数なので es と la。" },
-        { "text": "Son las una.", "correct": false, "why": "son las は2時以降の複数の時刻に使います。1時は Es la una。" }
-      ]
+     "es": "dieciséis",
+     "ja": "16"
     },
     {
-      "type": "fill", "prompt": "空欄を埋めてください", "es": "___ las tres.", "ja": "3時です。",
-      "answers": ["son"],
-      "why": "2時以降は複数なので son las 〜。"
+     "es": "veintidós",
+     "ja": "22"
     },
     {
-      "type": "choice", "prompt": "「8時半です」はどれ？", "ja": "8時半です。",
-      "options": [
-        { "text": "Son las ocho y media.", "correct": true, "why": "半は y media。8時は複数なので son las。" },
-        { "text": "Son las ocho y cuarto.", "correct": false, "why": "y cuarto は「15分」。半は y media です。" },
-        { "text": "Son las ocho menos media.", "correct": false, "why": "menos は「〜分前」。menos media という言い方はしません。" }
-      ]
+     "es": "treinta y cinco",
+     "ja": "35"
     },
     {
-      "type": "choice", "prompt": "「3時45分です」はどれ？", "ja": "3時45分です。",
-      "options": [
-        { "text": "Son las cuatro menos cuarto.", "correct": true, "why": "45分は次の時刻の「15分前」で言うのがふつう。4時の menos cuarto。" },
-        { "text": "Son las tres menos cuarto.", "correct": false, "why": "これは「3時15分前」＝2時45分です。" }
-      ]
-    },
-    {
-      "type": "fill", "prompt": "数字をスペイン語で書いてください", "es": "___（16）", "ja": "16",
-      "answers": ["dieciséis"],
-      "why": "16〜19は dieci ＋ 1の位を1語で。dieciséis は最後の é に記号が付きます。"
-    },
-    {
-      "type": "fill", "prompt": "数字をスペイン語で書いてください", "es": "___（31）", "ja": "31",
-      "answers": ["treinta y uno"],
-      "why": "31 以降は 10の位 ＋ y ＋ 1の位の3語：treinta y uno。"
-    },
-    {
-      "type": "order", "prompt": "並べ替えてください", "ja": "電車は何時に着きますか？",
-      "tokens": ["¿A", "qué", "hora", "llega", "el", "tren?"], "accept": [],
-      "why": "「何時に」は a qué hora を文頭に。その後に動詞 llega、主語 el tren。"
-    },
-    {
-      "type": "choice", "prompt": "「月曜日に働きます」はどれ？", "ja": "月曜日に働きます。",
-      "options": [
-        { "text": "El lunes trabajo.", "correct": true, "why": "「〜曜日に」は前置詞なしで el ＋曜日。" },
-        { "text": "En lunes trabajo.", "correct": false, "why": "曜日には en を付けません。el lunes で「月曜日に」になります。" },
-        { "text": "El Lunes trabajo.", "correct": false, "why": "曜日は小文字で書きます：lunes。" }
-      ]
-    },
-    {
-      "type": "choice", "prompt": "「本を1冊」はどれ？", "ja": "本1冊",
-      "options": [
-        { "text": "un libro", "correct": true, "why": "1 は男性名詞の前で un になります。" },
-        { "text": "uno libro", "correct": false, "why": "uno は数を数えるときの形。名詞の前では un になります。" }
-      ]
+     "es": "cien",
+     "ja": "100"
     }
-  ],
-  "words": [
-    { "id": "cero", "es": "cero", "art": null, "ja": "0" },
-    { "id": "uno", "es": "uno", "art": null, "ja": "1（名詞の前で un / una）" },
-    { "id": "dos", "es": "dos", "art": null, "ja": "2" },
-    { "id": "tres", "es": "tres", "art": null, "ja": "3" },
-    { "id": "cuatro", "es": "cuatro", "art": null, "ja": "4" },
-    { "id": "cinco", "es": "cinco", "art": null, "ja": "5" },
-    { "id": "seis", "es": "seis", "art": null, "ja": "6" },
-    { "id": "siete", "es": "siete", "art": null, "ja": "7" },
-    { "id": "ocho", "es": "ocho", "art": null, "ja": "8" },
-    { "id": "nueve", "es": "nueve", "art": null, "ja": "9" },
-    { "id": "diez", "es": "diez", "art": null, "ja": "10" },
-    { "id": "quince", "es": "quince", "art": null, "ja": "15" },
-    { "id": "veinte", "es": "veinte", "art": null, "ja": "20" },
-    { "id": "cien", "es": "cien", "art": null, "ja": "100" },
-    { "id": "hora", "es": "hora", "art": "la", "ja": "時間、〜時" },
-    { "id": "lunes", "es": "lunes", "art": "el", "ja": "月曜日" },
-    { "id": "martes", "es": "martes", "art": "el", "ja": "火曜日" },
-    { "id": "miercoles", "es": "miércoles", "art": "el", "ja": "水曜日" },
-    { "id": "jueves", "es": "jueves", "art": "el", "ja": "木曜日" },
-    { "id": "viernes", "es": "viernes", "art": "el", "ja": "金曜日" },
-    { "id": "sabado", "es": "sábado", "art": "el", "ja": "土曜日" },
-    { "id": "domingo", "es": "domingo", "art": "el", "ja": "日曜日" },
-    { "id": "hoy", "es": "hoy", "art": null, "ja": "今日" },
-    { "id": "semana", "es": "semana", "art": "la", "ja": "週" }
-  ],
-  "phrases": [
-    { "es": "¿Qué hora es?", "ja": "何時ですか？", "scene": "時間", "latam": null },
-    { "es": "¿A qué hora abre?", "ja": "何時に開きますか？", "scene": "時間", "latam": null },
-    { "es": "¿A qué hora sale el tren?", "ja": "電車は何時に出ますか？", "scene": "駅", "latam": null },
-    { "es": "Hoy es lunes.", "ja": "今日は月曜日です。", "scene": "時間", "latam": null },
-    { "es": "Hasta el lunes.", "ja": "また月曜日に。", "scene": "別れ", "latam": null }
-  ],
-  "speak": [
-    { "es": "¿Qué hora es?", "ja": "何時ですか？" },
-    { "es": "Son las ocho y media.", "ja": "8時半です。" },
-    { "es": "Es la una y cuarto.", "ja": "1時15分です。" },
-    { "es": "¿A qué hora sale el tren?", "ja": "電車は何時に出ますか？" }
-  ]
+   ]
+  },
+  {
+   "title": "時刻：Es la una / Son las 〜",
+   "body": "「何時ですか？」は **¿Qué hora es?**\n・1時だけ単数：**Es la una.**\n・2時以降は複数：**Son las dos.** **Son las tres.**\nla / las は hora（時間・女性名詞）を指しています。\n分は y でつなぎます：Son las tres **y diez**（3時10分）。\n・**y cuarto**（15分）、**y media**（半）、**menos cuarto**（15分前）：Son las cuatro menos cuarto.（3時45分）",
+   "examples": [
+    {
+     "es": "¿Qué hora es?",
+     "ja": "何時ですか？"
+    },
+    {
+     "es": "Es la una y media.",
+     "ja": "1時半です。"
+    },
+    {
+     "es": "Son las ocho y cuarto.",
+     "ja": "8時15分です。"
+    }
+   ]
+  },
+  {
+   "title": "「〜時に」は a las 〜",
+   "body": "予定の時刻は **a la / a las**：\n・**A la una.**（1時に）\n・El tren llega **a las tres**.（電車は3時に着く）\n・¿**A qué hora** cenamos?（何時に夕食にする？）\n日常会話は12時間制がふつう。午前・午後を言いたいときは **de la mañana**（朝の）、**de la tarde**（午後の）、**de la noche**（夜の）を付けます。",
+   "examples": [
+    {
+     "es": "¿A qué hora llega el tren?",
+     "ja": "電車は何時に着きますか？"
+    },
+    {
+     "es": "A las nueve de la noche.",
+     "ja": "夜の9時に。"
+    }
+   ]
+  },
+  {
+   "title": "曜日は小文字で、el を付ける",
+   "body": "lunes（月）、martes（火）、miércoles（水）、jueves（木）、viernes（金）、sábado（土）、domingo（日）\n・曜日は **小文字**で書き、すべて男性名詞。\n・「〜曜日に」は前置詞なしで **el**：**El lunes** trabajo.（月曜に働く）\n・「毎週〜曜日に」は **los**：**Los sábados** viajo.（土曜はいつも旅行する）\n・「今日は月曜日です」は Hoy es lunes.（冠詞なし）",
+   "examples": [
+    {
+     "es": "Hoy es viernes.",
+     "ja": "今日は金曜日です。"
+    },
+    {
+     "es": "El lunes trabajo en Madrid.",
+     "ja": "月曜日はマドリードで働きます。"
+    },
+    {
+     "es": "Los domingos no trabajo.",
+     "ja": "日曜日はいつも働きません。"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "「1時です」はどれ？",
+   "ja": "1時です。",
+   "options": [
+    {
+     "text": "Es la una.",
+     "correct": true,
+     "why": "1時だけは単数なので es と la。"
+    },
+    {
+     "text": "Son las una.",
+     "correct": false,
+     "why": "son las は2時以降の複数の時刻に使います。1時は Es la una。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "___ las tres.",
+   "ja": "3時です。",
+   "options": [
+    {
+     "text": "Es",
+     "correct": false,
+     "why": "es la は1時のときだけ。3時は複数なので son las。"
+    },
+    {
+     "text": "Son",
+     "correct": true,
+     "why": "2時以降は複数なので son las 〜。"
+    },
+    {
+     "text": "Está",
+     "correct": false,
+     "why": "時刻を言うときは estar ではなく ser（es / son）を使います。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "「8時半です」はどれ？",
+   "ja": "8時半です。",
+   "options": [
+    {
+     "text": "Son las ocho y media.",
+     "correct": true,
+     "why": "半は y media。8時は複数なので son las。"
+    },
+    {
+     "text": "Son las ocho y cuarto.",
+     "correct": false,
+     "why": "y cuarto は「15分」。半は y media です。"
+    },
+    {
+     "text": "Son las ocho menos media.",
+     "correct": false,
+     "why": "menos は「〜分前」。menos media という言い方はしません。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "「3時45分です」はどれ？",
+   "ja": "3時45分です。",
+   "options": [
+    {
+     "text": "Son las cuatro menos cuarto.",
+     "correct": true,
+     "why": "45分は次の時刻の「15分前」で言うのがふつう。4時の menos cuarto。"
+    },
+    {
+     "text": "Son las tres menos cuarto.",
+     "correct": false,
+     "why": "これは「3時15分前」＝2時45分です。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "16 はどれ？",
+   "es": "___（16）",
+   "ja": "16",
+   "options": [
+    {
+     "text": "Diez y seis",
+     "correct": false,
+     "why": "16〜19は dieci ＋ 1の位を1語で書きます：dieciséis。"
+    },
+    {
+     "text": "Dieciséis",
+     "correct": true,
+     "why": "16〜19は dieci ＋ 1の位を1語で。dieciséis は最後の é に記号が付きます。"
+    },
+    {
+     "text": "Sesenta",
+     "correct": false,
+     "why": "sesenta は 60。16 は dieciséis。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "31 はどれ？",
+   "es": "___（31）",
+   "ja": "31",
+   "options": [
+    {
+     "text": "Treintiuno",
+     "correct": false,
+     "why": "1語にするのは 21〜29（veintiuno など）だけ。31 からは y でつないで3語。"
+    },
+    {
+     "text": "Trece y uno",
+     "correct": false,
+     "why": "trece は 13。30 は treinta なので treinta y uno。"
+    },
+    {
+     "text": "Treinta y uno",
+     "correct": true,
+     "why": "31 以降は 10の位 ＋ y ＋ 1の位の3語：treinta y uno。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "電車は何時に着きますか？",
+   "tokens": [
+    "¿A",
+    "qué",
+    "hora",
+    "llega",
+    "el",
+    "tren?"
+   ],
+   "accept": [],
+   "why": "「何時に」は a qué hora を文頭に。その後に動詞 llega、主語 el tren。"
+  },
+  {
+   "type": "choice",
+   "prompt": "「月曜日に働きます」はどれ？",
+   "ja": "月曜日に働きます。",
+   "options": [
+    {
+     "text": "El lunes trabajo.",
+     "correct": true,
+     "why": "「〜曜日に」は前置詞なしで el ＋曜日。"
+    },
+    {
+     "text": "En lunes trabajo.",
+     "correct": false,
+     "why": "曜日には en を付けません。el lunes で「月曜日に」になります。"
+    },
+    {
+     "text": "El Lunes trabajo.",
+     "correct": false,
+     "why": "曜日は小文字で書きます：lunes。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "「本を1冊」はどれ？",
+   "ja": "本1冊",
+   "options": [
+    {
+     "text": "un libro",
+     "correct": true,
+     "why": "1 は男性名詞の前で un になります。"
+    },
+    {
+     "text": "uno libro",
+     "correct": false,
+     "why": "uno は数を数えるときの形。名詞の前では un になります。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "cero",
+   "es": "cero",
+   "art": null,
+   "ja": "0"
+  },
+  {
+   "id": "uno",
+   "es": "uno",
+   "art": null,
+   "ja": "1（名詞の前で un / una）"
+  },
+  {
+   "id": "dos",
+   "es": "dos",
+   "art": null,
+   "ja": "2"
+  },
+  {
+   "id": "tres",
+   "es": "tres",
+   "art": null,
+   "ja": "3"
+  },
+  {
+   "id": "cuatro",
+   "es": "cuatro",
+   "art": null,
+   "ja": "4"
+  },
+  {
+   "id": "cinco",
+   "es": "cinco",
+   "art": null,
+   "ja": "5"
+  },
+  {
+   "id": "seis",
+   "es": "seis",
+   "art": null,
+   "ja": "6"
+  },
+  {
+   "id": "siete",
+   "es": "siete",
+   "art": null,
+   "ja": "7"
+  },
+  {
+   "id": "ocho",
+   "es": "ocho",
+   "art": null,
+   "ja": "8"
+  },
+  {
+   "id": "nueve",
+   "es": "nueve",
+   "art": null,
+   "ja": "9"
+  },
+  {
+   "id": "diez",
+   "es": "diez",
+   "art": null,
+   "ja": "10"
+  },
+  {
+   "id": "quince",
+   "es": "quince",
+   "art": null,
+   "ja": "15"
+  },
+  {
+   "id": "veinte",
+   "es": "veinte",
+   "art": null,
+   "ja": "20"
+  },
+  {
+   "id": "cien",
+   "es": "cien",
+   "art": null,
+   "ja": "100"
+  },
+  {
+   "id": "hora",
+   "es": "hora",
+   "art": "la",
+   "ja": "時間、〜時"
+  },
+  {
+   "id": "lunes",
+   "es": "lunes",
+   "art": "el",
+   "ja": "月曜日"
+  },
+  {
+   "id": "martes",
+   "es": "martes",
+   "art": "el",
+   "ja": "火曜日"
+  },
+  {
+   "id": "miercoles",
+   "es": "miércoles",
+   "art": "el",
+   "ja": "水曜日"
+  },
+  {
+   "id": "jueves",
+   "es": "jueves",
+   "art": "el",
+   "ja": "木曜日"
+  },
+  {
+   "id": "viernes",
+   "es": "viernes",
+   "art": "el",
+   "ja": "金曜日"
+  },
+  {
+   "id": "sabado",
+   "es": "sábado",
+   "art": "el",
+   "ja": "土曜日"
+  },
+  {
+   "id": "domingo",
+   "es": "domingo",
+   "art": "el",
+   "ja": "日曜日"
+  },
+  {
+   "id": "hoy",
+   "es": "hoy",
+   "art": null,
+   "ja": "今日"
+  },
+  {
+   "id": "semana",
+   "es": "semana",
+   "art": "la",
+   "ja": "週"
+  }
+ ],
+ "phrases": [
+  {
+   "es": "¿Qué hora es?",
+   "ja": "何時ですか？",
+   "scene": "時間",
+   "latam": null
+  },
+  {
+   "es": "¿A qué hora abre?",
+   "ja": "何時に開きますか？",
+   "scene": "時間",
+   "latam": null
+  },
+  {
+   "es": "¿A qué hora sale el tren?",
+   "ja": "電車は何時に出ますか？",
+   "scene": "駅",
+   "latam": null
+  },
+  {
+   "es": "Hoy es lunes.",
+   "ja": "今日は月曜日です。",
+   "scene": "時間",
+   "latam": null
+  },
+  {
+   "es": "Hasta el lunes.",
+   "ja": "また月曜日に。",
+   "scene": "別れ",
+   "latam": null
+  }
+ ],
+ "speak": [
+  {
+   "es": "¿Qué hora es?",
+   "ja": "何時ですか？"
+  },
+  {
+   "es": "Son las ocho y media.",
+   "ja": "8時半です。"
+  },
+  {
+   "es": "Es la una y cuarto.",
+   "ja": "1時15分です。"
+  },
+  {
+   "es": "¿A qué hora sale el tren?",
+   "ja": "電車は何時に出ますか？"
+  }
+ ]
 }

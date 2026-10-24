@@ -1,146 +1,439 @@
 {
-  "id": "u03", "no": 3, "title": "名詞の男女と冠詞",
-  "summary": "名詞には男性・女性がある。el / la / un / una の使い分けと複数形。",
-  "explain": [
+ "id": "u03",
+ "no": 3,
+ "title": "名詞の男女と冠詞",
+ "summary": "名詞には男性・女性がある。el / la / un / una の使い分けと複数形。",
+ "explain": [
+  {
+   "title": "すべての名詞に「性」がある",
+   "body": "スペイン語の名詞は、モノでも **男性名詞** か **女性名詞** のどちらかです。日本語にない考え方なので、最初はとまどいます。\n目安：\n・**-o** で終わる語はたいてい男性：el libro（本）\n・**-a** で終わる語はたいてい女性：la mesa（テーブル）\n・**-ción / -dad** で終わる語は女性：la estación（駅）、la universidad（大学）\n単語は **冠詞と一緒に** 覚えるのがコツです。",
+   "examples": [
     {
-      "title": "すべての名詞に「性」がある",
-      "body": "スペイン語の名詞は、モノでも **男性名詞** か **女性名詞** のどちらかです。日本語にない考え方なので、最初はとまどいます。\n目安：\n・**-o** で終わる語はたいてい男性：el libro（本）\n・**-a** で終わる語はたいてい女性：la mesa（テーブル）\n・**-ción / -dad** で終わる語は女性：la estación（駅）、la universidad（大学）\n単語は **冠詞と一緒に** 覚えるのがコツです。",
-      "examples": [
-        { "es": "el libro", "ja": "（その）本" },
-        { "es": "la mesa", "ja": "（その）テーブル" },
-        { "es": "la estación", "ja": "（その）駅" }
-      ]
+     "es": "el libro",
+     "ja": "（その）本"
     },
     {
-      "title": "例外もある",
-      "body": "目安に合わない語もあります。よく使うものだけ先に覚えましょう。\n・**el día**（日）、**el mapa**（地図）、**el problema**（問題）は -a でも男性\n・**la mano**（手）、**la foto**（写真）は -o でも女性\n・-e や子音で終わる語は形で決まらないので、冠詞ごと覚えます：el coche（車）、la noche（夜）",
-      "examples": [
-        { "es": "el día", "ja": "日" },
-        { "es": "la mano", "ja": "手" },
-        { "es": "el problema", "ja": "問題" }
-      ]
+     "es": "la mesa",
+     "ja": "（その）テーブル"
     },
     {
-      "title": "定冠詞 el / la と不定冠詞 un / una",
-      "body": "英語の the と a に当たるものが、名詞の性で形を変えます。\n・「その〜」（相手もどれか分かっている）：男性 **el**、女性 **la**\n・「ある〜／ひとつの〜」（初めて話題に出す）：男性 **un**、女性 **una**\n例：Tengo un coche.（車を1台持っている）→ El coche es rojo.（その車は赤い）",
-      "examples": [
-        { "es": "un libro", "ja": "（1冊の）本" },
-        { "es": "una mesa", "ja": "（1つの）テーブル" },
-        { "es": "el coche", "ja": "その車" }
-      ]
-    },
-    {
-      "title": "複数形：-s か -es を付ける",
-      "body": "・母音で終わる語は **-s**：libro → libros\n・子音で終わる語は **-es**：ciudad → ciudades\n・冠詞も複数形になります：el → **los**、la → **las**、un → **unos**、una → **unas**（unos / unas は「いくつかの」）\n・男女が混ざったグループは男性の複数形でまとめます：los amigos（男女の友達たち）",
-      "examples": [
-        { "es": "los libros", "ja": "（それらの）本" },
-        { "es": "las ciudades", "ja": "（それらの）都市" },
-        { "es": "unos amigos", "ja": "何人かの友達" }
-      ]
-    },
-    {
-      "title": "人は性別で語尾が変わる",
-      "body": "人を表す語は、相手の性別に合わせます。\n・el chico（男の子）／ la chica（女の子）\n・el amigo（男の友達）／ la amiga（女の友達）\n・-e や -ista で終わる語は形が同じで、冠詞だけ変わります：el estudiante ／ la estudiante",
-      "examples": [
-        { "es": "la amiga", "ja": "（女性の）友達" },
-        { "es": "el estudiante", "ja": "（男性の）学生" }
-      ]
-    },
-    {
-      "title": "🌎 中南米で単語が違うもの",
-      "body": "身の回りの物には、スペインと中南米で単語が違うものがあります。このアプリではスペインの語を基本にして、🌎 で中南米の語を添えます。\n・車：el coche（🌎 el carro / el auto）\n・パソコン：el ordenador（🌎 la computadora）\n・携帯電話：el móvil（🌎 el celular）\n・切符：el billete（🌎 el boleto）",
-      "examples": [
-        { "es": "el móvil", "ja": "携帯電話", "note": "🌎 中南米では el celular" },
-        { "es": "el ordenador", "ja": "パソコン", "note": "🌎 中南米では la computadora（女性名詞）" }
-      ]
+     "es": "la estación",
+     "ja": "（その）駅"
     }
-  ],
-  "practice": [
+   ]
+  },
+  {
+   "title": "例外もある",
+   "body": "目安に合わない語もあります。よく使うものだけ先に覚えましょう。\n・**el día**（日）、**el mapa**（地図）、**el problema**（問題）は -a でも男性\n・**la mano**（手）、**la foto**（写真）は -o でも女性\n・-e や子音で終わる語は形で決まらないので、冠詞ごと覚えます：el coche（車）、la noche（夜）",
+   "examples": [
     {
-      "type": "choice", "prompt": "空欄に入るのは？", "es": "___ libro", "ja": "その本",
-      "options": [
-        { "text": "el", "correct": true, "why": "libro は -o で終わる男性名詞なので el。" },
-        { "text": "la", "correct": false, "why": "la は女性名詞に付けます。libro は男性名詞です。" }
-      ]
+     "es": "el día",
+     "ja": "日"
     },
     {
-      "type": "choice", "prompt": "空欄に入るのは？", "es": "___ estación", "ja": "その駅",
-      "options": [
-        { "text": "la", "correct": true, "why": "-ción で終わる語は女性名詞なので la。" },
-        { "text": "el", "correct": false, "why": "-ción で終わる語は女性名詞。el は付けません。" }
-      ]
+     "es": "la mano",
+     "ja": "手"
     },
     {
-      "type": "choice", "prompt": "空欄に入るのは？", "es": "___ día", "ja": "その日",
-      "options": [
-        { "text": "el", "correct": true, "why": "día は -a で終わるのに男性名詞という例外。el día です。" },
-        { "text": "la", "correct": false, "why": "-a で終わると女性名詞のことが多いですが、día は例外で男性名詞です。" }
-      ]
-    },
-    {
-      "type": "choice", "prompt": "初めて話題に出すとき、空欄に入るのは？", "es": "Tengo ___ coche.", "ja": "私は車を（1台）持っています。",
-      "options": [
-        { "text": "un", "correct": true, "why": "初めて話題に出す「ある1台の車」なので不定冠詞。coche は男性名詞なので un。" },
-        { "text": "el", "correct": false, "why": "el は「その車」。相手がまだ知らない車には使いません。" },
-        { "text": "una", "correct": false, "why": "una は女性名詞用。coche は男性名詞です。" }
-      ]
-    },
-    {
-      "type": "fill", "prompt": "複数形にしてください", "es": "las ___（ciudad）", "ja": "都市（複数）",
-      "answers": ["ciudades"],
-      "why": "ciudad は子音 d で終わるので -es を付けて ciudades。"
-    },
-    {
-      "type": "fill", "prompt": "複数の冠詞を入れてください", "es": "___ libros", "ja": "それらの本",
-      "answers": ["los"],
-      "why": "男性の el の複数形は los。"
-    },
-    {
-      "type": "choice", "prompt": "空欄に入るのは？", "es": "___ mano", "ja": "その手",
-      "options": [
-        { "text": "la", "correct": true, "why": "mano は -o で終わるのに女性名詞という例外。la mano です。" },
-        { "text": "el", "correct": false, "why": "-o で終わると男性名詞のことが多いですが、mano は例外で女性名詞です。" }
-      ]
-    },
-    {
-      "type": "order", "prompt": "並べ替えてください", "ja": "マドリードに何人か友達がいます。",
-      "tokens": ["Tengo", "unos", "amigos", "en", "Madrid."], "accept": [],
-      "why": "unos は un の複数形で「いくつかの、何人かの」。名詞 amigos の前に置きます。"
-    },
-    {
-      "type": "choice", "prompt": "女性の友達を紹介します。空欄は？", "es": "Es ___ amiga.", "ja": "（彼女は）友達の一人です。",
-      "options": [
-        { "text": "una", "correct": true, "why": "amiga は女性なので una。「（何人かいる中の）一人の友達」なので不定冠詞です。" },
-        { "text": "un", "correct": false, "why": "un は男性名詞用。amiga（女性の友達）には una。" }
-      ]
+     "es": "el problema",
+     "ja": "問題"
     }
-  ],
-  "words": [
-    { "id": "libro", "es": "libro", "art": "el", "ja": "本" },
-    { "id": "estacion", "es": "estación", "art": "la", "ja": "駅" },
-    { "id": "universidad", "es": "universidad", "art": "la", "ja": "大学" },
-    { "id": "dia", "es": "día", "art": "el", "ja": "日（-a だが男性）" },
-    { "id": "mapa", "es": "mapa", "art": "el", "ja": "地図（-a だが男性）" },
-    { "id": "problema", "es": "problema", "art": "el", "ja": "問題（-a だが男性）" },
-    { "id": "mano", "es": "mano", "art": "la", "ja": "手（-o だが女性）" },
-    { "id": "foto", "es": "foto", "art": "la", "ja": "写真（-o だが女性）" },
-    { "id": "noche", "es": "noche", "art": "la", "ja": "夜" },
-    { "id": "coche", "es": "coche", "art": "el", "ja": "車", "latam": { "es": "carro", "art": "el", "note": "auto とも" } },
-    { "id": "ordenador", "es": "ordenador", "art": "el", "ja": "パソコン", "latam": { "es": "computadora", "art": "la" } },
-    { "id": "movil", "es": "móvil", "art": "el", "ja": "携帯電話", "latam": { "es": "celular", "art": "el" } },
-    { "id": "billete", "es": "billete", "art": "el", "ja": "切符；紙幣", "latam": { "es": "boleto", "art": "el", "note": "切符の意味で" } },
-    { "id": "chico", "es": "chico / chica", "art": null, "ja": "男の子／女の子" },
-    { "id": "amigo", "es": "amigo / amiga", "art": null, "ja": "友達（男性／女性）" },
-    { "id": "estudiante", "es": "estudiante", "art": null, "ja": "学生（el / la どちらも）" },
-    { "id": "hotel", "es": "hotel", "art": "el", "ja": "ホテル" },
-    { "id": "habitacion", "es": "habitación", "art": "la", "ja": "部屋" },
-    { "id": "tengo", "es": "tengo", "art": null, "ja": "私は持っている（tener の私の形）" }
-  ],
-  "phrases": [],
-  "speak": [
-    { "es": "la estación", "ja": "駅", "tip": "ción の ó を強く読みます。" },
-    { "es": "un coche", "ja": "1台の車" },
-    { "es": "las ciudades", "ja": "都市（複数）" },
-    { "es": "Tengo unos amigos en Madrid.", "ja": "マドリードに何人か友達がいます。" }
-  ]
+   ]
+  },
+  {
+   "title": "定冠詞 el / la と不定冠詞 un / una",
+   "body": "英語の the と a に当たるものが、名詞の性で形を変えます。\n・「その〜」（相手もどれか分かっている）：男性 **el**、女性 **la**\n・「ある〜／ひとつの〜」（初めて話題に出す）：男性 **un**、女性 **una**\n例：Tengo un coche.（車を1台持っている）→ El coche es rojo.（その車は赤い）",
+   "examples": [
+    {
+     "es": "un libro",
+     "ja": "（1冊の）本"
+    },
+    {
+     "es": "una mesa",
+     "ja": "（1つの）テーブル"
+    },
+    {
+     "es": "el coche",
+     "ja": "その車"
+    }
+   ]
+  },
+  {
+   "title": "複数形：-s か -es を付ける",
+   "body": "・母音で終わる語は **-s**：libro → libros\n・子音で終わる語は **-es**：ciudad → ciudades\n・冠詞も複数形になります：el → **los**、la → **las**、un → **unos**、una → **unas**（unos / unas は「いくつかの」）\n・男女が混ざったグループは男性の複数形でまとめます：los amigos（男女の友達たち）",
+   "examples": [
+    {
+     "es": "los libros",
+     "ja": "（それらの）本"
+    },
+    {
+     "es": "las ciudades",
+     "ja": "（それらの）都市"
+    },
+    {
+     "es": "unos amigos",
+     "ja": "何人かの友達"
+    }
+   ]
+  },
+  {
+   "title": "人は性別で語尾が変わる",
+   "body": "人を表す語は、相手の性別に合わせます。\n・el chico（男の子）／ la chica（女の子）\n・el amigo（男の友達）／ la amiga（女の友達）\n・-e や -ista で終わる語は形が同じで、冠詞だけ変わります：el estudiante ／ la estudiante",
+   "examples": [
+    {
+     "es": "la amiga",
+     "ja": "（女性の）友達"
+    },
+    {
+     "es": "el estudiante",
+     "ja": "（男性の）学生"
+    }
+   ]
+  },
+  {
+   "title": "🌎 中南米で単語が違うもの",
+   "body": "身の回りの物には、スペインと中南米で単語が違うものがあります。このアプリではスペインの語を基本にして、🌎 で中南米の語を添えます。\n・車：el coche（🌎 el carro / el auto）\n・パソコン：el ordenador（🌎 la computadora）\n・携帯電話：el móvil（🌎 el celular）\n・切符：el billete（🌎 el boleto）",
+   "examples": [
+    {
+     "es": "el móvil",
+     "ja": "携帯電話",
+     "note": "🌎 中南米では el celular"
+    },
+    {
+     "es": "el ordenador",
+     "ja": "パソコン",
+     "note": "🌎 中南米では la computadora（女性名詞）"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "___ libro",
+   "ja": "その本",
+   "options": [
+    {
+     "text": "el",
+     "correct": true,
+     "why": "libro は -o で終わる男性名詞なので el。"
+    },
+    {
+     "text": "la",
+     "correct": false,
+     "why": "la は女性名詞に付けます。libro は男性名詞です。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "___ estación",
+   "ja": "その駅",
+   "options": [
+    {
+     "text": "la",
+     "correct": true,
+     "why": "-ción で終わる語は女性名詞なので la。"
+    },
+    {
+     "text": "el",
+     "correct": false,
+     "why": "-ción で終わる語は女性名詞。el は付けません。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "___ día",
+   "ja": "その日",
+   "options": [
+    {
+     "text": "el",
+     "correct": true,
+     "why": "día は -a で終わるのに男性名詞という例外。el día です。"
+    },
+    {
+     "text": "la",
+     "correct": false,
+     "why": "-a で終わると女性名詞のことが多いですが、día は例外で男性名詞です。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "初めて話題に出すとき、空欄に入るのは？",
+   "es": "Tengo ___ coche.",
+   "ja": "私は車を（1台）持っています。",
+   "options": [
+    {
+     "text": "un",
+     "correct": true,
+     "why": "初めて話題に出す「ある1台の車」なので不定冠詞。coche は男性名詞なので un。"
+    },
+    {
+     "text": "el",
+     "correct": false,
+     "why": "el は「その車」。相手がまだ知らない車には使いません。"
+    },
+    {
+     "text": "una",
+     "correct": false,
+     "why": "una は女性名詞用。coche は男性名詞です。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "ciudad の複数形は？",
+   "es": "las ___（ciudad）",
+   "ja": "都市（複数）",
+   "options": [
+    {
+     "text": "ciudads",
+     "correct": false,
+     "why": "子音で終わる語は -s ではなく -es を付けます。"
+    },
+    {
+     "text": "ciudades",
+     "correct": true,
+     "why": "ciudad は子音 d で終わるので -es を付けて ciudades。"
+    },
+    {
+     "text": "ciudad",
+     "correct": false,
+     "why": "las（複数の冠詞）に合わせて名詞も複数形にします。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "___ libros",
+   "ja": "それらの本",
+   "options": [
+    {
+     "text": "Las",
+     "correct": false,
+     "why": "las は女性名詞の複数用。libro は男性名詞なので los。"
+    },
+    {
+     "text": "El",
+     "correct": false,
+     "why": "el は単数用。libros（複数）には los。"
+    },
+    {
+     "text": "Los",
+     "correct": true,
+     "why": "男性の el の複数形は los。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "___ mano",
+   "ja": "その手",
+   "options": [
+    {
+     "text": "la",
+     "correct": true,
+     "why": "mano は -o で終わるのに女性名詞という例外。la mano です。"
+    },
+    {
+     "text": "el",
+     "correct": false,
+     "why": "-o で終わると男性名詞のことが多いですが、mano は例外で女性名詞です。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "マドリードに何人か友達がいます。",
+   "tokens": [
+    "Tengo",
+    "unos",
+    "amigos",
+    "en",
+    "Madrid."
+   ],
+   "accept": [],
+   "why": "unos は un の複数形で「いくつかの、何人かの」。名詞 amigos の前に置きます。"
+  },
+  {
+   "type": "choice",
+   "prompt": "女性の友達を紹介します。空欄は？",
+   "es": "Es ___ amiga.",
+   "ja": "（彼女は）友達の一人です。",
+   "options": [
+    {
+     "text": "una",
+     "correct": true,
+     "why": "amiga は女性なので una。「（何人かいる中の）一人の友達」なので不定冠詞です。"
+    },
+    {
+     "text": "un",
+     "correct": false,
+     "why": "un は男性名詞用。amiga（女性の友達）には una。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "libro",
+   "es": "libro",
+   "art": "el",
+   "ja": "本"
+  },
+  {
+   "id": "estacion",
+   "es": "estación",
+   "art": "la",
+   "ja": "駅"
+  },
+  {
+   "id": "universidad",
+   "es": "universidad",
+   "art": "la",
+   "ja": "大学"
+  },
+  {
+   "id": "dia",
+   "es": "día",
+   "art": "el",
+   "ja": "日（-a だが男性）"
+  },
+  {
+   "id": "mapa",
+   "es": "mapa",
+   "art": "el",
+   "ja": "地図（-a だが男性）"
+  },
+  {
+   "id": "problema",
+   "es": "problema",
+   "art": "el",
+   "ja": "問題（-a だが男性）"
+  },
+  {
+   "id": "mano",
+   "es": "mano",
+   "art": "la",
+   "ja": "手（-o だが女性）"
+  },
+  {
+   "id": "foto",
+   "es": "foto",
+   "art": "la",
+   "ja": "写真（-o だが女性）"
+  },
+  {
+   "id": "noche",
+   "es": "noche",
+   "art": "la",
+   "ja": "夜"
+  },
+  {
+   "id": "coche",
+   "es": "coche",
+   "art": "el",
+   "ja": "車",
+   "latam": {
+    "es": "carro",
+    "art": "el",
+    "note": "auto とも"
+   }
+  },
+  {
+   "id": "ordenador",
+   "es": "ordenador",
+   "art": "el",
+   "ja": "パソコン",
+   "latam": {
+    "es": "computadora",
+    "art": "la"
+   }
+  },
+  {
+   "id": "movil",
+   "es": "móvil",
+   "art": "el",
+   "ja": "携帯電話",
+   "latam": {
+    "es": "celular",
+    "art": "el"
+   }
+  },
+  {
+   "id": "billete",
+   "es": "billete",
+   "art": "el",
+   "ja": "切符；紙幣",
+   "latam": {
+    "es": "boleto",
+    "art": "el",
+    "note": "切符の意味で"
+   }
+  },
+  {
+   "id": "chico",
+   "es": "chico / chica",
+   "art": null,
+   "ja": "男の子／女の子"
+  },
+  {
+   "id": "amigo",
+   "es": "amigo / amiga",
+   "art": null,
+   "ja": "友達（男性／女性）"
+  },
+  {
+   "id": "estudiante",
+   "es": "estudiante",
+   "art": null,
+   "ja": "学生（el / la どちらも）"
+  },
+  {
+   "id": "hotel",
+   "es": "hotel",
+   "art": "el",
+   "ja": "ホテル"
+  },
+  {
+   "id": "habitacion",
+   "es": "habitación",
+   "art": "la",
+   "ja": "部屋"
+  },
+  {
+   "id": "tengo",
+   "es": "tengo",
+   "art": null,
+   "ja": "私は持っている（tener の私の形）"
+  }
+ ],
+ "phrases": [],
+ "speak": [
+  {
+   "es": "la estación",
+   "ja": "駅",
+   "tip": "ción の ó を強く読みます。"
+  },
+  {
+   "es": "un coche",
+   "ja": "1台の車"
+  },
+  {
+   "es": "las ciudades",
+   "ja": "都市（複数）"
+  },
+  {
+   "es": "Tengo unos amigos en Madrid.",
+   "ja": "マドリードに何人か友達がいます。"
+  }
+ ]
 }

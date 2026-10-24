@@ -52,3 +52,8 @@ export function fillSentence(es, word) {
   const atStart = /^[¿¡]?___/.test(s);
   return s.replace('___', atStart ? word.charAt(0).toUpperCase() + word.slice(1) : word);
 }
+
+// 読み上げてよいスペイン語の文か（日本語の文字を含むものは読まない）
+export function isSpanish(s) {
+  return !/[぀-ヿ㐀-鿿！-｠]/.test(s);
+}

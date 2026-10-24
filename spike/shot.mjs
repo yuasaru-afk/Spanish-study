@@ -6,6 +6,7 @@ import { spawn, spawnSync } from 'node:child_process';
 import { readFileSync, writeFileSync, mkdirSync, mkdtempSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 const EDGE = 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe';
 const BASE = 'http://127.0.0.1:8766/';
@@ -64,3 +65,7 @@ async function shoot(job, port) {
 }
 
 for (const [i, job] of jobs.entries()) await shoot(job, 9333 + i);
+
+// taskkill /T でも子 Edge が残ることがある（2026-10-24 に20個残った）。最後に一時フォルダで絞って全部止める
+const r = spawnSync('powershell', ['-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', fileURLToPath(new URL('./cleanup-edge.ps1', import.meta.url))], { encoding: 'utf8' });
+console.log((r.stdout || '').trim() || r.stderr);
