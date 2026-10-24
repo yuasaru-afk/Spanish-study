@@ -56,3 +56,18 @@ test('穴埋め（キーボード入力）は使わない', () => {
   const u = good(); u.practice.push({ type: 'fill', prompt: 'p', es: 'Yo ___.', ja: 'j', answers: ['soy'], why: 'w' });
   assert.match(errs(u), /fill/);
 });
+
+test('文法の要点 points が無い', () => {
+  const u = good(); delete u.points;
+  assert.match(errs(u), /points/);
+});
+
+test('文法の要点の lines が空', () => {
+  const u = good(); u.points.lines = [];
+  assert.match(errs(u), /points/);
+});
+
+test('文法の要点の例文にカタカナ', () => {
+  const u = good(); u.points.examples[0].es = 'Soy（ソイ）';
+  assert.match(errs(u), /カタカナ/);
+});

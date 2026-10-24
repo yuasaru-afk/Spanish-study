@@ -1,5 +1,5 @@
 // 学習記録。端末の localStorage だけに置く。状態は毎回新しいオブジェクトで返す
-import { XP } from './progress.js';
+import { XP, learnedCount, newBadges } from './progress.js';
 import { gradeCard } from './srs.js';
 
 const KEY = 'es-app-v1';
@@ -163,4 +163,12 @@ export function importJson(text) {
   try { s = JSON.parse(text); } catch { s = null; }
   if (!looksLikeState(s)) throw new Error('このファイルは読み込めません');
   return sanitize(s);
+}
+
+// 達成したバッジを記録に足す。earned は今回新しく取ったもの（お祝い表示用）
+export function awardBadges(state) {
+  const earned = newBadges(state.badges, {
+    learned: learnedCount(state.cards), streak: state.streak.count, firstDone: state.firstDone, reviews: state.reviews,
+  });
+  return { state: earned.length ? { ...state, badges: [...state.badges, ...earned] } : state, earned };
 }

@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   defaultState, load, save, setResume, setPosition, finishUnit, touchStreak, exportJson, importJson,
-  addXp, recordAnswer, checkWord, completeLesson, completeReview, migrateStage,
+  addXp, recordAnswer, checkWord, completeLesson, completeReview, migrateStage, awardBadges,
 } from '../js/store.js';
 
 const fake = (init = {}) => {
@@ -185,4 +185,13 @@ test('単語段の対象語 ids は残し、壊れた中身は捨てる', () => 
   const st = importJson(JSON.stringify(s));
   assert.deepEqual(st.units.u02.pos, { stage: 'words', index: 1, ids: ['casa', 'mesa'] });
   assert.deepEqual([st.xp, st.mistakes, st.badges, st.answered], [0, ['u01:1'], ['words25'], { 'u01:1': 100 }]);
+});
+
+test('awardBadges: 達成したバッジを足して、新しく取った分を返す', () => {
+  const cards = Object.fromEntries(Array.from({ length: 25 }, (_, i) => [`w${i}`, { step: 1, due: 1 }]));
+  const st = { ...defaultState(), cards, badges: ['streak3'], streak: { lastDay: 1, count: 3 }, firstDone: 3 };
+  const { state, earned } = awardBadges(st);
+  assert.deepEqual(earned, ['words25', 'units3']);
+  assert.deepEqual(state.badges, ['streak3', 'words25', 'units3']);
+  assert.deepEqual(awardBadges(state).earned, []);
 });

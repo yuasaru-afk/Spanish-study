@@ -3,6 +3,18 @@
  "no": 90,
  "title": "見本",
  "summary": "検査用の見本ユニット",
+ "points": {
+  "lines": [
+   "変わらない性質は ser",
+   "今の状態は estar"
+  ],
+  "examples": [
+   {
+    "es": "Soy japonés.",
+    "ja": "私は日本人です。"
+   }
+  ]
+ },
  "explain": [
   {
    "title": "ser と estar",
