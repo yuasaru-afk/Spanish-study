@@ -39,13 +39,14 @@ await send('Emulation.setDeviceMetricsOverride', { width: 390, height: 844, devi
 
 for (const job of jobs) {
   await send('Emulation.setEmulatedMedia', { features: [{ name: 'prefers-color-scheme', value: job.dark ? 'dark' : 'light' }] });
-  await send('Page.navigate', { url: BASE });
+  await send('Page.navigate', { url: BASE + 'manifest.webmanifest' });
   await wait(600);
   await evalJs(`localStorage.clear(); localStorage.setItem('es-app-install-hint','1'); ${job.state ? `localStorage.setItem('es-app-v1', ${JSON.stringify(JSON.stringify(job.state))});` : ''} true`);
   await send('Page.navigate', { url: BASE + (job.hash || '#/') });
   await send('Page.reload');
   await wait(900);
   for (const step of job.steps || []) { await evalJs(step); await wait(400); }
+  console.log(await evalJs("(window.__h1||\"\")+\" | after: \"+location.hash+\" \"+localStorage.getItem(\"es-app-v1\")"));
   const errs = await evalJs('window.__errors || []');
   if (errs?.length) console.log('page errors:', errs);
   const shot = await send('Page.captureScreenshot', { format: 'png' });

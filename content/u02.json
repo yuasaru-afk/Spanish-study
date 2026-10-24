@@ -1,0 +1,84 @@
+{
+ "id": "u02",
+ "no": 2,
+ "title": "レストランで（仮）",
+ "summary": "検査用の見本ユニット",
+ "explain": [
+  {
+   "title": "ser と estar",
+   "body": "**変わらない性質**は ser。",
+   "examples": [
+    {
+     "es": "Soy japonés.",
+     "ja": "私は日本人です。"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "La sopa ___ fría.",
+   "ja": "スープが冷めている",
+   "options": [
+    {
+     "text": "está",
+     "correct": true,
+     "why": "今の状態なので estar。"
+    },
+    {
+     "text": "es",
+     "correct": false,
+     "why": "es だと冷製スープという性質の意味になる。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "スペイン語を話しますか？",
+   "tokens": [
+    "¿",
+    "Hablas",
+    "español",
+    "?"
+   ],
+   "accept": [],
+   "why": "疑問文は ¿ と ? で挟む。"
+  },
+  {
+   "type": "fill",
+   "prompt": "空欄を埋めてください",
+   "es": "Yo ___ japonés.",
+   "ja": "私は日本人です。",
+   "answers": [
+    "soy"
+   ],
+   "why": "国籍は変わらない性質なので ser の yo の形 soy。"
+  }
+ ],
+ "words": [
+  {
+   "id": "cuenta",
+   "es": "cuenta",
+   "art": "la",
+   "ja": "会計"
+  }
+ ],
+ "phrases": [
+  {
+   "es": "La cuenta, por favor.",
+   "ja": "お会計お願いします",
+   "scene": "レストラン",
+   "latam": null
+  }
+ ],
+ "speak": [
+  {
+   "es": "La cuenta, por favor.",
+   "ja": "お会計お願いします",
+   "tip": "cuenta はクとエを続けて。"
+  }
+ ]
+}
