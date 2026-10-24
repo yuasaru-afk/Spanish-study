@@ -3,7 +3,7 @@ import { h, rich } from '../dom.js';
 import { setResume, finishUnit } from '../store.js';
 import { dayNumber } from '../srs.js';
 import { stagesFor, nextPosition, stageLength, STAGE_NAMES } from '../flow.js';
-import { checkChoice, checkOrder, checkFill, matchSpoken } from '../check.js';
+import { checkChoice, checkOrder, checkFill, matchSpoken, fillSentence } from '../check.js';
 import { canListen, listen } from '../speech.js';
 import { esLine, sayButton, latamBox, withArt, topbar, progressBar } from './common.js';
 
@@ -83,7 +83,7 @@ function practice(ctx, unit, q, body, actions, nextBtn) {
   return fillQ(ctx, unit, q, body, actions, nextBtn);
 }
 
-const filled = (q, word) => q.es.replace('___', word);
+const filled = (q, word) => fillSentence(q.es, word);
 
 function choiceQ(ctx, unit, q, body, actions, nextBtn) {
   const correct = q.options.find(o => o.correct);

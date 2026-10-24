@@ -125,3 +125,5 @@ p { margin: .4em 0; }
 
 /* ホーム画面に追加の案内 */
 .hint { position: fixed; left: 12px; right: 12px; bottom: calc(env(safe-area-inset-bottom) + 12px); background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px; box-shadow: 0 6px 24px rgba(0,0,0,.18); z-index: 10; }
+
+[hidden] { display: none !important; }

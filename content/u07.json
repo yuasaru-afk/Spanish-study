@@ -1,0 +1,133 @@
+{
+  "id": "u07", "no": 7, "title": "否定文と疑問文",
+  "summary": "no を動詞の前に置くだけの否定。はい・いいえで答える疑問文と、疑問詞を使う疑問文。",
+  "explain": [
+    {
+      "title": "否定文：動詞の前に no",
+      "body": "「〜ない」は **動詞の直前に no** を置くだけです。英語の do / does のような助けの動詞は要りません。\n・Hablo inglés. → **No** hablo inglés.（英語は話せません）\n・Es caro. → **No** es caro.（高くない）\n答えの「いいえ」も no なので、No, no hablo inglés.（いいえ、英語は話せません）と no が2回続くこともあります。",
+      "examples": [
+        { "es": "No hablo inglés.", "ja": "英語は話せません。" },
+        { "es": "No, no es caro.", "ja": "いいえ、高くないです。" }
+      ]
+    },
+    {
+      "title": "はい・いいえで答える疑問文",
+      "body": "語順は平叙文のままで、**¿ ? で挟み、文末を上げて読む**だけで疑問文になります。\n・Hablas español.（君はスペイン語を話す）\n・¿Hablas español?（君はスペイン語を話す？）\n主語を動詞の後ろに回す言い方もあります：¿Habla usted inglés?",
+      "examples": [
+        { "es": "¿Hablas español?", "ja": "スペイン語話せる？" },
+        { "es": "¿Habla usted inglés?", "ja": "英語をお話しになりますか？" },
+        { "es": "¿Está abierto?", "ja": "開いていますか？" }
+      ]
+    },
+    {
+      "title": "疑問詞を使う疑問文",
+      "body": "疑問詞は **文の先頭**に置き、すべて **アクセント記号** が付きます。\n・**¿Qué?**（何）・**¿Dónde?**（どこ）・**¿Cuándo?**（いつ）\n・**¿Quién?**（誰）・**¿Cómo?**（どのように）・**¿Por qué?**（なぜ）\n・**¿Cuánto?**（いくら・どれだけ）\n答えの「なぜなら」は **porque**（1語・記号なし）です。¿Por qué?（なぜ）と書き方が違うので注意。",
+      "examples": [
+        { "es": "¿Qué buscas?", "ja": "何を探してるの？" },
+        { "es": "¿Cuándo llegas?", "ja": "いつ着くの？" },
+        { "es": "¿Por qué no cenas?", "ja": "どうして夕食を食べないの？" },
+        { "es": "Porque estoy cansado.", "ja": "疲れているからです。" }
+      ]
+    },
+    {
+      "title": "ていねいに聞く・頼む",
+      "body": "知らない人に何かを聞くときは、**Perdone**（すみません、usted に向けた形）や **Por favor** を添えるとていねいです。\n・Perdone, ¿dónde está la estación?\n友達には Perdona（tú に向けた形）。\n🌎 中南米では **Disculpe** もよく使います（スペインでも使えます）。",
+      "examples": [
+        { "es": "Perdone, ¿dónde está la estación?", "ja": "すみません、駅はどこですか？" },
+        { "es": "¿Cuánto es?", "ja": "おいくらですか？" }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "order", "prompt": "並べ替えてください", "ja": "私は英語を話しません。",
+      "tokens": ["No", "hablo", "inglés."], "accept": [],
+      "why": "否定は動詞のすぐ前に no。"
+    },
+    {
+      "type": "choice", "prompt": "「高くないです」はどれ？", "ja": "高くないです。",
+      "options": [
+        { "text": "No es caro.", "correct": true, "why": "動詞 es の直前に no を置きます。" },
+        { "text": "Es no caro.", "correct": false, "why": "no は動詞の後ろではなく前に置きます。" },
+        { "text": "Es caro no.", "correct": false, "why": "文末に no を付けても否定になりません。動詞の前に置きます。" }
+      ]
+    },
+    {
+      "type": "choice", "prompt": "空欄に入る疑問詞は？", "es": "¿___ está el baño?", "ja": "トイレはどこですか？",
+      "options": [
+        { "text": "Dónde", "correct": true, "why": "場所をたずねる「どこ」は dónde。疑問詞にはアクセント記号が付きます。" },
+        { "text": "Qué", "correct": false, "why": "qué は「何」。場所には dónde を使います。" },
+        { "text": "Cuándo", "correct": false, "why": "cuándo は「いつ」。時をたずねる疑問詞です。" }
+      ]
+    },
+    {
+      "type": "fill", "prompt": "疑問詞を入れてください（アクセント記号に注意）", "es": "¿___ llegas?", "ja": "いつ着くの？",
+      "answers": ["cuándo"],
+      "why": "「いつ」は cuándo。疑問詞なので á に記号が付きます。"
+    },
+    {
+      "type": "choice", "prompt": "「なぜ？」に「疲れているからです」と答えるときの「から」は？", "es": "___ estoy cansado.", "ja": "疲れているからです。",
+      "options": [
+        { "text": "Porque", "correct": true, "why": "理由を言う「なぜなら」は porque（1語・記号なし）。" },
+        { "text": "Por qué", "correct": false, "why": "por qué（2語・記号あり）は質問の「なぜ」。答えでは porque を使います。" }
+      ]
+    },
+    {
+      "type": "fill", "prompt": "疑問詞を入れてください", "es": "¿___ es?", "ja": "（値段は）いくらですか？",
+      "answers": ["cuánto"],
+      "why": "値段・量をたずねる「いくら」は cuánto。記号を忘れずに。"
+    },
+    {
+      "type": "choice", "prompt": "空欄に入るのは？", "es": "¿___ buscas?", "ja": "何を探しているの？",
+      "options": [
+        { "text": "Qué", "correct": true, "why": "「何」は qué。" },
+        { "text": "Quién", "correct": false, "why": "quién は「誰」。人をたずねるときに使います。" }
+      ]
+    },
+    {
+      "type": "order", "prompt": "並べ替えてください", "ja": "すみません、駅はどこですか？",
+      "tokens": ["Perdone,", "¿dónde", "está", "la", "estación?"], "accept": [],
+      "why": "疑問詞 dónde が先頭、その後に動詞 está、主語 la estación の順。"
+    },
+    {
+      "type": "choice", "prompt": "「スペイン語話せる？」に「いいえ、話せません」と答えるのは？", "ja": "いいえ、話せません。",
+      "options": [
+        { "text": "No, no hablo español.", "correct": true, "why": "最初の No は「いいえ」、2つ目の no は動詞を否定しています。" },
+        { "text": "No, hablo español.", "correct": false, "why": "これだと「いいえ、話せます」になります。動詞の前にも no が要ります。" }
+      ]
+    }
+  ],
+  "words": [
+    { "id": "quien", "es": "¿quién?", "art": null, "ja": "誰？" },
+    { "id": "cuando", "es": "¿cuándo?", "art": null, "ja": "いつ？" },
+    { "id": "por_que", "es": "¿por qué?", "art": null, "ja": "なぜ？" },
+    { "id": "porque", "es": "porque", "art": null, "ja": "なぜなら、〜だから" },
+    { "id": "cuanto", "es": "¿cuánto?", "art": null, "ja": "いくら？どれだけ？" },
+    { "id": "cual", "es": "¿cuál?", "art": null, "ja": "どれ？" },
+    { "id": "perdone", "es": "perdone", "art": null, "ja": "すみません（usted に）", "latam": { "es": "disculpe", "art": null } },
+    { "id": "caro", "es": "caro / cara", "art": null, "ja": "（値段が）高い" },
+    { "id": "barato", "es": "barato / barata", "art": null, "ja": "安い" },
+    { "id": "tambien", "es": "también", "art": null, "ja": "〜も" },
+    { "id": "tampoco", "es": "tampoco", "art": null, "ja": "〜もない" },
+    { "id": "nunca", "es": "nunca", "art": null, "ja": "決して〜ない、一度も〜ない" },
+    { "id": "entender", "es": "entiendo", "art": null, "ja": "私はわかる（entender の私の形）" },
+    { "id": "saber", "es": "sé", "art": null, "ja": "私は知っている（saber の私の形）" },
+    { "id": "y", "es": "y", "art": null, "ja": "そして、〜と" },
+    { "id": "o", "es": "o", "art": null, "ja": "または" },
+    { "id": "pero_conj", "es": "pero", "art": null, "ja": "でも、しかし" }
+  ],
+  "phrases": [
+    { "es": "No entiendo.", "ja": "わかりません。", "scene": "困ったとき", "latam": null },
+    { "es": "No sé.", "ja": "知りません。", "scene": "困ったとき", "latam": null },
+    { "es": "¿Puede repetir, por favor?", "ja": "もう一度言っていただけますか？", "scene": "困ったとき", "latam": null },
+    { "es": "¿Cómo se dice «gracias» en japonés?", "ja": "日本語で gracias は何と言いますか？", "scene": "会話", "latam": null },
+    { "es": "Perdone, ¿dónde está la estación?", "ja": "すみません、駅はどこですか？", "scene": "道をたずねる", "latam": { "es": "Disculpe, ¿dónde está la estación?" } },
+    { "es": "¿Cuánto es?", "ja": "おいくらですか？", "scene": "買い物", "latam": null }
+  ],
+  "speak": [
+    { "es": "No entiendo.", "ja": "わかりません。" },
+    { "es": "¿Puede repetir, por favor?", "ja": "もう一度言っていただけますか？", "tip": "疑問文は文末を上げて読みます。" },
+    { "es": "¿Cuánto es?", "ja": "おいくらですか？" },
+    { "es": "¿Por qué no?", "ja": "どうして（〜しないの）？／いいじゃない！" }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "u06", "no": 6, "title": "estar と ser・estar の使い分け",
+  "summary": "estar の形。場所と今の状態は estar、変わらない性質は ser。",
+  "explain": [
+    {
+      "title": "estar の6つの形",
+      "body": "estar も「〜です／〜にいる」ですが、ser とは使う場面が違います。形は次のとおり。\n・yo **estoy** ／ tú **estás** ／ él・ella・usted **está**\n・nosotros **estamos** ／ vosotros **estáis** ／ ellos・ellas・ustedes **están**\nestoy と estamos 以外はアクセント記号が付きます（estás, está, estáis, están。強く読む位置の印）。",
+      "examples": [
+        { "es": "Estoy bien.", "ja": "元気です。" },
+        { "es": "¿Cómo estás?", "ja": "元気？（調子はどう？）" },
+        { "es": "Estamos en Madrid.", "ja": "私たちはマドリードにいます。" }
+      ]
+    },
+    {
+      "title": "estar を使う場面①：場所",
+      "body": "人や物が **どこにあるか・いるか** は estar です。\n・¿Dónde está la estación?（駅はどこですか？）\n・El hotel está cerca.（ホテルは近くにあります）\n「〜にある」でも、出身（Soy de Japón）は ser なので注意。",
+      "examples": [
+        { "es": "¿Dónde está el baño?", "ja": "トイレはどこですか？" },
+        { "es": "El hotel está cerca.", "ja": "ホテルは近くです。" }
+      ]
+    },
+    {
+      "title": "estar を使う場面②：今の状態",
+      "body": "**今そうなっている状態**（気分・体調・一時的な様子）は estar。\n・Estoy cansado.（疲れている）\n・La sopa está fría.（スープが冷めている）\n・Está cerrado.（閉まっている）\n形容詞は主語の性と数に合わせます：Estoy cansada.（女性）",
+      "examples": [
+        { "es": "Estoy cansado.", "ja": "疲れています。" },
+        { "es": "La tienda está cerrada.", "ja": "店は閉まっています。" }
+      ]
+    },
+    {
+      "title": "ser と estar の使い分け",
+      "body": "日本語ではどちらも「です」なので、ここが日本語話者の一番のつまずきどころです。\n・**ser**：それが **何者か・どんな性質か**（変わらない・定義）\n・**estar**：**どこにあるか**、**今どうなっているか**（状態）\n同じ形容詞でも意味が変わります。\n・Es aburrido.（彼は退屈な人だ＝性質）／ Está aburrido.（彼は今退屈している＝状態）\n・Es listo.（頭がいい）／ Está listo.（準備ができている）",
+      "examples": [
+        { "es": "La sopa es fría.", "ja": "それは冷たいスープ（冷製スープ）です。", "note": "ガスパチョのように、冷たいのがそのスープの性質。" },
+        { "es": "La sopa está fría.", "ja": "スープが冷めています。", "note": "本来は温かいのに、今は冷めている状態。" }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "choice", "prompt": "空欄に入るのは？", "es": "La sopa ___ fría.", "ja": "スープが冷めている。",
+      "options": [
+        { "text": "está", "correct": true, "why": "スープは温めれば熱くなる。今の状態なので estar。" },
+        { "text": "es", "correct": false, "why": "es fría だと「冷たいのが性質のスープ（ガスパチョなど）」という意味になります。" }
+      ]
+    },
+    {
+      "type": "choice", "prompt": "空欄に入るのは？", "es": "¿Dónde ___ la estación?", "ja": "駅はどこですか？",
+      "options": [
+        { "text": "está", "correct": true, "why": "場所を言うときは estar。la estación は単数なので está。" },
+        { "text": "es", "correct": false, "why": "ser は性質や定義。物がどこにあるかには estar を使います。" }
+      ]
+    },
+    {
+      "type": "fill", "prompt": "estar を正しい形にしてください", "es": "Yo ___ cansado.", "ja": "私は疲れています。",
+      "answers": ["estoy"],
+      "why": "疲れているのは今の状態なので estar。yo の形は estoy。"
+    },
+    {
+      "type": "choice", "prompt": "空欄に入るのは？", "es": "Mi padre ___ médico.", "ja": "父は医者です。",
+      "options": [
+        { "text": "es", "correct": true, "why": "職業はその人が何者かを言うので ser。" },
+        { "text": "está", "correct": false, "why": "estar は場所や一時的な状態。職業には ser を使います。" }
+      ]
+    },
+    {
+      "type": "fill", "prompt": "estar を正しい形にしてください（アクセント記号に注意）", "es": "¿Cómo ___ usted?", "ja": "ご機嫌いかがですか？",
+      "answers": ["está"],
+      "why": "体調・気分は estar。usted の形は está（最後の á に記号）。"
+    },
+    {
+      "type": "choice", "prompt": "「彼女は準備ができている」はどっち？", "ja": "彼女は準備ができています。",
+      "options": [
+        { "text": "Está lista.", "correct": true, "why": "estar ＋ listo は「準備ができている」状態。ella なので lista。" },
+        { "text": "Es lista.", "correct": false, "why": "ser ＋ listo は「頭がいい」という性質の意味になります。" }
+      ]
+    },
+    {
+      "type": "order", "prompt": "並べ替えてください", "ja": "ホテルは近くです。",
+      "tokens": ["El", "hotel", "está", "cerca."], "accept": [],
+      "why": "場所なので estar。el hotel（単数）に合わせて está。"
+    },
+    {
+      "type": "fill", "prompt": "estar を正しい形にしてください", "es": "Nosotros ___ en Madrid.", "ja": "私たちはマドリードにいます。",
+      "answers": ["estamos"],
+      "why": "いる場所なので estar。nosotros の形は estamos。"
+    },
+    {
+      "type": "choice", "prompt": "空欄に入るのは？", "es": "La tienda ___ cerrada.", "ja": "店は閉まっています。",
+      "options": [
+        { "text": "está", "correct": true, "why": "閉まっているのは今の状態なので estar。cerrada は tienda（女性）に合わせた形。" },
+        { "text": "es", "correct": false, "why": "閉まっているのは店の性質ではなく今の状態。estar を使います。" }
+      ]
+    }
+  ],
+  "words": [
+    { "id": "estar", "es": "estar", "art": null, "ja": "〜にいる・ある；〜の状態だ" },
+    { "id": "donde", "es": "¿dónde?", "art": null, "ja": "どこ？" },
+    { "id": "como", "es": "¿cómo?", "art": null, "ja": "どのように？" },
+    { "id": "cerca", "es": "cerca", "art": null, "ja": "近くに" },
+    { "id": "lejos", "es": "lejos", "art": null, "ja": "遠くに" },
+    { "id": "aqui", "es": "aquí", "art": null, "ja": "ここに", "latam": { "es": "acá", "art": null, "note": "aquí も使う" } },
+    { "id": "cansado", "es": "cansado / cansada", "art": null, "ja": "疲れている" },
+    { "id": "contento", "es": "contento / contenta", "art": null, "ja": "うれしい、満足している" },
+    { "id": "enfermo", "es": "enfermo / enferma", "art": null, "ja": "病気の" },
+    { "id": "ocupado", "es": "ocupado / ocupada", "art": null, "ja": "忙しい；使用中の" },
+    { "id": "listo", "es": "listo / lista", "art": null, "ja": "（estar）準備ができた／（ser）頭がいい" },
+    { "id": "abierto", "es": "abierto / abierta", "art": null, "ja": "開いている" },
+    { "id": "cerrado", "es": "cerrado / cerrada", "art": null, "ja": "閉まっている" },
+    { "id": "frio", "es": "frío / fría", "art": null, "ja": "冷たい" },
+    { "id": "caliente", "es": "caliente", "art": null, "ja": "熱い（温度）" },
+    { "id": "sopa", "es": "sopa", "art": "la", "ja": "スープ" },
+    { "id": "tienda", "es": "tienda", "art": "la", "ja": "店" },
+    { "id": "bano", "es": "baño", "art": "el", "ja": "トイレ；浴室" },
+    { "id": "padre", "es": "padre", "art": "el", "ja": "父" },
+    { "id": "madre", "es": "madre", "art": "la", "ja": "母" }
+  ],
+  "phrases": [
+    { "es": "¿Cómo estás?", "ja": "元気？", "scene": "あいさつ", "latam": null },
+    { "es": "Estoy bien, gracias.", "ja": "元気です、ありがとう。", "scene": "あいさつ", "latam": null },
+    { "es": "¿Dónde está el baño?", "ja": "トイレはどこですか？", "scene": "道をたずねる", "latam": null },
+    { "es": "¿Está lejos?", "ja": "遠いですか？", "scene": "道をたずねる", "latam": null },
+    { "es": "Está aquí.", "ja": "ここにあります。", "scene": "道をたずねる", "latam": null },
+    { "es": "Estoy un poco cansado.", "ja": "少し疲れています。", "scene": "会話", "latam": null }
+  ],
+  "speak": [
+    { "es": "¿Dónde está el baño?", "ja": "トイレはどこですか？", "tip": "está の á を強く。baño の ñ はにゃ行の音。" },
+    { "es": "Estoy bien, gracias.", "ja": "元気です、ありがとう。" },
+    { "es": "La sopa está fría.", "ja": "スープが冷めています。" },
+    { "es": "¿Está lejos?", "ja": "遠いですか？" }
+  ]
+}

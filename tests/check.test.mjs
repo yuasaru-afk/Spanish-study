@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { normalize, stripAccents, checkChoice, checkOrder, checkFill, matchSpoken } from '../js/check.js';
+import { normalize, stripAccents, checkChoice, checkOrder, checkFill, matchSpoken, fillSentence } from '../js/check.js';
 
 test('normalize: 全角空白・大文字・¿¡・末尾記号', () => assert.equal(normalize('　¿Hablas  ESPAÑOL? '), 'hablas español'));
 
@@ -37,3 +37,9 @@ test('matchSpoken: アクセント違いも great', () => assert.equal(matchSpok
 test('matchSpoken: 半分で close', () => assert.equal(matchSpoken('La cuenta, por favor.', 'la cuenta'), 'close'));
 
 test('matchSpoken: ずれは retry', () => assert.equal(matchSpoken('La cuenta, por favor.', 'hola'), 'retry'));
+
+test('fillSentence: 文頭の空欄は大文字で埋める', () => assert.equal(fillSentence('¿___ llegas?', 'cuándo'), '¿Cuándo llegas?'));
+
+test('fillSentence: 文中はそのまま', () => assert.equal(fillSentence('La sopa ___ fría.', 'está'), 'La sopa está fría.'));
+
+test('fillSentence: （ヒント）は読み上げ文から外す', () => assert.equal(fillSentence('Ella es ___（alto）.', 'alta'), 'Ella es alta.'));

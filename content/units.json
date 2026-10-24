@@ -28,5 +28,35 @@
   "no": 5,
   "title": "-ar 動詞の現在形",
   "file": "u05.json"
+ },
+ {
+  "id": "u06",
+  "no": 6,
+  "title": "estar と ser・estar の使い分け",
+  "file": "u06.json"
+ },
+ {
+  "id": "u07",
+  "no": 7,
+  "title": "否定文と疑問文",
+  "file": "u07.json"
+ },
+ {
+  "id": "u08",
+  "no": 8,
+  "title": "数字・時刻・曜日",
+  "file": "u08.json"
+ },
+ {
+  "id": "u09",
+  "no": 9,
+  "title": "gustar（好き嫌い）",
+  "file": "u09.json"
+ },
+ {
+  "id": "u10",
+  "no": 10,
+  "title": "レストランで",
+  "file": "u10.json"
  }
 ]

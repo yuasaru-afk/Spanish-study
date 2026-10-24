@@ -1,0 +1,158 @@
+{
+  "id": "u10", "no": 10, "title": "レストランで",
+  "summary": "席の頼み方、注文（Quiero / Para mí / ¿Me pone…?）、日替わり定食、会計まで。",
+  "explain": [
+    {
+      "title": "入店して席を頼む",
+      "body": "・**Una mesa para dos, por favor.**（2人です、テーブルをお願いします）\n・**¿Tiene una mesa libre?**（空いている席はありますか？）\ntiene は tener（持つ）の usted の形。お店の人には usted で話すのが基本です。",
+      "examples": [
+        { "es": "Una mesa para dos, por favor.", "ja": "2人です（テーブルをお願いします）。" },
+        { "es": "¿Tiene una mesa libre?", "ja": "空いている席はありますか？" }
+      ]
+    },
+    {
+      "title": "注文の言い方",
+      "body": "・**Quiero 〜**（〜が欲しい）：querer の yo の形。少し直接的な言い方。\n・**Quisiera 〜**（〜をいただきたいのですが）：ていねい。\n・**Para mí, 〜**（私には〜）：複数人で注文するときに便利。\n・**¿Me pone 〜?**（〜をください）：スペインのバルなどで定番の頼み方。\n🌎 中南米では **¿Me trae 〜?**（持ってきてくれますか）がよく使われます。",
+      "examples": [
+        { "es": "Quiero una cerveza.", "ja": "ビールをください。" },
+        { "es": "Para mí, la paella.", "ja": "私はパエリャで。" },
+        { "es": "¿Me pone un café con leche?", "ja": "カフェオレをください。", "note": "🌎 中南米では ¿Me trae un café con leche?" }
+      ]
+    },
+    {
+      "title": "日替わり定食（menú del día）",
+      "body": "スペインの昼は、**menú del día**（日替わり定食）がお得です。\n・**de primero**（1皿目：サラダ・スープなど）\n・**de segundo**（2皿目：肉・魚など）\n・**de postre**（デザート）\nから1つずつ選びます。パンと飲み物が付くことが多いです。\n注文：**De primero, la ensalada. De segundo, el pescado.**",
+      "examples": [
+        { "es": "De primero, la sopa.", "ja": "1皿目はスープで。" },
+        { "es": "De postre, fruta.", "ja": "デザートは果物で。" }
+      ]
+    },
+    {
+      "title": "飲み物の頼み方",
+      "body": "・水：**agua con gas**（炭酸入り）／ **agua sin gas**（炭酸なし）。日本と違い、水は注文するのがふつうです。\n・ビール：スペインでは小さめの生ビールを **una caña** と言います。\n・ワイン：**vino tinto**（赤）／ **vino blanco**（白）",
+      "examples": [
+        { "es": "Agua sin gas, por favor.", "ja": "炭酸なしの水をお願いします。" },
+        { "es": "Una caña, por favor.", "ja": "生ビール（小）をお願いします。" },
+        { "es": "Un vino tinto.", "ja": "赤ワインを1杯。" }
+      ]
+    },
+    {
+      "title": "食事中と会計",
+      "body": "・**¡Está muy rico!**（とてもおいしい！）：今食べている料理の状態なので estar。\n・**La cuenta, por favor.**（お会計お願いします）\n・**¿Puedo pagar con tarjeta?**（カードで払えますか？）\nスペインでは席で会計するのがふつう。チップは義務ではなく、よかったら小銭を置く程度です。\n🌎 「メニュー」はスペインでは **la carta**、中南米では **el menú** とも言います。店員は **camarero**（🌎 mesero）。",
+      "examples": [
+        { "es": "¡Está muy rico!", "ja": "とてもおいしい！" },
+        { "es": "La cuenta, por favor.", "ja": "お会計お願いします。" },
+        { "es": "¿Puedo pagar con tarjeta?", "ja": "カードで払えますか？" }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "type": "choice", "prompt": "2人で入店。店員に言うのは？", "ja": "2人です。",
+      "options": [
+        { "text": "Una mesa para dos, por favor.", "correct": true, "why": "「2人用のテーブルを」で人数を伝えます。para は「〜のための」。" },
+        { "text": "Dos mesas, por favor.", "correct": false, "why": "これは「テーブルを2つ」。2人なら una mesa para dos。" }
+      ]
+    },
+    {
+      "type": "choice", "prompt": "いちばんていねいな注文は？", "ja": "赤ワインをいただきたいのですが。",
+      "options": [
+        { "text": "Quisiera un vino tinto.", "correct": true, "why": "quisiera は「〜したいのですが」とていねいな言い方。" },
+        { "text": "Quiero un vino tinto.", "correct": false, "why": "quiero も通じますが、やや直接的。ていねいさでは quisiera が上です。" }
+      ]
+    },
+    {
+      "type": "fill", "prompt": "空欄を埋めてください", "es": "La ___, por favor.", "ja": "お会計お願いします。",
+      "answers": ["cuenta"],
+      "why": "会計は la cuenta。食後に店員に言います。"
+    },
+    {
+      "type": "choice", "prompt": "いま食べている料理に「おいしい！」と言うときは？", "ja": "（この料理）おいしい！",
+      "options": [
+        { "text": "¡Está muy rico!", "correct": true, "why": "いま食べて感じた味は estar（está）が自然。rico は食べ物だと「おいしい」。料理の一般的な評価（El jamón es muy rico.）なら ser も使えます。" },
+        { "text": "¡Estoy muy rico!", "correct": false, "why": "estoy は「私が」。これだと「私はとてもおいしい（私はお金持ち…？）」と変な意味になります。主語は料理なので está。" }
+      ]
+    },
+    {
+      "type": "fill", "prompt": "空欄を埋めてください", "es": "Agua ___ gas, por favor.", "ja": "炭酸なしの水をお願いします。",
+      "answers": ["sin"],
+      "why": "「〜なしの」は sin。炭酸入りは con gas。"
+    },
+    {
+      "type": "order", "prompt": "並べ替えてください", "ja": "カードで払えますか？",
+      "tokens": ["¿Puedo", "pagar", "con", "tarjeta?"], "accept": [],
+      "why": "puedo（私はできる）＋動詞の原形 pagar。「カードで」は con tarjeta。"
+    },
+    {
+      "type": "choice", "prompt": "定食で「2皿目は魚で」は？", "ja": "2皿目は魚で。",
+      "options": [
+        { "text": "De segundo, el pescado.", "correct": true, "why": "2皿目は de segundo。1皿目は de primero、デザートは de postre。" },
+        { "text": "De postre, el pescado.", "correct": false, "why": "de postre はデザート。2皿目は de segundo です。" }
+      ]
+    },
+    {
+      "type": "choice", "prompt": "🌎 メキシコのレストランで店員を呼び、メニューを頼む", "ja": "すみません、メニューをお願いします。",
+      "options": [
+        { "text": "Disculpe, el menú, por favor.", "correct": true, "why": "中南米ではメニューを el menú、呼びかけは disculpe がよく使われます。" },
+        { "text": "Disculpe, la cuenta, por favor.", "correct": false, "why": "la cuenta は「お会計」。メニューは el menú（スペインでは la carta）です。" }
+      ]
+    },
+    {
+      "type": "fill", "prompt": "querer を正しい形にしてください", "es": "Yo ___ una cerveza.", "ja": "ビールが欲しいです。",
+      "answers": ["quiero"],
+      "why": "querer は不規則で、yo の形は quiero（e が ie に変わる）。"
+    },
+    {
+      "type": "order", "prompt": "並べ替えてください", "ja": "（スペインのバルで）カフェオレをください。",
+      "tokens": ["¿Me", "pone", "un", "café", "con", "leche?"], "accept": [],
+      "why": "¿Me pone 〜? はスペインの定番の頼み方。café con leche はミルク入りコーヒー。"
+    }
+  ],
+  "words": [
+    { "id": "mesa_libre", "es": "mesa libre", "art": "la", "ja": "空いている席" },
+    { "id": "para", "es": "para", "art": null, "ja": "〜のために、〜用の" },
+    { "id": "querer", "es": "querer", "art": null, "ja": "欲しい、〜したい（yo quiero）" },
+    { "id": "quisiera", "es": "quisiera", "art": null, "ja": "〜をいただきたいのですが" },
+    { "id": "carta", "es": "carta", "art": "la", "ja": "メニュー（スペイン）", "latam": { "es": "menú", "art": "el" } },
+    { "id": "camarero", "es": "camarero / camarera", "art": null, "ja": "店員、ウェイター", "latam": { "es": "mesero / mesera", "art": null } },
+    { "id": "cuenta", "es": "cuenta", "art": "la", "ja": "会計、勘定" },
+    { "id": "tarjeta", "es": "tarjeta", "art": "la", "ja": "カード" },
+    { "id": "pagar", "es": "pagar", "art": null, "ja": "払う" },
+    { "id": "menu_del_dia", "es": "menú del día", "art": "el", "ja": "日替わり定食" },
+    { "id": "primero", "es": "de primero", "art": null, "ja": "1皿目に" },
+    { "id": "segundo", "es": "de segundo", "art": null, "ja": "2皿目に" },
+    { "id": "postre", "es": "postre", "art": "el", "ja": "デザート" },
+    { "id": "ensalada", "es": "ensalada", "art": "la", "ja": "サラダ" },
+    { "id": "pan", "es": "pan", "art": "el", "ja": "パン" },
+    { "id": "leche", "es": "leche", "art": "la", "ja": "牛乳" },
+    { "id": "cana", "es": "caña", "art": "la", "ja": "生ビール（小）（スペイン）" },
+    { "id": "vino_tinto", "es": "vino tinto", "art": "el", "ja": "赤ワイン" },
+    { "id": "con", "es": "con", "art": null, "ja": "〜と一緒に、〜入りの" },
+    { "id": "sin", "es": "sin", "art": null, "ja": "〜なしで" },
+    { "id": "rico", "es": "rico / rica", "art": null, "ja": "おいしい（食べ物）；（ser ＋人）お金持ちの" },
+    { "id": "paella", "es": "paella", "art": "la", "ja": "パエリャ" }
+  ],
+  "phrases": [
+    { "es": "Una mesa para dos, por favor.", "ja": "2人です。", "scene": "入店", "latam": null },
+    { "es": "¿Tiene una mesa libre?", "ja": "空いている席はありますか？", "scene": "入店", "latam": null },
+    { "es": "La carta, por favor.", "ja": "メニューをお願いします。", "scene": "注文", "latam": { "es": "El menú, por favor." } },
+    { "es": "¿Qué me recomienda?", "ja": "おすすめは何ですか？", "scene": "注文", "latam": null },
+    { "es": "Quisiera el menú del día.", "ja": "日替わり定食をお願いします。", "scene": "注文", "latam": null },
+    { "es": "Para mí, el pescado.", "ja": "私は魚で。", "scene": "注文", "latam": null },
+    { "es": "¿Me pone una caña?", "ja": "生ビールをください。", "scene": "注文", "latam": { "es": "¿Me trae una cerveza?" } },
+    { "es": "Agua sin gas, por favor.", "ja": "炭酸なしの水をお願いします。", "scene": "注文", "latam": null },
+    { "es": "Sin cebolla, por favor.", "ja": "玉ねぎ抜きでお願いします。", "scene": "注文", "latam": null },
+    { "es": "¡Está muy rico!", "ja": "とてもおいしい！", "scene": "食事中", "latam": null },
+    { "es": "¿Me trae más pan, por favor?", "ja": "パンをもう少しいただけますか？", "scene": "食事中", "latam": null },
+    { "es": "La cuenta, por favor.", "ja": "お会計お願いします。", "scene": "会計", "latam": null },
+    { "es": "¿Puedo pagar con tarjeta?", "ja": "カードで払えますか？", "scene": "会計", "latam": null }
+  ],
+  "speak": [
+    { "es": "Una mesa para dos, por favor.", "ja": "2人です。" },
+    { "es": "¿Qué me recomienda?", "ja": "おすすめは何ですか？", "tip": "recomienda の ie を強く。" },
+    { "es": "Para mí, el pescado.", "ja": "私は魚で。" },
+    { "es": "¡Está muy rico!", "ja": "とてもおいしい！" },
+    { "es": "La cuenta, por favor.", "ja": "お会計お願いします。", "tip": "cuenta の ue をなめらかに続けて。" },
+    { "es": "¿Puedo pagar con tarjeta?", "ja": "カードで払えますか？" }
+  ]
+}

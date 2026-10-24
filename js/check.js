@@ -44,3 +44,10 @@ export function matchSpoken(target, heard) {
   if (rate >= 0.5) return 'close';
   return 'retry';
 }
+
+// 穴埋めの答えを入れた完成文（表示と読み上げ用）。文頭なら大文字に、（ヒント）は外す
+export function fillSentence(es, word) {
+  const s = es.replace(/（[^）]*）/g, '');
+  const atStart = /^[¿¡]?___/.test(s);
+  return s.replace('___', atStart ? word.charAt(0).toUpperCase() + word.slice(1) : word);
+}
