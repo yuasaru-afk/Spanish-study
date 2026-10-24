@@ -44,3 +44,7 @@ test('中身を直すと VERSION が変わり --check は 1', () => {
 });
 
 test('このリポジトリの sw.js は最新', () => assert.equal(run('--check', repo).status, 0));
+
+test('SW の先読みはブラウザの HTTP キャッシュを使わない', () => {
+  assert.match(readFileSync(join(repo, 'sw.js'), 'utf8'), /cache: 'reload'/);
+});

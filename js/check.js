@@ -1,8 +1,9 @@
 // 答え合わせ。アクセント記号の抜けは「おしい」として不正解と分ける
 
 export function normalize(s) {
+  // NFKC：全角の英字・記号・空白を半角に、分解されたアクセントを1文字にまとめる
   return String(s)
-    .replace(/　/g, ' ')
+    .normalize('NFKC')
     .trim()
     .replace(/^[¿¡]+/, '')
     .replace(/[.!?。]+$/, '')

@@ -35,28 +35,39 @@ const REASONS = {
   'audio-capture': 'denied',
 };
 
-// 例外は投げず、必ず {ok:true,text} か {ok:false,reason} で返す
-export function listen(win, { timeoutMs = 6000 } = {}) {
+// 判定なしの練習に切り替えるか。黙ったまま返事がないのも2回続いたら切り替える
+export function shouldFallback(reason, consecutive) {
+  if (['unsupported', 'denied', 'network'].includes(reason)) return true;
+  return consecutive >= 2;
+}
+
+// 例外は投げず、必ず {ok:true,text} か {ok:false,reason} で返す。
+// timeoutMs は録音が始まって（onstart）から数える。初回のマイク許可の確認を待つ間は数えない
+export function listen(win, { timeoutMs = 6000, limitMs = 15000 } = {}) {
   const Rec = recognizer(win);
   if (!Rec) return Promise.resolve({ ok: false, reason: 'unsupported' });
   return new Promise(resolve => {
     let done = false;
     let rec;
+    let timer;
     const finish = r => {
       if (done) return;
       done = true;
       clearTimeout(timer);
+      clearTimeout(limit);
       resolve(r);
     };
-    const timer = setTimeout(() => {
+    const giveUp = () => {
       try { rec?.abort(); } catch { /* 止められなくても結果は返す */ }
       finish({ ok: false, reason: 'timeout' });
-    }, timeoutMs);
+    };
+    const limit = setTimeout(giveUp, limitMs);
     try {
       rec = new Rec();
       rec.lang = 'es-ES';
       rec.interimResults = false;
       rec.maxAlternatives = 1;
+      rec.onstart = () => { clearTimeout(timer); timer = setTimeout(giveUp, timeoutMs); };
       rec.onresult = e => finish({ ok: true, text: e.results[0][0].transcript });
       rec.onerror = e => finish({ ok: false, reason: REASONS[e.error] || 'nomatch' });
       rec.onend = () => finish({ ok: false, reason: 'nomatch' });

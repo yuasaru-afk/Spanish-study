@@ -41,21 +41,23 @@ export function applySettings(doc, s) {
 const ctx = {
   get state() { return state; },
   // redraw:false は画面が自分で表示を更新する時（練習の途中・単語の復習など）
-  setState(fn, { redraw = true } = {}) {
+  // top:true は次の問題へ進む時。同じ画面の描き直しでもスクロールを先頭に戻す
+  setState(fn, { redraw = true, top = false } = {}) {
     state = fn(state);
     save(storage, state);
     applySettings(document, state.settings);
-    if (redraw) draw();
+    if (redraw) draw({ top });
   },
   go(hash) { if (location.hash === hash) draw(); else location.hash = hash; },
   content,
 };
 
 // 毎回新しい入れ物に描く。読み込み待ちの間に画面が変わったら、古い描画は捨てる（isConnected で判定）
-function draw() {
+function draw({ top = false } = {}) {
   const root = document.getElementById('app');
   const hash = location.hash || '#/';
-  const keepScroll = hash === draw.last ? window.scrollY : 0;
+  if (pendingReload && hash === '#/') { location.reload(); return; }
+  const keepScroll = hash === draw.last && !top ? window.scrollY : 0;
   draw.last = hash;
   const box = h('div', { style: 'display:contents' });
   root.replaceChildren(box);
@@ -63,15 +65,30 @@ function draw() {
   Promise.resolve(render(box, ctx, ...hash.match(re).slice(1)))
     .then(() => window.scrollTo(0, keepScroll))
     .catch(err => {
-      box.replaceChildren(h('div.ng', {}, '読み込めませんでした。', h('br'), String(err.message || err)), h('button.btn2', { onclick: () => ctx.go('#/') }, 'ホームへ'));
+      box.replaceChildren(h('div.ng', {}, '読み込めませんでした。', h('br'), String(err.message || err)),
+        h('button.btn2', { onclick: () => ctx.go('#/') }, 'ホームへ'), h('div', { style: 'height:8px' }),
+        h('button.btn2', { onclick: () => ctx.go('#/settings') }, '設定へ（記録の読み込み）'));
     });
 }
 
+// 新しい教材（Service Worker の入れ替え）が来たら、ホームに戻った時に読み直す。
+// 練習の途中では読み直さない
+let pendingReload = false;
+
 applySettings(document, state.settings);
-window.addEventListener('hashchange', draw);
+window.addEventListener('hashchange', () => draw());
 draw();
 maybeShowInstallHint(window);
 
 if ('serviceWorker' in navigator && location.protocol === 'https:') {
-  navigator.serviceWorker.register('sw.js');
+  const hadController = Boolean(navigator.serviceWorker.controller);
+  navigator.serviceWorker.register('sw.js').then(reg => {
+    // iOS はホーム画面アプリを起動し直さずに復帰させるので、表に出るたびに更新を確かめる
+    document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') reg.update().catch(() => {}); });
+  });
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!hadController) return;
+    pendingReload = true;
+    if ((location.hash || '#/') === '#/') location.reload();
+  });
 }

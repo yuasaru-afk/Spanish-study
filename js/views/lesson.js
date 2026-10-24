@@ -1,10 +1,10 @@
 // ユニット画面：解説 → 練習 → 単語 → フレーズ → 発音。「次へ」のたびに再開位置を保存する
 import { h, rich } from '../dom.js';
-import { setResume, finishUnit } from '../store.js';
+import { setPosition, finishUnit } from '../store.js';
 import { dayNumber } from '../srs.js';
 import { stagesFor, nextPosition, stageLength, STAGE_NAMES } from '../flow.js';
 import { checkChoice, checkOrder, checkFill, matchSpoken, fillSentence } from '../check.js';
-import { canListen, listen } from '../speech.js';
+import { canListen, listen, shouldFallback } from '../speech.js';
 import { esLine, sayButton, latamBox, withArt, topbar, progressBar } from './common.js';
 
 const ACCENT_KEYS = ['á', 'é', 'í', 'ó', 'ú', 'ñ', 'ü', '¿', '¡'];
@@ -14,11 +14,14 @@ export async function render(root, ctx, unitId) {
   if (!root.isConnected) return;
   const settings = ctx.state.settings;
   const stages = stagesFor(unit, settings);
+  // 位置はユニットごと。古い記録（resume だけ持っている）からも読む
   const r = ctx.state.resume;
-  let pos = r && r.unitId === unitId && stages.includes(r.stage) && r.index < stageLength(unit, r.stage)
-    ? { stage: r.stage, index: r.index } : { stage: 'explain', index: 0 };
-  if (!r || r.unitId !== unitId || r.stage !== pos.stage || r.index !== pos.index) {
-    ctx.setState(st => setResume(st, unitId, pos.stage, pos.index), { redraw: false });
+  const saved = ctx.state.units[unitId]?.pos || (r?.unitId === unitId ? r : null);
+  const pos = saved && stages.includes(saved.stage) && saved.index < stageLength(unit, saved.stage)
+    ? { stage: saved.stage, index: saved.index } : { stage: 'explain', index: 0 };
+  const cur = ctx.state.units[unitId]?.pos;
+  if (!cur || cur.stage !== pos.stage || cur.index !== pos.index || (!ctx.state.units[unitId]?.done && r?.unitId !== unitId)) {
+    ctx.setState(st => setPosition(st, unitId, pos.stage, pos.index), { redraw: false });
   }
 
   // 次へ：単語の段では見た単語を「今日の復習」に登録してから進む
@@ -30,10 +33,9 @@ export async function render(root, ctx, unitId) {
         const w = unit.words[pos.index];
         if (!s.cards[w.id]) s = { ...s, cards: { ...s.cards, [w.id]: { step: -1, due: dayNumber(new Date()) } } };
       }
-      return next === 'done' ? finishUnit(s, unitId) : setResume(s, unitId, next.stage, next.index);
-    }, { redraw: next !== 'done' });
+      return next === 'done' ? finishUnit(s, unitId) : setPosition(s, unitId, next.stage, next.index);
+    }, { redraw: next !== 'done', top: true });
     if (next === 'done') ctx.go(`#/done/${unitId}`);
-    window.scrollTo(0, 0);
   };
 
   const total = stages.reduce((n, s) => n + stageLength(unit, s), 0);
@@ -191,10 +193,12 @@ const FALLBACK = {
   unsupported: 'この端末では判定できないので、お手本を聞いて自分で声に出してみましょう。',
   denied: 'マイクが使えないので、判定なしで練習します。お手本を聞いて声に出してみましょう。',
   network: '圏外のため判定できません。お手本を聞いて声に出してみましょう。',
+  silent: 'うまく聞き取れないので、判定なしで練習します。お手本を聞いて声に出してみましょう。',
 };
 
 function speak(ctx, unit, s, body, actions, nextBtn) {
   const result = h('div');
+  let silent = 0;
   const mic = h('button.mic', { 'aria-label': '話す', onclick: talk }, '🎤');
   body.append(
     h('p', {}, 'お手本を聞いて、言ってみよう'),
@@ -217,9 +221,11 @@ function speak(ctx, unit, s, body, actions, nextBtn) {
     mic.classList.remove('on');
     mic.disabled = false;
     if (!r.ok) {
-      if (FALLBACK[r.reason]) return showFallback(r.reason);
+      silent = FALLBACK[r.reason] ? silent : silent + 1;
+      if (shouldFallback(r.reason, silent)) return showFallback(FALLBACK[r.reason] ? r.reason : 'silent');
       return result.replaceChildren(h('div.ng', {}, '聞き取れませんでした。もう一度どうぞ。'));
     }
+    silent = 0;
     const grade = matchSpoken(s.es, r.text);
     const label = { great: '◎ 通じます！', close: '○ おしい！もう一度', retry: 'もう一度言ってみよう' }[grade];
     result.replaceChildren(h(grade === 'great' ? 'div.ok' : 'div.ng', {}, h('div', {}, '聞き取れた文：', h('span', { lang: 'es' }, `「${r.text}」`)), h('b', {}, label)));

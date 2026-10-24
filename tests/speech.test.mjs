@@ -1,12 +1,13 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { canSpeak, speak, canListen, listen } from '../js/speech.js';
+import { canSpeak, speak, canListen, listen, shouldFallback } from '../js/speech.js';
 
 // 音声認識の偽物。behavior: {result} | {error} | {} （何も起きない）
 function fakeWin(behavior) {
   class Rec {
     start() {
       this.started = true;
+      this.onstart?.();
       setTimeout(() => {
         if (behavior.result) this.onresult?.({ results: [[{ transcript: behavior.result }]] });
         else if (behavior.error) this.onerror?.({ error: behavior.error });
@@ -71,4 +72,25 @@ test('speak は es-ES がなければ他の es 声', () => {
 test('読み上げがない環境では何もしない', () => {
   assert.equal(canSpeak({}), false);
   assert.doesNotThrow(() => speak({}, 'Hola', 1));
+});
+
+test('待ち時間は録音開始（onstart）から数える', async () => {
+  const win = { webkitSpeechRecognition: class {
+    start() { setTimeout(() => this.onstart?.(), 40); setTimeout(() => { this.onresult?.({ results: [[{ transcript: 'hola' }]] }); }, 70); }
+    abort() {}
+  } };
+  assert.deepEqual(await listen(win, { timeoutMs: 50 }), { ok: true, text: 'hola' });
+});
+
+test('判定なしへ切り替える条件', () => {
+  for (const r of ['unsupported', 'denied', 'network']) assert.equal(shouldFallback(r, 1), true);
+  assert.equal(shouldFallback('timeout', 1), false);
+  assert.equal(shouldFallback('nomatch', 1), false);
+  assert.equal(shouldFallback('timeout', 2), true);
+  assert.equal(shouldFallback('nomatch', 2), true);
+});
+
+test('onstart が来ないままでも上限で timeout', async () => {
+  const win = { webkitSpeechRecognition: class { start() {} abort() {} } };
+  assert.deepEqual(await listen(win, { timeoutMs: 10, limitMs: 30 }), { ok: false, reason: 'timeout' });
 });

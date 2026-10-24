@@ -43,3 +43,9 @@ test('fillSentence: 文頭の空欄は大文字で埋める', () => assert.equal
 test('fillSentence: 文中はそのまま', () => assert.equal(fillSentence('La sopa ___ fría.', 'está'), 'La sopa está fría.'));
 
 test('fillSentence: （ヒント）は読み上げ文から外す', () => assert.equal(fillSentence('Ella es ___（alto）.', 'alta'), 'Ella es alta.'));
+
+test('全角の英字・記号も正解扱い', () => assert.equal(checkFill({ answers: ['soy'], why: 'w' }, 'ｓｏｙ．').ok, true));
+
+test('全角？で終わっても正解扱い', () => assert.equal(normalize('¿Hablas？'), 'hablas'));
+
+test('分解されたアクセント（NFD）も正解扱い', () => assert.equal(checkFill({ answers: ['está'], why: 'w' }, 'está').ok, true));

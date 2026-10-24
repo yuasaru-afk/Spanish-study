@@ -2,7 +2,7 @@
 // 1つの Edge で画面を次々開くと、社内PCでは読み込みが時々止まるため（原因不明）。
 // node spike/shot.mjs <jobs.json>   事前に node spike/serve.mjs 8766
 // jobs: [{ "out": "out/x.png", "hash": "#/", "state": {...}|null, "steps": ["JS式", ...], "dark": false }]
-import { spawn } from 'node:child_process';
+import { spawn, spawnSync } from 'node:child_process';
 import { readFileSync, writeFileSync, mkdirSync, mkdtempSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
@@ -58,7 +58,8 @@ async function shoot(job, port) {
     console.log('saved', job.out);
     ws.close();
   } finally {
-    edge.kill();
+    // edge.kill() は起動役だけ止めて子プロセス（数百個）が残る。木ごと止める
+    spawnSync('taskkill', ['/PID', String(edge.pid), '/T', '/F']);
   }
 }
 
