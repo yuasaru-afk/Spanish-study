@@ -77,7 +77,7 @@ export async function render(root, ctx, unitId) {
     });
   } else {
     const w = unit.words.find(x => x.id === wordIds[pos.index]);
-    body.append(h('p.muted', {}, 'このユニットの単語。覚えていたかどうかで、次に復習する日が決まります。'));
+    body.append(h('p.muted', {}, 'このユニットで出てきた単語を復習しましょう。'));
     renderWordCard(ctx, w, body, actions, remembered => advance(st => checkWord(st, w.id, remembered, today())));
   }
 }
