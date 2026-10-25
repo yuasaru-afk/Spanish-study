@@ -30,6 +30,16 @@ export function nextPosition(unit, wordIds, { stage, index }) {
   return at + 1 < stages.length ? { stage: stages[at + 1], index: 0 } : 'done';
 }
 
+// 1つ前の位置（「‹ 前の問題」用）。最初なら null
+export function prevPosition(unit, wordIds, { stage, index }) {
+  if (index > 0) return { stage, index: index - 1 };
+  const stages = stagesFor(unit, wordIds);
+  const at = stages.indexOf(stage);
+  if (at <= 0) return null;
+  const prev = stages[at - 1];
+  return { stage: prev, index: stageLength(unit, prev, wordIds) - 1 };
+}
+
 // レッスンを開いた時の位置と単語チェックの対象。単語段なのに確認する語が無ければ 'finish'（最初に戻さない）
 export function startPosition(unit, saved, cards) {
   const wordIds = saved?.ids ?? pickCheckWords(unit, cards);

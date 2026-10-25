@@ -66,7 +66,12 @@ function orderQ(ctx, q, body, actions, done) {
   actions.append(check);
   function draw() {
     answer.replaceChildren(...chosen.map((p, k) => h('button.token', { lang: 'es', onclick: () => { chosen.splice(k, 1); draw(); } }, p.t)));
-    pool.replaceChildren(...pieces.filter(p => !chosen.includes(p)).map(p => h('button.token', { lang: 'es', onclick: () => { chosen.push(p); draw(); } }, p.t)));
+    // 並べた単語は読み上げる（戻す時は読まない）
+    pool.replaceChildren(...pieces.filter(p => !chosen.includes(p)).map(p => h('button.token', { lang: 'es', onclick: () => {
+      if (isSpanish(p.t)) speak(window, p.t, ctx.state.settings.rate);
+      chosen.push(p);
+      draw();
+    } }, p.t)));
     check.disabled = chosen.length !== pieces.length;
   }
   draw();

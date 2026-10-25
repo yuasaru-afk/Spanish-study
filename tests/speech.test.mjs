@@ -94,3 +94,16 @@ test('onstart が来ないままでも上限で timeout', async () => {
   const win = { webkitSpeechRecognition: class { start() {} abort() {} } };
   assert.deepEqual(await listen(win, { timeoutMs: 10, limitMs: 30 }), { ok: false, reason: 'timeout' });
 });
+
+test('speak: 読み上げ中でなければ cancel しない（iPhone で遅れの元になる）', () => {
+  let cancels = 0;
+  const win = {
+    speechSynthesis: { speaking: false, pending: false, getVoices: () => [], cancel() { cancels += 1; }, speak() {} },
+    SpeechSynthesisUtterance: class { constructor(t) { this.text = t; } },
+  };
+  speak(win, 'Hola', 1);
+  assert.equal(cancels, 0);
+  win.speechSynthesis.speaking = true;
+  speak(win, 'Hola', 1);
+  assert.equal(cancels, 1);
+});

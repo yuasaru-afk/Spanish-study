@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { stagesFor, nextPosition, stageLength, isUnlocked, pickCheckWords, buildReview, grammarQuiz, startPosition } from '../js/flow.js';
+import { stagesFor, nextPosition, stageLength, isUnlocked, pickCheckWords, buildReview, grammarQuiz, startPosition, prevPosition } from '../js/flow.js';
 
 const base = JSON.parse(readFileSync(new URL('./fixtures/good-unit.json', import.meta.url), 'utf8'));
 const words = n => Array.from({ length: n }, (_, i) => ({ id: `w${i}`, es: `p${i}`, art: null, ja: 'x' }));
@@ -84,4 +84,12 @@ test('startPosition: 単語段で ids を持っていればそのまま', () => 
 test('startPosition: 単語段なのに確認する語が残っていなければ finish（最初に戻さない）', () => {
   const cards = Object.fromEntries(u.words.map(w => [w.id, { step: 0, due: 1 }]));
   assert.equal(startPosition(u, { stage: 'words', index: 0 }, cards), 'finish');
+});
+
+test('prevPosition: 段の中は1つ前、段の先頭は前の段の最後、最初は null', () => {
+  const ids = ['w0', 'w1'];
+  assert.deepEqual(prevPosition(u, ids, { stage: 'practice', index: 2 }), { stage: 'practice', index: 1 });
+  assert.deepEqual(prevPosition(u, ids, { stage: 'words', index: 0 }), { stage: 'practice', index: u.practice.length - 1 });
+  assert.deepEqual(prevPosition(u, ids, { stage: 'practice', index: 0 }), { stage: 'points', index: 0 });
+  assert.equal(prevPosition(u, ids, { stage: 'points', index: 0 }), null);
 });

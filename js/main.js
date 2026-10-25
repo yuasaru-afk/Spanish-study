@@ -4,6 +4,7 @@ import { dayNumber } from './srs.js';
 import * as content from './content.js';
 import { h } from './dom.js';
 import { maybeShowInstallHint } from './views/install.js';
+import { warmUpSpeech } from './speech.js';
 import * as settings from './views/settings.js';
 import * as home from './views/home.js';
 import * as lesson from './views/lesson.js';
@@ -89,6 +90,7 @@ applySettings(document, state.settings);
 window.addEventListener('hashchange', () => draw());
 draw();
 maybeShowInstallHint(window);
+warmUpSpeech(window);
 
 if ('serviceWorker' in navigator && location.protocol === 'https:') {
   const hadController = Boolean(navigator.serviceWorker.controller);

@@ -2,7 +2,7 @@
 import { h } from '../dom.js';
 import { setPosition, recordAnswer, checkWord, completeLesson, awardBadges } from '../store.js';
 import { dayNumber } from '../srs.js';
-import { stagesFor, nextPosition, stageLength, startPosition, STAGE_NAMES } from '../flow.js';
+import { stagesFor, nextPosition, prevPosition, stageLength, startPosition, STAGE_NAMES } from '../flow.js';
 import { esLine, topbar, progressBar } from './common.js';
 import { renderQuestion } from './quiz.js';
 import { renderWordCard } from './wordcard.js';
@@ -53,6 +53,13 @@ export async function render(root, ctx, unitId) {
   root.append(
     topbar(ctx, `${unit.no} ${unit.title}`, `${STAGE_NAMES[pos.stage]} ${pos.index + 1}/${stageLength(unit, pos.stage, wordIds)}`),
     progressBar(doneSoFar / total), body, actions);
+  // 1つ前に戻る（小さく）。戻ってもう一度答えても XP は1問1日1回のまま
+  const prev = prevPosition(unit, wordIds, pos);
+  if (prev) {
+    body.before(h('button.prevlink', {
+      onclick: () => ctx.setState(st => setPosition(st, unitId, prev.stage, prev.index, idsFor(prev.stage)), { top: true }),
+    }, '‹ 前の問題'));
+  }
 
   if (pos.stage === 'points') {
     body.append(
@@ -64,7 +71,7 @@ export async function render(root, ctx, unitId) {
   } else if (pos.stage === 'practice') {
     const qid = `${unit.id}:${pos.index}`;
     renderQuestion(ctx, unit.practice[pos.index], body, actions, {
-      next: { label: 'わかった・次へ', onclick: () => advance() },
+      next: { label: '次へ', onclick: () => advance() },
       grammarHash: `#/grammar/${unit.id}/q`,
       onAnswer: ok => ctx.setState(st => recordAnswer(st, qid, ok, today()), { redraw: false }),
     });

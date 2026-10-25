@@ -16,8 +16,23 @@ export function speak(win, text, rate) {
   u.rate = rate;
   const voice = pickVoice(win);
   if (voice) u.voice = voice;
-  win.speechSynthesis.cancel();
+  // 読み上げ中の時だけ止める。毎回 cancel すると iPhone では読み始めが遅れる
+  if (win.speechSynthesis.speaking || win.speechSynthesis.pending) win.speechSynthesis.cancel();
   win.speechSynthesis.speak(u);
+}
+
+// iPhone は最初の読み上げが遅いので、最初に画面を触った時に無音で一度読ませて準備しておく
+export function warmUpSpeech(win) {
+  if (!canSpeak(win)) return;
+  const once = () => {
+    win.removeEventListener('pointerdown', once, true);
+    win.speechSynthesis.getVoices();
+    const u = new win.SpeechSynthesisUtterance(' ');
+    u.volume = 0;
+    u.lang = 'es-ES';
+    win.speechSynthesis.speak(u);
+  };
+  win.addEventListener('pointerdown', once, true);
 }
 
 const recognizer = win => win.SpeechRecognition || win.webkitSpeechRecognition;

@@ -158,3 +158,5 @@ p { margin: .4em 0; }
 .calday.today { outline: 2px solid var(--accent-text); }
 .badges { list-style: none; padding: 0; columns: 2; }
 .badges li { color: var(--muted); margin: 4px 0; } .badges li.got { color: var(--text); font-weight: 700; }
+
+.prevlink { background: none; border: none; color: var(--muted); font-size: .8em; padding: 2px 0 8px; min-height: 32px; text-align: left; }
