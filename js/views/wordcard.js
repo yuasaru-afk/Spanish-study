@@ -1,5 +1,6 @@
 // 単語カード：タップで意味を出し、「✗ 忘れてた／○ 覚えてた」で答える（レッスン・単語集・振り返りで共通）
 import { h } from '../dom.js';
+import { speak } from '../speech.js';
 import { esLine, latamBox, withArt } from './common.js';
 
 export function renderWordCard(ctx, w, body, actions, onGrade) {
@@ -17,7 +18,8 @@ export function renderWordCard(ctx, w, body, actions, onGrade) {
     h('button.g-again', { onclick: grade(false) }, '✗ 忘れてた'),
     h('button.g-good', { onclick: grade(true) }, '○ 覚えてた'));
   const hint = h('p.muted', { style: 'text-align:center' }, 'タップで意味を表示');
-  const card = h('div.card.flash', { onclick: () => { back.hidden = false; grades.hidden = false; hint.remove(); } },
+  // カードをタップしたら意味を出して、単語を読み上げる
+  const card = h('div.card.flash', { onclick: () => { speak(window, withArt(w.art, w.es), ctx.state.settings.rate); back.hidden = false; grades.hidden = false; hint.remove(); } },
     esLine(ctx, withArt(w.art, w.es)), gender ? h('div.muted', {}, gender) : null, back);
   card.querySelector('.esline').style.justifyContent = 'center';
   body.append(card, hint);
