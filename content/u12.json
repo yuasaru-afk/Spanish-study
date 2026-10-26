@@ -1,0 +1,510 @@
+{
+ "id": "u12",
+ "no": 12,
+ "title": "tener / ir / hacer と ir a ＋原形",
+ "summary": "不規則に変わる3つの動詞。ir a ＋原形で「〜するつもり」。",
+ "points": {
+  "lines": [
+   "tener：tengo, tienes, tiene, tenemos…",
+   "ir：voy, vas, va, vamos, vais, van",
+   "ir a ＋原形で「〜するつもり・〜しよう」"
+  ],
+  "examples": [
+   {
+    "es": "Tengo veinte años.",
+    "ja": "私は20歳です。"
+   },
+   {
+    "es": "Voy a comer paella.",
+    "ja": "パエリアを食べるつもりです。"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "tener：持つ、そして「〜歳」",
+   "body": "tener は yo だけでなく、tú・él・ellos でも語幹が変わる不規則動詞です。\n・yo **tengo** ／ tú **tienes** ／ él・ella・usted **tiene**\n・nosotros **tenemos** ／ vosotros **tenéis** ／ ellos・ellas・ustedes **tienen**\nnosotros と vosotros だけは語幹が ten- のまま。そこ以外は tien- か teng-、と覚えます。\n意味は「持つ」。年齢もこれで言い、日本語の「〜歳です」は **tener ＋ 数字 ＋ años** です。ser は使いません。",
+   "examples": [
+    {
+     "es": "Tengo un hermano.",
+     "ja": "私には兄（弟）がいます。"
+    },
+    {
+     "es": "¿Cuántos años tienes?",
+     "ja": "何歳？"
+    },
+    {
+     "es": "Mi madre tiene cincuenta años.",
+     "ja": "母は50歳です。"
+    }
+   ]
+  },
+  {
+   "title": "tener ＋ 名詞の言い方",
+   "body": "日本語では「お腹がすいた」「のどが渇いた」と状態で言うところを、スペイン語では「〜を持っている」で言います。\n・tener hambre（お腹がすいている）\n・tener sed（のどが渇いている）\n・tener sueño（眠い）\n・tener prisa（急いでいる）\n・tener calor（暑い）\n「とても」は muy ではなく **mucho** を使います：Tengo mucha hambre.（hambre の性に合わせて mucha）。",
+   "examples": [
+    {
+     "es": "Tengo hambre.",
+     "ja": "お腹がすきました。"
+    },
+    {
+     "es": "Tienen mucha sed.",
+     "ja": "彼らはとてものどが渇いています。"
+    },
+    {
+     "es": "Tenemos prisa.",
+     "ja": "私たちは急いでいます。"
+    }
+   ]
+  },
+  {
+   "title": "ir：行く",
+   "body": "ir は形が元の ir と全然違う、完全な不規則動詞です。\n・yo **voy** ／ tú **vas** ／ él・ella・usted **va**\n・nosotros **vamos** ／ vosotros **vais** ／ ellos・ellas・ustedes **van**\n行き先の前には **a** を置きます：Voy a Madrid.（マドリードへ行く）。a la playa のように、後ろに冠詞が付くこともあります。\n🌎 vais は vosotros の形。中南米では van を使います。",
+   "examples": [
+    {
+     "es": "Voy a la playa.",
+     "ja": "海へ行きます。"
+    },
+    {
+     "es": "¿Adónde vas?",
+     "ja": "どこへ行くの？"
+    },
+    {
+     "es": "Vamos al cine.",
+     "ja": "映画に行きます。",
+     "note": "a ＋ el は al になる。"
+    }
+   ]
+  },
+  {
+   "title": "ir a ＋原形：近い未来・つもり",
+   "body": "**ir の活用形 ＋ a ＋ 動詞の原形** で、「〜するつもり」「〜しよう」という近い未来を表します。日本語の「〜しに行く」とは違い、実際に出かけなくても使えます。\n・Voy a estudiar.（勉強するつもり）\n・Vamos a comer.（食べよう／食べるつもりです）\nvamos a ＋原形は「〜しましょう」と誘う言い方にもなります。変わるのは ir の部分だけで、後ろの動詞はいつも原形です。a を忘れないこと。",
+   "examples": [
+    {
+     "es": "Voy a trabajar mañana.",
+     "ja": "明日は働くつもりです。"
+    },
+    {
+     "es": "¿Qué vas a hacer?",
+     "ja": "何をするつもり？"
+    },
+    {
+     "es": "Vamos a beber algo.",
+     "ja": "何か飲みましょう。"
+    }
+   ]
+  },
+  {
+   "title": "hacer：作る・する",
+   "body": "hacer は yo だけが不規則（hago）で、あとは規則どおりです。\n・yo **hago** ／ tú haces ／ él・ella・usted hace\n・nosotros hacemos ／ vosotros hacéis ／ ellos・ellas・ustedes hacen\n「作る」「する」の両方を表し、tarea（宿題）や ejercicio（運動）にも使います。質問 ¿Qué haces?（何してるの？）は、よく使う決まり文句です。",
+   "examples": [
+    {
+     "es": "Hago la tarea.",
+     "ja": "宿題をします。"
+    },
+    {
+     "es": "¿Qué haces?",
+     "ja": "何してるの？"
+    },
+    {
+     "es": "Hacemos una fiesta.",
+     "ja": "私たちはパーティーをします。"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Yo ___ veinte años.",
+   "ja": "私は20歳です。",
+   "options": [
+    {
+     "text": "tengo",
+     "correct": true,
+     "why": "年齢は tener。yo の形は tengo。"
+    },
+    {
+     "text": "tenemos",
+     "correct": false,
+     "why": "tenemos は nosotros の形。「私たちは20歳」になります。"
+    },
+    {
+     "text": "tienes",
+     "correct": false,
+     "why": "tienes は tú の形。「君は20歳」の意味になります。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Cuántos años ___ tú?",
+   "ja": "君は何歳ですか？",
+   "options": [
+    {
+     "text": "tengo",
+     "correct": false,
+     "why": "tengo は yo の形。質問の主語が tú なので合いません。"
+    },
+    {
+     "text": "tienes",
+     "correct": true,
+     "why": "tú の形は tienes（語幹が tien-）。"
+    },
+    {
+     "text": "tiene",
+     "correct": false,
+     "why": "tiene は él・ella・usted の形。tú には tienes。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Nosotros ___ al cine.",
+   "ja": "私たちは映画に行きます。",
+   "options": [
+    {
+     "text": "vamos",
+     "correct": true,
+     "why": "ir の nosotros は vamos。"
+    },
+    {
+     "text": "vais",
+     "correct": false,
+     "why": "vais は vosotros の形。「君たちは行く」の意味になります。"
+    },
+    {
+     "text": "voy",
+     "correct": false,
+     "why": "voy は yo の形。主語が nosotros なので合いません。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "パエリアを食べるつもりです。",
+   "tokens": [
+    "Voy",
+    "a",
+    "comer",
+    "paella."
+   ],
+   "accept": [],
+   "why": "ir a ＋原形で「〜するつもり」。a を忘れないこと。"
+  },
+  {
+   "type": "choice",
+   "prompt": "「明日、働くつもりです」はどれ？",
+   "ja": "明日、働くつもりです。",
+   "options": [
+    {
+     "text": "Voy a trabajo mañana.",
+     "correct": false,
+     "why": "a の後ろは動詞の原形。trabajo は名詞「仕事」なので、「明日は仕事へ行く」と別の意味になります。"
+    },
+    {
+     "text": "Voy trabajar mañana.",
+     "correct": false,
+     "why": "ir の後ろに a がありません。「〜するつもり」の形にならず、文として成り立ちません。"
+    },
+    {
+     "text": "Voy a trabajar mañana.",
+     "correct": true,
+     "why": "voy a ＋原形で近い未来。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ella ___ la tarea.",
+   "ja": "彼女は宿題をします。",
+   "options": [
+    {
+     "text": "hacen",
+     "correct": false,
+     "why": "hacen は ellos・ustedes の形。ella は単数なので hace。"
+    },
+    {
+     "text": "hago",
+     "correct": false,
+     "why": "hago は yo の形。主語が ella なので合いません。"
+    },
+    {
+     "text": "hace",
+     "correct": true,
+     "why": "hacer の él・ella の形は hace。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "「お腹がすいた」はどれ？",
+   "ja": "お腹がすきました。",
+   "options": [
+    {
+     "text": "Estoy hambre.",
+     "correct": false,
+     "why": "estar の後ろに名詞 hambre は置けません。空腹は tener hambre と言います。"
+    },
+    {
+     "text": "Tengo hambre.",
+     "correct": true,
+     "why": "hambre は「持つ」ものとして tener で言います。"
+    },
+    {
+     "text": "Soy hambre.",
+     "correct": false,
+     "why": "ser は「〜である」で、お腹がすいた状態は表せません。hambre は「空腹」という名詞です。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "何をするつもり？",
+   "tokens": [
+    "¿Qué",
+    "vas",
+    "a",
+    "hacer?"
+   ],
+   "accept": [],
+   "why": "vas a ＋原形（hacer）で「〜するつもり」。tú に向けて聞いています。"
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ellos ___ a la playa.",
+   "ja": "彼らは海に行きます。",
+   "options": [
+    {
+     "text": "va",
+     "correct": false,
+     "why": "va は単数（él・ella）の形。ellos は複数なので van。"
+    },
+    {
+     "text": "van",
+     "correct": true,
+     "why": "ellos の形は van。"
+    },
+    {
+     "text": "vais",
+     "correct": false,
+     "why": "vais は vosotros の形。ellos には van。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Yo ___ la cena.",
+   "ja": "私は夕食を作ります。",
+   "options": [
+    {
+     "text": "haces",
+     "correct": false,
+     "why": "haces は tú の形。「君は作る」になります。"
+    },
+    {
+     "text": "hago",
+     "correct": true,
+     "why": "hacer は yo だけ不規則で hago。"
+    },
+    {
+     "text": "hacen",
+     "correct": false,
+     "why": "hacen は ellos・ustedes の形。主語が yo なので合いません。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "tener",
+   "es": "tener",
+   "art": null,
+   "ja": "持つ；〜歳である"
+  },
+  {
+   "id": "ir",
+   "es": "ir",
+   "art": null,
+   "ja": "行く"
+  },
+  {
+   "id": "hacer",
+   "es": "hacer",
+   "art": null,
+   "ja": "作る；する"
+  },
+  {
+   "id": "hambre",
+   "es": "hambre",
+   "art": "el",
+   "ja": "空腹（el hambre。女性名詞だが el が付く）"
+  },
+  {
+   "id": "sed",
+   "es": "sed",
+   "art": "la",
+   "ja": "のどの渇き"
+  },
+  {
+   "id": "sueno",
+   "es": "sueño",
+   "art": "el",
+   "ja": "眠気；夢"
+  },
+  {
+   "id": "prisa",
+   "es": "prisa",
+   "art": "la",
+   "ja": "急ぎ"
+  },
+  {
+   "id": "calor",
+   "es": "calor",
+   "art": "el",
+   "ja": "暑さ"
+  },
+  {
+   "id": "viaje",
+   "es": "viaje",
+   "art": "el",
+   "ja": "旅行"
+  },
+  {
+   "id": "plan",
+   "es": "plan",
+   "art": "el",
+   "ja": "計画；予定"
+  },
+  {
+   "id": "fiesta",
+   "es": "fiesta",
+   "art": "la",
+   "ja": "パーティー；祝日"
+  },
+  {
+   "id": "tarea",
+   "es": "tarea",
+   "art": "la",
+   "ja": "宿題；仕事"
+  },
+  {
+   "id": "pelicula",
+   "es": "película",
+   "art": "la",
+   "ja": "映画（作品）"
+  },
+  {
+   "id": "fin_de_semana",
+   "es": "fin de semana",
+   "art": "el",
+   "ja": "週末"
+  },
+  {
+   "id": "ahora",
+   "es": "ahora",
+   "art": null,
+   "ja": "今"
+  },
+  {
+   "id": "luego",
+   "es": "luego",
+   "art": null,
+   "ja": "あとで；それから"
+  },
+  {
+   "id": "esta_noche",
+   "es": "esta noche",
+   "art": null,
+   "ja": "今夜"
+  },
+  {
+   "id": "cumpleanos",
+   "es": "cumpleaños",
+   "art": "el",
+   "ja": "誕生日"
+  },
+  {
+   "id": "ejercicio",
+   "es": "ejercicio",
+   "art": "el",
+   "ja": "運動；練習問題"
+  }
+ ],
+ "phrases": [
+  {
+   "es": "¿Cuántos años tienes?",
+   "ja": "何歳？",
+   "scene": "会話",
+   "latam": null
+  },
+  {
+   "es": "Tengo hambre.",
+   "ja": "お腹がすきました。",
+   "scene": "会話",
+   "latam": null
+  },
+  {
+   "es": "Tengo sed.",
+   "ja": "のどが渇きました。",
+   "scene": "会話",
+   "latam": null
+  },
+  {
+   "es": "¿Qué vas a hacer este fin de semana?",
+   "ja": "今週末は何をするつもり？",
+   "scene": "予定をたずねる",
+   "latam": null
+  },
+  {
+   "es": "Voy a descansar.",
+   "ja": "休むつもりです。",
+   "scene": "予定をたずねる",
+   "latam": null
+  },
+  {
+   "es": "Vamos a comer algo.",
+   "ja": "何か食べましょう。",
+   "scene": "誘う",
+   "latam": null
+  },
+  {
+   "es": "Tengo prisa.",
+   "ja": "急いでいます。",
+   "scene": "会話",
+   "latam": null
+  }
+ ],
+ "speak": [
+  {
+   "es": "Tengo veinte años.",
+   "ja": "20歳です。",
+   "note": "tengo の g は日本語のガ行より少し弱く。"
+  },
+  {
+   "es": "Tengo mucha hambre.",
+   "ja": "とてもお腹がすいています。"
+  },
+  {
+   "es": "Voy a la playa.",
+   "ja": "海へ行きます。"
+  },
+  {
+   "es": "¿Qué vas a hacer?",
+   "ja": "何をするつもり？",
+   "note": "vas a の a は軽く、つなげて。"
+  },
+  {
+   "es": "Vamos a comer.",
+   "ja": "食べましょう。"
+  }
+ ]
+}

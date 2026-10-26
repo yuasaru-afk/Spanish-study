@@ -1,0 +1,456 @@
+{
+ "id": "u11",
+ "no": 11,
+ "title": "-er / -ir 動詞の現在形",
+ "summary": "comer, vivir など。語尾は -er と -ir で nosotros と vosotros だけ違う。",
+ "points": {
+  "lines": [
+   "comer：como, comes, come, comemos, coméis, comen",
+   "vivir：vivo, vives, vive, vivimos, vivís, viven",
+   "-er と -ir の違いは nosotros と vosotros だけ"
+  ],
+  "examples": [
+   {
+    "es": "Como pan todos los días.",
+    "ja": "毎日パンを食べます。"
+   },
+   {
+    "es": "Vivimos en Madrid.",
+    "ja": "私たちはマドリードに住んでいます。"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "-er 動詞の活用（comer 型）",
+   "body": "-ar 動詞（hablar）に続いて、-er で終わる動詞です。語幹（comer の com-）はそのままで、語尾だけが変わります。\n・yo com**o** ／ tú com**es** ／ él・ella・usted com**e**\n・nosotros com**emos** ／ vosotros com**éis** ／ ellos・ellas・ustedes com**en**\n🌎 vosotros は主にスペインで使う形。中南米では ustedes（comen）で済ませます。",
+   "examples": [
+    {
+     "es": "Bebo agua.",
+     "ja": "水を飲みます。"
+    },
+    {
+     "es": "¿Qué comes?",
+     "ja": "何を食べるの？"
+    },
+    {
+     "es": "Ellos comen paella.",
+     "ja": "彼らはパエリアを食べます。"
+    }
+   ]
+  },
+  {
+   "title": "-ir 動詞の活用（vivir 型）",
+   "body": "-ir 動詞も語幹はそのまま。語尾はほとんど -er と同じです。\n・yo viv**o** ／ tú viv**es** ／ él・ella・usted viv**e**\n・nosotros viv**imos** ／ vosotros viv**ís** ／ ellos・ellas・ustedes viv**en**\n日本語の「住む」「書く」「開ける」に当たる動詞が多く、日常でよく使います。",
+   "examples": [
+    {
+     "es": "Vivo en Osaka.",
+     "ja": "大阪に住んでいます。"
+    },
+    {
+     "es": "Escribes muy bien.",
+     "ja": "君は書くのがとても上手だね。"
+    },
+    {
+     "es": "Ella abre la puerta.",
+     "ja": "彼女はドアを開けます。"
+    }
+   ]
+  },
+  {
+   "title": "-er と -ir の違いは2か所だけ",
+   "body": "6つの形を並べると、-er と -ir で違うのは **nosotros と vosotros だけ** です。\n・nosotros：com**e**mos ／ viv**i**mos\n・vosotros：com**é**is ／ viv**í**s\nほかの4つ（yo, tú, él, ellos）は同じ語尾。まず -er の形を覚え、nosotros と vosotros だけ -ir 用に差し替えると考えると楽です。vosotros の -éis と -ís は、アクセント記号が付くのも目印です。",
+   "examples": [
+    {
+     "es": "Comemos juntos.",
+     "ja": "私たちは一緒に食べます。"
+    },
+    {
+     "es": "Vivimos juntos.",
+     "ja": "私たちは一緒に住んでいます。"
+    }
+   ]
+  },
+  {
+   "title": "主語は省ける、読み方は動詞の語尾で決まる",
+   "body": "語尾が人称を表すので、主語（yo, tú…）は普通は言いません。como だけで「私は食べる」です。\nusted と ustedes は、él・ella と ellos・ellas と同じ形（come / comen）。「あなた」と「彼」が同じ形になるので、必要なときだけ usted を添えます。\n・¿Come usted aquí?（こちらで召し上がりますか？）\nまた、現在形は「いつもしていること」と「今していること」の両方に使えます。",
+   "examples": [
+    {
+     "es": "Vivo en Tokio.",
+     "ja": "東京に住んでいます。",
+     "note": "主語 yo は省略。"
+    },
+    {
+     "es": "¿Bebe usted café?",
+     "ja": "コーヒーを飲まれますか？",
+     "note": "usted を添えて丁寧に。"
+    }
+   ]
+  },
+  {
+   "title": "よく使う -er / -ir 動詞と頻度の言葉",
+   "body": "-er：comer（食べる）, beber（飲む）, leer（読む）, aprender（学ぶ）, correr（走る）, vender（売る）, creer（思う・信じる）\n-ir：vivir（住む）, escribir（書く）, abrir（開ける）, recibir（受け取る）, decidir（決める）\n頻度の言葉は文の頭か終わりに置けます：siempre（いつも）, a veces（ときどき）, todos los días（毎日）。\n・Siempre leo por la noche.（いつも夜に読みます）",
+   "examples": [
+    {
+     "es": "A veces corro por la mañana.",
+     "ja": "ときどき朝に走ります。"
+    },
+    {
+     "es": "Aprendemos español.",
+     "ja": "私たちはスペイン語を学んでいます。"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Yo ___ pan.",
+   "ja": "私はパンを食べます。",
+   "options": [
+    {
+     "text": "como",
+     "correct": true,
+     "why": "yo の形は -o。comer の語幹 com- に -o。"
+    },
+    {
+     "text": "comes",
+     "correct": false,
+     "why": "comes は tú の形。「君は食べる」の意味になります。"
+    },
+    {
+     "text": "come",
+     "correct": false,
+     "why": "come は él・ella・usted の形。主語が yo なので合いません。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ellos ___ en Madrid.",
+   "ja": "彼らはマドリードに住んでいます。",
+   "options": [
+    {
+     "text": "vive",
+     "correct": false,
+     "why": "vive は él・ella の形で単数。ellos は複数なので viven。"
+    },
+    {
+     "text": "vivimos",
+     "correct": false,
+     "why": "vivimos は nosotros の形。「私たちは住む」の意味になります。"
+    },
+    {
+     "text": "viven",
+     "correct": true,
+     "why": "ellos の形は -en。vivir → viven。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Nosotros ___ en Osaka.",
+   "ja": "私たちは大阪に住んでいます。",
+   "options": [
+    {
+     "text": "vivimos",
+     "correct": true,
+     "why": "-ir 動詞の nosotros は -imos。"
+    },
+    {
+     "text": "viven",
+     "correct": false,
+     "why": "viven は ellos・ustedes の形。nosotros には vivimos。"
+    },
+    {
+     "text": "vivemos",
+     "correct": false,
+     "why": "-er 動詞なら comemos ですが、vivir は -ir なので -imos。vivemos という形はありません。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Vosotros ___ agua.",
+   "ja": "君たちは水を飲みます。",
+   "options": [
+    {
+     "text": "bebemos",
+     "correct": false,
+     "why": "bebemos は nosotros の形。「私たちは飲む」の意味になります。"
+    },
+    {
+     "text": "bebéis",
+     "correct": true,
+     "why": "beber は -er 動詞。vosotros は -éis（記号付き）。"
+    },
+    {
+     "text": "bebís",
+     "correct": false,
+     "why": "-ís は -ir 動詞の vosotros の語尾（vivís）。beber は -er なので bebéis。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "手紙を書きます。",
+   "tokens": [
+    "Escribo",
+    "una",
+    "carta."
+   ],
+   "accept": [],
+   "why": "escribir は -ir 動詞。yo の形は escribo。"
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ella ___ un libro.",
+   "ja": "彼女は本を読みます。",
+   "options": [
+    {
+     "text": "leen",
+     "correct": false,
+     "why": "leen は ellos・ustedes の形。主語が ella（単数）なので合いません。"
+    },
+    {
+     "text": "lee",
+     "correct": true,
+     "why": "leer は -er 動詞。él・ella の形は lee（語尾 -e）。"
+    },
+    {
+     "text": "leo",
+     "correct": false,
+     "why": "leo は yo の形。「私は読む」になります。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Tú ___ la puerta.",
+   "ja": "君はドアを開けます。",
+   "options": [
+    {
+     "text": "abrimos",
+     "correct": false,
+     "why": "abrimos は nosotros の形。「私たちは開ける」になります。"
+    },
+    {
+     "text": "abres",
+     "correct": true,
+     "why": "abrir は -ir 動詞。tú の形は -es。"
+    },
+    {
+     "text": "abre",
+     "correct": false,
+     "why": "abre は él・ella・usted の形。tú には abres。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "どこに住んでいますか？（君は）",
+   "tokens": [
+    "¿Dónde",
+    "vives?"
+   ],
+   "accept": [],
+   "why": "vivir の tú の形は vives。疑問詞 ¿Dónde の後ろにそのまま動詞を置きます。"
+  },
+  {
+   "type": "choice",
+   "prompt": "「私たちは手紙を書きます」はどれ？",
+   "ja": "私たちは手紙を書きます。",
+   "options": [
+    {
+     "text": "Escribemos una carta.",
+     "correct": false,
+     "why": "-emos は -er 動詞の語尾（comemos）。escribir は -ir なので escribimos。"
+    },
+    {
+     "text": "Escribís una carta.",
+     "correct": false,
+     "why": "escribís は vosotros の形。「君たちは書く」の意味になります。"
+    },
+    {
+     "text": "Escribimos una carta.",
+     "correct": true,
+     "why": "escribir は -ir 動詞なので nosotros は -imos。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ustedes ___ mucho.",
+   "ja": "みなさんはたくさん読みます。",
+   "options": [
+    {
+     "text": "leéis",
+     "correct": false,
+     "why": "leéis は vosotros の形。ustedes には使いません。"
+    },
+    {
+     "text": "leen",
+     "correct": true,
+     "why": "ustedes は ellos と同じ -en。leer → leen。"
+    },
+    {
+     "text": "leemos",
+     "correct": false,
+     "why": "leemos は nosotros の形。「私たちは読む」になります。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "comer",
+   "es": "comer",
+   "art": null,
+   "ja": "食べる"
+  },
+  {
+   "id": "beber",
+   "es": "beber",
+   "art": null,
+   "ja": "飲む"
+  },
+  {
+   "id": "vivir",
+   "es": "vivir",
+   "art": null,
+   "ja": "住む；生きる"
+  },
+  {
+   "id": "escribir",
+   "es": "escribir",
+   "art": null,
+   "ja": "書く"
+  },
+  {
+   "id": "abrir",
+   "es": "abrir",
+   "art": null,
+   "ja": "開ける"
+  },
+  {
+   "id": "correr",
+   "es": "correr",
+   "art": null,
+   "ja": "走る"
+  },
+  {
+   "id": "aprender",
+   "es": "aprender",
+   "art": null,
+   "ja": "学ぶ"
+  },
+  {
+   "id": "vender",
+   "es": "vender",
+   "art": null,
+   "ja": "売る"
+  },
+  {
+   "id": "recibir",
+   "es": "recibir",
+   "art": null,
+   "ja": "受け取る"
+  },
+  {
+   "id": "compartir",
+   "es": "compartir",
+   "art": null,
+   "ja": "分かち合う；シェアする"
+  },
+  {
+   "id": "decidir",
+   "es": "decidir",
+   "art": null,
+   "ja": "決める"
+  },
+  {
+   "id": "deber",
+   "es": "deber",
+   "art": null,
+   "ja": "〜しなければならない；借りている"
+  },
+  {
+   "id": "creer",
+   "es": "creer",
+   "art": null,
+   "ja": "思う；信じる"
+  },
+  {
+   "id": "responder",
+   "es": "responder",
+   "art": null,
+   "ja": "答える"
+  },
+  {
+   "id": "subir",
+   "es": "subir",
+   "art": null,
+   "ja": "上がる；登る"
+  },
+  {
+   "id": "puerta",
+   "es": "puerta",
+   "art": "la",
+   "ja": "ドア；入口"
+  },
+  {
+   "id": "mensaje",
+   "es": "mensaje",
+   "art": "el",
+   "ja": "メッセージ"
+  },
+  {
+   "id": "siempre",
+   "es": "siempre",
+   "art": null,
+   "ja": "いつも"
+  },
+  {
+   "id": "a_veces",
+   "es": "a veces",
+   "art": null,
+   "ja": "ときどき"
+  },
+  {
+   "id": "todos_los_dias",
+   "es": "todos los días",
+   "art": null,
+   "ja": "毎日"
+  }
+ ],
+ "phrases": [],
+ "speak": [
+  {
+   "es": "Como pan todos los días.",
+   "ja": "毎日パンを食べます。",
+   "note": "como の o をはっきり。"
+  },
+  {
+   "es": "¿Dónde vives?",
+   "ja": "どこに住んでいますか？"
+  },
+  {
+   "es": "Vivimos en Madrid.",
+   "ja": "私たちはマドリードに住んでいます。"
+  },
+  {
+   "es": "Siempre bebo agua.",
+   "ja": "いつも水を飲みます。",
+   "note": "siempre の最初の s は日本語のサ行に近い音。"
+  }
+ ]
+}

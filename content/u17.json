@@ -1,0 +1,536 @@
+{
+ "id": "u17",
+ "no": 17,
+ "title": "天気と季節",
+ "summary": "hace ＋ 名詞で寒い・暑い・晴れ・風が強い。雨と雪は動詞 llueve / nieva。季節名も覚えよう。",
+ "points": {
+  "lines": [
+   "寒い・暑い・晴れは hace ＋ 名詞",
+   "雨・雪は動詞 llueve / nieva（主語なし）",
+   "曇りは está nublado、霧は hay niebla"
+  ],
+  "examples": [
+   {
+    "es": "Hace mucho calor.",
+    "ja": "とても暑い。"
+   },
+   {
+    "es": "En invierno nieva.",
+    "ja": "冬は雪が降る。"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "¿Qué tiempo hace?（天気を聞く・答える）",
+   "body": "天気を聞くときは ¿**Qué tiempo hace**?（どんな天気？）です。tiempo は「天気」のほか「時間」の意味もあります。\n答えは **hace ＋ 名詞** で、hace は**いつも3人称単数**の形です。\n・Hace **frío**.（寒い）\n・Hace **calor**.（暑い）\n・Hace **sol**.（晴れている）\n・Hace **viento**.（風が強い）\n・Hace buen / mal tiempo.（天気がいい／悪い）",
+   "examples": [
+    {
+     "es": "¿Qué tiempo hace hoy?",
+     "ja": "今日はどんな天気？"
+    },
+    {
+     "es": "Hace sol y hace calor.",
+     "ja": "晴れていて暑い。"
+    },
+    {
+     "es": "Hace mal tiempo.",
+     "ja": "天気が悪い。"
+    }
+   ]
+  },
+  {
+   "title": "「とても」は mucho（muy ではない）",
+   "body": "frío・calor・sol・viento は**名詞**です。名詞を強めるのは **mucho**（ここでは男性単数の mucho）。形容詞を強める muy は使いません。\n・Hace **mucho** frío.（とても寒い）\n・Hace **mucho** calor.（とても暑い）\n日本語の「寒い」「暑い」は形容詞なので、つい Es frío. や Es muy calor. と言いたくなりますが、天気は hace を使います。\n人が「寒い・暑い」と感じるときは別で、**tener ＋ frío / calor**：Tengo frío.（私は寒い）。",
+   "examples": [
+    {
+     "es": "Hace mucho viento.",
+     "ja": "風がとても強い。"
+    },
+    {
+     "es": "Tengo frío.",
+     "ja": "寒いです。",
+     "note": "自分の体感は tener"
+    },
+    {
+     "es": "Tenemos calor.",
+     "ja": "私たちは暑い。"
+    }
+   ]
+  },
+  {
+   "title": "雨と雪は動詞：llueve / nieva",
+   "body": "雨・雪は名詞でなく**動詞**で言います。\n・**llover**（雨が降る）：**llueve**\n・**nevar**（雪が降る）：**nieva**\n主語はなく、いつも3人称単数です。llueve と nieva は語幹の母音が変わる形（o→ue, e→ie）ですが、今はこの形で覚えておけば十分です（詳しくは u18）。\n名詞は lluvia（雨）、nieve（雪）。「雨がたくさん降る」は Llueve mucho. です。",
+   "examples": [
+    {
+     "es": "Llueve mucho en primavera.",
+     "ja": "春はよく雨が降る。"
+    },
+    {
+     "es": "Hoy nieva.",
+     "ja": "今日は雪です。"
+    },
+    {
+     "es": "Necesito un paraguas.",
+     "ja": "傘が必要です。"
+    }
+   ]
+  },
+  {
+   "title": "曇り・霧・嵐：está と hay",
+   "body": "状態を形容詞で言うときは **está ＋ 形容詞**：\n・Está **nublado**.（曇っている）\n・Está **despejado**.（晴れ渡っている）\nものが「ある」ときは **hay ＋ 名詞**：\n・**Hay** niebla.（霧が出ている）\n・**Hay** tormenta.（嵐だ）\nniebla に hace を付けないのがポイント。hace は frío・calor・sol・viento など決まった語と組み合わせます。",
+   "examples": [
+    {
+     "es": "Hoy está nublado.",
+     "ja": "今日は曇りです。"
+    },
+    {
+     "es": "Hay niebla en la ciudad.",
+     "ja": "街に霧が出ています。"
+    },
+    {
+     "es": "Mañana hay tormenta.",
+     "ja": "明日は嵐です。"
+    }
+   ]
+  },
+  {
+   "title": "四季：primavera・verano・otoño・invierno",
+   "body": "季節は **la primavera**（春）、**el verano**（夏）、**el otoño**（秋）、**el invierno**（冬）。性は primavera だけ女性です。\n「〜に」は **en** ：en verano（夏に）、en invierno（冬に）。冠詞は付けないのがふつうです。\nñ は「にゃ行」に近い音。otoño の ño は「にょ」と聞こえます。",
+   "examples": [
+    {
+     "es": "En verano hace calor.",
+     "ja": "夏は暑い。"
+    },
+    {
+     "es": "En invierno hace frío.",
+     "ja": "冬は寒い。"
+    },
+    {
+     "es": "Me gusta la primavera.",
+     "ja": "春が好きです。"
+    }
+   ]
+  },
+  {
+   "title": "🌎 南半球は季節が逆",
+   "body": "チリ・アルゼンチンなど**南半球**の国では、季節が日本と逆です。7月は**冬**（invierno）、12月は**夏**（verano）です。\nまた、赤道に近い国（コロンビア、エクアドルなど）は四季がはっきりせず、**雨季**（la temporada de lluvias）と乾季で語ることがよくあります。\n気温は日本と同じく**摂氏**（grados）で言います。",
+   "examples": [
+    {
+     "es": "En Chile, julio es invierno.",
+     "ja": "チリでは7月は冬です。",
+     "note": "🌎 南半球"
+    },
+    {
+     "es": "Hace veinte grados.",
+     "ja": "20度です。"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Qué tiempo ___ hoy?",
+   "ja": "今日はどんな天気？",
+   "options": [
+    {
+     "text": "está",
+     "correct": false,
+     "why": "está は estar の形。天気の質問は hace を使う。"
+    },
+    {
+     "text": "hace",
+     "correct": true,
+     "why": "天気を聞くときは hacer の hace。¿Qué tiempo hace?"
+    },
+    {
+     "text": "es",
+     "correct": false,
+     "why": "es は ser の形。天気の質問には使わない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Hoy ___ mucho calor.",
+   "ja": "今日はとても暑い。",
+   "options": [
+    {
+     "text": "hace",
+     "correct": true,
+     "why": "calor は名詞。天気は hace ＋ 名詞で言う。"
+    },
+    {
+     "text": "tiene",
+     "correct": false,
+     "why": "tiene は人が暑く感じるとき（tiene calor＝彼は暑い）。天気そのものには使わない。"
+    },
+    {
+     "text": "es",
+     "correct": false,
+     "why": "es mucho calor だと天気の言い方にならない。天気は hace。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "___ mucho en otoño.",
+   "ja": "秋はよく雨が降る。",
+   "options": [
+    {
+     "text": "Llueve",
+     "correct": true,
+     "why": "「雨が降る」は動詞 llover の llueve。"
+    },
+    {
+     "text": "Hace",
+     "correct": false,
+     "why": "hace lluvia とは言わない。雨は動詞 llueve で言う。"
+    },
+    {
+     "text": "Es",
+     "correct": false,
+     "why": "es mucho では天気にならない。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "冬は雪がたくさん降る。",
+   "tokens": [
+    "En",
+    "invierno",
+    "nieva",
+    "mucho."
+   ],
+   "accept": [
+    [
+     "Nieva",
+     "mucho",
+     "en",
+     "invierno."
+    ]
+   ],
+   "why": "季節は en ＋ invierno。雪は動詞 nieva で、mucho は動詞のあと。"
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Hace ___ calor.",
+   "ja": "とても暑い。",
+   "options": [
+    {
+     "text": "mucho",
+     "correct": true,
+     "why": "calor は男性単数の名詞なので mucho。"
+    },
+    {
+     "text": "muchos",
+     "correct": false,
+     "why": "muchos は複数名詞用。calor は単数。"
+    },
+    {
+     "text": "mucha",
+     "correct": false,
+     "why": "mucha は女性名詞用。calor は男性名詞。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Hoy el cielo ___ nublado.",
+   "ja": "今日は空が曇っている。",
+   "options": [
+    {
+     "text": "hace",
+     "correct": false,
+     "why": "hace nublado とは言わない。nublado は形容詞なので está。"
+    },
+    {
+     "text": "hay",
+     "correct": false,
+     "why": "hay は「〜がある」で後ろに名詞が来る。形容詞の nublado とは合わない。"
+    },
+    {
+     "text": "está",
+     "correct": true,
+     "why": "状態を表す形容詞 nublado とは estar を使う。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "正しい文は？",
+   "ja": "夏は暑い。",
+   "options": [
+    {
+     "text": "En verano hace calor.",
+     "correct": true,
+     "why": "「夏に」は en verano。暑いは hace calor。"
+    },
+    {
+     "text": "En verano es calor.",
+     "correct": false,
+     "why": "天気の calor には ser でなく hace を使う。"
+    },
+    {
+     "text": "En verano tiene calor.",
+     "correct": false,
+     "why": "tiene calor は「（人が）暑い」。天気の文では hace。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "正しい文は？",
+   "ja": "霧が出ています。",
+   "options": [
+    {
+     "text": "Es niebla.",
+     "correct": false,
+     "why": "es niebla は「それは霧だ」という意味になり、天気の言い方ではない。"
+    },
+    {
+     "text": "Hace niebla.",
+     "correct": false,
+     "why": "hace は frío・calor・sol・viento など決まった語に付く。niebla には hay。"
+    },
+    {
+     "text": "Hay niebla.",
+     "correct": true,
+     "why": "niebla は「ある」で言う。hay ＋ 名詞。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "正しい文は？",
+   "ja": "私は寒いです（体感）。",
+   "options": [
+    {
+     "text": "Hago frío.",
+     "correct": false,
+     "why": "hago は「私がする」。天気でも体感でもこう言わない。"
+    },
+    {
+     "text": "Soy frío.",
+     "correct": false,
+     "why": "ser frío は「冷たい性格だ」という意味になる。"
+    },
+    {
+     "text": "Tengo frío.",
+     "correct": true,
+     "why": "人が寒く感じるときは tener ＋ frío。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "🌎 季節は？",
+   "ja": "🌎 チリで7月の季節は？",
+   "options": [
+    {
+     "text": "En Chile, julio es invierno.",
+     "correct": true,
+     "why": "チリは南半球なので、7月は冬。"
+    },
+    {
+     "text": "En Chile, julio es verano.",
+     "correct": false,
+     "why": "夏は12月ごろ。南半球では日本と季節が逆なので7月は冬。"
+    },
+    {
+     "text": "En Chile, julio es primavera.",
+     "correct": false,
+     "why": "春は9月ごろから。7月は冬。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "tiempo",
+   "es": "tiempo",
+   "art": "el",
+   "ja": "天気・時間"
+  },
+  {
+   "id": "sol",
+   "es": "sol",
+   "art": "el",
+   "ja": "太陽・日ざし"
+  },
+  {
+   "id": "viento",
+   "es": "viento",
+   "art": "el",
+   "ja": "風"
+  },
+  {
+   "id": "lluvia",
+   "es": "lluvia",
+   "art": "la",
+   "ja": "雨"
+  },
+  {
+   "id": "nieve",
+   "es": "nieve",
+   "art": "la",
+   "ja": "雪"
+  },
+  {
+   "id": "nube",
+   "es": "nube",
+   "art": "la",
+   "ja": "雲"
+  },
+  {
+   "id": "niebla",
+   "es": "niebla",
+   "art": "la",
+   "ja": "霧"
+  },
+  {
+   "id": "tormenta",
+   "es": "tormenta",
+   "art": "la",
+   "ja": "嵐"
+  },
+  {
+   "id": "paraguas",
+   "es": "paraguas",
+   "art": "el",
+   "ja": "傘"
+  },
+  {
+   "id": "temperatura",
+   "es": "temperatura",
+   "art": "la",
+   "ja": "気温"
+  },
+  {
+   "id": "grado",
+   "es": "grado",
+   "art": "el",
+   "ja": "度"
+  },
+  {
+   "id": "llover",
+   "es": "llover",
+   "art": null,
+   "ja": "雨が降る"
+  },
+  {
+   "id": "nevar",
+   "es": "nevar",
+   "art": null,
+   "ja": "雪が降る"
+  },
+  {
+   "id": "nublado",
+   "es": "nublado",
+   "art": null,
+   "ja": "曇った"
+  },
+  {
+   "id": "despejado",
+   "es": "despejado",
+   "art": null,
+   "ja": "晴れ渡った"
+  },
+  {
+   "id": "primavera",
+   "es": "primavera",
+   "art": "la",
+   "ja": "春"
+  },
+  {
+   "id": "verano",
+   "es": "verano",
+   "art": "el",
+   "ja": "夏"
+  },
+  {
+   "id": "otono",
+   "es": "otoño",
+   "art": "el",
+   "ja": "秋"
+  },
+  {
+   "id": "invierno",
+   "es": "invierno",
+   "art": "el",
+   "ja": "冬"
+  }
+ ],
+ "phrases": [
+  {
+   "es": "¿Qué tiempo hace?",
+   "ja": "どんな天気？",
+   "scene": "天気の会話",
+   "latam": null
+  },
+  {
+   "es": "Hace mucho calor.",
+   "ja": "とても暑い。",
+   "scene": "天気の会話",
+   "latam": null
+  },
+  {
+   "es": "Hace mucho frío hoy.",
+   "ja": "今日はとても寒い。",
+   "scene": "天気の会話",
+   "latam": null
+  },
+  {
+   "es": "Llueve mucho.",
+   "ja": "雨がたくさん降っている。",
+   "scene": "天気の会話",
+   "latam": null
+  },
+  {
+   "es": "Hoy está nublado.",
+   "ja": "今日は曇り。",
+   "scene": "天気の会話",
+   "latam": null
+  },
+  {
+   "es": "¿Necesitas un paraguas?",
+   "ja": "傘いる？",
+   "scene": "天気の会話",
+   "latam": null
+  },
+  {
+   "es": "Mañana hace sol.",
+   "ja": "明日は晴れ。",
+   "scene": "天気の会話",
+   "latam": null
+  }
+ ],
+ "speak": [
+  {
+   "es": "¿Qué tiempo hace hoy?",
+   "ja": "今日はどんな天気？",
+   "tip": "hace の h は発音しない。c は e の前で、スペインでは舌先を歯に軽く当てる音（🌎 中南米では s の音）。"
+  },
+  {
+   "es": "Hace mucho calor.",
+   "ja": "とても暑い。"
+  },
+  {
+   "es": "Llueve mucho en primavera.",
+   "ja": "春はよく雨が降る。",
+   "tip": "llueve の ll はヤ行・ジャ行に近い音（地域差あり）。"
+  },
+  {
+   "es": "En invierno nieva.",
+   "ja": "冬は雪が降る。"
+  }
+ ]
+}

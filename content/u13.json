@@ -1,0 +1,520 @@
+{
+ "id": "u13",
+ "no": 13,
+ "title": "家族と所有形容詞",
+ "summary": "mi / tu / su / nuestro。所有される名詞に合わせて形が変わる。",
+ "points": {
+  "lines": [
+   "mi, tu, su は名詞が複数なら mis, tus, sus",
+   "nuestro, vuestro は性も変わる（nuestra）",
+   "su は「彼の・彼女の・あなたの・彼らの」"
+  ],
+  "examples": [
+   {
+    "es": "Mi hermana es médica.",
+    "ja": "私の姉（妹）は医者です。"
+   },
+   {
+    "es": "Nuestros padres viven aquí.",
+    "ja": "私たちの両親はここに住んでいます。"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "所有形容詞は名詞の前に置く",
+   "body": "「私の〜」「君の〜」は、**名詞の前** に所有形容詞を置いて言います。\n・mi（私の）／ tu（君の）／ su（彼・彼女・あなたの）\n・nuestro（私たちの）／ vuestro（君たちの）／ su（彼ら・あなたがたの）\n冠詞は付けません。**mi casa**（×la mi casa）です。\n注意：tu（君の）は記号なし。記号付きの tú は「君は」、mí は「私に」と別の語です。",
+   "examples": [
+    {
+     "es": "Mi casa es pequeña.",
+     "ja": "私の家は小さいです。"
+    },
+    {
+     "es": "Tu libro está aquí.",
+     "ja": "君の本はここにあります。"
+    },
+    {
+     "es": "Es mi amigo.",
+     "ja": "私の友達です。"
+    }
+   ]
+  },
+  {
+   "title": "合わせるのは「持ち主」ではなく「持たれる物」",
+   "body": "日本語の感覚では「私のお兄さん」「私の妹」と持ち主を基準に考えがちですが、スペイン語では **後ろの名詞** に合わせます。\n・mi hermano / mi hermana（性が変わっても mi のまま）\n・mis hermanos（名詞が複数なら mis）\n男の人が言っても女の人が言っても mi は mi。変わるのは、後ろの名詞が複数のときです（mi → mis, tu → tus, su → sus）。",
+   "examples": [
+    {
+     "es": "Mi abuelo vive en Madrid.",
+     "ja": "祖父はマドリードに住んでいます。"
+    },
+    {
+     "es": "Mis abuelos viven en Madrid.",
+     "ja": "祖父母はマドリードに住んでいます。"
+    },
+    {
+     "es": "Tus primos son simpáticos.",
+     "ja": "君のいとこたちは感じがいいね。"
+    }
+   ]
+  },
+  {
+   "title": "nuestro / vuestro は性も変わる",
+   "body": "nuestro と vuestro は、-o で終わる形容詞（simpático）と同じように、性と数で4通りに変わります。\n・nuestro padre / nuestra madre\n・nuestros padres / nuestras madres\nvuestro も同様（vuestra familia）。\n🌎 vuestro は vosotros の持ち物。中南米では su（ustedes の）や、de ustedes を使います。",
+   "examples": [
+    {
+     "es": "Nuestra familia es grande.",
+     "ja": "私たちの家族は大家族です。"
+    },
+    {
+     "es": "Nuestros tíos viven cerca.",
+     "ja": "私たちのおじ・おばは近くに住んでいます。"
+    },
+    {
+     "es": "¿Dónde está vuestra casa?",
+     "ja": "君たちの家はどこ？"
+    }
+   ]
+  },
+  {
+   "title": "su の曖昧さと de ＋ 人",
+   "body": "su / sus は「彼の・彼女の・あなたの・彼らの・あなたがたの」のすべてを表します。\n・Su casa es bonita. → 誰の家かは文脈で判断\n誰の物かをはっきりさせたいときは、**名詞 ＋ de ＋ 人** にします。\n・la casa **de ella**（彼女の家）\n・la casa **de usted**（あなたの家）\n・los padres **de Ana**（アナの両親）\n名詞に冠詞を付け、所有形容詞は付けません（×su casa de ella）。",
+   "examples": [
+    {
+     "es": "La casa de ella es bonita.",
+     "ja": "彼女の家はすてきです。"
+    },
+    {
+     "es": "Los padres de Ana viven aquí.",
+     "ja": "アナの両親はここに住んでいます。"
+    },
+    {
+     "es": "¿Es esta la casa de usted?",
+     "ja": "これはあなたのお宅ですか？"
+    }
+   ]
+  },
+  {
+   "title": "家族のことば",
+   "body": "padre / madre（父・母）は既習。ほかの家族は次のとおり。\n・hermano / hermana（兄弟・姉妹）。年上か年下かは特に言わず、必要なら mayor（年上）, menor（年下）を足す\n・abuelo / abuela, tío / tía, primo / prima, hija（娘）\n・複数の男女混合：padres（両親）, abuelos（祖父母）, hermanos（兄弟姉妹）\n男性形の複数が、男女混ざったグループも指します。",
+   "examples": [
+    {
+     "es": "Tengo dos hermanos.",
+     "ja": "兄弟が2人います。",
+     "note": "男女どちらかは不明。"
+    },
+    {
+     "es": "Mis tíos tienen una hija.",
+     "ja": "おじ・おば夫婦には娘が1人います。"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "___ madre es profesora.",
+   "ja": "私の母は先生です。",
+   "options": [
+    {
+     "text": "Nuestro",
+     "correct": false,
+     "why": "nuestro は「私たちの」で、しかも男性形。madre（女性）には nuestra。"
+    },
+    {
+     "text": "Mi",
+     "correct": true,
+     "why": "madre は単数なので mi。"
+    },
+    {
+     "text": "Mis",
+     "correct": false,
+     "why": "mis は複数の名詞の前。madre は単数なので合いません。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "___ hermanos viven en Osaka.",
+   "ja": "私の兄弟たちは大阪に住んでいます。",
+   "options": [
+    {
+     "text": "Mis",
+     "correct": true,
+     "why": "hermanos は複数なので mis。"
+    },
+    {
+     "text": "Mi",
+     "correct": false,
+     "why": "mi は単数の名詞の前。hermanos は複数なので mis。"
+    },
+    {
+     "text": "Mío",
+     "correct": false,
+     "why": "mío は名詞の前には置けない別の形です。ここは名詞の前に mis。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "___ casa es grande.",
+   "ja": "私たちの家は大きいです。",
+   "options": [
+    {
+     "text": "Nuestras",
+     "correct": false,
+     "why": "nuestras は女性複数。casa は単数なので nuestra。"
+    },
+    {
+     "text": "Nuestro",
+     "correct": false,
+     "why": "nuestro は男性単数。casa は女性なので合いません。"
+    },
+    {
+     "text": "Nuestra",
+     "correct": true,
+     "why": "casa は女性単数。nuestro は -a に変えて nuestra。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Tú tienes ___ libro.",
+   "ja": "君は自分の本を持っています。",
+   "options": [
+    {
+     "text": "tú",
+     "correct": false,
+     "why": "tú は「君は」という代名詞。名詞の前の「君の」は tu（記号なし）。"
+    },
+    {
+     "text": "tus",
+     "correct": false,
+     "why": "tus は複数の名詞の前。libro は単数なので tu。"
+    },
+    {
+     "text": "tu",
+     "correct": true,
+     "why": "「君の」は記号なしの tu。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "祖母はマドリードに住んでいます。",
+   "tokens": [
+    "Mi",
+    "abuela",
+    "vive",
+    "en",
+    "Madrid."
+   ],
+   "accept": [],
+   "why": "abuela は単数なので mi。vivir の él・ella の形は vive。"
+  },
+  {
+   "type": "choice",
+   "prompt": "「彼女の両親」をはっきり言うには？",
+   "ja": "彼女の両親。",
+   "options": [
+    {
+     "text": "los padres de ella",
+     "correct": true,
+     "why": "su だと誰の親か曖昧。de ella を使うと「彼女の」と決まります。"
+    },
+    {
+     "text": "ella padres",
+     "correct": false,
+     "why": "持ち主を名詞の前に直接置くことはできません。名詞 ＋ de ＋ 人 の順です。"
+    },
+    {
+     "text": "los padres a ella",
+     "correct": false,
+     "why": "a は「〜へ・〜に」で、持ち主を表せません。「彼女に両親」では意味が通りません。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Mis tíos tienen ___ perro.",
+   "ja": "おじ・おば夫婦は犬を飼っています。（彼らの）",
+   "options": [
+    {
+     "text": "sus",
+     "correct": false,
+     "why": "sus は複数の名詞の前。perro は1匹なので su。"
+    },
+    {
+     "text": "su",
+     "correct": true,
+     "why": "perro は単数なので su。"
+    },
+    {
+     "text": "mi",
+     "correct": false,
+     "why": "mi は「私の」。おじ・おばの犬なので「彼らの」の su。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "君のお兄さん（弟）はとても感じがいいね。",
+   "tokens": [
+    "Tu",
+    "hermano",
+    "es",
+    "muy",
+    "simpático."
+   ],
+   "accept": [],
+   "why": "tu は「君の」で記号なし。hermano は男性単数なので simpático。"
+  },
+  {
+   "type": "choice",
+   "prompt": "「私たちの両親」はどれ？",
+   "ja": "私たちの両親。",
+   "options": [
+    {
+     "text": "Nuestros padres",
+     "correct": true,
+     "why": "padres は男性複数。nuestro も -os に変えます。"
+    },
+    {
+     "text": "Nuestras padres",
+     "correct": false,
+     "why": "nuestras は女性複数。男女の両親を表す padres は男性形なので nuestros。"
+    },
+    {
+     "text": "Nuestro padres",
+     "correct": false,
+     "why": "padres は複数なのに nuestro が単数のまま。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Dónde viven ___ abuelos?",
+   "ja": "君のおじいさんおばあさんはどこに住んでいるの？",
+   "options": [
+    {
+     "text": "tú",
+     "correct": false,
+     "why": "tú は「君は」。名詞の前の「君の」は記号なしの tus。"
+    },
+    {
+     "text": "tu",
+     "correct": false,
+     "why": "tu は単数の名詞の前。abuelos は複数なので tus。"
+    },
+    {
+     "text": "tus",
+     "correct": true,
+     "why": "abuelos は複数なので tus。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "hermano",
+   "es": "hermano",
+   "art": "el",
+   "ja": "兄；弟；（複数で）兄弟姉妹"
+  },
+  {
+   "id": "hermana",
+   "es": "hermana",
+   "art": "la",
+   "ja": "姉；妹"
+  },
+  {
+   "id": "abuelo",
+   "es": "abuelo",
+   "art": "el",
+   "ja": "祖父"
+  },
+  {
+   "id": "abuela",
+   "es": "abuela",
+   "art": "la",
+   "ja": "祖母"
+  },
+  {
+   "id": "tio",
+   "es": "tío",
+   "art": "el",
+   "ja": "おじ"
+  },
+  {
+   "id": "tia",
+   "es": "tía",
+   "art": "la",
+   "ja": "おば"
+  },
+  {
+   "id": "primo",
+   "es": "primo",
+   "art": "el",
+   "ja": "いとこ（男）"
+  },
+  {
+   "id": "prima",
+   "es": "prima",
+   "art": "la",
+   "ja": "いとこ（女）"
+  },
+  {
+   "id": "hija",
+   "es": "hija",
+   "art": "la",
+   "ja": "娘"
+  },
+  {
+   "id": "familia",
+   "es": "familia",
+   "art": "la",
+   "ja": "家族"
+  },
+  {
+   "id": "marido",
+   "es": "marido",
+   "art": "el",
+   "ja": "夫"
+  },
+  {
+   "id": "esposa",
+   "es": "esposa",
+   "art": "la",
+   "ja": "妻"
+  },
+  {
+   "id": "pareja",
+   "es": "pareja",
+   "art": "la",
+   "ja": "パートナー；カップル"
+  },
+  {
+   "id": "padres",
+   "es": "padres",
+   "art": null,
+   "ja": "両親"
+  },
+  {
+   "id": "mi",
+   "es": "mi",
+   "art": null,
+   "ja": "私の"
+  },
+  {
+   "id": "tu_pos",
+   "es": "tu",
+   "art": null,
+   "ja": "君の"
+  },
+  {
+   "id": "su",
+   "es": "su",
+   "art": null,
+   "ja": "彼・彼女・あなた・彼らの"
+  },
+  {
+   "id": "nuestro",
+   "es": "nuestro / nuestra",
+   "art": null,
+   "ja": "私たちの"
+  },
+  {
+   "id": "vuestro",
+   "es": "vuestro / vuestra",
+   "art": null,
+   "ja": "君たちの",
+   "latam": {
+    "es": "su",
+    "art": null,
+    "note": "ustedes の持ち物は su / de ustedes"
+   }
+  },
+  {
+   "id": "mayor",
+   "es": "mayor",
+   "art": null,
+   "ja": "年上の；大きい"
+  },
+  {
+   "id": "menor",
+   "es": "menor",
+   "art": null,
+   "ja": "年下の；小さい"
+  }
+ ],
+ "phrases": [
+  {
+   "es": "Esta es mi familia.",
+   "ja": "これは私の家族です。",
+   "scene": "家族を紹介する",
+   "latam": null
+  },
+  {
+   "es": "Tengo dos hermanos.",
+   "ja": "兄弟が2人います。",
+   "scene": "家族を紹介する",
+   "latam": null
+  },
+  {
+   "es": "Mi madre es médica.",
+   "ja": "母は医者です。",
+   "scene": "家族を紹介する",
+   "latam": null
+  },
+  {
+   "es": "¿Tienes hermanos?",
+   "ja": "兄弟はいる？",
+   "scene": "家族を紹介する",
+   "latam": null
+  },
+  {
+   "es": "Mis abuelos viven en Osaka.",
+   "ja": "祖父母は大阪に住んでいます。",
+   "scene": "家族を紹介する",
+   "latam": null
+  },
+  {
+   "es": "Este es mi marido.",
+   "ja": "こちらは私の夫です。",
+   "scene": "紹介する",
+   "latam": null
+  },
+  {
+   "es": "Encantado de conocer a tu familia.",
+   "ja": "ご家族にお会いできてうれしいです。",
+   "scene": "紹介する",
+   "latam": null
+  }
+ ],
+ "speak": [
+  {
+   "es": "Esta es mi familia.",
+   "ja": "これは私の家族です。"
+  },
+  {
+   "es": "Tengo dos hermanos.",
+   "ja": "兄弟が2人います。",
+   "note": "hermanos の h は発音しない。"
+  },
+  {
+   "es": "Mis abuelos viven en Osaka.",
+   "ja": "祖父母は大阪に住んでいます。"
+  },
+  {
+   "es": "Nuestra familia es grande.",
+   "ja": "私たちの家族は大家族です。"
+  }
+ ]
+}

@@ -58,5 +58,65 @@
   "no": 10,
   "title": "レストランで",
   "file": "u10.json"
+ },
+ {
+  "id": "u11",
+  "no": 11,
+  "title": "-er / -ir 動詞の現在形",
+  "file": "u11.json"
+ },
+ {
+  "id": "u12",
+  "no": 12,
+  "title": "tener / ir / hacer と ir a ＋原形",
+  "file": "u12.json"
+ },
+ {
+  "id": "u13",
+  "no": 13,
+  "title": "家族と所有形容詞",
+  "file": "u13.json"
+ },
+ {
+  "id": "u14",
+  "no": 14,
+  "title": "場所と道案内",
+  "file": "u14.json"
+ },
+ {
+  "id": "u15",
+  "no": 15,
+  "title": "買い物",
+  "file": "u15.json"
+ },
+ {
+  "id": "u16",
+  "no": 16,
+  "title": "一日の流れ（再帰動詞）",
+  "file": "u16.json"
+ },
+ {
+  "id": "u17",
+  "no": 17,
+  "title": "天気と季節",
+  "file": "u17.json"
+ },
+ {
+  "id": "u18",
+  "no": 18,
+  "title": "語幹が変わる動詞",
+  "file": "u18.json"
+ },
+ {
+  "id": "u19",
+  "no": 19,
+  "title": "駅と移動",
+  "file": "u19.json"
+ },
+ {
+  "id": "u20",
+  "no": 20,
+  "title": "現在進行形",
+  "file": "u20.json"
  }
 ]

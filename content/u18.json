@@ -1,0 +1,486 @@
+{
+ "id": "u18",
+ "no": 18,
+ "title": "語幹が変わる動詞",
+ "summary": "querer, poder, preferir, pedir は語幹の母音が変わる。nosotros と vosotros だけ変わらない理由と、querer/poder ＋ 原形の使い方。",
+ "points": {
+  "lines": [
+   "querer → quiero（e が ie に変わる）",
+   "poder → puedo（o が ue に変わる）",
+   "nosotros・vosotros だけは変わらない"
+  ],
+  "examples": [
+   {
+    "es": "Quiero un café.",
+    "ja": "コーヒーが欲しいです。"
+   },
+   {
+    "es": "¿Puedo pagar con tarjeta?",
+    "ja": "カードで払えますか？"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "語幹の母音が変わる動詞",
+   "body": "動詞の原形から語尾（-ar / -er / -ir）を取った部分を**語幹**と言います（querer の quer-）。\n一部の動詞では、語幹の母音が活用で変わります。たとえば querer は quiero と言い、queo や quero とは言いません。\n変わる人称には規則性があります。yo・tú・él（ella・usted）・ellos（ellas・ustedes）の**4人称が変わり、nosotros と vosotros だけ変わりません**。表にすると形が長靴のように見えるので「boot（ブーツ）動詞」とも呼ばれます。",
+   "examples": [
+    {
+     "es": "Quiero agua.",
+     "ja": "水が欲しいです。"
+    },
+    {
+     "es": "Queremos agua.",
+     "ja": "私たちは水が欲しいです。",
+     "note": "nosotros は変わらない"
+    }
+   ]
+  },
+  {
+   "title": "e→ie と o→ue",
+   "body": "代表的な2タイプです。\n**e → ie**：querer（欲しい）／preferir（好む）／pensar（思う）\n・quiero, quieres, quiere, queremos, queréis, quieren\n・prefiero, prefieres, prefiere, preferimos, preferís, prefieren\n**o → ue**：poder（できる）／dormir（眠る）／volver（戻る）\n・puedo, puedes, puede, podemos, podéis, pueden\n語尾は、-er/-ir 動詞の普通の語尾（-o, -es, -e, -emos, -éis, -en など）です。",
+   "examples": [
+    {
+     "es": "Prefiero el pescado.",
+     "ja": "魚のほうがいいです。"
+    },
+    {
+     "es": "¿Puedes esperar?",
+     "ja": "待てる？"
+    }
+   ]
+  },
+  {
+   "title": "e→i：pedir など",
+   "body": "もう一つのタイプは **e → i**（-ir 動詞だけ）。pedir（頼む・注文する）が代表です。\n・pido, pides, pide, pedimos, pedís, piden\nservir（役に立つ・出す）も同じ仲間です。\nレストランでは pedir が必須です。Pido la cuenta.（お勘定をお願いします）のように使います。\n注意：preguntar（質問する）とは別の動詞です。pedir は「頼む・求める」です。",
+   "examples": [
+    {
+     "es": "Pido un café.",
+     "ja": "コーヒーを注文します。"
+    },
+    {
+     "es": "¿Qué pedís?",
+     "ja": "何を頼む？（スペイン・君たち）",
+     "note": "🌎 中南米では ¿Qué piden?"
+    },
+    {
+     "es": "Pedimos la cuenta.",
+     "ja": "お勘定をお願いします。"
+    }
+   ]
+  },
+  {
+   "title": "なぜ nosotros と vosotros は変わらない？",
+   "body": "理由は**アクセント（強く読む位置）**です。\n・quIEro, quIEres, quIEre, quIEren：語幹の母音を強く読む → 変わる\n・querEmos, querÉis：強く読むのは語尾 → 語幹は弱いので変わらない\nつまり「強く読む母音だけが変わる」と考えれば、どの人称が変わるか覚えなくても判断できます。vosotros の queréis, podéis も語尾を強く読むので、puedéis とはなりません。",
+   "examples": [
+    {
+     "es": "Podemos esperar.",
+     "ja": "待てます。"
+    },
+    {
+     "es": "Podéis esperar.",
+     "ja": "君たちは待てるよ。（スペイン）",
+     "note": "🌎 中南米では Pueden esperar."
+    }
+   ]
+  },
+  {
+   "title": "querer / poder ＋ 原形",
+   "body": "querer と poder のあとには、**活用しない原形**を置きます。\n・Quiero **comer**.（食べたい）\n・¿Puedo **pagar** con tarjeta?（カードで払えますか）\n2つめの動詞は人称に合わせて変えません。×Quiero como. とは言いません。\nquerer のあとに名詞を置けば「〜が欲しい」（Quiero un café.）、原形を置けば「〜したい」になります。\nていねいに頼むときは ¿Puede ayudarme?（手伝っていただけますか）のように poder を使います。Quiero はやや直接的なので、お店では Quisiera… もよく使います。",
+   "examples": [
+    {
+     "es": "Quiero comer.",
+     "ja": "食べたいです。"
+    },
+    {
+     "es": "¿Puede ayudarme?",
+     "ja": "手伝っていただけますか？"
+    },
+    {
+     "es": "No puedo dormir.",
+     "ja": "眠れません。"
+    }
+   ]
+  },
+  {
+   "title": "🌎 vosotros と ustedes",
+   "body": "スペインでは「君たち」に vosotros を使うので、queréis, podéis, preferís, pedís が出てきます。\n中南米では「君たち」も **ustedes** です。活用は ellos と同じ形になり、**quieren, pueden, prefieren, piden** を使います。\nどちらの地域でも ustedes の形は通じるので、まず ellos の形を覚えれば安心です。",
+   "examples": [
+    {
+     "es": "¿Qué queréis?",
+     "ja": "君たち何が欲しい？（スペイン）"
+    },
+    {
+     "es": "¿Qué quieren?",
+     "ja": "君たち何が欲しい？（🌎 中南米）"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Yo ___ un café.",
+   "ja": "私はコーヒーが欲しいです。",
+   "options": [
+    {
+     "text": "quiero",
+     "correct": true,
+     "why": "yo の形は e が ie に変わって quiero。"
+    },
+    {
+     "text": "quero",
+     "correct": false,
+     "why": "語幹の e は ie に変わる。quero という形はない。"
+    },
+    {
+     "text": "quiere",
+     "correct": false,
+     "why": "quiere は él・ella・usted の形。主語 yo には -o。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ellos ___ pagar con tarjeta.",
+   "ja": "彼らはカードで払えます。",
+   "options": [
+    {
+     "text": "puedes",
+     "correct": false,
+     "why": "puedes は tú の形。ellos には -en。"
+    },
+    {
+     "text": "pueden",
+     "correct": true,
+     "why": "ellos の形は o が ue に変わって pueden。"
+    },
+    {
+     "text": "podemos",
+     "correct": false,
+     "why": "podemos は nosotros の形。ellos とは合わない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Nosotros ___ comer aquí.",
+   "ja": "私たちはここで食べたい。",
+   "options": [
+    {
+     "text": "quieremos",
+     "correct": false,
+     "why": "nosotros は語幹が変わらない。quieremos という形はない。"
+    },
+    {
+     "text": "queremos",
+     "correct": true,
+     "why": "nosotros は語尾を強く読むので語幹は変わらず queremos。"
+    },
+    {
+     "text": "quieren",
+     "correct": false,
+     "why": "quieren は ellos・ustedes の形。nosotros とは合わない。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "カードで払えますか？",
+   "tokens": [
+    "¿Puedo",
+    "pagar",
+    "con",
+    "tarjeta?"
+   ],
+   "accept": [],
+   "why": "poder ＋ 原形。yo の形 puedo のあとに pagar を原形のまま置く。"
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Tú ___ el menú del día?",
+   "ja": "君は日替わりメニューを頼む？",
+   "options": [
+    {
+     "text": "pides",
+     "correct": true,
+     "why": "tú の形は e が i に変わって pides。"
+    },
+    {
+     "text": "pide",
+     "correct": false,
+     "why": "pide は él・ella・usted の形。tú には -es。"
+    },
+    {
+     "text": "pedes",
+     "correct": false,
+     "why": "pedir は語幹が e→i。pedes という形はない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "正しい文は？",
+   "ja": "魚のほうがいいです。",
+   "options": [
+    {
+     "text": "Prefero el pescado.",
+     "correct": false,
+     "why": "語幹の e は ie に変わる。prefero という形はない。"
+    },
+    {
+     "text": "Prefiere el pescado.",
+     "correct": false,
+     "why": "「彼は魚のほうがいい」になる。主語が yo の文ではない。"
+    },
+    {
+     "text": "Prefiero el pescado.",
+     "correct": true,
+     "why": "preferir の yo の形は e→ie で prefiero。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "正しい文は？",
+   "ja": "食べたいです。",
+   "options": [
+    {
+     "text": "Quiero a comer.",
+     "correct": false,
+     "why": "a は入れない。querer ＋ 原形で「〜したい」。"
+    },
+    {
+     "text": "Quiero como.",
+     "correct": false,
+     "why": "querer のあとに活用した動詞は置かない。原形 comer にする。"
+    },
+    {
+     "text": "Quiero comer.",
+     "correct": true,
+     "why": "querer のあとの動詞は原形のまま。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "🌎 中南米の言い方は？",
+   "ja": "🌎 中南米で、友達2人に「何が欲しい？」と聞くと？",
+   "options": [
+    {
+     "text": "¿Qué quieren?",
+     "correct": true,
+     "why": "中南米では「君たち」も ustedes。quieren を使う。"
+    },
+    {
+     "text": "¿Qué quieres?",
+     "correct": false,
+     "why": "quieres は tú（1人）の形。2人に聞く文にならない。"
+    },
+    {
+     "text": "¿Qué queréis?",
+     "correct": false,
+     "why": "queréis は vosotros の形でスペインの言い方。中南米ではふつう使わない。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "彼女は眠れません。",
+   "tokens": [
+    "Ella",
+    "no",
+    "puede",
+    "dormir."
+   ],
+   "accept": [
+    [
+     "No",
+     "puede",
+     "dormir",
+     "ella."
+    ]
+   ],
+   "why": "否定の no は活用形の前。poder は ella で puede、dormir は原形。"
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Vosotros ___ esperar.",
+   "ja": "君たちは待てる。（スペイン）",
+   "options": [
+    {
+     "text": "pueden",
+     "correct": false,
+     "why": "pueden は ellos・ustedes の形。vosotros とは合わない。"
+    },
+    {
+     "text": "puedéis",
+     "correct": false,
+     "why": "vosotros は語幹が変わらない。puedéis という形はない。"
+    },
+    {
+     "text": "podéis",
+     "correct": true,
+     "why": "vosotros は語尾を強く読むので語幹は変わらず podéis。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "poder",
+   "es": "poder",
+   "art": null,
+   "ja": "〜できる"
+  },
+  {
+   "id": "preferir",
+   "es": "preferir",
+   "art": null,
+   "ja": "〜のほうを好む"
+  },
+  {
+   "id": "pedir",
+   "es": "pedir",
+   "art": null,
+   "ja": "頼む・注文する"
+  },
+  {
+   "id": "pensar",
+   "es": "pensar",
+   "art": null,
+   "ja": "思う・考える"
+  },
+  {
+   "id": "dormir",
+   "es": "dormir",
+   "art": null,
+   "ja": "眠る"
+  },
+  {
+   "id": "volver",
+   "es": "volver",
+   "art": null,
+   "ja": "戻る"
+  },
+  {
+   "id": "empezar",
+   "es": "empezar",
+   "art": null,
+   "ja": "始まる・始める"
+  },
+  {
+   "id": "cerrar",
+   "es": "cerrar",
+   "art": null,
+   "ja": "閉める"
+  },
+  {
+   "id": "almorzar",
+   "es": "almorzar",
+   "art": null,
+   "ja": "昼食をとる"
+  },
+  {
+   "id": "jugar",
+   "es": "jugar",
+   "art": null,
+   "ja": "遊ぶ・（スポーツを）する"
+  },
+  {
+   "id": "recordar",
+   "es": "recordar",
+   "art": null,
+   "ja": "覚えている・思い出す"
+  },
+  {
+   "id": "encontrar",
+   "es": "encontrar",
+   "art": null,
+   "ja": "見つける"
+  },
+  {
+   "id": "servir",
+   "es": "servir",
+   "art": null,
+   "ja": "役に立つ・出す"
+  },
+  {
+   "id": "ayudar",
+   "es": "ayudar",
+   "art": null,
+   "ja": "手伝う"
+  }
+ ],
+ "phrases": [
+  {
+   "es": "Quiero un café, por favor.",
+   "ja": "コーヒーをお願いします。",
+   "scene": "注文",
+   "latam": null
+  },
+  {
+   "es": "Prefiero el pescado.",
+   "ja": "魚のほうがいいです。",
+   "scene": "注文",
+   "latam": null
+  },
+  {
+   "es": "Pido la cuenta, por favor.",
+   "ja": "お勘定をお願いします。",
+   "scene": "注文",
+   "latam": null
+  },
+  {
+   "es": "¿Puedo pagar con tarjeta?",
+   "ja": "カードで払えますか？",
+   "scene": "会計",
+   "latam": null
+  },
+  {
+   "es": "¿Puede repetir, por favor?",
+   "ja": "もう一度言っていただけますか？",
+   "scene": "会話",
+   "latam": null
+  },
+  {
+   "es": "¿Puede ayudarme?",
+   "ja": "手伝っていただけますか？",
+   "scene": "会話",
+   "latam": null
+  },
+  {
+   "es": "No puedo, lo siento.",
+   "ja": "できません、すみません。",
+   "scene": "会話",
+   "latam": null
+  }
+ ],
+ "speak": [
+  {
+   "es": "Quiero un café, por favor.",
+   "ja": "コーヒーをお願いします。",
+   "tip": "quiero の ie は二重母音。i と e を続けて一息で読む。"
+  },
+  {
+   "es": "¿Puedo pagar con tarjeta?",
+   "ja": "カードで払えますか？",
+   "tip": "puedo の ue も二重母音。u と e を続けて一息で読む。"
+  },
+  {
+   "es": "Prefiero el pescado.",
+   "ja": "魚のほうがいいです。"
+  },
+  {
+   "es": "¿Puede ayudarme?",
+   "ja": "手伝っていただけますか？"
+  }
+ ]
+}

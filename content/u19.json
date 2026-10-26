@@ -1,0 +1,534 @@
+{
+ "id": "u19",
+ "no": 19,
+ "title": "駅と移動",
+ "summary": "切符の買い方、ホーム、乗り換え、往復と片道。tomar el tren で電車に乗る。",
+ "points": {
+  "lines": [
+   "片道は de ida、往復は de ida y vuelta",
+   "電車に乗るは tomar el tren",
+   "ホームは andén、乗り換えは hacer transbordo"
+  ],
+  "examples": [
+   {
+    "es": "Un billete de ida y vuelta, por favor.",
+    "ja": "往復の切符を1枚お願いします。"
+   },
+   {
+    "es": "¿De qué andén sale el tren?",
+    "ja": "電車は何番ホームから出ますか？"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "切符を買う：ida と vuelta",
+   "body": "窓口（la taquilla）や券売機で切符を買います。スペインでは切符を **billete** と言います（🌎 中南米では boleto が一般的）。\n・**de ida**：片道（行きだけ）\n・**de ida y vuelta**：往復（行きと帰り）\n「〜までの切符を1枚」は Un billete **a** Sevilla.（a は行き先）と言います。",
+   "examples": [
+    {
+     "es": "Un billete a Sevilla, por favor.",
+     "ja": "セビーリャまで切符を1枚お願いします。"
+    },
+    {
+     "es": "Un billete de ida, por favor.",
+     "ja": "片道を1枚お願いします。"
+    },
+    {
+     "es": "Dos billetes de ida y vuelta.",
+     "ja": "往復を2枚。"
+    }
+   ]
+  },
+  {
+   "title": "乗る：tomar el tren",
+   "body": "「電車に乗る・使う」は **tomar el tren** が基本です。tomar は u5 で習った -ar 動詞で、tomo, tomas, toma… と活用します。\n電車以外にも使えます。\n・tomar el metro（地下鉄に乗る）\n・tomar el autobús（バスに乗る）\n乗り物の名前の前に el を付けます。降りる・乗るの動作は subir（乗る）／bajar（降りる）です。",
+   "examples": [
+    {
+     "es": "Tomo el tren a las ocho.",
+     "ja": "8時の電車に乗ります。"
+    },
+    {
+     "es": "Tomamos el metro.",
+     "ja": "私たちは地下鉄に乗ります。"
+    },
+    {
+     "es": "Bajo en la próxima.",
+     "ja": "次で降ります。"
+    }
+   ]
+  },
+  {
+   "title": "ホームと出発：andén と salir",
+   "body": "ホームは **andén**。電車がどこから出るかは ¿**De qué andén** sale el tren? と聞きます。\n駅の案内板では、ホームの番号が **vía**（線路）と書かれる場合もあります。\n出発は動詞 **salir**（出る）で、yo の形だけ不規則（**salgo**）。él の形は **sale** です。到着は **llegar**（u5）：llega。\n時刻は a las nueve（9時に）を使います。",
+   "examples": [
+    {
+     "es": "El tren sale a las nueve.",
+     "ja": "電車は9時に出ます。"
+    },
+    {
+     "es": "El tren llega a las doce.",
+     "ja": "電車は12時に着きます。"
+    },
+    {
+     "es": "Salgo de casa a las siete.",
+     "ja": "7時に家を出ます。"
+    }
+   ]
+  },
+  {
+   "title": "乗り換え：transbordo と cambiar",
+   "body": "乗り換えは **hacer transbordo** か **cambiar de tren** と言います。\n・¿Tengo que **hacer transbordo**?（乗り換えが必要ですか）\n・Tengo que **cambiar de** tren en Madrid.（マドリードで乗り換えなければなりません）\ntener que ＋ 原形で「〜しなければならない」の意味です。cambiar は「替える」で、de の後ろに乗り物を置きます。",
+   "examples": [
+    {
+     "es": "¿Tengo que hacer transbordo?",
+     "ja": "乗り換えが必要ですか？"
+    },
+    {
+     "es": "Cambio de tren en Madrid.",
+     "ja": "マドリードで電車を乗り換えます。"
+    },
+    {
+     "es": "No hay transbordo.",
+     "ja": "乗り換えはありません。"
+    }
+   ]
+  },
+  {
+   "title": "遅れと案内：retraso と horario",
+   "body": "電車の遅れは **retraso**。「遅れている」は El tren **lleva** retraso. とも、Hay un retraso. とも言えます。\n時刻表は **el horario**、出口は **la salida**、到着は **la llegada** です。案内板には Salidas（出発）と Llegadas（到着）が並びます。\n窓口では ¿A qué hora sale el próximo tren?（次の電車は何時ですか）と聞けば、必要な情報が分かります。",
+   "examples": [
+    {
+     "es": "El tren lleva diez minutos de retraso.",
+     "ja": "電車は10分遅れています。"
+    },
+    {
+     "es": "¿A qué hora sale el próximo tren?",
+     "ja": "次の電車は何時に出ますか？"
+    },
+    {
+     "es": "¿Dónde está la salida?",
+     "ja": "出口はどこですか？"
+    }
+   ]
+  },
+  {
+   "title": "🌎 coger は中南米で使わない",
+   "body": "スペインでは「電車に乗る」を **coger el tren** とも言います（coger＝つかむ・取る）。ただし**中南米の多くの国では coger は失礼な意味になります**。\n旅行者は、どちらの地域でも安全な **tomar** を基本にしましょう。スペインの人が coger を使っているのを聞いても、自分では tomar で通じます。\nほかに、切符は🌎 boleto、窓口は🌎 boletería（国による）、バスも国ごとに違う語があります（メキシコでは市内バスを camión とも言う）。",
+   "examples": [
+    {
+     "es": "Tomo el tren.",
+     "ja": "電車に乗ります。",
+     "note": "どこでも安全"
+    },
+    {
+     "es": "Cojo el tren.",
+     "ja": "電車に乗ります。（スペインのみ）",
+     "note": "🌎 中南米では使わない"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Un billete de ___, por favor.",
+   "ja": "片道を1枚お願いします。",
+   "options": [
+    {
+     "text": "vuelta",
+     "correct": false,
+     "why": "de vuelta は帰りだけの意味になる。"
+    },
+    {
+     "text": "ida y vuelta",
+     "correct": false,
+     "why": "de ida y vuelta は往復。片道ではない。"
+    },
+    {
+     "text": "ida",
+     "correct": true,
+     "why": "de ida＝片道（行きだけ）。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Quiero un billete de ___.",
+   "ja": "往復の切符が欲しいです。",
+   "options": [
+    {
+     "text": "ida",
+     "correct": false,
+     "why": "de ida は片道。往復にならない。"
+    },
+    {
+     "text": "salida",
+     "correct": false,
+     "why": "salida は出口・出発。切符の種類を表す語ではない。"
+    },
+    {
+     "text": "ida y vuelta",
+     "correct": true,
+     "why": "de ida y vuelta＝行きと帰り、つまり往復。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "電車は何番ホームから出ますか？",
+   "tokens": [
+    "¿De",
+    "qué",
+    "andén",
+    "sale",
+    "el",
+    "tren?"
+   ],
+   "accept": [],
+   "why": "de qué andén（どのホームから）＋ sale（出る）＋ el tren。"
+  },
+  {
+   "type": "choice",
+   "prompt": "🌎 どちらが安全？",
+   "ja": "🌎 メキシコで、安全に「電車に乗る」と言うと？",
+   "options": [
+    {
+     "text": "Tomo el tren.",
+     "correct": true,
+     "why": "tomar は中南米でもスペインでも安心して使える。"
+    },
+    {
+     "text": "Cojo el tren.",
+     "correct": false,
+     "why": "coger は中南米の多くの国で失礼な意味になる。"
+    },
+    {
+     "text": "Salgo el tren.",
+     "correct": false,
+     "why": "salir は「出る」。電車に乗る意味にならない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Nosotros ___ el metro.",
+   "ja": "私たちは地下鉄に乗ります。",
+   "options": [
+    {
+     "text": "tomamos",
+     "correct": true,
+     "why": "nosotros の -ar 動詞の語尾は -amos。tomamos。"
+    },
+    {
+     "text": "toman",
+     "correct": false,
+     "why": "toman は ellos・ustedes の形。"
+    },
+    {
+     "text": "tomo",
+     "correct": false,
+     "why": "tomo は yo の形。nosotros とは合わない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Tengo que hacer ___ en Zaragoza.",
+   "ja": "サラゴサで乗り換えなければなりません。",
+   "options": [
+    {
+     "text": "andén",
+     "correct": false,
+     "why": "andén はホーム。hacer andén とは言わない。"
+    },
+    {
+     "text": "transbordo",
+     "correct": true,
+     "why": "hacer transbordo＝乗り換える。"
+    },
+    {
+     "text": "salida",
+     "correct": false,
+     "why": "salida は出口・出発。hacer salida では乗り換えにならない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "El tren ___ a las nueve.",
+   "ja": "電車は9時に出ます。",
+   "options": [
+    {
+     "text": "salir",
+     "correct": false,
+     "why": "salir は原形。主語に合わせて活用させる。"
+    },
+    {
+     "text": "salgo",
+     "correct": false,
+     "why": "salgo は yo の形。主語が el tren なので合わない。"
+    },
+    {
+     "text": "sale",
+     "correct": true,
+     "why": "él の形は sale。salir の主語が el tren（3人称単数）。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "El tren lleva ___.",
+   "ja": "電車は遅れています。",
+   "options": [
+    {
+     "text": "andén",
+     "correct": false,
+     "why": "andén はホーム。遅れの意味にならない。"
+    },
+    {
+     "text": "retraso",
+     "correct": true,
+     "why": "llevar retraso＝遅れている。"
+    },
+    {
+     "text": "horario",
+     "correct": false,
+     "why": "horario は時刻表。遅れの意味にならない。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "往復の切符を1枚お願いします。",
+   "tokens": [
+    "Un",
+    "billete",
+    "de",
+    "ida",
+    "y",
+    "vuelta,",
+    "por",
+    "favor."
+   ],
+   "accept": [],
+   "why": "de ida y vuelta（往復）の後ろに por favor。語順は日本語の「往復の切符を1枚」と同じ。"
+  },
+  {
+   "type": "choice",
+   "prompt": "正しい文は？",
+   "ja": "出口はどこですか？",
+   "options": [
+    {
+     "text": "¿Dónde está la salida?",
+     "correct": true,
+     "why": "出口は la salida。場所を聞くので dónde ＋ estar。"
+    },
+    {
+     "text": "¿Dónde está el retraso?",
+     "correct": false,
+     "why": "retraso は遅れ。出口を聞く文にならない。"
+    },
+    {
+     "text": "¿Dónde sale la salida?",
+     "correct": false,
+     "why": "sale は「出る」。「出口はどこ？」を聞くなら está を使う。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "anden",
+   "es": "andén",
+   "art": "el",
+   "ja": "ホーム"
+  },
+  {
+   "id": "taquilla",
+   "es": "taquilla",
+   "art": "la",
+   "ja": "切符売り場",
+   "latam": {
+    "es": "boletería",
+    "art": "la",
+    "note": "国による。boletería の国が多い"
+   }
+  },
+  {
+   "id": "ida",
+   "es": "ida",
+   "art": "la",
+   "ja": "行き・片道"
+  },
+  {
+   "id": "vuelta",
+   "es": "vuelta",
+   "art": "la",
+   "ja": "帰り・往復の戻り"
+  },
+  {
+   "id": "transbordo",
+   "es": "transbordo",
+   "art": "el",
+   "ja": "乗り換え"
+  },
+  {
+   "id": "salida",
+   "es": "salida",
+   "art": "la",
+   "ja": "出口・出発"
+  },
+  {
+   "id": "llegada",
+   "es": "llegada",
+   "art": "la",
+   "ja": "到着"
+  },
+  {
+   "id": "retraso",
+   "es": "retraso",
+   "art": "el",
+   "ja": "遅れ"
+  },
+  {
+   "id": "horario",
+   "es": "horario",
+   "art": "el",
+   "ja": "時刻表"
+  },
+  {
+   "id": "vagon",
+   "es": "vagón",
+   "art": "el",
+   "ja": "車両"
+  },
+  {
+   "id": "asiento",
+   "es": "asiento",
+   "art": "el",
+   "ja": "座席"
+  },
+  {
+   "id": "autobus",
+   "es": "autobús",
+   "art": "el",
+   "ja": "バス",
+   "latam": {
+    "es": "camión",
+    "art": "el",
+    "note": "メキシコでは市内バスを camión とも言う（長距離は autobús）。国により colectivo など別の語もある"
+   }
+  },
+  {
+   "id": "via",
+   "es": "vía",
+   "art": "la",
+   "ja": "線路・線（番号）"
+  },
+  {
+   "id": "coger",
+   "es": "coger",
+   "art": null,
+   "ja": "取る・（スペインで）乗る",
+   "latam": {
+    "es": "tomar",
+    "art": null,
+    "note": "中南米では coger は失礼な意味になる国が多いので tomar"
+   }
+  },
+  {
+   "id": "bajar",
+   "es": "bajar",
+   "art": null,
+   "ja": "降りる・下がる"
+  },
+  {
+   "id": "salir",
+   "es": "salir",
+   "art": null,
+   "ja": "出る・出発する"
+  },
+  {
+   "id": "cambiar",
+   "es": "cambiar",
+   "art": null,
+   "ja": "替える・乗り換える"
+  }
+ ],
+ "phrases": [
+  {
+   "es": "¿Dónde está la taquilla?",
+   "ja": "切符売り場はどこですか？",
+   "scene": "駅",
+   "latam": {
+    "es": "¿Dónde está la boletería?"
+   }
+  },
+  {
+   "es": "Un billete de ida y vuelta, por favor.",
+   "ja": "往復の切符を1枚お願いします。",
+   "scene": "窓口",
+   "latam": {
+    "es": "Un boleto de ida y vuelta, por favor."
+   }
+  },
+  {
+   "es": "¿De qué andén sale el tren?",
+   "ja": "何番ホームから出ますか？",
+   "scene": "ホーム",
+   "latam": null
+  },
+  {
+   "es": "¿Tengo que hacer transbordo?",
+   "ja": "乗り換えが必要ですか？",
+   "scene": "乗り換え",
+   "latam": null
+  },
+  {
+   "es": "¿A qué hora sale el próximo tren?",
+   "ja": "次の電車は何時ですか？",
+   "scene": "窓口",
+   "latam": null
+  },
+  {
+   "es": "El tren lleva retraso.",
+   "ja": "電車が遅れています。",
+   "scene": "ホーム",
+   "latam": null
+  },
+  {
+   "es": "Bajo en la próxima.",
+   "ja": "次で降ります。",
+   "scene": "車内",
+   "latam": null
+  }
+ ],
+ "speak": [
+  {
+   "es": "Un billete de ida y vuelta, por favor.",
+   "ja": "往復の切符を1枚お願いします。",
+   "tip": "billete の ll はヤ行に近い音。"
+  },
+  {
+   "es": "¿De qué andén sale el tren?",
+   "ja": "何番ホームから出ますか？",
+   "tip": "andén は最後の e を強く。"
+  },
+  {
+   "es": "¿Tengo que hacer transbordo?",
+   "ja": "乗り換えが必要ですか？"
+  },
+  {
+   "es": "Tomo el tren a las ocho.",
+   "ja": "8時の電車に乗ります。"
+  }
+ ]
+}

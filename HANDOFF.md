@@ -2,10 +2,10 @@
 
 ## いまの状態（2026-10-25）
 
-- **第2版**を公開：**https://yuasaru-afk.github.io/Spanish-study/**（リポジトリ名は大文字の `Spanish-study`。アドレスも大文字小文字を区別する）
+- **第2版・20ユニット**を公開：**https://yuasaru-afk.github.io/Spanish-study/**（リポジトリ名は大文字の `Spanish-study`。アドレスも大文字小文字を区別する）
 - GitHub：`yuasaru-afk/Spanish-study`（Public、Pages は main の / から）
 - テスト `node --test` 127件すべて通過
-- **次の一手**：ユーザーが iPhone で下のチェック → 通勤で1〜2週間使う → 調整 → 残り20〜30ユニットを足す（足す時は1ユニットの練習を20問程度に増やして2レッスンに分ける案 B もあり）
+- **次の一手**：u21〜30（点過去・線過去・命令形・比較・目的語の代名詞）。下書きは Sonnet 2人に drafts/BRIEF.md で分担→ tools/merge_drafts.py の要領で取り込み（重複語は後のユニットから外す・選択肢の並びをばらす）→別エージェントでスペイン語の見直し
 
 ## 第2版でできること
 

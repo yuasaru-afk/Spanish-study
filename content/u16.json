@@ -1,0 +1,522 @@
+{
+ "id": "u16",
+ "no": 16,
+ "title": "一日の流れ（再帰動詞）",
+ "summary": "「起きる・シャワーを浴びる・寝る」など自分に返る動作は me/te/se をつけて言う。時刻と合わせて一日を話そう。",
+ "points": {
+  "lines": [
+   "自分に返る動作は me/te/se... を動詞の前に",
+   "levantarse → me levanto, te levantas...",
+   "時刻は a las siete（1時だけ a la una）"
+  ],
+  "examples": [
+   {
+    "es": "Me levanto a las siete.",
+    "ja": "7時に起きます。"
+   },
+   {
+    "es": "¿A qué hora te acuestas?",
+    "ja": "何時に寝るの？"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "再帰動詞＝自分に返る動作",
+   "body": "原形の語尾に **-se** が付く動詞を**再帰動詞**と言います（levantar**se**）。動作が**自分自身に返ってくる**動詞です。\n・levantar＝（人や物を）起こす、持ち上げる\n・levantarse＝（自分を起こす→）起きる\n日本語では「自分を」と言わない動作（起きる、シャワーを浴びる、寝る）が、スペイン語では再帰動詞になることが多いのです。",
+   "examples": [
+    {
+     "es": "Levanto la mano.",
+     "ja": "手を上げます。",
+     "note": "levantar：何かを持ち上げる"
+    },
+    {
+     "es": "Me levanto temprano.",
+     "ja": "早く起きます。",
+     "note": "levantarse：自分が起きる"
+    }
+   ]
+  },
+  {
+   "title": "me / te / se / nos / os / se",
+   "body": "活用した動詞の前に、主語と同じ人を指す**再帰代名詞**を置きます。\n・yo **me**：me levanto\n・tú **te**：te levantas\n・él・ella・usted **se**：se levanta\n・nosotros **nos**：nos levantamos\n・vosotros **os**：os levantáis\n・ellos・ellas・ustedes **se**：se levantan\n動詞の活用は -ar 動詞と同じ規則で、前に代名詞が付くだけです。\n🌎 os levantáis はスペインの「君たち」。中南米では ustedes se levantan と言います。",
+   "examples": [
+    {
+     "es": "Te duchas por la mañana.",
+     "ja": "君は朝シャワーを浴びるね。"
+    },
+    {
+     "es": "Nos levantamos a las siete.",
+     "ja": "私たちは7時に起きます。"
+    },
+    {
+     "es": "¿Os levantáis temprano?",
+     "ja": "君たち早起き？（スペイン）",
+     "note": "🌎 中南米では ¿Se levantan temprano?"
+    }
+   ]
+  },
+  {
+   "title": "代名詞の位置",
+   "body": "代名詞は活用した動詞の**すぐ前**です。否定の no はその前に置きます。\n動詞が2つ並ぶとき（ir a ＋ 原形、querer ＋ 原形）は、次の2通りがあり、意味は同じです。\n・活用形の前：Me voy a duchar.\n・原形の後ろにくっつける：Voy a ducharme.\nただし原形の前にはさんで **Voy a me duchar.** とは言えません。",
+   "examples": [
+    {
+     "es": "No me levanto temprano.",
+     "ja": "私は早起きしません。"
+    },
+    {
+     "es": "Me voy a duchar.",
+     "ja": "シャワーを浴びるところです。",
+     "note": "活用形の前"
+    },
+    {
+     "es": "Voy a ducharme.",
+     "ja": "シャワーを浴びるところです。",
+     "note": "原形の後ろにくっつける"
+    }
+   ]
+  },
+  {
+   "title": "時刻と日課を話す",
+   "body": "時刻は **a la una**（1時に）と **a las** dos / tres / siete…（2時以降）。1時だけ単数の la を使います。\n何時かを聞くときは ¿**A qué hora** te levantas? です。\n一日の流れを言うときは、primero（最初に）、después（そのあと）、por la mañana / por la tarde / por la noche（朝・午後・夜に）、siempre（いつも）をつなげます。",
+   "examples": [
+    {
+     "es": "Me acuesto a la una.",
+     "ja": "1時に寝ます。"
+    },
+    {
+     "es": "Primero me ducho y después desayuno.",
+     "ja": "まずシャワーを浴びて、それから朝食をとります。"
+    },
+    {
+     "es": "Siempre me levanto temprano.",
+     "ja": "いつも早起きです。"
+    }
+   ]
+  },
+  {
+   "title": "体の部分は el / la / los / las",
+   "body": "体の一部や身につける物は、**mis（私の）ではなく el / la / los / las** を使います。持ち主は me で分かるからです。\n・Me lavo **las** manos.（×mis manos）\nまた、acostarse（me acuesto）、despertarse（me despierto）、vestirse（me visto）は語幹の母音が変わる動詞です。理由は u18 で。今は me acuesto の形をそのまま覚えれば十分です。",
+   "examples": [
+    {
+     "es": "Me lavo las manos.",
+     "ja": "手を洗います。"
+    },
+    {
+     "es": "Me cepillo los dientes.",
+     "ja": "歯を磨きます。"
+    },
+    {
+     "es": "Me despierto a las seis.",
+     "ja": "6時に目が覚めます。"
+    }
+   ]
+  },
+  {
+   "title": "名前を言う me llamo も再帰動詞",
+   "body": "Me llamo Ana. も再帰動詞です。llamar＝呼ぶ・電話する、**llamarse**＝（自分を〜と呼ぶ→）〜という名前だ。\n・¿Cómo **te llamas**?（君の名前は？）\n・¿Cómo **se llama** usted?（お名前は？）\nme llamo だけでなく、te llamas、se llama、nos llamamos も同じ仕組みです。\n再帰代名詞が付かない Llamo a Ana. は「アナに電話する」になるので注意。",
+   "examples": [
+    {
+     "es": "¿Cómo te llamas?",
+     "ja": "名前は？"
+    },
+    {
+     "es": "Se llama Carlos.",
+     "ja": "彼の名前はカルロスです。"
+    },
+    {
+     "es": "Llamo a Ana.",
+     "ja": "アナに電話します。",
+     "note": "再帰ではない llamar"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Yo ___ a las siete.",
+   "ja": "私は7時に起きます。",
+   "options": [
+    {
+     "text": "me levanto",
+     "correct": true,
+     "why": "yo の再帰代名詞は me。me ＋ levanto。"
+    },
+    {
+     "text": "levanto",
+     "correct": false,
+     "why": "levanto だけだと「（誰かを）起こす」の意味で、「自分が起きる」にならない。"
+    },
+    {
+     "text": "se levanta",
+     "correct": false,
+     "why": "se levanta は él・ella・usted の形。主語が yo なので合わない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Tú ___ duchas por la mañana.",
+   "ja": "君は朝シャワーを浴びるね。",
+   "options": [
+    {
+     "text": "se",
+     "correct": false,
+     "why": "se は él・ella・ellos などの代名詞。tú には使えない。"
+    },
+    {
+     "text": "me",
+     "correct": false,
+     "why": "me は yo の代名詞。動詞 duchas は tú の形なので組み合わない。"
+    },
+    {
+     "text": "te",
+     "correct": true,
+     "why": "tú の再帰代名詞は te。te duchas。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ella ___ llama Ana.",
+   "ja": "彼女の名前はアナです。",
+   "options": [
+    {
+     "text": "se",
+     "correct": true,
+     "why": "él・ella・usted の再帰代名詞は se。se llama で「〜という名前だ」。"
+    },
+    {
+     "text": "te",
+     "correct": false,
+     "why": "te llama は「君に電話する」になる。主語が ella の名前の文ではない。"
+    },
+    {
+     "text": "me",
+     "correct": false,
+     "why": "me llama は「私に電話する／私を呼ぶ」になり、名前を言う文にならない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Nosotros ___ acostamos a las once.",
+   "ja": "私たちは11時に寝ます。",
+   "options": [
+    {
+     "text": "nos",
+     "correct": true,
+     "why": "nosotros の再帰代名詞は nos。nos acostamos。"
+    },
+    {
+     "text": "se",
+     "correct": false,
+     "why": "se は él・ella・ellos などの代名詞。nosotros には使えない。"
+    },
+    {
+     "text": "os",
+     "correct": false,
+     "why": "os は vosotros の代名詞。nosotros には使えない。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "7時に起きます。",
+   "tokens": [
+    "Me",
+    "levanto",
+    "a",
+    "las",
+    "siete."
+   ],
+   "accept": [
+    [
+     "A",
+     "las",
+     "siete",
+     "me",
+     "levanto."
+    ]
+   ],
+   "why": "再帰代名詞 me は活用した動詞 levanto の直前。時刻は a las siete。"
+  },
+  {
+   "type": "choice",
+   "prompt": "正しい文は？",
+   "ja": "シャワーを浴びるところです。",
+   "options": [
+    {
+     "text": "Voy a me duchar.",
+     "correct": false,
+     "why": "再帰代名詞を原形の前にはさむことはできない。"
+    },
+    {
+     "text": "Voy a duchar.",
+     "correct": false,
+     "why": "me がないと「（誰かに）シャワーを浴びさせる」で、自分の動作にならない。"
+    },
+    {
+     "text": "Voy a ducharme.",
+     "correct": true,
+     "why": "原形 ducharse の se を me に替えて、原形の後ろにくっつけた形。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "正しい文は？",
+   "ja": "手を洗います。",
+   "options": [
+    {
+     "text": "Me lavo las manos.",
+     "correct": true,
+     "why": "体の一部は mis ではなく las を使う。持ち主は me で分かる。"
+    },
+    {
+     "text": "Me lavo mis manos.",
+     "correct": false,
+     "why": "体の部分に mis を付けると不自然。持ち主は me で分かるので las にする。"
+    },
+    {
+     "text": "Lavo me las manos.",
+     "correct": false,
+     "why": "再帰代名詞は活用した動詞の前に置く。動詞の後ろには離して置けない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "🌎 中南米の言い方は？",
+   "ja": "🌎 中南米で、友達2人に「何時に起きる？」と聞くと？",
+   "options": [
+    {
+     "text": "¿A qué hora se levantan?",
+     "correct": true,
+     "why": "中南米では「君たち」も ustedes。se levantan を使う。"
+    },
+    {
+     "text": "¿A qué hora os levantáis?",
+     "correct": false,
+     "why": "os levantáis は vosotros の形でスペインの言い方。中南米ではふつう使わない。"
+    },
+    {
+     "text": "¿A qué hora te levantas?",
+     "correct": false,
+     "why": "te levantas は tú（1人）の形。2人に聞く文にならない。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "何時に起きるの？",
+   "tokens": [
+    "¿A",
+    "qué",
+    "hora",
+    "te",
+    "levantas?"
+   ],
+   "accept": [],
+   "why": "疑問詞 ¿a qué hora の後ろに、te levantas（tú の形）が続く。"
+  },
+  {
+   "type": "choice",
+   "prompt": "正しい文は？",
+   "ja": "彼女の名前はアナです。",
+   "options": [
+    {
+     "text": "Llama Ana.",
+     "correct": false,
+     "why": "再帰代名詞がないと「アナに電話する／アナを呼ぶ」の意味になる。"
+    },
+    {
+     "text": "Se llama Ana.",
+     "correct": true,
+     "why": "llamarse で「〜という名前だ」。ella なので se llama。"
+    },
+    {
+     "text": "Me llama Ana.",
+     "correct": false,
+     "why": "「アナが私に電話してくる」の意味になる。彼女の名前の文ではない。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "levantarse",
+   "es": "levantarse",
+   "art": null,
+   "ja": "起きる"
+  },
+  {
+   "id": "despertarse",
+   "es": "despertarse",
+   "art": null,
+   "ja": "目が覚める"
+  },
+  {
+   "id": "ducharse",
+   "es": "ducharse",
+   "art": null,
+   "ja": "シャワーを浴びる"
+  },
+  {
+   "id": "lavarse",
+   "es": "lavarse",
+   "art": null,
+   "ja": "自分の体（手・顔）を洗う"
+  },
+  {
+   "id": "vestirse",
+   "es": "vestirse",
+   "art": null,
+   "ja": "服を着る"
+  },
+  {
+   "id": "acostarse",
+   "es": "acostarse",
+   "art": null,
+   "ja": "寝る・横になる"
+  },
+  {
+   "id": "llamarse",
+   "es": "llamarse",
+   "art": null,
+   "ja": "〜という名前だ"
+  },
+  {
+   "id": "desayunar",
+   "es": "desayunar",
+   "art": null,
+   "ja": "朝食をとる"
+  },
+  {
+   "id": "cepillarse",
+   "es": "cepillarse",
+   "art": null,
+   "ja": "（歯・髪を）磨く・とかす"
+  },
+  {
+   "id": "temprano",
+   "es": "temprano",
+   "art": null,
+   "ja": "早く"
+  },
+  {
+   "id": "tarde",
+   "es": "tarde",
+   "art": null,
+   "ja": "遅く"
+  },
+  {
+   "id": "normalmente",
+   "es": "normalmente",
+   "art": null,
+   "ja": "ふつうは"
+  },
+  {
+   "id": "despues",
+   "es": "después",
+   "art": null,
+   "ja": "そのあと"
+  },
+  {
+   "id": "antes",
+   "es": "antes",
+   "art": null,
+   "ja": "その前に・以前に"
+  },
+  {
+   "id": "por_la_manana",
+   "es": "por la mañana",
+   "art": null,
+   "ja": "朝に・午前に"
+  },
+  {
+   "id": "por_la_tarde",
+   "es": "por la tarde",
+   "art": null,
+   "ja": "午後に"
+  },
+  {
+   "id": "por_la_noche",
+   "es": "por la noche",
+   "art": null,
+   "ja": "夜に"
+  }
+ ],
+ "phrases": [
+  {
+   "es": "Me levanto a las siete.",
+   "ja": "7時に起きます。",
+   "scene": "日課",
+   "latam": null
+  },
+  {
+   "es": "¿A qué hora te levantas?",
+   "ja": "何時に起きる？",
+   "scene": "日課",
+   "latam": null
+  },
+  {
+   "es": "Me ducho por la mañana.",
+   "ja": "朝シャワーを浴びます。",
+   "scene": "日課",
+   "latam": null
+  },
+  {
+   "es": "Desayuno a las ocho.",
+   "ja": "8時に朝食をとります。",
+   "scene": "日課",
+   "latam": null
+  },
+  {
+   "es": "Me acuesto a las once.",
+   "ja": "11時に寝ます。",
+   "scene": "日課",
+   "latam": null
+  },
+  {
+   "es": "¿Cómo te llamas?",
+   "ja": "名前は？",
+   "scene": "自己紹介",
+   "latam": null
+  },
+  {
+   "es": "Siempre me levanto temprano.",
+   "ja": "いつも早起きです。",
+   "scene": "日課",
+   "latam": null
+  }
+ ],
+ "speak": [
+  {
+   "es": "Me levanto a las siete.",
+   "ja": "7時に起きます。",
+   "tip": "levanto の v。スペイン語の v は b とほぼ同じ音。"
+  },
+  {
+   "es": "Me ducho por la mañana.",
+   "ja": "朝シャワーを浴びます。",
+   "tip": "ducho の ch は「ち」に近い音。"
+  },
+  {
+   "es": "Me acuesto a las once.",
+   "ja": "11時に寝ます。"
+  },
+  {
+   "es": "¿A qué hora te levantas?",
+   "ja": "何時に起きる？",
+   "tip": "最後は上げ調子で。"
+  }
+ ]
+}

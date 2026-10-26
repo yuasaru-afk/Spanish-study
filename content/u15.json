@@ -1,0 +1,518 @@
+{
+ "id": "u15",
+ "no": 15,
+ "title": "買い物",
+ "summary": "este / ese / aquel の使い分けと、値段・サイズ・色のたずね方。",
+ "points": {
+  "lines": [
+   "este / ese / aquel は近い／中間／遠いの3段",
+   "性と数で変わる：esta, estos, estas",
+   "¿Cuánto cuesta? で値段をたずねる"
+  ],
+  "examples": [
+   {
+    "es": "¿Cuánto cuesta esta camisa?",
+    "ja": "このシャツはいくらですか？"
+   },
+   {
+    "es": "Me gustan aquellos zapatos.",
+    "ja": "あちらの靴が気に入りました。"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "este / ese / aquel：指す距離で3段階",
+   "body": "「この・その・あの」に当たる語が、スペイン語は3つです。\n・**este**：話し手の近く（この）\n・**ese**：相手の近く、または少し離れた物（その）\n・**aquel**：どちらからも遠い物（あの）\n日本語の「この・その・あの」とほぼ同じ感覚で使えます。名詞の前に置き、名詞に合わせて形が変わります。\n・este libro（この本）／ ese libro ／ aquel libro",
+   "examples": [
+    {
+     "es": "Quiero este libro.",
+     "ja": "この本がほしいです。"
+    },
+    {
+     "es": "Me gusta ese bolso.",
+     "ja": "そのかばんが気に入りました。"
+    },
+    {
+     "es": "Aquel hotel es caro.",
+     "ja": "あのホテルは高いです。"
+    }
+   ]
+  },
+  {
+   "title": "性と数で4通りに変わる",
+   "body": "3つとも、名詞の性と数に合わせて4通りに変わります。\n・este / esta / estos / estas\n・ese / esa / esos / esas\n・aquel / aquella / aquellos / aquellas\n-o の形容詞（rojo, roja）と同じ考え方ですが、男性単数だけ形が少し違うので注意（este, ese, aquel）。\n昔は代名詞のときに記号を付けましたが、今は付けない書き方が標準です。",
+   "examples": [
+    {
+     "es": "Esta camisa es azul.",
+     "ja": "このシャツは青いです。"
+    },
+    {
+     "es": "Estos zapatos son baratos.",
+     "ja": "この靴は安いです。"
+    },
+    {
+     "es": "Aquellas tiendas están cerradas.",
+     "ja": "あちらの店は閉まっています。"
+    }
+   ]
+  },
+  {
+   "title": "esto / eso / aquello：名前の分からない物",
+   "body": "**esto / eso / aquello** は、何か分からない物や、話の内容全体を指す形です。性も数もありません。\n・¿Qué es esto?（これは何ですか？）\n・Eso es muy caro.（それはとても高いです）\n名詞が決まっているときは、este / esta などの形を使い、esto は使いません。",
+   "examples": [
+    {
+     "es": "¿Qué es eso?",
+     "ja": "それは何ですか？"
+    },
+    {
+     "es": "Esto es muy barato.",
+     "ja": "これはとても安いです。"
+    }
+   ]
+  },
+  {
+   "title": "値段とサイズ・色",
+   "body": "値段は **¿Cuánto cuesta?** です。複数の物なら **¿Cuánto cuestan?**。合計の支払いは **¿Cuánto es?**。\n・el euro は通貨単位。Cuesta diez euros.（10ユーロです）\nサイズは **talla**（服）、色は **color** で言い、色の形容詞は **名詞の後ろ** に置きます。\n・una camisa **roja**（赤いシャツ）／ zapatos **negros**（黒い靴）\n-o で終わる色（rojo, blanco, negro）は性・数で変わりますが、azul のように -o でないものは性が変わらず、数だけ変わります（azules）。",
+   "examples": [
+    {
+     "es": "¿Cuánto cuestan los zapatos?",
+     "ja": "靴はいくらですか？"
+    },
+    {
+     "es": "Quiero una camisa blanca.",
+     "ja": "白いシャツがほしいです。"
+    },
+    {
+     "es": "Busco una talla más grande.",
+     "ja": "もっと大きいサイズを探しています。"
+    }
+   ]
+  },
+  {
+   "title": "お店で使う決まり文句",
+   "body": "・**Solo estoy mirando.**（見ているだけです）\n・**¿Puedo probarme esta camisa?**（このシャツを試着してもいいですか？）\n・**Me lo llevo.**（これをもらいます。買います）\n・**¿Puedo pagar con tarjeta?**（カードで払えますか？）\n・**¿Tiene algo más barato?**（もっと安い物はありますか？）\nどれも、そのまま覚えて使えます。Me lo llevo の lo は「それ」で、買う物が男性名詞のときの形です。女性名詞なら Me la llevo と言いますが、慣れるまでは決まった形として覚えて大丈夫です。",
+   "examples": [
+    {
+     "es": "Solo estoy mirando, gracias.",
+     "ja": "見ているだけです、ありがとう。"
+    },
+    {
+     "es": "Me lo llevo.",
+     "ja": "これをもらいます。"
+    },
+    {
+     "es": "¿Tiene algo más barato?",
+     "ja": "もっと安い物はありますか？"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Quiero ___ camisa.",
+   "ja": "このシャツがほしいです。",
+   "options": [
+    {
+     "text": "estas",
+     "correct": false,
+     "why": "estas は女性複数。camisa は1枚なので esta。"
+    },
+    {
+     "text": "esta",
+     "correct": true,
+     "why": "camisa は女性単数で、近くの物。esta。"
+    },
+    {
+     "text": "este",
+     "correct": false,
+     "why": "este は男性単数。camisa（女性）には esta。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "___ zapatos son caros.",
+   "ja": "あちらの靴は高いです。",
+   "options": [
+    {
+     "text": "Aquel",
+     "correct": false,
+     "why": "aquel は男性単数。zapatos は複数なので aquellos。"
+    },
+    {
+     "text": "Aquellos",
+     "correct": true,
+     "why": "zapatos は男性複数で、遠い物。aquellos。"
+    },
+    {
+     "text": "Aquella",
+     "correct": false,
+     "why": "aquella は女性単数。zapatos は男性複数なので合いません。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Cuánto ___ estos zapatos?",
+   "ja": "この靴はいくらですか？",
+   "options": [
+    {
+     "text": "cuesta",
+     "correct": false,
+     "why": "cuesta は単数の物用。zapatos は複数なので cuestan。"
+    },
+    {
+     "text": "cuestas",
+     "correct": false,
+     "why": "cuestas は tú の形。物の値段は él・ellos 用の形です。"
+    },
+    {
+     "text": "cuestan",
+     "correct": true,
+     "why": "estos zapatos は複数。cuesta ではなく cuestan。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Me gusta ___ bolso.",
+   "ja": "（相手が持っている）そのかばんが気に入りました。",
+   "options": [
+    {
+     "text": "ese",
+     "correct": true,
+     "why": "相手の近くの物は ese。"
+    },
+    {
+     "text": "aquel",
+     "correct": false,
+     "why": "aquel は双方から遠い物。"
+    },
+    {
+     "text": "este",
+     "correct": false,
+     "why": "este は話し手の近くの物。相手の持つ物には ese。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "このシャツはいくらですか？",
+   "tokens": [
+    "¿Cuánto",
+    "cuesta",
+    "esta",
+    "camisa?"
+   ],
+   "accept": [],
+   "why": "camisa は単数なので cuesta。女性名詞に合わせて esta。"
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "赤いシャツがほしいです。",
+   "tokens": [
+    "Quiero",
+    "una",
+    "camisa",
+    "roja."
+   ],
+   "accept": [],
+   "why": "色の形容詞は名詞の後ろ。camisa（女性）に合わせて roja。"
+  },
+  {
+   "type": "choice",
+   "prompt": "「白いシャツ」はどれ？",
+   "es": "una camisa ___",
+   "ja": "白いシャツ。",
+   "options": [
+    {
+     "text": "blancas",
+     "correct": false,
+     "why": "blancas は女性複数。camisa は1枚なので blanca。"
+    },
+    {
+     "text": "blanca",
+     "correct": true,
+     "why": "camisa は女性単数。blanco は blanca に変えて後ろに置きます。"
+    },
+    {
+     "text": "blanco",
+     "correct": false,
+     "why": "blanco は男性形。camisa（女性）には blanca。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Qué es ___?",
+   "ja": "これは何ですか？",
+   "options": [
+    {
+     "text": "este",
+     "correct": false,
+     "why": "este は男性名詞が決まっているときの形。分からない物には esto。"
+    },
+    {
+     "text": "esto",
+     "correct": true,
+     "why": "何か分からない物は esto（性のない形）。"
+    },
+    {
+     "text": "esta",
+     "correct": false,
+     "why": "esta は女性名詞が決まっているときの形。分からない物には esto。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "Me lo llevo. の意味は？",
+   "es": "Me lo llevo.",
+   "ja": "Me lo llevo. の意味は？",
+   "options": [
+    {
+     "text": "これは高いです。",
+     "correct": false,
+     "why": "高いは caro / muy caro。Me lo llevo は値段の感想ではありません。"
+    },
+    {
+     "text": "これを試着します。",
+     "correct": false,
+     "why": "試着は probarse。Me lo llevo は買う意思表示です。"
+    },
+    {
+     "text": "これをもらいます。",
+     "correct": true,
+     "why": "llevar は「持っていく」。買うときの決まり文句。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "カードで払えますか？",
+   "tokens": [
+    "¿Puedo",
+    "pagar",
+    "con",
+    "tarjeta?"
+   ],
+   "accept": [],
+   "why": "con tarjeta で「カードで」。pagar は原形のまま ¿Puedo の後ろに置きます。"
+  }
+ ],
+ "words": [
+  {
+   "id": "este",
+   "es": "este / esta",
+   "art": null,
+   "ja": "この"
+  },
+  {
+   "id": "ese",
+   "es": "ese / esa",
+   "art": null,
+   "ja": "その"
+  },
+  {
+   "id": "aquel",
+   "es": "aquel / aquella",
+   "art": null,
+   "ja": "あの"
+  },
+  {
+   "id": "esto",
+   "es": "esto / eso",
+   "art": null,
+   "ja": "これ／それ（名前の分からない物）"
+  },
+  {
+   "id": "costar",
+   "es": "costar",
+   "art": null,
+   "ja": "値段が〜である"
+  },
+  {
+   "id": "llevar",
+   "es": "llevar",
+   "art": null,
+   "ja": "持っていく；着ている"
+  },
+  {
+   "id": "probarse",
+   "es": "probarse",
+   "art": null,
+   "ja": "試着する"
+  },
+  {
+   "id": "talla",
+   "es": "talla",
+   "art": "la",
+   "ja": "サイズ（服）",
+   "latam": {
+    "es": "talle",
+    "art": "el",
+    "note": "アルゼンチンなど。多くの国では talla"
+   }
+  },
+  {
+   "id": "color",
+   "es": "color",
+   "art": "el",
+   "ja": "色"
+  },
+  {
+   "id": "rojo",
+   "es": "rojo / roja",
+   "art": null,
+   "ja": "赤い"
+  },
+  {
+   "id": "azul",
+   "es": "azul",
+   "art": null,
+   "ja": "青い"
+  },
+  {
+   "id": "blanco",
+   "es": "blanco / blanca",
+   "art": null,
+   "ja": "白い"
+  },
+  {
+   "id": "negro",
+   "es": "negro / negra",
+   "art": null,
+   "ja": "黒い"
+  },
+  {
+   "id": "camisa",
+   "es": "camisa",
+   "art": "la",
+   "ja": "シャツ"
+  },
+  {
+   "id": "zapato",
+   "es": "zapato",
+   "art": "el",
+   "ja": "靴"
+  },
+  {
+   "id": "bolso",
+   "es": "bolso",
+   "art": "el",
+   "ja": "かばん；ハンドバッグ",
+   "latam": {
+    "es": "bolsa / cartera",
+    "art": "la",
+    "note": "メキシコは bolsa（cartera は財布）。アルゼンチン・チリ・ペルーなどは cartera。スペインの cartera は財布"
+   }
+  },
+  {
+   "id": "euro",
+   "es": "euro",
+   "art": "el",
+   "ja": "ユーロ"
+  },
+  {
+   "id": "rebajas",
+   "es": "rebajas",
+   "art": null,
+   "ja": "セール"
+  },
+  {
+   "id": "descuento",
+   "es": "descuento",
+   "art": "el",
+   "ja": "割引"
+  },
+  {
+   "id": "mas",
+   "es": "más",
+   "art": null,
+   "ja": "もっと；より"
+  }
+ ],
+ "phrases": [
+  {
+   "es": "¿Cuánto cuesta esto?",
+   "ja": "これはいくらですか？",
+   "scene": "値段をたずねる",
+   "latam": null
+  },
+  {
+   "es": "¿Cuánto es todo?",
+   "ja": "全部でいくらですか？",
+   "scene": "支払い",
+   "latam": null
+  },
+  {
+   "es": "Solo estoy mirando, gracias.",
+   "ja": "見ているだけです、ありがとう。",
+   "scene": "お店で",
+   "latam": null
+  },
+  {
+   "es": "¿Puedo probarme esta camisa?",
+   "ja": "このシャツを試着してもいいですか？",
+   "scene": "お店で",
+   "latam": null
+  },
+  {
+   "es": "¿Tiene una talla más grande?",
+   "ja": "もっと大きいサイズはありますか？",
+   "scene": "お店で",
+   "latam": null
+  },
+  {
+   "es": "¿Tiene algo más barato?",
+   "ja": "もっと安い物はありますか？",
+   "scene": "お店で",
+   "latam": null
+  },
+  {
+   "es": "Me lo llevo.",
+   "ja": "これをもらいます。",
+   "scene": "支払い",
+   "latam": null
+  },
+  {
+   "es": "¿Puedo pagar con tarjeta?",
+   "ja": "カードで払えますか？",
+   "scene": "支払い",
+   "latam": null
+  }
+ ],
+ "speak": [
+  {
+   "es": "¿Cuánto cuesta esta camisa?",
+   "ja": "このシャツはいくらですか？",
+   "note": "cuesta の ue は「ウエ」と続けて一音で。"
+  },
+  {
+   "es": "Quiero una camisa azul.",
+   "ja": "青いシャツがほしいです。"
+  },
+  {
+   "es": "¿Tiene una talla más grande?",
+   "ja": "もっと大きいサイズはありますか？"
+  },
+  {
+   "es": "Me lo llevo.",
+   "ja": "これをもらいます。"
+  },
+  {
+   "es": "¿Puedo pagar con tarjeta?",
+   "ja": "カードで払えますか？"
+  }
+ ]
+}

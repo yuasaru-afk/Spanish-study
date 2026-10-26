@@ -1,0 +1,543 @@
+{
+ "id": "u14",
+ "no": 14,
+ "title": "場所と道案内",
+ "summary": "hay と estar の違い。道を聞く・答える決まり文句。",
+ "points": {
+  "lines": [
+   "初めて話題にする物の存在は hay",
+   "特定の物の場所は estar",
+   "a la derecha, a la izquierda, todo recto"
+  ],
+  "examples": [
+   {
+    "es": "¿Hay un banco por aquí?",
+    "ja": "この辺に銀行はありますか？"
+   },
+   {
+    "es": "El banco está al lado de la farmacia.",
+    "ja": "銀行は薬局の隣です。"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "hay：存在する（不特定）",
+   "body": "**hay** は「〜がある・いる」で、形は一つだけです。単数にも複数にも使い、人称で変わりません。\n・Hay un banco en la plaza.（広場に銀行がある）\n・Hay dos farmacias.（薬局が2軒ある）\n「まだ話題に出ていない物」「どれでもいい物」に使い、**un / una / dos / muchos** などの語と一緒に使います。聞くときも ¿Hay …? です。",
+   "examples": [
+    {
+     "es": "Hay un parque cerca.",
+     "ja": "近くに公園があります。"
+    },
+    {
+     "es": "¿Hay farmacias aquí?",
+     "ja": "ここに薬局はありますか？"
+    },
+    {
+     "es": "Hay muchas tiendas.",
+     "ja": "店がたくさんあります。"
+    }
+   ]
+  },
+  {
+   "title": "estar：場所を言う（特定）",
+   "body": "**特定の物**（el banco, mi hotel, la farmacia のように、どれか決まっている物）がどこにあるかは estar です。\n・El banco **está** en la calle Mayor.（その銀行は〜通りにある）\n・Los baños **están** al fondo.（トイレは奥にある）\nestar は主語に合わせて está / están と変わります。\nまとめ：**un banco → hay、el banco → está**。冠詞が un / 数字なら hay、el / la / 所有形容詞（mi）なら estar、と覚えると外しにくいです。",
+   "examples": [
+    {
+     "es": "El hotel está cerca.",
+     "ja": "ホテルは近くにあります。"
+    },
+    {
+     "es": "Mis amigos están en el parque.",
+     "ja": "友達は公園にいます。"
+    },
+    {
+     "es": "¿Dónde está la estación?",
+     "ja": "駅はどこですか？"
+    }
+   ]
+  },
+  {
+   "title": "位置を表す言葉",
+   "body": "場所は estar の後ろに、位置を表す語を置いて言います。\n・**al lado de** ＋ 名詞：〜の隣\n・**delante de**：〜の前　／　**detrás de**：〜の後ろ\n・**enfrente de**：〜の向かい　／　**entre A y B**：AとBの間\n・cerca de / lejos de：〜の近く／遠く\nde の後ろに el が来ると **del** に変わります：al lado **del** banco（de ＋ el ＝ del）。la や una の前では変わりません：al lado **de la** farmacia。",
+   "examples": [
+    {
+     "es": "La farmacia está al lado del banco.",
+     "ja": "薬局は銀行の隣です。"
+    },
+    {
+     "es": "El parque está delante de la estación.",
+     "ja": "公園は駅の前です。"
+    },
+    {
+     "es": "El hotel está entre el banco y la plaza.",
+     "ja": "ホテルは銀行と広場の間です。"
+    }
+   ]
+  },
+  {
+   "title": "道を教える言葉",
+   "body": "道を教えるときに、そのまま使える形です（相手が usted のときの言い方）。\n・**Siga todo recto.**（まっすぐ進んでください）\n・**Gire a la derecha / a la izquierda.**（右／左に曲がってください）\n・**Cruce la calle.**（通りを渡ってください）\n・**En el semáforo**（信号のところで）, **en la esquina**（角で）\nどれも命令に聞こえますが、道案内では普通の丁寧な言い方です。\n🌎 中南米では todo recto の代わりに（todo）derecho、girar の代わりに doblar もよく使います。",
+   "examples": [
+    {
+     "es": "Siga todo recto.",
+     "ja": "まっすぐ進んでください。"
+    },
+    {
+     "es": "Gire a la izquierda en el semáforo.",
+     "ja": "信号のところで左に曲がってください。"
+    },
+    {
+     "es": "Cruce la plaza.",
+     "ja": "広場を渡ってください。"
+    }
+   ]
+  },
+  {
+   "title": "道をたずねる",
+   "body": "聞き方は3つです。\n・存在を聞く：**¿Hay un banco por aquí?**（この辺に銀行はありますか？）\n・場所を聞く：**¿Dónde está el banco?**（その銀行はどこですか？）\n・遠さを聞く：**¿Está lejos?**（遠いですか？）\nまず Perdone, と声をかけてから聞くのが丁寧です。答えの最後は Está allí.（あそこです）, Está a cinco minutos.（5分です）などと言います。",
+   "examples": [
+    {
+     "es": "Perdone, ¿dónde está la farmacia?",
+     "ja": "すみません、薬局はどこですか？"
+    },
+    {
+     "es": "¿Hay un supermercado cerca?",
+     "ja": "近くにスーパーはありますか？"
+    },
+    {
+     "es": "Está a cinco minutos.",
+     "ja": "5分のところです。"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "En la plaza ___ un banco.",
+   "ja": "広場に銀行があります。",
+   "options": [
+    {
+     "text": "es",
+     "correct": false,
+     "why": "es は「〜である」。物がある場所の話には、hay か estar。"
+    },
+    {
+     "text": "está",
+     "correct": false,
+     "why": "está は特定の物の場所に使います。un banco のような不特定の物には hay。"
+    },
+    {
+     "text": "hay",
+     "correct": true,
+     "why": "un banco は不特定の物。存在を言うので hay。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "El banco ___ en la calle Mayor.",
+   "ja": "その銀行はマヨール通りにあります。",
+   "options": [
+    {
+     "text": "hay",
+     "correct": false,
+     "why": "el banco のような特定の物には hay は使いません。estar で場所を言います。"
+    },
+    {
+     "text": "es",
+     "correct": false,
+     "why": "es は性質や定義。場所を言うときは estar です。"
+    },
+    {
+     "text": "está",
+     "correct": true,
+     "why": "el banco は特定の銀行。場所は estar。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿___ una farmacia por aquí?",
+   "ja": "この辺に薬局はありますか？",
+   "options": [
+    {
+     "text": "Hay",
+     "correct": true,
+     "why": "una farmacia は不特定。存在を聞くので Hay。"
+    },
+    {
+     "text": "Es",
+     "correct": false,
+     "why": "es は存在を聞けません。¿Hay …? で聞きます。"
+    },
+    {
+     "text": "Está",
+     "correct": false,
+     "why": "una farmacia のような不特定の物には estar ではなく hay。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Dónde ___ la farmacia?",
+   "ja": "薬局はどこですか？",
+   "options": [
+    {
+     "text": "hay",
+     "correct": false,
+     "why": "¿Dónde hay …? とは言わず、特定の物の場所には ¿Dónde está …? を使います。"
+    },
+    {
+     "text": "está",
+     "correct": true,
+     "why": "特定の物の場所を聞くので estar。la farmacia は単数で está。"
+    },
+    {
+     "text": "están",
+     "correct": false,
+     "why": "están は複数の主語用。la farmacia は1軒なので está。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "右に曲がってください。",
+   "tokens": [
+    "Gire",
+    "a",
+    "la",
+    "derecha."
+   ],
+   "accept": [],
+   "why": "a la derecha で「右へ」。道案内の命令形 gire を使います。"
+  },
+  {
+   "type": "choice",
+   "prompt": "Siga todo recto. の意味は？",
+   "es": "Siga todo recto.",
+   "ja": "Siga todo recto. の意味は？",
+   "options": [
+    {
+     "text": "戻ってください。",
+     "correct": false,
+     "why": "「戻る」とは言っていません。todo recto は前にそのまま進む意味。"
+    },
+    {
+     "text": "まっすぐ進んでください。",
+     "correct": true,
+     "why": "todo recto は「まっすぐ」。siga は「進む」の丁寧な命令。"
+    },
+    {
+     "text": "右に曲がってください。",
+     "correct": false,
+     "why": "右は a la derecha。todo recto は曲がらず直進のこと。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "La farmacia está al lado ___ banco.",
+   "ja": "薬局は銀行の隣です。",
+   "options": [
+    {
+     "text": "al",
+     "correct": false,
+     "why": "al は a ＋ el。ここは al lado の後ろなので de ＋ el ＝ del。"
+    },
+    {
+     "text": "del",
+     "correct": true,
+     "why": "de ＋ el は del に変わります。"
+    },
+    {
+     "text": "de el",
+     "correct": false,
+     "why": "de el とは書きません。de ＋ el は必ず del に縮めます。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "近くにスーパーはありますか？",
+   "tokens": [
+    "¿Hay",
+    "un",
+    "supermercado",
+    "cerca?"
+   ],
+   "accept": [],
+   "why": "初めて話題にする不特定の物なので hay。"
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "En la plaza ___ muchas tiendas.",
+   "ja": "広場には店がたくさんあります。",
+   "options": [
+    {
+     "text": "hay",
+     "correct": true,
+     "why": "hay は複数でも形が変わりません。muchas tiendas は不特定なので hay。"
+    },
+    {
+     "text": "están",
+     "correct": false,
+     "why": "特定されていない muchas tiendas には hay。están は特定の物の場所に使います。"
+    },
+    {
+     "text": "son",
+     "correct": false,
+     "why": "son は「〜である」。店がある、と言うときは hay。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "La estación está ___ del parque.",
+   "ja": "駅は公園の向かいです。",
+   "options": [
+    {
+     "text": "enfrente",
+     "correct": true,
+     "why": "enfrente del parque で「公園の向かい」。"
+    },
+    {
+     "text": "detrás",
+     "correct": false,
+     "why": "detrás del parque は「公園の後ろ」。向かい側ではありません。"
+    },
+    {
+     "text": "al lado",
+     "correct": false,
+     "why": "al lado del parque は「公園の隣」。向かいとは位置が違います。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "hay",
+   "es": "hay",
+   "art": null,
+   "ja": "〜がある；〜がいる"
+  },
+  {
+   "id": "banco",
+   "es": "banco",
+   "art": "el",
+   "ja": "銀行；ベンチ"
+  },
+  {
+   "id": "supermercado",
+   "es": "supermercado",
+   "art": "el",
+   "ja": "スーパー"
+  },
+  {
+   "id": "farmacia",
+   "es": "farmacia",
+   "art": "la",
+   "ja": "薬局"
+  },
+  {
+   "id": "parque",
+   "es": "parque",
+   "art": "el",
+   "ja": "公園"
+  },
+  {
+   "id": "plaza",
+   "es": "plaza",
+   "art": "la",
+   "ja": "広場"
+  },
+  {
+   "id": "esquina",
+   "es": "esquina",
+   "art": "la",
+   "ja": "角"
+  },
+  {
+   "id": "semaforo",
+   "es": "semáforo",
+   "art": "el",
+   "ja": "信号"
+  },
+  {
+   "id": "derecha",
+   "es": "derecha",
+   "art": "la",
+   "ja": "右"
+  },
+  {
+   "id": "izquierda",
+   "es": "izquierda",
+   "art": "la",
+   "ja": "左"
+  },
+  {
+   "id": "todo_recto",
+   "es": "todo recto",
+   "art": null,
+   "ja": "まっすぐ",
+   "latam": {
+    "es": "derecho",
+    "art": null,
+    "note": "todo derecho とも言う"
+   }
+  },
+  {
+   "id": "al_lado_de",
+   "es": "al lado de",
+   "art": null,
+   "ja": "〜の隣に"
+  },
+  {
+   "id": "delante_de",
+   "es": "delante de",
+   "art": null,
+   "ja": "〜の前に"
+  },
+  {
+   "id": "detras_de",
+   "es": "detrás de",
+   "art": null,
+   "ja": "〜の後ろに"
+  },
+  {
+   "id": "enfrente_de",
+   "es": "enfrente de",
+   "art": null,
+   "ja": "〜の向かいに"
+  },
+  {
+   "id": "entre",
+   "es": "entre",
+   "art": null,
+   "ja": "〜の間に"
+  },
+  {
+   "id": "girar",
+   "es": "girar",
+   "art": null,
+   "ja": "曲がる",
+   "latam": {
+    "es": "doblar",
+    "art": null,
+    "note": "スペインでも使う"
+   }
+  },
+  {
+   "id": "seguir",
+   "es": "seguir",
+   "art": null,
+   "ja": "進む；続ける"
+  },
+  {
+   "id": "cruzar",
+   "es": "cruzar",
+   "art": null,
+   "ja": "渡る；横切る"
+  },
+  {
+   "id": "parada",
+   "es": "parada",
+   "art": "la",
+   "ja": "停留所"
+  },
+  {
+   "id": "metro",
+   "es": "metro",
+   "art": "el",
+   "ja": "地下鉄"
+  }
+ ],
+ "phrases": [
+  {
+   "es": "Perdone, ¿dónde está la farmacia?",
+   "ja": "すみません、薬局はどこですか？",
+   "scene": "道をたずねる",
+   "latam": null
+  },
+  {
+   "es": "¿Hay un banco por aquí?",
+   "ja": "この辺に銀行はありますか？",
+   "scene": "道をたずねる",
+   "latam": null
+  },
+  {
+   "es": "¿Está lejos?",
+   "ja": "遠いですか？",
+   "scene": "道をたずねる",
+   "latam": null
+  },
+  {
+   "es": "¿Cómo llego a la estación?",
+   "ja": "駅へはどう行けばいいですか？",
+   "scene": "道をたずねる",
+   "latam": null
+  },
+  {
+   "es": "Siga todo recto.",
+   "ja": "まっすぐ進んでください。",
+   "scene": "道を教える",
+   "latam": {
+    "es": "Siga derecho."
+   }
+  },
+  {
+   "es": "Gire a la derecha.",
+   "ja": "右に曲がってください。",
+   "scene": "道を教える",
+   "latam": {
+    "es": "Doble a la derecha."
+   }
+  },
+  {
+   "es": "Está al lado del banco.",
+   "ja": "銀行の隣です。",
+   "scene": "道を教える",
+   "latam": null
+  },
+  {
+   "es": "Está a cinco minutos.",
+   "ja": "5分のところです。",
+   "scene": "道を教える",
+   "latam": null
+  }
+ ],
+ "speak": [
+  {
+   "es": "Perdone, ¿dónde está la farmacia?",
+   "ja": "すみません、薬局はどこですか？",
+   "note": "perdone の r は軽く一回はじく。"
+  },
+  {
+   "es": "¿Hay un banco por aquí?",
+   "ja": "この辺に銀行はありますか？",
+   "note": "hay の h は発音しない。"
+  },
+  {
+   "es": "Siga todo recto.",
+   "ja": "まっすぐ進んでください。"
+  },
+  {
+   "es": "Gire a la izquierda.",
+   "ja": "左に曲がってください。"
+  },
+  {
+   "es": "Está al lado del banco.",
+   "ja": "銀行の隣です。"
+  }
+ ]
+}

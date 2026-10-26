@@ -1,0 +1,475 @@
+{
+ "id": "u20",
+ "no": 20,
+ "title": "現在進行形",
+ "summary": "estar ＋ 現在分詞（-ando / -iendo）で「今まさに〜している」。不規則な形と、現在形との使い分け。",
+ "points": {
+  "lines": [
+   "estar ＋ 現在分詞で「今〜している」",
+   "-ar → -ando、-er/-ir → -iendo",
+   "leyendo, durmiendo など不規則もある"
+  ],
+  "examples": [
+   {
+    "es": "Estoy estudiando español.",
+    "ja": "今、スペイン語を勉強しています。"
+   },
+   {
+    "es": "Están comiendo.",
+    "ja": "彼らは食事中です。"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "estar ＋ 現在分詞",
+   "body": "「今まさに〜している」は **estar の活用 ＋ 現在分詞** で言います。\n・estoy hablando（話している）\n・estás hablando\n・está hablando\n・estamos hablando\n・estáis hablando\n・están hablando\n現在分詞は**主語が変わっても形が変わりません**。変わるのは estar だけです。男女・単複の語尾も付きません。",
+   "examples": [
+    {
+     "es": "Estoy trabajando.",
+     "ja": "今、仕事中です。"
+    },
+    {
+     "es": "Estamos esperando.",
+     "ja": "私たちは待っています。"
+    },
+    {
+     "es": "Ellas están hablando.",
+     "ja": "彼女たちは話しています。",
+     "note": "hablando は変化しない"
+    }
+   ]
+  },
+  {
+   "title": "現在分詞の作り方",
+   "body": "原形の語尾を替えます。\n・**-ar → -ando**：hablar → hablando、caminar → caminando\n・**-er / -ir → -iendo**：comer → comiendo、vivir → viviendo\n規則的なので、動詞を知っていればすぐ作れます。\nアクセントの位置は変わりません。habl**a**ndo の a を強く読みます。",
+   "examples": [
+    {
+     "es": "Estoy cenando.",
+     "ja": "夕食を食べているところです。"
+    },
+    {
+     "es": "Estás comiendo mucho.",
+     "ja": "君はよく食べているね。"
+    },
+    {
+     "es": "Estamos caminando.",
+     "ja": "私たちは歩いています。"
+    }
+   ]
+  },
+  {
+   "title": "不規則な現在分詞",
+   "body": "一部の動詞は形が変わります。\n・**母音にはさまれる i が y に**：leer → **leyendo**、oír → oyendo\n・**-ir 動詞の語幹が変わる**：dormir → **durmiendo**（o→u）、pedir → **pidiendo**（e→i）、decir → diciendo\n・ir → **yendo**\n-ar 動詞は変わりません（pensar → pensando）。u18 で習った語幹が変わる動詞のうち、**-ir 動詞だけ**が現在分詞でも変わる、と覚えます。",
+   "examples": [
+    {
+     "es": "Ella está leyendo.",
+     "ja": "彼女は読書中です。"
+    },
+    {
+     "es": "El niño está durmiendo.",
+     "ja": "子どもは寝ています。"
+    },
+    {
+     "es": "Estoy pidiendo la cuenta.",
+     "ja": "お勘定を頼んでいるところです。"
+    }
+   ]
+  },
+  {
+   "title": "現在形との違い",
+   "body": "現在形は**習慣・一般的なこと**、現在進行形は**今この瞬間**です。\n・Trabajo en Tokio.（東京で働いている＝職業・習慣）\n・Estoy trabajando.（今、仕事の最中）\n・¿Qué haces?（ふだん何をしている？／何してるの？）\n・¿Qué estás haciendo?（今、何をしているの？）\nスペイン語の進行形は日本語の「〜している」より**範囲が狭い**ので、状態には使いません。",
+   "examples": [
+    {
+     "es": "Vivo en Osaka.",
+     "ja": "大阪に住んでいます。",
+     "note": "状態は現在形"
+    },
+    {
+     "es": "Estoy comiendo ahora.",
+     "ja": "今、食事中です。"
+    },
+    {
+     "es": "¿Qué estás haciendo?",
+     "ja": "今、何してるの？"
+    }
+   ]
+  },
+  {
+   "title": "日本語の「〜ている」と違うところ",
+   "body": "日本語の「〜ている」には、進行（食べている）のほかに**状態**（結婚している）や**習慣**（毎朝走っている）があります。スペイン語の進行形は**進行だけ**です。\n・結婚している → Estoy **casado**.（状態は estar ＋ 形容詞）\n・毎朝走っている → **Corro** todas las mañanas.（現在形）\n**近い予定**も進行形にしません。Mañana viajo a Madrid.（明日行く）と言い、×Mañana estoy viajando とは言いません。",
+   "examples": [
+    {
+     "es": "Estoy casado.",
+     "ja": "結婚しています。"
+    },
+    {
+     "es": "Mañana viajo a Madrid.",
+     "ja": "明日マドリードに行きます。"
+    },
+    {
+     "es": "Corro todos los días.",
+     "ja": "毎日走っています。"
+    }
+   ]
+  },
+  {
+   "title": "代名詞が付く場合",
+   "body": "再帰動詞（u16）の進行形では、代名詞を2通りに置けます。\n・estar の前：**Me** estoy duchando.\n・現在分詞の後ろにくっつける：Estoy duchándo**me**.\n後ろにくっつけると、強く読む位置が変わらないよう **duchándome のようにアクセント記号が付きます**。\n意味は同じで、日常会話では前に置く形がよく使われます。",
+   "examples": [
+    {
+     "es": "Me estoy duchando.",
+     "ja": "シャワーを浴びているところです。"
+    },
+    {
+     "es": "Estoy duchándome.",
+     "ja": "シャワーを浴びているところです。",
+     "note": "アクセント記号が付く"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Estoy ___ español.",
+   "ja": "スペイン語を勉強している最中です。",
+   "options": [
+    {
+     "text": "estudiando",
+     "correct": true,
+     "why": "-ar 動詞の現在分詞は -ando。estudiar → estudiando。"
+    },
+    {
+     "text": "estudiar",
+     "correct": false,
+     "why": "原形のまま。estar のあとには現在分詞を置く。"
+    },
+    {
+     "text": "estudio",
+     "correct": false,
+     "why": "estudio は現在形。estoy のあとに置けない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ellos están ___.",
+   "ja": "彼らは食事中です。",
+   "options": [
+    {
+     "text": "comiendo",
+     "correct": true,
+     "why": "-er 動詞の現在分詞は -iendo。comer → comiendo。"
+    },
+    {
+     "text": "comer",
+     "correct": false,
+     "why": "原形のまま。estar のあとには現在分詞を置く。"
+    },
+    {
+     "text": "comando",
+     "correct": false,
+     "why": "-er 動詞に -ando は付かない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ella está ___ un libro.",
+   "ja": "彼女は本を読んでいます。",
+   "options": [
+    {
+     "text": "leyendo",
+     "correct": true,
+     "why": "leer は母音にはさまれた i が y になって leyendo。"
+    },
+    {
+     "text": "leiendo",
+     "correct": false,
+     "why": "i が母音にはさまれると y になる。leiendo とは書かない。"
+    },
+    {
+     "text": "leendo",
+     "correct": false,
+     "why": "leendo は e が2つ並ぶだけの形。-iendo の i が母音にはさまれると y になるので、正しくは leyendo。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "El niño está ___.",
+   "ja": "子どもは寝ています。",
+   "options": [
+    {
+     "text": "durmiendo",
+     "correct": true,
+     "why": "dormir は -ir 動詞なので現在分詞で o→u。durmiendo。"
+    },
+    {
+     "text": "dormindo",
+     "correct": false,
+     "why": "-iendo 型で作る。dormindo という形はない。"
+    },
+    {
+     "text": "dormiendo",
+     "correct": false,
+     "why": "-ir 動詞の語幹 o は現在分詞で u に変わる。dormiendo ではない。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "私たちは電車を待っています。",
+   "tokens": [
+    "Estamos",
+    "esperando",
+    "el",
+    "tren."
+   ],
+   "accept": [],
+   "why": "estar（nosotros）＋ 現在分詞 esperando。"
+  },
+  {
+   "type": "choice",
+   "prompt": "職業の説明としてふつうの文は？",
+   "ja": "東京で働いています（職業）。",
+   "options": [
+    {
+     "text": "Estoy trabajando en Tokio.",
+     "correct": false,
+     "why": "「今、東京で仕事をしている最中」という意味になり、職業の説明らしくない。"
+    },
+    {
+     "text": "Trabajo en Tokio.",
+     "correct": true,
+     "why": "職業や習慣は現在形で言う。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Qué estás ___?",
+   "ja": "今、何をしているの？",
+   "options": [
+    {
+     "text": "hacer",
+     "correct": false,
+     "why": "原形のまま。estar のあとには現在分詞を置く。"
+    },
+    {
+     "text": "haces",
+     "correct": false,
+     "why": "haces は現在形。estás のあとに置けない。"
+    },
+    {
+     "text": "haciendo",
+     "correct": true,
+     "why": "hacer → haciendo（-er 動詞は -iendo）。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "シャワーを浴びているところです。",
+   "tokens": [
+    "Me",
+    "estoy",
+    "duchando."
+   ],
+   "accept": [],
+   "why": "代名詞 me は estoy の前に置く。（後ろにくっつけて Estoy duchándome. と言うこともできる）"
+  },
+  {
+   "type": "choice",
+   "prompt": "正しい文は？",
+   "ja": "明日マドリードに行きます。",
+   "options": [
+    {
+     "text": "Mañana estoy viajando a Madrid.",
+     "correct": false,
+     "why": "進行形は今進行中の動作。未来の予定には使わない。"
+    },
+    {
+     "text": "Mañana viajo a Madrid.",
+     "correct": true,
+     "why": "近い予定は現在形で言う。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ellas están ___.",
+   "ja": "彼女たちは話しています。",
+   "options": [
+    {
+     "text": "hablando",
+     "correct": true,
+     "why": "現在分詞は主語が女性・複数でも形が変わらない。"
+    },
+    {
+     "text": "hablan",
+     "correct": false,
+     "why": "hablan は現在形。están のあとには現在分詞を置く。"
+    },
+    {
+     "text": "hablandas",
+     "correct": false,
+     "why": "現在分詞には性数の語尾を付けない。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "ahora_mismo",
+   "es": "ahora mismo",
+   "art": null,
+   "ja": "今まさに・すぐに"
+  },
+  {
+   "id": "en_este_momento",
+   "es": "en este momento",
+   "art": null,
+   "ja": "今この瞬間に"
+  },
+  {
+   "id": "gerundio",
+   "es": "gerundio",
+   "art": "el",
+   "ja": "現在分詞（〜しながら）"
+  },
+  {
+   "id": "esperar",
+   "es": "esperar",
+   "art": null,
+   "ja": "待つ"
+  },
+  {
+   "id": "llamar",
+   "es": "llamar",
+   "art": null,
+   "ja": "呼ぶ・電話する"
+  },
+  {
+   "id": "cantar",
+   "es": "cantar",
+   "art": null,
+   "ja": "歌う"
+  },
+  {
+   "id": "bailar",
+   "es": "bailar",
+   "art": null,
+   "ja": "踊る"
+  },
+  {
+   "id": "caminar",
+   "es": "caminar",
+   "art": null,
+   "ja": "歩く"
+  },
+  {
+   "id": "pasear",
+   "es": "pasear",
+   "art": null,
+   "ja": "散歩する"
+  },
+  {
+   "id": "lavar",
+   "es": "lavar",
+   "art": null,
+   "ja": "洗う"
+  },
+  {
+   "id": "limpiar",
+   "es": "limpiar",
+   "art": null,
+   "ja": "掃除する"
+  },
+  {
+   "id": "nadar",
+   "es": "nadar",
+   "art": null,
+   "ja": "泳ぐ"
+  },
+  {
+   "id": "preparar",
+   "es": "preparar",
+   "art": null,
+   "ja": "準備する"
+  },
+  {
+   "id": "descansar",
+   "es": "descansar",
+   "art": null,
+   "ja": "休む"
+  },
+  {
+   "id": "casado",
+   "es": "casado",
+   "art": null,
+   "ja": "結婚している"
+  }
+ ],
+ "phrases": [
+  {
+   "es": "¿Qué estás haciendo?",
+   "ja": "今、何してるの？",
+   "scene": "電話・連絡",
+   "latam": null
+  },
+  {
+   "es": "Estoy trabajando ahora.",
+   "ja": "今、仕事中です。",
+   "scene": "電話・連絡",
+   "latam": null
+  },
+  {
+   "es": "Estoy esperando el tren.",
+   "ja": "電車を待っています。",
+   "scene": "待ち合わせ",
+   "latam": null
+  },
+  {
+   "es": "Estoy llegando.",
+   "ja": "もうすぐ着きます。",
+   "scene": "待ち合わせ",
+   "latam": null
+  },
+  {
+   "es": "Estamos cenando.",
+   "ja": "私たちは夕食中です。",
+   "scene": "電話・連絡",
+   "latam": null
+  }
+ ],
+ "speak": [
+  {
+   "es": "¿Qué estás haciendo?",
+   "ja": "今、何してるの？"
+  },
+  {
+   "es": "Estoy esperando el tren.",
+   "ja": "電車を待っています。",
+   "tip": "esperando は -ando の a を強く読む。"
+  },
+  {
+   "es": "Estoy trabajando ahora.",
+   "ja": "今、仕事中です。",
+   "tip": "ahora の h は発音しない。"
+  },
+  {
+   "es": "Estamos cenando.",
+   "ja": "私たちは夕食中です。"
+  }
+ ]
+}
