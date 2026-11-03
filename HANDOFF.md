@@ -1,11 +1,11 @@
 # HANDOFF：スペイン語学習アプリ
 
-## いまの状態（2026-10-25）
+## いまの状態（2026-11-04）
 
-- **第2版・20ユニット**を公開：**https://yuasaru-afk.github.io/Spanish-study/**（リポジトリ名は大文字の `Spanish-study`。アドレスも大文字小文字を区別する）
+- **第2版・30ユニット**を公開：**https://yuasaru-afk.github.io/Spanish-study/**（リポジトリ名は大文字の `Spanish-study`。アドレスも大文字小文字を区別する）
 - GitHub：`yuasaru-afk/Spanish-study`（Public、Pages は main の / から）
-- テスト `node --test` 127件すべて通過
-- **次の一手**：u21〜30（点過去・線過去・命令形・比較・目的語の代名詞）。下書きは Sonnet 2人に drafts/BRIEF.md で分担→ tools/merge_drafts.py の要領で取り込み（重複語は後のユニットから外す・選択肢の並びをばらす）→別エージェントでスペイン語の見直し
+- テスト `node --test` 129件すべて通過
+- **次の一手**：u31〜 は未定。足す時は drafts/BRIEF.md で Sonnet 2人に分担→ tools/merge_drafts.py の range を直して取り込み→別エージェントでスペイン語の見直し（u21〜30 まで済。ただしネイティブ確認はなし）
 
 ## 第2版でできること
 

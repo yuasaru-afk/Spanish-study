@@ -1,4 +1,4 @@
-# drafts/u11〜u20 を content/ に取り込む（2026-10-26）。一度きり
+# drafts/uNN を content/ に取り込む（u11〜20: 2026-10-26、u21〜30: 2026-11-04）。範囲は下の range
 # - 前のユニットと重複する単語 id は、後のユニットから外す（先に出た所で覚える）
 # - 3択の選択肢の並びを問題文から決まる順に並べ直す（正解の位置が規則的にならないように）
 import hashlib
@@ -21,7 +21,7 @@ seen = set()
 for entry in index:
     seen.update(w["id"] for w in json.loads((CONTENT / entry["file"]).read_text(encoding="utf-8"))["words"])
 
-for n in range(11, 21):
+for n in range(21, 31):
     uid = f"u{n}"
     unit = json.loads((DRAFTS / f"{uid}.json").read_text(encoding="utf-8"))
     dropped = [w["id"] for w in unit["words"] if w["id"] in seen]

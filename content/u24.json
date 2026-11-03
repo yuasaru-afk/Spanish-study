@@ -1,0 +1,467 @@
+{
+ "id": "u24",
+ "no": 24,
+ "title": "点過去と線過去の使い分け",
+ "summary": "出来事を進めるのが点過去、舞台や習慣を描くのが線過去。日本語の「した／していた」と一致しない例も理屈で整理する。",
+ "points": {
+  "lines": [
+   "点過去＝出来事（話を前に進める）",
+   "線過去＝背景・状態・習慣（舞台を描く）",
+   "出来事の最中の背景を、線過去で添える"
+  ],
+  "examples": [
+   {
+    "es": "Cuando llegué, llovía.",
+    "ja": "着いたとき、雨が降っていた。"
+   },
+   {
+    "es": "Ayer estudié tres horas.",
+    "ja": "昨日、3時間勉強した。"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "物語の「筋」と「舞台」",
+   "body": "過去の話は、**筋**と**舞台**でできています。\n・**筋（出来事）**＝点過去。「着いた」「電話した」「ドアを開けた」。話を一歩進める。\n・**舞台（背景・状態・習慣）**＝線過去。「雨が降っていた」「暗かった」「よく通っていた」。話を止めて様子を描く。\n映画で言えば、点過去は「場面が動く瞬間」、線過去は「背景の映像」です。この区別が使い分けのすべてです。",
+   "examples": [
+    {
+     "es": "Sonó el teléfono.",
+     "ja": "電話が鳴った。",
+     "note": "出来事（筋）"
+    },
+    {
+     "es": "Era de noche.",
+     "ja": "夜だった。",
+     "note": "背景（舞台）"
+    }
+   ]
+  },
+  {
+   "title": "Cuando llegué, llovía.",
+   "body": "この一文に両方入っています。\n・**llegué**＝着いた（一瞬の出来事・点過去）\n・**llovía**＝雨が降っていた（出来事のあいだ続いていた背景・線過去）\n「着いた」という点の前後も、雨はずっと降り続けていました。このように**長く続く背景の中に、短い出来事が起きる**形が最も典型です。\n同じ構造：Dormía cuando sonó el teléfono.（寝ていたとき、電話が鳴った）。続いていた状態が dormía、割り込んだ出来事が sonó です。",
+   "examples": [
+    {
+     "es": "Cuando llegué, llovía.",
+     "ja": "着いたとき、雨が降っていた。"
+    },
+    {
+     "es": "Dormía cuando sonó el teléfono.",
+     "ja": "寝ていたら電話が鳴った。"
+    }
+   ]
+  },
+  {
+   "title": "合図になる言葉",
+   "body": "言葉が過去の見分けのヒントになります。\n**点過去になりやすい**\n・ayer, anoche, el año pasado（その日だけの言い方）\n・una vez（一度）, de repente（突然）, ese día（その日）\n**線過去になりやすい**\n・siempre, todos los días, a menudo（繰り返し）\n・de niño, antes（そのころ）\n・mientras（〜のあいだ）\nただし言葉は目安で、最終的には「出来事か、背景か」で決めます。",
+   "examples": [
+    {
+     "es": "De repente se fue la luz.",
+     "ja": "突然、電気が消えた。"
+    },
+    {
+     "es": "Siempre cenábamos juntos.",
+     "ja": "いつも一緒に夕食をとっていた。"
+    },
+    {
+     "es": "Mientras comía, leía el periódico.",
+     "ja": "食べながら新聞を読んでいた。"
+    }
+   ]
+  },
+  {
+   "title": "日本語の「した／していた」とズレる例",
+   "body": "日本語の言い方に引きずられると間違えます。\n・**日本語は「〜していた」でも、スペイン語は点過去**：「昨夜は8時間寝ていた」と言えても、期間が区切られた終わったことなら点過去。Anoche **dormí** ocho horas.\n・**日本語は「〜した」でも、スペイン語は線過去**：子どものころ、サッカーをした（＝何度もしたものだ）は習慣なので、De niño **jugaba** al fútbol.\n・日本語は両方「行った」：Fui a la playa ayer.（昨日行った＝点）／Iba a la playa cada verano.（毎年行ったものだ＝線）\n日本語の時制ではなく、**出来事か、背景・習慣か**を見ます。",
+   "examples": [
+    {
+     "es": "Anoche dormí ocho horas.",
+     "ja": "昨夜は8時間寝た。",
+     "note": "期間が区切られている＝点"
+    },
+    {
+     "es": "De niño jugaba al fútbol.",
+     "ja": "子どものころはサッカーをしていた。",
+     "note": "習慣＝線"
+    }
+   ]
+  },
+  {
+   "title": "迷いやすい点①：期間と回数が区切られたら点",
+   "body": "長い期間でも、**始まりと終わりがはっきりした回数や期間**を言うなら点過去です。\n・Viví en Madrid **cinco años**.（5年住んだ。もう住んでいない）\n・**Estuve** en casa **todo el día**.（一日中家にいた）\n・**Fui** tres veces.（3回行った）\n一方、Vivía en Madrid.（マドリードに住んでいた）は期間を区切らず「そのころ住んでいた状態」を描くだけです。\n「ずっと続いたか」ではなく、「期間や回数を数えて終わりを示したか」で決まります。",
+   "examples": [
+    {
+     "es": "Viví en Madrid cinco años.",
+     "ja": "マドリードに5年住んだ。"
+    },
+    {
+     "es": "Vivía en Madrid.",
+     "ja": "マドリードに住んでいた。",
+     "note": "そのころの状態"
+    },
+    {
+     "es": "Estuve en casa todo el día.",
+     "ja": "一日中、家にいた。"
+    }
+   ]
+  },
+  {
+   "title": "迷いやすい点②：同じ動詞で意味が変わる",
+   "body": "動詞は同じでも、時制で意味が変わります。\n・Cuando llegué, **cenábamos**.＝着いたとき、ちょうど夕食の最中だった。\n・Cuando llegué, **cenamos**.＝着いてから、夕食にした。\n前者は夕食が先に始まっていて、後者は着いたことをきっかけに夕食が始まっています。\n迷ったときは自分に聞きます。「その時、何が起こったか？」→点過去。「その時、どんな状況だったか？」→線過去。",
+   "examples": [
+    {
+     "es": "Cuando llegué, cenábamos.",
+     "ja": "着いたとき、夕食の最中だった。"
+    },
+    {
+     "es": "Cuando llegué, cenamos.",
+     "ja": "着いてから、夕食にした。"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Cuando ___ a casa, llovía.",
+   "ja": "家に着いたとき、雨が降っていた。",
+   "options": [
+    {
+     "text": "llegué",
+     "correct": true,
+     "why": "「着いた」は一瞬の出来事なので点過去。"
+    },
+    {
+     "text": "llegó",
+     "correct": false,
+     "why": "llegó は él・ella の形。主語が違う。"
+    },
+    {
+     "text": "llegaba",
+     "correct": false,
+     "why": "llegaba だと「着くたびに」という習慣の響きになる。ここは「着いた」という一回の出来事なので点過去 llegué。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "De niño, yo ___ al fútbol todos los días.",
+   "ja": "子どものころ、毎日サッカーをしていた。",
+   "options": [
+    {
+     "text": "juego",
+     "correct": false,
+     "why": "juego は現在形。「子どものころ」と合わない。"
+    },
+    {
+     "text": "jugué",
+     "correct": false,
+     "why": "jugué は点過去。一回だけ遊んだ出来事になり、毎日の習慣にならない。"
+    },
+    {
+     "text": "jugaba",
+     "correct": true,
+     "why": "de niño と todos los días は習慣を示すので線過去。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ayer ___ tres horas.",
+   "ja": "昨日、3時間勉強した。",
+   "options": [
+    {
+     "text": "estudié",
+     "correct": true,
+     "why": "「3時間」と期間が区切られた終わった出来事なので点過去。"
+    },
+    {
+     "text": "estudio",
+     "correct": false,
+     "why": "estudio は現在形。ayer と合わない。"
+    },
+    {
+     "text": "estudiaba",
+     "correct": false,
+     "why": "estudiaba は進行中・習慣の描写。「昨日3時間やり終えた」という区切られた一回の出来事は、ふつう点過去 estudié で言う。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Eran las tres y ___ mucho frío.",
+   "ja": "3時で、とても寒かった。",
+   "options": [
+    {
+     "text": "hizo",
+     "correct": false,
+     "why": "hizo は点過去で、出来事のように聞こえる。背景の描写では hacía を使う。"
+    },
+    {
+     "text": "hacía",
+     "correct": true,
+     "why": "天気は背景なので線過去。時刻 Eran las tres と同じ線過去で描く。"
+    },
+    {
+     "text": "hace",
+     "correct": false,
+     "why": "hace は現在形。過去の話と合わない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Mientras yo ___, mi hermano veía la tele.",
+   "ja": "私が料理をしているあいだ、兄はテレビを見ていた。",
+   "options": [
+    {
+     "text": "cociné",
+     "correct": false,
+     "why": "cociné は点過去。「料理し終えた」という出来事になり、mientras と合わない。"
+    },
+    {
+     "text": "cocino",
+     "correct": false,
+     "why": "cocino は現在形。veía（過去）と時制がそろわない。"
+    },
+    {
+     "text": "cocinaba",
+     "correct": true,
+     "why": "mientras は「〜のあいだ」。同時に続く状態は線過去を並べる。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Todos los veranos ___ a la playa.",
+   "ja": "夏はいつも海に行っていた。",
+   "options": [
+    {
+     "text": "vamos",
+     "correct": false,
+     "why": "vamos は現在形。過去の習慣にならない。"
+    },
+    {
+     "text": "íbamos",
+     "correct": true,
+     "why": "todos los veranos は繰り返しの習慣なので線過去。"
+    },
+    {
+     "text": "fuimos",
+     "correct": false,
+     "why": "fuimos は点過去。一度だけ行った出来事になる。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "君が電話したとき、家にいた。",
+   "tokens": [
+    "Estaba",
+    "en",
+    "casa",
+    "cuando",
+    "llamaste."
+   ],
+   "accept": [
+    [
+     "Cuando",
+     "llamaste,",
+     "estaba",
+     "en",
+     "casa."
+    ]
+   ],
+   "why": "estaba（背景）＋ llamaste（出来事）の組み合わせ。"
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "出かけたとき、雨がたくさん降っていた。",
+   "tokens": [
+    "Llovía",
+    "mucho",
+    "cuando",
+    "salí."
+   ],
+   "accept": [
+    [
+     "Cuando",
+     "salí,",
+     "llovía",
+     "mucho."
+    ]
+   ],
+   "why": "llovía（背景）と salí（出来事）。出来事が点、雨が背景。"
+  },
+  {
+   "type": "choice",
+   "prompt": "正しい文は？",
+   "ja": "マドリードに5年住んだ。",
+   "options": [
+    {
+     "text": "Viví en Madrid cinco años.",
+     "correct": true,
+     "why": "「5年」と期間が区切られているので点過去。"
+    },
+    {
+     "text": "Vivía en Madrid cinco años.",
+     "correct": false,
+     "why": "vivía は期間を区切らない描写。「5年」と数えて終わりを示すなら点過去。"
+    },
+    {
+     "text": "Vivo en Madrid cinco años.",
+     "correct": false,
+     "why": "現在形は「住んでいる」という今の話で、「住んだ」という過去の話にならない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "意味はどれ？",
+   "es": "Cuando llegué, cenábamos.",
+   "ja": "この文の意味は？",
+   "options": [
+    {
+     "text": "着いたとき、夕食の最中だった。",
+     "correct": true,
+     "why": "cenábamos は線過去で、到着の前から続く状態。"
+    },
+    {
+     "text": "毎日夕食を食べていた。",
+     "correct": false,
+     "why": "習慣なら Siempre cenábamos のような言葉がほしい。この文は「着いたとき」の一場面。"
+    },
+    {
+     "text": "着いてから夕食にした。",
+     "correct": false,
+     "why": "それは Cuando llegué, cenamos.（点過去）の意味。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "de_repente",
+   "es": "de repente",
+   "art": null,
+   "ja": "突然"
+  },
+  {
+   "id": "una_vez",
+   "es": "una vez",
+   "art": null,
+   "ja": "一度・あるとき"
+  },
+  {
+   "id": "mientras",
+   "es": "mientras",
+   "art": null,
+   "ja": "〜のあいだ"
+  },
+  {
+   "id": "ese_dia",
+   "es": "ese día",
+   "art": null,
+   "ja": "その日"
+  },
+  {
+   "id": "historia",
+   "es": "historia",
+   "art": "la",
+   "ja": "話・歴史"
+  },
+  {
+   "id": "recuerdo",
+   "es": "recuerdo",
+   "art": "el",
+   "ja": "思い出"
+  },
+  {
+   "id": "accidente",
+   "es": "accidente",
+   "art": "el",
+   "ja": "事故"
+  },
+  {
+   "id": "ruido",
+   "es": "ruido",
+   "art": "el",
+   "ja": "物音・騒音"
+  },
+  {
+   "id": "television",
+   "es": "televisión",
+   "art": "la",
+   "ja": "テレビ"
+  },
+  {
+   "id": "ocurrir",
+   "es": "ocurrir",
+   "art": null,
+   "ja": "起こる"
+  },
+  {
+   "id": "cuento",
+   "es": "cuento",
+   "art": "el",
+   "ja": "お話"
+  },
+  {
+   "id": "sonar",
+   "es": "sonar",
+   "art": null,
+   "ja": "鳴る"
+  },
+  {
+   "id": "dormirse",
+   "es": "dormirse",
+   "art": null,
+   "ja": "寝入る"
+  },
+  {
+   "id": "oscuro",
+   "es": "oscuro",
+   "art": null,
+   "ja": "暗い"
+  },
+  {
+   "id": "tranquilo",
+   "es": "tranquilo",
+   "art": null,
+   "ja": "静かな・落ち着いた"
+  },
+  {
+   "id": "de_noche",
+   "es": "de noche",
+   "art": null,
+   "ja": "夜に"
+  }
+ ],
+ "phrases": [],
+ "speak": [
+  {
+   "es": "Cuando llegué, llovía.",
+   "ja": "着いたとき、雨が降っていた。",
+   "tip": "llegué の gu は g の音。llovía の í を強く読む。"
+  },
+  {
+   "es": "De niño jugaba al fútbol.",
+   "ja": "子どものころ、サッカーをしていた。"
+  },
+  {
+   "es": "Anoche dormí ocho horas.",
+   "ja": "昨夜は8時間寝た。"
+  },
+  {
+   "es": "Estaba en casa cuando llamaste.",
+   "ja": "電話をくれたとき、家にいた。"
+  }
+ ]
+}

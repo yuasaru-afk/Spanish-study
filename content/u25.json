@@ -1,0 +1,534 @@
+{
+ "id": "u25",
+ "no": 25,
+ "title": "命令形",
+ "summary": "「〜して」「〜してください」「〜しないで」の形。tú と usted で形が違い、お店や道案内では usted を使う。",
+ "points": {
+  "lines": [
+   "tú の肯定命令＝él の現在形と同じ：habla, come",
+   "usted は逆の母音：hable, coma",
+   "否定は tú が no hables、usted が no hable"
+  ],
+  "examples": [
+   {
+    "es": "Habla más despacio.",
+    "ja": "もっとゆっくり話して。"
+   },
+   {
+    "es": "Siga todo recto.",
+    "ja": "まっすぐ進んでください。"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "tú の肯定命令は、él の形そのまま",
+   "body": "**命令形**は「〜して」「〜しなさい」と相手に動作を求める形です。親しい相手（tú）への肯定命令は、**現在形の él・ella・usted と同じ形**です。新しく覚える活用はありません。\n・hablar → **habla**（話して）\n・comer → **come**（食べて）\n・escribir → **escribe**（書いて）\n文頭に主語は置きません。tú と言う必要がないからです。ただし現在形と見た目が同じなので、区別は文脈でします。「Come.」は「彼は食べる」にも「食べて」にもなります。",
+   "examples": [
+    {
+     "es": "Habla más despacio.",
+     "ja": "もっとゆっくり話して。"
+    },
+    {
+     "es": "Come algo.",
+     "ja": "何か食べて。"
+    },
+    {
+     "es": "Escribe tu nombre aquí.",
+     "ja": "ここに名前を書いて。"
+    }
+   ]
+  },
+  {
+   "title": "不規則な8つ：ven, ten, haz, ve, di, pon, sal, sé",
+   "body": "tú の肯定命令には、短くなる不規則形が8つあります。これは**そのまま覚える**しかありません。\n・venir → **ven**（来て）\n・tener → **ten**（持って）\n・hacer → **haz**（して）\n・ir → **ve**（行って）\n・decir → **di**（言って）\n・poner → **pon**（置いて）\n・salir → **sal**（出て）\n・ser → **sé**（〜でありなさい）\nよく使うのは Ven aquí. / Ten cuidado. / Haz la tarea. / Di la verdad. あたりです。ser の sé は saber の「私は知っている」と同じつづりで、文脈で区別します。\n🌎 「ここに」は、スペインでは aquí、中南米では acá もよく使われます（Ven acá.）。",
+   "examples": [
+    {
+     "es": "Ven aquí.",
+     "ja": "ここに来て。",
+     "note": "🌎 中南米では Ven acá. もよく言う"
+    },
+    {
+     "es": "Ten cuidado.",
+     "ja": "気をつけて。"
+    },
+    {
+     "es": "Haz la tarea.",
+     "ja": "宿題をしなさい。"
+    },
+    {
+     "es": "Sal de aquí.",
+     "ja": "ここから出て。"
+    }
+   ]
+  },
+  {
+   "title": "usted・ustedes の命令：母音を入れ替える",
+   "body": "丁寧な相手（usted）には、現在形の語尾の母音を**逆に**します。\n・-ar 動詞は **-e**：hablar → **hable**\n・-er / -ir 動詞は **-a**：comer → **coma**、escribir → **escriba**\n複数（ustedes）は -n を付けて **hablen / coman**。\n語幹が変わるものは、yo の現在形をもとに作ります（seguir → sigo → **siga**）。つづりが変わるものもあります（cruzar → **cruce**、z を e の前で c に）。\n不規則は、ir → **vaya**、venir → **venga**、tener → **tenga**、poner → **ponga**、hacer → **haga**、decir → **diga**。\n🌎 vosotros の命令形（hablad など）もありますが、中南米では ustedes の形（hablen）を使います。",
+   "examples": [
+    {
+     "es": "Hable más despacio, por favor.",
+     "ja": "もっとゆっくり話してください。"
+    },
+    {
+     "es": "Cruce la calle.",
+     "ja": "道を渡ってください。"
+    },
+    {
+     "es": "Siga todo recto.",
+     "ja": "まっすぐ進んでください。",
+     "note": "seguir は e が i に変わる。🌎 中南米では Siga derecho."
+    },
+    {
+     "es": "Tenga.",
+     "ja": "どうぞ（手渡すとき）。",
+     "note": "tener の usted の形"
+    }
+   ]
+  },
+  {
+   "title": "否定命令：「〜しないで」は形が変わる",
+   "body": "否定のとき、tú の形は肯定と**別物**になります。no ＋ 動詞で、母音を usted と同じく入れ替えた形に -s を付けます。\n・-ar：no habl**es**（話さないで）\n・-er / -ir：no com**as**、no escrib**as**\nusted への否定は肯定と同じ形に no を付けるだけ。\n・no **hable**、no **coma**\n肯定が habla なのに否定が no hables になる点が、つまずきやすいところです。\nなお、不規則も否定では usted と同じ系統の形に tú の -s が付きます（no hagas, no digas, no vayas）。",
+   "examples": [
+    {
+     "es": "No hables tan rápido.",
+     "ja": "そんなに早口で話さないで。"
+    },
+    {
+     "es": "No comas tanto.",
+     "ja": "そんなに食べないで。"
+    },
+    {
+     "es": "No abra la ventana, por favor.",
+     "ja": "窓を開けないでください。"
+    }
+   ]
+  },
+  {
+   "title": "代名詞は後ろにくっつく（肯定）／前に置く（否定）",
+   "body": "再帰動詞の命令では、代名詞の位置が決まっています。\n・**肯定**：動詞の**後ろにくっつける**。levantarse → **levántate**（起きて）、sentarse → **siéntate**（座って）\n・**否定**：動詞の**前**に置く。**no te levantes**、**no te sientes**\nくっつけると強く読む位置が後ろから3番目になるので、**アクセント記号**が付きます（levanta ＋ te → levántate）。usted なら **siéntese**、**levántese**。\nこの課では siéntate / levántate 程度を押さえれば十分です。",
+   "examples": [
+    {
+     "es": "Siéntate aquí.",
+     "ja": "ここに座って。"
+    },
+    {
+     "es": "Levántate ya.",
+     "ja": "もう起きなさい。"
+    },
+    {
+     "es": "No te levantes tarde.",
+     "ja": "遅く起きないで。"
+    }
+   ]
+  },
+  {
+   "title": "お店・道案内の丁寧な頼み方",
+   "body": "知らない人やお店では **usted の命令**か **¿Puede ＋ 原形？** を使います。\n・命令：**Siga** todo recto. / **Gire** a la izquierda. / **Cruce** la calle.（道案内で聞く形）\n・依頼：**¿Puede** repetir, por favor? / **¿Puede** hablar más despacio?\n命令形は簡潔で、**por favor** を付ければ失礼ではありません。¿Puede…? は質問の形なので、さらに柔らかく聞こえます。\n頼むときは ¿Puede…? と Perdone / Disculpe を添えると丁寧です。道を教わるときは、相手が siga / gire と言うのを聞き取れるようにしましょう。",
+   "examples": [
+    {
+     "es": "Perdone, ¿puede repetir, por favor?",
+     "ja": "すみません、もう一度言っていただけますか？"
+    },
+    {
+     "es": "Espere un momento, por favor.",
+     "ja": "少々お待ちください。"
+    },
+    {
+     "es": "Gire a la derecha.",
+     "ja": "右に曲がってください。"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "___ la puerta, por favor.（tú）",
+   "ja": "ドアを開けて。",
+   "options": [
+    {
+     "text": "Abre",
+     "correct": true,
+     "why": "tú の肯定命令は él の現在形と同じ形＝abre。"
+    },
+    {
+     "text": "Abres",
+     "correct": false,
+     "why": "abres は tú の現在形。「ドアを開ける」と事実を言うだけで、命令にならない。"
+    },
+    {
+     "text": "Abra",
+     "correct": false,
+     "why": "abra は usted の命令形。tú に頼む文には丁寧すぎる。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "___ aquí, por favor.（tú）",
+   "ja": "ここに来て。",
+   "options": [
+    {
+     "text": "Ven",
+     "correct": true,
+     "why": "venir の tú の肯定命令は不規則で ven。"
+    },
+    {
+     "text": "Venga",
+     "correct": false,
+     "why": "venga は usted の命令形。tú への命令は ven。"
+    },
+    {
+     "text": "Viene",
+     "correct": false,
+     "why": "viene は él の現在形。命令にならない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "___ la verdad.（tú）",
+   "ja": "本当のことを言って。",
+   "options": [
+    {
+     "text": "Di",
+     "correct": true,
+     "why": "decir の tú の肯定命令は不規則で di。"
+    },
+    {
+     "text": "Dice",
+     "correct": false,
+     "why": "dice は él の現在形。命令にならない。"
+    },
+    {
+     "text": "Diga",
+     "correct": false,
+     "why": "diga は usted の命令形。tú に言う場合は di。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Perdone, ___ todo recto.（usted）",
+   "ja": "すみません、まっすぐ進んでください。",
+   "options": [
+    {
+     "text": "siga",
+     "correct": true,
+     "why": "seguir の usted の命令形は siga（e が i に変わる）。"
+    },
+    {
+     "text": "sigue",
+     "correct": false,
+     "why": "sigue は tú の肯定命令（または él の現在形）。usted に言う場面には合わない。"
+    },
+    {
+     "text": "sigues",
+     "correct": false,
+     "why": "sigues は tú の現在形。命令にならない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "___ a la derecha, por favor.（usted）",
+   "ja": "右に曲がってください。",
+   "options": [
+    {
+     "text": "Gira",
+     "correct": false,
+     "why": "gira は tú の命令形。知らない人への案内には親しすぎる。"
+    },
+    {
+     "text": "Giras",
+     "correct": false,
+     "why": "giras は tú の現在形。命令にならない。"
+    },
+    {
+     "text": "Gire",
+     "correct": true,
+     "why": "girar の usted の命令形は -ar なので -e＝gire。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "No ___ tanto.（tú）",
+   "ja": "そんなに食べないで。",
+   "options": [
+    {
+     "text": "come",
+     "correct": false,
+     "why": "come は肯定命令。no の後ろに肯定命令の形は置けない。"
+    },
+    {
+     "text": "comes",
+     "correct": false,
+     "why": "comes は現在形。「そんなに食べない」と事実を言う形で、禁止にならない。"
+    },
+    {
+     "text": "comas",
+     "correct": true,
+     "why": "tú への否定命令は、-er 動詞なら -as＝no comas。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "No ___ la ventana, por favor.（usted）",
+   "ja": "窓を開けないでください。",
+   "options": [
+    {
+     "text": "abras",
+     "correct": false,
+     "why": "abras は tú への否定命令の形。usted に使うと親しすぎる。"
+    },
+    {
+     "text": "abre",
+     "correct": false,
+     "why": "abre は tú の肯定命令。usted への否定には使えない。"
+    },
+    {
+     "text": "abra",
+     "correct": true,
+     "why": "usted への否定は、-er/-ir 動詞の usted の命令形 abra に no を付ける。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "ここに座って。",
+   "tokens": [
+    "Siéntate",
+    "aquí,",
+    "por",
+    "favor."
+   ],
+   "accept": [
+    [
+     "Por",
+     "favor,",
+     "siéntate",
+     "aquí."
+    ]
+   ],
+   "why": "再帰動詞の肯定命令は代名詞 te が動詞の後ろにくっつき、アクセント記号が付く（siéntate）。"
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "遅く起きないで。",
+   "tokens": [
+    "No",
+    "te",
+    "levantes",
+    "tarde."
+   ],
+   "accept": [],
+   "why": "否定命令では代名詞は動詞の前。levantarse の tú の否定は no te levantes。"
+  },
+  {
+   "type": "choice",
+   "prompt": "どれが適切？",
+   "ja": "店員にゆっくり話してほしいと、丁寧に頼む文は？",
+   "options": [
+    {
+     "text": "¿Puede hablar más despacio, por favor?",
+     "correct": true,
+     "why": "¿Puede ＋ 原形？は丁寧な依頼の形。por favor も添える。"
+    },
+    {
+     "text": "No hablar despacio.",
+     "correct": false,
+     "why": "「ゆっくり話すな」と禁止の意味になってしまう。"
+    },
+    {
+     "text": "Habla más despacio.",
+     "correct": false,
+     "why": "habla は tú の命令形。店員など初対面の人に使うと馴れ馴れしく聞こえる。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "sentarse",
+   "es": "sentarse",
+   "art": null,
+   "ja": "座る"
+  },
+  {
+   "id": "poner",
+   "es": "poner",
+   "art": null,
+   "ja": "置く"
+  },
+  {
+   "id": "entrar",
+   "es": "entrar",
+   "art": null,
+   "ja": "入る"
+  },
+  {
+   "id": "repetir",
+   "es": "repetir",
+   "art": null,
+   "ja": "繰り返す"
+  },
+  {
+   "id": "pasar",
+   "es": "pasar",
+   "art": null,
+   "ja": "通る・入る・過ごす"
+  },
+  {
+   "id": "apagar",
+   "es": "apagar",
+   "art": null,
+   "ja": "消す"
+  },
+  {
+   "id": "empujar",
+   "es": "empujar",
+   "art": null,
+   "ja": "押す"
+  },
+  {
+   "id": "despacio",
+   "es": "despacio",
+   "art": null,
+   "ja": "ゆっくり"
+  },
+  {
+   "id": "amable",
+   "es": "amable",
+   "art": null,
+   "ja": "親切な"
+  },
+  {
+   "id": "cuidado",
+   "es": "cuidado",
+   "art": "el",
+   "ja": "注意"
+  },
+  {
+   "id": "calma",
+   "es": "calma",
+   "art": "la",
+   "ja": "落ち着き"
+  },
+  {
+   "id": "silencio",
+   "es": "silencio",
+   "art": "el",
+   "ja": "静けさ"
+  },
+  {
+   "id": "ventana",
+   "es": "ventana",
+   "art": "la",
+   "ja": "窓"
+  },
+  {
+   "id": "luz",
+   "es": "luz",
+   "art": "la",
+   "ja": "明かり"
+  },
+  {
+   "id": "momento",
+   "es": "momento",
+   "art": "el",
+   "ja": "少しの間・瞬間"
+  },
+  {
+   "id": "fuerte",
+   "es": "fuerte",
+   "art": null,
+   "ja": "強い"
+  }
+ ],
+ "phrases": [
+  {
+   "es": "Perdone, ¿puede repetir, por favor?",
+   "ja": "すみません、もう一度お願いできますか？",
+   "scene": "お店で",
+   "latam": null
+  },
+  {
+   "es": "Hable más despacio, por favor.",
+   "ja": "もっとゆっくり話してください。",
+   "scene": "お店で",
+   "latam": null
+  },
+  {
+   "es": "Espere un momento, por favor.",
+   "ja": "少々お待ちください。",
+   "scene": "お店で",
+   "latam": null
+  },
+  {
+   "es": "Siga todo recto.",
+   "ja": "まっすぐ進んでください。",
+   "scene": "道案内",
+   "latam": {
+    "es": "Siga derecho."
+   }
+  },
+  {
+   "es": "Gire a la izquierda.",
+   "ja": "左に曲がってください。",
+   "scene": "道案内",
+   "latam": null
+  },
+  {
+   "es": "Cruce la calle.",
+   "ja": "道を渡ってください。",
+   "scene": "道案内",
+   "latam": null
+  },
+  {
+   "es": "Pase, por favor.",
+   "ja": "どうぞお入りください。",
+   "scene": "お店で",
+   "latam": null
+  },
+  {
+   "es": "Ven aquí.",
+   "ja": "ここに来て。",
+   "scene": "友だちに",
+   "latam": {
+    "es": "Ven acá."
+   }
+  }
+ ],
+ "speak": [
+  {
+   "es": "Perdone, ¿puede repetir, por favor?",
+   "ja": "すみません、もう一度お願いできますか？",
+   "tip": "puede の d は柔らかく、ほとんど息を通すだけ。"
+  },
+  {
+   "es": "Siga todo recto.",
+   "ja": "まっすぐ進んでください。"
+  },
+  {
+   "es": "Gire a la derecha.",
+   "ja": "右に曲がってください。",
+   "tip": "gire の g は喉の奥の強い音。"
+  },
+  {
+   "es": "Ten cuidado.",
+   "ja": "気をつけて。"
+  }
+ ]
+}

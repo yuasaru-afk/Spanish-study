@@ -1,0 +1,459 @@
+{
+ "id": "u27",
+ "no": 27,
+ "title": "「それを」の代名詞",
+ "summary": "「本を持ってる？ — うん、それを持ってる」の「それを」が lo / la / los / las。同じ名詞をくり返さずに答えよう。",
+ "points": {
+  "lines": [
+   "「〜を」の代名詞：lo / la / los / las",
+   "me, te, nos, os も「私を、君を…」",
+   "位置は活用した動詞の前（原形の後ろでも可）"
+  ],
+  "examples": [
+   {
+    "es": "¿Tienes el libro? — Sí, lo tengo.",
+    "ja": "本を持ってる？ — うん、持ってるよ。"
+   },
+   {
+    "es": "No la veo.",
+    "ja": "彼女（それ）が見えない。"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "直接目的語（〜を）をくり返さない",
+   "body": "「〜を」にあたる語を**直接目的語**と言います。tengo **el libro**（私は本を持っている）の el libro がそれです。\n日本語は「持ってるよ」と目的語を言わずに済ませますが、スペイン語は一度出た名詞を**代名詞に置き換えて動詞の前に入れる**のがふつうです。\n・¿Tienes el libro? — Sí, **lo** tengo.\nここで lo は「それを」＝ el libro。名詞が男性・単数だから lo になります。",
+   "examples": [
+    {
+     "es": "¿Tienes el libro? — Sí, lo tengo.",
+     "ja": "本を持ってる？ — うん、持ってるよ。"
+    },
+    {
+     "es": "¿Compras el periódico? — Sí, lo compro.",
+     "ja": "新聞を買う？ — うん、買うよ。"
+    }
+   ]
+  },
+  {
+   "title": "lo / la / los / las ＋ me / te / nos / os",
+   "body": "3人称（彼・彼女・それ）の「〜を」は、指している名詞の**性と数**で形が決まります。\n・男性・単数 **lo**（el libro）／女性・単数 **la**（la llave）\n・男性・複数 **los**（los billetes）／女性・複数 **las**（las entradas）\n1・2人称は名詞の性に関係なく次の形です。\n・私を **me**／君を **te**／私たちを **nos**／君たちを **os**\n🌎 os は vosotros 用で、中南米では ustedes に対して los / las を使います。\nme, te, nos, os は u16 の再帰代名詞と同じ形ですが、ここでは「自分」ではなく**ほかの人**を指します。",
+   "examples": [
+    {
+     "es": "¿Tienes las llaves? — No, no las tengo.",
+     "ja": "鍵を持ってる？ — いや、持ってない。"
+    },
+    {
+     "es": "Te llamo mañana.",
+     "ja": "明日君に電話するよ。",
+     "note": "te：君を"
+    },
+    {
+     "es": "Nos esperan en la estación.",
+     "ja": "彼らは私たちを駅で待っている。",
+     "note": "nos：私たちを"
+    }
+   ]
+  },
+  {
+   "title": "人が目的語のとき：a ＋ 人 → la / lo",
+   "body": "人を目的語にするときは、名詞の前に **a** が付きます（Veo **a** María. ＝マリアに会う、見かける）。この a は「〜に」ではなく、人だとわかる印です。\n代名詞に置き換えると a は消えて、名詞の性で lo / la になります。\n・Veo a María. → **La** veo.\n・Conozco a Pedro. → **Lo** conozco.\n複数の人なら los / las です。「conocer」は「知り合いだ、会ったことがある」の意味で、私の形は conozco と不規則です。",
+   "examples": [
+    {
+     "es": "Veo a María. → La veo.",
+     "ja": "マリアが見える。→ 彼女が見える。"
+    },
+    {
+     "es": "Conozco a Pedro. → Lo conozco.",
+     "ja": "ペドロを知っている。→ 彼を知っている。"
+    },
+    {
+     "es": "Invito a mis amigos. → Los invito.",
+     "ja": "友達を招待する。→ 彼らを招待する。"
+    }
+   ]
+  },
+  {
+   "title": "位置：動詞の前、または原形・現在分詞の後ろ",
+   "body": "代名詞は**活用した動詞のすぐ前**に置き、否定の no はその前です（No **lo** tengo.）。\n動詞が2つ続くとき（querer ＋ 原形、ir a ＋ 原形）は、u16 の再帰動詞と同じく次の2通りで、意味は同じです。\n・活用形の前：**Lo** quiero comprar.\n・原形の後ろにくっつける：Quiero comprar**lo**.\n現在進行形も同様で、**Lo** estoy leyendo. か Estoy leyéndo**lo**. です。後ろに付けると、強く読む位置が動かないようにアクセント記号が付きます（leyendo → leyéndolo）。",
+   "examples": [
+    {
+     "es": "No lo tengo.",
+     "ja": "それは持っていない。"
+    },
+    {
+     "es": "Lo quiero comprar. / Quiero comprarlo.",
+     "ja": "それを買いたい。",
+     "note": "どちらも同じ意味"
+    },
+    {
+     "es": "Lo estoy leyendo. / Estoy leyéndolo.",
+     "ja": "それを読んでいるところだ。",
+     "note": "後ろに付けるとアクセント記号"
+    }
+   ]
+  },
+  {
+   "title": "🌎 スペインの leísmo と、Lo sé の lo",
+   "body": "スペインでは、**男性の人**を指すときに lo の代わりに **le** を使う人が少なくありません（Conozco a Pedro. → **Le** conozco.）。これを leísmo と言い、スペインの本やテレビでは聞くことがあります。アカデミーも男性の人・単数ならよいとしています。\nこの教材では、中南米でもスペインでも通じる **lo** を基本にします。聞こえたら「le は『彼を』のこともある」と思えば十分です。\nもう一つ、特定の名詞ではなく「そのこと」を指す **lo** もあります。¿Sabes que viene Ana? — Sí, **lo** sé.（アナが来るの知ってる？ — うん、知ってる。）",
+   "examples": [
+    {
+     "es": "Conozco a Pedro. → Le conozco.",
+     "ja": "ペドロを知っている。→ 彼を知っている。",
+     "note": "🌎 スペインで聞く leísmo"
+    },
+    {
+     "es": "¿Entiendes? — Sí, lo entiendo.",
+     "ja": "わかる？ — うん、わかるよ。",
+     "note": "lo＝そのこと"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Tienes el libro? — Sí, ___ tengo.",
+   "ja": "本を持ってる？ — うん、持ってるよ。",
+   "options": [
+    {
+     "text": "los",
+     "correct": false,
+     "why": "los は男性・複数。libro は1冊なので単数 lo にする。"
+    },
+    {
+     "text": "la",
+     "correct": false,
+     "why": "la は女性・単数。el libro は男性なので合わない。"
+    },
+    {
+     "text": "lo",
+     "correct": true,
+     "why": "el libro（男・単）を受けるので lo。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Ves a María? — Sí, ___ veo.",
+   "ja": "マリアが見える？ — うん、見えるよ。",
+   "options": [
+    {
+     "text": "le",
+     "correct": false,
+     "why": "le は「彼に」「彼女に」の「に」にあたる代名詞（u28で習う）。ここは「を」なので la。"
+    },
+    {
+     "text": "la",
+     "correct": true,
+     "why": "María は女性・単数なので la。a María が la に置き換わる。"
+    },
+    {
+     "text": "las",
+     "correct": false,
+     "why": "las は女性・複数。María は1人なので単数にする。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Compras los billetes? — Sí, ___ compro.",
+   "ja": "切符を買う？ — うん、買うよ。",
+   "options": [
+    {
+     "text": "los",
+     "correct": true,
+     "why": "los billetes（男・複）を受けるので los。"
+    },
+    {
+     "text": "lo",
+     "correct": false,
+     "why": "lo は単数。billetes は複数なので los にしないと合わない。"
+    },
+    {
+     "text": "las",
+     "correct": false,
+     "why": "las は女性・複数。billetes は男性名詞なので los。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Tienes las entradas? — No, no ___ tengo.",
+   "ja": "チケットを持ってる？ — いや、持ってない。",
+   "options": [
+    {
+     "text": "las",
+     "correct": true,
+     "why": "las entradas（女・複）を受けるので las。no はその前に置く。"
+    },
+    {
+     "text": "los",
+     "correct": false,
+     "why": "entradas は女性名詞。男性複数の los では性が合わない。"
+    },
+    {
+     "text": "la",
+     "correct": false,
+     "why": "la は単数。entradas は複数なので las にする。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "今日君に電話する。",
+   "tokens": [
+    "Te",
+    "llamo",
+    "hoy."
+   ],
+   "accept": [
+    [
+     "Hoy",
+     "te",
+     "llamo."
+    ]
+   ],
+   "why": "「君を」は te。活用した動詞 llamo の直前に置く。llamar は「〜に電話する」だが、スペイン語では電話する相手は直接目的語なので te。"
+  },
+  {
+   "type": "choice",
+   "prompt": "正しい文は？",
+   "ja": "それを買いたい。（lo を使って）",
+   "options": [
+    {
+     "text": "Lo comprar quiero.",
+     "correct": false,
+     "why": "動詞の順序が崩れていて文にならない。Lo quiero comprar. か Quiero comprarlo."
+    },
+    {
+     "text": "Quiero lo comprar.",
+     "correct": false,
+     "why": "代名詞を querer と原形のあいだにはさむことはできない。"
+    },
+    {
+     "text": "Quiero comprarlo.",
+     "correct": true,
+     "why": "原形 comprar の後ろにくっつける形。意味は Lo quiero comprar. と同じ。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Conozco a Pedro. → ___ conozco.",
+   "ja": "ペドロを知っている。→ 彼を知っている。",
+   "options": [
+    {
+     "text": "La",
+     "correct": false,
+     "why": "la は女性を指す。Pedro は男性なので合わない。"
+    },
+    {
+     "text": "Las",
+     "correct": false,
+     "why": "las は女性・複数。Pedro は男性1人なので lo。"
+    },
+    {
+     "text": "Lo",
+     "correct": true,
+     "why": "男性の人 Pedro を受けるので lo。a は消える。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "それを読んでいるところだ。",
+   "tokens": [
+    "Lo",
+    "estoy",
+    "leyendo."
+   ],
+   "accept": [
+    [
+     "Estoy",
+     "leyéndolo."
+    ]
+   ],
+   "why": "代名詞 lo は活用した動詞 estoy の前。後ろに付けるなら Estoy leyéndolo."
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Me llamas mañana? — Sí, ___ llamo.",
+   "ja": "明日電話してくれる？ — うん、君に電話するよ。",
+   "options": [
+    {
+     "text": "lo",
+     "correct": false,
+     "why": "lo は「それを／彼を」。相手の「君」を指すので te になる。"
+    },
+    {
+     "text": "me",
+     "correct": false,
+     "why": "me は「私を」。答える人が「君を」呼ぶので te。"
+    },
+    {
+     "text": "te",
+     "correct": true,
+     "why": "相手（君）を指すので te。te llamo。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "No ___ veo.",
+   "ja": "彼らが見えない。",
+   "options": [
+    {
+     "text": "los",
+     "correct": true,
+     "why": "男の人たち（または男女混合）を指すので los。"
+    },
+    {
+     "text": "las",
+     "correct": false,
+     "why": "las は女性ばかりの複数。ここは男性（または混合）を指すので los。"
+    },
+    {
+     "text": "lo",
+     "correct": false,
+     "why": "lo は単数。「彼ら」は複数なので los にする。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "lo_pron",
+   "es": "lo",
+   "art": null,
+   "ja": "それを、彼を（男性・単数）"
+  },
+  {
+   "id": "la_pron",
+   "es": "la",
+   "art": null,
+   "ja": "それを、彼女を（女性・単数）"
+  },
+  {
+   "id": "los_pron",
+   "es": "los",
+   "art": null,
+   "ja": "それらを、彼らを（男性・複数）"
+  },
+  {
+   "id": "las_pron",
+   "es": "las",
+   "art": null,
+   "ja": "それらを、彼女たちを（女性・複数）"
+  },
+  {
+   "id": "conocer",
+   "es": "conocer",
+   "art": null,
+   "ja": "知っている、知り合いだ"
+  },
+  {
+   "id": "ver",
+   "es": "ver",
+   "art": null,
+   "ja": "見る、見える、会う"
+  },
+  {
+   "id": "traer",
+   "es": "traer",
+   "art": null,
+   "ja": "持ってくる"
+  },
+  {
+   "id": "invitar",
+   "es": "invitar",
+   "art": null,
+   "ja": "招待する、おごる"
+  },
+  {
+   "id": "visitar",
+   "es": "visitar",
+   "art": null,
+   "ja": "訪ねる、訪問する"
+  },
+  {
+   "id": "perder",
+   "es": "perder",
+   "art": null,
+   "ja": "なくす、乗り遅れる"
+  },
+  {
+   "id": "regalo",
+   "es": "regalo",
+   "art": "el",
+   "ja": "プレゼント"
+  },
+  {
+   "id": "llave",
+   "es": "llave",
+   "art": "la",
+   "ja": "鍵"
+  },
+  {
+   "id": "periodico",
+   "es": "periódico",
+   "art": "el",
+   "ja": "新聞"
+  },
+  {
+   "id": "entrada",
+   "es": "entrada",
+   "art": "la",
+   "ja": "入場券、入口"
+  },
+  {
+   "id": "paquete",
+   "es": "paquete",
+   "art": "el",
+   "ja": "小包"
+  },
+  {
+   "id": "cuaderno",
+   "es": "cuaderno",
+   "art": "el",
+   "ja": "ノート"
+  }
+ ],
+ "phrases": [],
+ "speak": [
+  {
+   "es": "¿Tienes el libro? — Sí, lo tengo.",
+   "ja": "本を持ってる？ — うん、持ってるよ。",
+   "tip": "lo と tengo の間を切らず、ひと息で読む。"
+  },
+  {
+   "es": "No la veo.",
+   "ja": "彼女が見えない。",
+   "tip": "no la veo は3語を切らずにひと息で。"
+  },
+  {
+   "es": "Te llamo mañana.",
+   "ja": "明日電話するよ。",
+   "tip": "ll は「や」と「じゃ」の中間のような音（地域差あり）。ñ は「にゃ」のような音。"
+  },
+  {
+   "es": "Quiero comprarlo.",
+   "ja": "それを買いたい。",
+   "tip": "comprarlo の r は舌を一度はじく。"
+  },
+  {
+   "es": "Lo estoy leyendo.",
+   "ja": "それを読んでいるところだ。",
+   "tip": "Lo estoy は母音が続くので、切らずになめらかに。"
+  }
+ ]
+}

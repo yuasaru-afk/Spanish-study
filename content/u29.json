@@ -1,0 +1,478 @@
+{
+ "id": "u29",
+ "no": 29,
+ "title": "現在完了",
+ "summary": "「もう食べた」「パエリアを食べたことがある」は haber ＋ 過去分詞。スペインでは「今日・今週」の出来事にも使う。点過去との使い分けを理屈でつかもう。",
+ "points": {
+  "lines": [
+   "現在完了＝ haber の現在形 ＋ 過去分詞",
+   "過去分詞：-ar → -ado、-er / -ir → -ido",
+   "ya（もう）／ todavía no（まだ）／ alguna vez（今までに）"
+  ],
+  "examples": [
+   {
+    "es": "Hoy he comido paella.",
+    "ja": "今日パエリアを食べた。"
+   },
+   {
+    "es": "¿Has estado alguna vez en Madrid?",
+    "ja": "今までにマドリードに行ったことある？"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "現在完了＝「今とつながる過去」",
+   "body": "現在完了は、**haber の現在形＋過去分詞**で作ります。「〜した」「〜したことがある」「〜してしまった（今もその結果がある）」を表し、**過去の出来事を今の視点から見る**形です。\n・He comido.＝食べた（今おなかがいっぱい、というつながりがある）\nhaber は「持つ」の tener とは別の動詞で、現在完了を作るための**助動詞**として使います。英語の have ＋ 過去分詞に近い考え方です。",
+   "examples": [
+    {
+     "es": "He comido.",
+     "ja": "食べたところです。"
+    },
+    {
+     "es": "Hemos vivido en Madrid.",
+     "ja": "私たちはマドリードに住んだことがある。"
+    },
+    {
+     "es": "Han llegado los amigos.",
+     "ja": "友達が到着した（今ここにいる）。"
+    }
+   ]
+  },
+  {
+   "title": "haber の活用",
+   "body": "haber の現在形は次のとおり不規則です。\n・yo **he**／tú **has**／él・ella・usted **ha**\n・nosotros **hemos**／vosotros **habéis**／ellos・ellas・ustedes **han**\n🌎 habéis はスペインの「君たち」。中南米では ustedes **han** を使います。\n否定は no を haber の前に、目的語の代名詞（u27・u28）も **haber の前**に置きます。haber と過去分詞のあいだには**何も入れません**。\n・No **he** comido. ／ **Lo** he visto.（それを見た）",
+   "examples": [
+    {
+     "es": "No he comido todavía.",
+     "ja": "まだ食べていない。"
+    },
+    {
+     "es": "Lo he visto.",
+     "ja": "それを見た。",
+     "note": "lo は haber の前"
+    },
+    {
+     "es": "¿Habéis estado en Madrid?",
+     "ja": "君たちはマドリードに行ったことある？",
+     "note": "🌎 中南米では ¿Han estado en Madrid?"
+    }
+   ]
+  },
+  {
+   "title": "過去分詞の作り方",
+   "body": "規則どおりなら、語幹に**-ado**（-ar 動詞）か**-ido**（-er / -ir 動詞）を付けます。\n・hablar → habl**ado**／comer → com**ido**／vivir → viv**ido**\n現在完了では、過去分詞は**主語に合わせて形が変わらず**、常に -o で終わります（Ella ha comido. ×comida）。\n語幹が a・e・o で終わる -er / -ir 動詞は、-ido の i に**アクセント記号**が付きます：leer → le**í**do、traer → tra**í**do、creer → cre**í**do。",
+   "examples": [
+    {
+     "es": "Ana ha hablado con él.",
+     "ja": "アナは彼と話した。"
+    },
+    {
+     "es": "Hemos vivido aquí cinco años.",
+     "ja": "私たちはここに5年住んでいる。"
+    },
+    {
+     "es": "He leído tu mensaje.",
+     "ja": "君のメッセージを読んだ。",
+     "note": "leído にアクセント記号"
+    }
+   ]
+  },
+  {
+   "title": "不規則な過去分詞",
+   "body": "次の7つは形が決まっているので、そのまま覚えます。\n・hacer → **hecho**／decir → **dicho**／ver → **visto**／escribir → **escrito**\n・volver → **vuelto**／abrir → **abierto**／poner → **puesto**\nこれらから作った動詞も同じ形です（describir → descrito、devolver → devuelto）。romper → roto も不規則な形です。\n使い方は規則形と同じです：He hecho la tarea.（宿題をした）。",
+   "examples": [
+    {
+     "es": "He hecho la tarea.",
+     "ja": "宿題をした。"
+    },
+    {
+     "es": "Hemos visto esa película.",
+     "ja": "私たちはその映画を見た。"
+    },
+    {
+     "es": "Mi madre ha vuelto a casa.",
+     "ja": "母は家に帰ってきた。"
+    },
+    {
+     "es": "¿Has abierto la ventana?",
+     "ja": "窓を開けた？"
+    }
+   ]
+  },
+  {
+   "title": "ya / todavía no / alguna vez / nunca",
+   "body": "現在完了によく付く語です。\n・**ya**（もう）：Ya he comido.\n・**todavía no**（まだ〜ない）：Todavía no he comido.（No he comido todavía. も可）\n・**alguna vez**（今までに）：¿Has estado alguna vez en Madrid?\n・**nunca**（一度も〜ない）：Nunca he comido pulpo.\nnunca を文頭に置くと no は不要で、nunca を動詞のあとに置くと No he comido pulpo nunca. と no が必要です（u7 の二重否定）。\n日本語の「もう」「まだ」「〜たことがある」にちょうど対応します。",
+   "examples": [
+    {
+     "es": "¿Has comido ya? — No, todavía no.",
+     "ja": "もう食べた？ — いや、まだ。"
+    },
+    {
+     "es": "¿Has estado alguna vez en Madrid?",
+     "ja": "今までにマドリードに行ったことある？"
+    },
+    {
+     "es": "Nunca he visto la nieve.",
+     "ja": "雪を見たことが一度もない。"
+    }
+   ]
+  },
+  {
+   "title": "🌎 スペインでは「今日」も現在完了、中南米では点過去",
+   "body": "ここが現在完了でいちばん迷うところです。\n**スペイン**：まだ終わっていない時間（hoy 今日、esta mañana 今朝、esta semana 今週、este año 今年）の出来事に**現在完了**を使います。\n・**Hoy he comido** paella.（今日パエリアを食べた）\n**中南米の多く**：その言い方より**点過去**がふつうです。\n・**Hoy comí** paella.\n理屈は、スペインは「今日はまだ続いている」と感じて**今とつながる**＝現在完了、中南米は「食べたことは終わった」と感じて**終わった出来事**＝点過去、という見方の違いです。\nどちらの地域でも、**ayer（昨日）・la semana pasada（先週）・en 2020** のように今と切れた時間には点過去を使います（Ayer fui al cine.）。点過去は u21〜22 で習ったとおりです。\n地域差は大きく、スペイン国内にも点過去を好む人がいます。hace un rato（さっき）はスペインでも両方聞きます。迷ったら、スペインでは「今日・今週・今年なら現在完了、きのう以前なら点過去」と考えれば通じます。",
+   "examples": [
+    {
+     "es": "Hoy he comido paella.",
+     "ja": "今日パエリアを食べた。",
+     "note": "🌎 中南米では Hoy comí paella."
+    },
+    {
+     "es": "Esta mañana he desayunado fruta.",
+     "ja": "今朝はフルーツを食べた。",
+     "note": "🌎 中南米では Esta mañana desayuné fruta."
+    },
+    {
+     "es": "Ayer comí paella.",
+     "ja": "昨日パエリアを食べた。",
+     "note": "スペインでも中南米でも点過去"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Nosotros ___ vivido en Madrid.",
+   "ja": "私たちはマドリードに住んだことがある。",
+   "options": [
+    {
+     "text": "hemos",
+     "correct": true,
+     "why": "nosotros の haber は hemos。hemos vivido。"
+    },
+    {
+     "text": "hemos vivimos",
+     "correct": false,
+     "why": "haber のあとは過去分詞（vivido）。活用した形 vivimos は続けられない。"
+    },
+    {
+     "text": "han",
+     "correct": false,
+     "why": "han は ellos・ustedes の形。nosotros とは合わない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ella ha ___ una carta.",
+   "ja": "彼女は手紙を書いた。",
+   "options": [
+    {
+     "text": "escribido",
+     "correct": false,
+     "why": "escribir の過去分詞は不規則で、escrito。-ido の形は使えない。"
+    },
+    {
+     "text": "escrito",
+     "correct": true,
+     "why": "escribir の過去分詞は不規則形 escrito。"
+    },
+    {
+     "text": "escrita",
+     "correct": false,
+     "why": "現在完了の過去分詞は主語に合わせて変化せず、常に -o。escrito。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Has ___ la película?",
+   "ja": "その映画を見た？",
+   "options": [
+    {
+     "text": "viendo",
+     "correct": false,
+     "why": "viendo は現在分詞（〜している）。現在完了は過去分詞。"
+    },
+    {
+     "text": "visto",
+     "correct": true,
+     "why": "ver の過去分詞は不規則形 visto。"
+    },
+    {
+     "text": "veído",
+     "correct": false,
+     "why": "ver の過去分詞は visto。-ido の規則形にはならない。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "まだ食べていない。",
+   "tokens": [
+    "Todavía",
+    "no",
+    "he",
+    "comido."
+   ],
+   "accept": [
+    [
+     "No",
+     "he",
+     "comido",
+     "todavía."
+    ]
+   ],
+   "why": "todavía no ＋ he comido。no は haber の前。"
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Has estado en Madrid ___?",
+   "ja": "今までにマドリードに行ったことある？",
+   "options": [
+    {
+     "text": "alguna vez",
+     "correct": true,
+     "why": "alguna vez＝今までに。経験をたずねる定番。"
+    },
+    {
+     "text": "todavía no",
+     "correct": false,
+     "why": "todavía no は答えの言い方。疑問文の最後に置くと意味が合わない。"
+    },
+    {
+     "text": "mañana",
+     "correct": false,
+     "why": "mañana は「明日」。経験を聞く現在完了とは合わない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "スペインでふつうの言い方は？",
+   "ja": "今朝、フルーツを食べた。",
+   "options": [
+    {
+     "text": "Esta mañana desayunaba fruta.",
+     "correct": false,
+     "why": "desayunaba は線過去で習慣・背景。「食べた」という出来事にはならない。"
+    },
+    {
+     "text": "Esta mañana desayuné fruta.",
+     "correct": false,
+     "why": "点過去は中南米でよく使う。スペインでは、今日の出来事なら現在完了がふつう。"
+    },
+    {
+     "text": "Esta mañana he desayunado fruta.",
+     "correct": true,
+     "why": "今朝はまだ「今日」の中なので、スペインでは現在完了。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ayer ___ al cine.",
+   "ja": "昨日は映画館に行った。",
+   "options": [
+    {
+     "text": "fui",
+     "correct": true,
+     "why": "ayer は終わった時間。点過去 fui。"
+    },
+    {
+     "text": "he ido",
+     "correct": false,
+     "why": "ayer は今と切れた時間なので、スペインでも点過去を使う。"
+    },
+    {
+     "text": "iba",
+     "correct": false,
+     "why": "iba は線過去（習慣・背景）。「行った」という出来事にならない。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "その映画を見た？",
+   "tokens": [
+    "¿Has",
+    "visto",
+    "la",
+    "película?"
+   ],
+   "accept": [],
+   "why": "haber の has ＋ 過去分詞 visto。haber と過去分詞のあいだには何も入れない。"
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Has hecho la tarea? — Sí, ya ___ he hecho.",
+   "ja": "宿題をした？ — うん、もうやったよ。",
+   "options": [
+    {
+     "text": "la",
+     "correct": true,
+     "why": "la tarea（女・単）を受けて la。haber の前に置く。"
+    },
+    {
+     "text": "lo",
+     "correct": false,
+     "why": "lo は男性・単数。tarea は女性名詞なので la。"
+    },
+    {
+     "text": "le",
+     "correct": false,
+     "why": "le は「〜に」の代名詞。宿題は「〜を」なので lo/la。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "私は雪を見たことが一度もない。",
+   "tokens": [
+    "Nunca",
+    "he",
+    "visto",
+    "la",
+    "nieve."
+   ],
+   "accept": [],
+   "why": "nunca は haber の前。no は不要。"
+  }
+ ],
+ "words": [
+  {
+   "id": "haber",
+   "es": "haber",
+   "art": null,
+   "ja": "〜した（現在完了を作る助動詞）"
+  },
+  {
+   "id": "participio",
+   "es": "participio",
+   "art": "el",
+   "ja": "過去分詞"
+  },
+  {
+   "id": "ya",
+   "es": "ya",
+   "art": null,
+   "ja": "もう、すでに"
+  },
+  {
+   "id": "todavia",
+   "es": "todavía",
+   "art": null,
+   "ja": "まだ"
+  },
+  {
+   "id": "alguna_vez",
+   "es": "alguna vez",
+   "art": null,
+   "ja": "今までに、一度でも"
+  },
+  {
+   "id": "esta_manana",
+   "es": "esta mañana",
+   "art": null,
+   "ja": "今朝"
+  },
+  {
+   "id": "esta_semana",
+   "es": "esta semana",
+   "art": null,
+   "ja": "今週"
+  },
+  {
+   "id": "este_ano",
+   "es": "este año",
+   "art": null,
+   "ja": "今年"
+  },
+  {
+   "id": "hace_un_rato",
+   "es": "hace un rato",
+   "art": null,
+   "ja": "さっき、少し前"
+  },
+  {
+   "id": "hecho",
+   "es": "hecho",
+   "art": null,
+   "ja": "した（hacer の過去分詞）"
+  },
+  {
+   "id": "dicho",
+   "es": "dicho",
+   "art": null,
+   "ja": "言った（decir の過去分詞）"
+  },
+  {
+   "id": "visto",
+   "es": "visto",
+   "art": null,
+   "ja": "見た（ver の過去分詞）"
+  },
+  {
+   "id": "escrito",
+   "es": "escrito",
+   "art": null,
+   "ja": "書いた（escribir の過去分詞）"
+  },
+  {
+   "id": "vuelto",
+   "es": "vuelto",
+   "art": null,
+   "ja": "戻った（volver の過去分詞）"
+  },
+  {
+   "id": "puesto",
+   "es": "puesto",
+   "art": null,
+   "ja": "置いた（poner の過去分詞）"
+  },
+  {
+   "id": "roto",
+   "es": "roto",
+   "art": null,
+   "ja": "壊れた（romper の過去分詞）"
+  }
+ ],
+ "phrases": [],
+ "speak": [
+  {
+   "es": "Hoy he comido paella.",
+   "ja": "今日パエリアを食べた。",
+   "tip": "he と hoy の頭の h は読まない（無音）。"
+  },
+  {
+   "es": "¿Has estado alguna vez en Madrid?",
+   "ja": "今までにマドリードに行ったことある？",
+   "tip": "alguna の g は喉の奥の軽い音。"
+  },
+  {
+   "es": "Todavía no he comido.",
+   "ja": "まだ食べていない。",
+   "tip": "todavía の í にアクセント。to-da-VÍ-a。"
+  },
+  {
+   "es": "Ya he hecho la tarea.",
+   "ja": "もう宿題をした。",
+   "tip": "hecho の ch は「ち」に近い音。h は読まない。"
+  },
+  {
+   "es": "Nunca he visto la nieve.",
+   "ja": "雪を見たことが一度もない。",
+   "tip": "visto の v は b に近い音。"
+  }
+ ]
+}

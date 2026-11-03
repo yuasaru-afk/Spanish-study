@@ -1,0 +1,470 @@
+{
+ "id": "u23",
+ "no": 23,
+ "title": "線過去",
+ "summary": "「〜していた」「よく〜したものだ」と、過去の習慣や背景を描く形。不規則は ser・ir・ver の3つだけ。",
+ "points": {
+  "lines": [
+   "-ar：-aba / -er・-ir：-ía（全員この形）",
+   "不規則は ser（era）・ir（iba）・ver（veía）だけ",
+   "習慣・背景・年齢・時刻を言うときに使う"
+  ],
+  "examples": [
+   {
+    "es": "De niño jugaba al fútbol.",
+    "ja": "子どものころサッカーをしていた。"
+   },
+   {
+    "es": "Eran las tres.",
+    "ja": "3時だった。"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "線過去＝過去の「途中」の映像",
+   "body": "u21 の点過去が「終わった出来事」なら、**線過去**は**過去の途中の様子**を映す形です。始まりも終わりも気にせず、そのころ**どうだったか／いつもどうしていたか**を描きます。\n日本語では「〜していた」「〜したものだ」「〜だった」に近い言い方です。\n・点過去：ayer comí（昨日食べた＝一回の出来事）\n・線過去：comía（食べていた／よく食べたものだ）",
+   "examples": [
+    {
+     "es": "Vivía en Osaka.",
+     "ja": "大阪に住んでいた。",
+     "note": "そのころの状態"
+    },
+    {
+     "es": "Comía mucho.",
+     "ja": "よく食べていた。",
+     "note": "習慣"
+    }
+   ]
+  },
+  {
+   "title": "-ar 動詞：語尾は -aba",
+   "body": "hablar の線過去です。語幹 habl- に次を付けます。\n・yo habl**aba**\n・tú habl**abas**\n・él・ella・usted habl**aba**\n・nosotros habl**ábamos**\n・vosotros habl**abais**\n・ellos・ellas・ustedes habl**aban**\n🌎 hablabais はスペインの「君たち」。中南米では ustedes hablaban です。\n注意：yo と él・ella・usted は**同じ形**です。誰のことかは主語や文脈で分かります。nosotros の -ábamos には必ず記号が付きます。",
+   "examples": [
+    {
+     "es": "Hablaba con mi madre.",
+     "ja": "母とよく話していた。"
+    },
+    {
+     "es": "Nosotros hablábamos mucho.",
+     "ja": "私たちはよく話していた。"
+    },
+    {
+     "es": "¿Hablabais en español?",
+     "ja": "君たちはスペイン語で話していた？",
+     "note": "🌎 中南米では ¿Hablaban en español?"
+    }
+   ]
+  },
+  {
+   "title": "-er / -ir 動詞：語尾は -ía",
+   "body": "comer と vivir は同じ語尾です。\n・yo com**ía** / viv**ía**\n・tú com**ías** / viv**ías**\n・él・ella・usted com**ía** / viv**ía**\n・nosotros com**íamos** / viv**íamos**\n・vosotros com**íais** / viv**íais**\n・ellos・ellas・ustedes com**ían** / viv**ían**\nすべて **í** に記号が付きます。この記号は「í を強く読む」合図で、ia を1つの音にまとめてしまわないための印です。点過去と違い、**一つ覚えれば全員同じ**なので、実は点過去より楽です。",
+   "examples": [
+    {
+     "es": "Vivíamos en el campo.",
+     "ja": "私たちは田舎に住んでいた。"
+    },
+    {
+     "es": "Mi padre comía poco.",
+     "ja": "父はあまり食べなかった。"
+    }
+   ]
+  },
+  {
+   "title": "不規則はたったの3つ：ser・ir・ver",
+   "body": "線過去の不規則動詞は**この3つだけ**です。\n・ser：**era**, eras, era, **éramos**, erais, eran\n・ir：**iba**, ibas, iba, **íbamos**, ibais, iban\n・ver：**veía**, veías, veía, veíamos, veíais, veían\nver は ve- に -ía が付き、語幹の e が残ります（×vía）。\nそのほかの動詞は、不規則に見える動詞（tener, hacer, poder など）でも、すべて規則どおり tenía, hacía, podía になります。\nなお había（hay の過去）も規則どおり -ía の形です。",
+   "examples": [
+    {
+     "es": "Era muy pequeño.",
+     "ja": "とても小さかった。"
+    },
+    {
+     "es": "Íbamos a la playa.",
+     "ja": "私たちは海によく行ったものだ。"
+    },
+    {
+     "es": "Veía la tele todos los días.",
+     "ja": "毎日テレビを見ていた。"
+    }
+   ]
+  },
+  {
+   "title": "使う場面①：過去の習慣",
+   "body": "「そのころ、いつも〜していた」「よく〜したものだ」という習慣は線過去です。目印の言葉があります。\n・de niño / de pequeño＝子どものころ\n・siempre＝いつも　・a menudo＝よく\n・todos los días＝毎日　・cada verano＝夏ごとに\n・antes＝以前は\n一回きりの出来事ではなく、**何度も繰り返していたこと**を言うのがポイントです。",
+   "examples": [
+    {
+     "es": "De pequeño iba al colegio en bicicleta.",
+     "ja": "小さいころ、自転車で学校に通っていた。"
+    },
+    {
+     "es": "Cada verano visitábamos a mis abuelos.",
+     "ja": "夏ごとに祖父母を訪ねていた。"
+    }
+   ]
+  },
+  {
+   "title": "使う場面②：背景・年齢・時刻",
+   "body": "物語の「舞台」を描くときにも線過去です。\n・天気や様子：Hacía frío. Había mucha gente.\n・年齢：**Tenía** diez años.（tener の線過去）\n・時刻：**Eran** las tres. / **Era** la una.\n時刻は、1時だけ単数の era la una、2時以降は複数の eran las dos / las tres… です（現在形の Son las tres. の過去版）。\n年齢は「持つ」という動詞を使うので、「10歳だった」は Tenía diez años. と言います。",
+   "examples": [
+    {
+     "es": "Hacía mucho calor.",
+     "ja": "とても暑かった。"
+    },
+    {
+     "es": "Tenía diez años.",
+     "ja": "10歳だった。"
+    },
+    {
+     "es": "Eran las tres de la tarde.",
+     "ja": "午後3時だった。"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Cuando era pequeño, yo ___ en un pueblo.",
+   "ja": "小さいころ、私は村に住んでいた。",
+   "options": [
+    {
+     "text": "viví",
+     "correct": false,
+     "why": "viví は「住んだ（もう終わった）」と区切る言い方。ここは「そのころ住んでいた」という描写なので線過去 vivía。"
+    },
+    {
+     "text": "vivo",
+     "correct": false,
+     "why": "vivo は現在形。「そのころ」と合わない。"
+    },
+    {
+     "text": "vivía",
+     "correct": true,
+     "why": "そのころの状態なので線過去。-ir 動詞は -ía。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Nosotros ___ al colegio a pie.",
+   "ja": "私たちは歩いて学校に行っていた。",
+   "options": [
+    {
+     "text": "íbamos",
+     "correct": true,
+     "why": "ir の線過去、nosotros は íbamos。習慣を表す。"
+    },
+    {
+     "text": "fuimos",
+     "correct": false,
+     "why": "fuimos は点過去（一回行った）。毎日の習慣という意味にならない。"
+    },
+    {
+     "text": "iban",
+     "correct": false,
+     "why": "iban は ellos の形。nosotros には合わない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "___ las tres de la tarde.",
+   "ja": "午後3時だった。",
+   "options": [
+    {
+     "text": "Fueron",
+     "correct": false,
+     "why": "Fueron は点過去。時刻を言うときは線過去を使う。"
+    },
+    {
+     "text": "Era",
+     "correct": false,
+     "why": "Era は単数。時刻が複数（las tres）のときは使えない。"
+    },
+    {
+     "text": "Eran",
+     "correct": true,
+     "why": "時刻は ser の線過去。3時以降は複数なので Eran。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "___ la una.",
+   "ja": "1時だった。",
+   "options": [
+    {
+     "text": "Eran",
+     "correct": false,
+     "why": "Eran は複数。1時（la una）は単数なので合わない。"
+    },
+    {
+     "text": "Es",
+     "correct": false,
+     "why": "Es は現在形。過去の時刻にならない。"
+    },
+    {
+     "text": "Era",
+     "correct": true,
+     "why": "1時だけは単数なので Era la una。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Cuando ___ diez años, vivía en Osaka.",
+   "ja": "10歳のとき、大阪に住んでいた。",
+   "options": [
+    {
+     "text": "tengo",
+     "correct": false,
+     "why": "tengo は現在形。過去の年齢にならない。"
+    },
+    {
+     "text": "tenía",
+     "correct": true,
+     "why": "年齢は tener の線過去 tenía。"
+    },
+    {
+     "text": "tuve",
+     "correct": false,
+     "why": "tuve は点過去。年齢は途中の状態なので線過去を使う。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "De niño, yo ___ mucho la tele.",
+   "ja": "子どものころ、よくテレビを見ていた。",
+   "options": [
+    {
+     "text": "veo",
+     "correct": false,
+     "why": "veo は現在形。de niño（子どものころ）と合わない。"
+    },
+    {
+     "text": "veía",
+     "correct": true,
+     "why": "ver の線過去は veía。de niño は習慣を示す。"
+    },
+    {
+     "text": "vía",
+     "correct": false,
+     "why": "vía は「道・線路」という名詞で、ver の活用形ではない。ver は ve- の e が残る。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Mi profesor ___ muy simpático.",
+   "ja": "先生はとても感じがよかった。",
+   "options": [
+    {
+     "text": "era",
+     "correct": true,
+     "why": "先生の様子を描写するので ser の線過去。él は era。"
+    },
+    {
+     "text": "eras",
+     "correct": false,
+     "why": "eras は tú の形。主語が mi profesor なので合わない。"
+    },
+    {
+     "text": "éramos",
+     "correct": false,
+     "why": "éramos は nosotros の形。主語が mi profesor なので合わない。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "子どものころ、よく海に行った。",
+   "tokens": [
+    "Cuando",
+    "era",
+    "niño,",
+    "iba",
+    "a",
+    "la",
+    "playa."
+   ],
+   "accept": [
+    [
+     "Iba",
+     "a",
+     "la",
+     "playa",
+     "cuando",
+     "era",
+     "niño."
+    ]
+   ],
+   "why": "習慣を描くので両方とも線過去（era, iba）。cuando 節は前でも後ろでも良い。"
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "午後3時だった。",
+   "tokens": [
+    "Eran",
+    "las",
+    "tres",
+    "de",
+    "la",
+    "tarde."
+   ],
+   "accept": [],
+   "why": "時刻は ser の線過去。3時は複数なので Eran las tres。"
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Nosotros ___ mucho en el parque.",
+   "ja": "私たちは公園でよく遊んでいた。",
+   "options": [
+    {
+     "text": "jugaban",
+     "correct": false,
+     "why": "jugaban は ellos の形。nosotros には合わない。"
+    },
+    {
+     "text": "jugábamos",
+     "correct": true,
+     "why": "nosotros の -ar 線過去は -ábamos。記号がないと強く読む位置が変わる。"
+    },
+    {
+     "text": "jugabamos",
+     "correct": false,
+     "why": "jugabamos（記号なし）は誤りの綴り。-ábamos は必ず á に記号が付く。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "nino",
+   "es": "niño",
+   "art": "el",
+   "ja": "男の子・子ども"
+  },
+  {
+   "id": "infancia",
+   "es": "infancia",
+   "art": "la",
+   "ja": "子ども時代"
+  },
+  {
+   "id": "pueblo",
+   "es": "pueblo",
+   "art": "el",
+   "ja": "村・町"
+  },
+  {
+   "id": "colegio",
+   "es": "colegio",
+   "art": "el",
+   "ja": "学校"
+  },
+  {
+   "id": "vecino",
+   "es": "vecino",
+   "art": "el",
+   "ja": "隣人"
+  },
+  {
+   "id": "campo",
+   "es": "campo",
+   "art": "el",
+   "ja": "田舎・畑"
+  },
+  {
+   "id": "bicicleta",
+   "es": "bicicleta",
+   "art": "la",
+   "ja": "自転車"
+  },
+  {
+   "id": "oir",
+   "es": "oír",
+   "art": null,
+   "ja": "聞く"
+  },
+  {
+   "id": "a_menudo",
+   "es": "a menudo",
+   "art": null,
+   "ja": "しばしば"
+  },
+  {
+   "id": "de_pequeno",
+   "es": "de pequeño",
+   "art": null,
+   "ja": "小さいころ"
+  },
+  {
+   "id": "cada_verano",
+   "es": "cada verano",
+   "art": null,
+   "ja": "夏ごとに"
+  },
+  {
+   "id": "anciano",
+   "es": "anciano",
+   "art": "el",
+   "ja": "お年寄り"
+  },
+  {
+   "id": "antiguo",
+   "es": "antiguo",
+   "art": null,
+   "ja": "昔の・古い"
+  },
+  {
+   "id": "costumbre",
+   "es": "costumbre",
+   "art": "la",
+   "ja": "習慣"
+  },
+  {
+   "id": "juguete",
+   "es": "juguete",
+   "art": "el",
+   "ja": "おもちゃ"
+  },
+  {
+   "id": "mar",
+   "es": "mar",
+   "art": "el",
+   "ja": "海"
+  }
+ ],
+ "phrases": [],
+ "speak": [
+  {
+   "es": "De pequeño vivía en el campo.",
+   "ja": "小さいころ、田舎に住んでいた。",
+   "tip": "vivía の í を強く読む。"
+  },
+  {
+   "es": "Íbamos a la playa cada verano.",
+   "ja": "夏ごとに海に行っていた。"
+  },
+  {
+   "es": "Eran las tres de la tarde.",
+   "ja": "午後3時だった。"
+  },
+  {
+   "es": "Tenía diez años.",
+   "ja": "10歳だった。",
+   "tip": "tenía の í を強く読む。"
+  }
+ ]
+}

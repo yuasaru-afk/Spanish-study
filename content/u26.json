@@ -1,0 +1,501 @@
+{
+ "id": "u26",
+ "no": 26,
+ "title": "比較",
+ "summary": "「〜より大きい」「〜と同じくらい」「〜でいちばん」を言おう。más / menos ＋ 形容詞 ＋ que が土台で、mejor・peor など特別な形も覚える。",
+ "points": {
+  "lines": [
+   "より〜：más（menos）＋形容詞＋ que",
+   "同じくらい：tan ＋形容詞＋ como",
+   "いちばん〜：el / la más ＋形容詞＋ de"
+  ],
+  "examples": [
+   {
+    "es": "Ana es más alta que Luis.",
+    "ja": "アナはルイスより背が高い。"
+   },
+   {
+    "es": "Madrid es la ciudad más grande de España.",
+    "ja": "マドリードはスペインでいちばん大きい都市だ。"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "más / menos ＋ 形容詞 ＋ que（〜より）",
+   "body": "「A は B より〜だ」は、形容詞の前に **más**（より多く）か **menos**（より少なく）を置き、比べる相手の前に **que** を付けます。\n・más alto **que** …（〜より背が高い）\n・menos caro **que** …（〜より安い）\n形容詞の形は**主語の性・数に合わせる**だけで、más が付いても変わりません（alta, altos…）。日本語の「より」は比べる相手の後ろに来ますが、スペイン語は que が相手の**前**です。\n数や量と比べるときだけは que ではなく **de** を使います（más de diez＝10より多い）。",
+   "examples": [
+    {
+     "es": "Ana es más alta que Luis.",
+     "ja": "アナはルイスより背が高い。"
+    },
+    {
+     "es": "Este libro es menos difícil que ese.",
+     "ja": "この本はそれより難しくない。"
+    },
+    {
+     "es": "Tengo más de diez libros.",
+     "ja": "私は本を10冊より多く持っている。",
+     "note": "数字の前は de"
+    }
+   ]
+  },
+  {
+   "title": "tan ＋ 形容詞 ＋ como（同じくらい）",
+   "body": "程度が同じなら、形容詞の前に **tan**、相手の前に **como** を置きます。「A は B と同じくらい〜だ」です。\n・tan alto **como** …（〜と同じくらい背が高い）\ntan は形容詞や副詞の前につく短い形で、形は変わりません。否定にすると「〜ほどは…でない」の意味になります。\nただし como は que と別物なので、**tan … que ではなく tan … como** と覚えます（tan … que は別の意味になります）。",
+   "examples": [
+    {
+     "es": "Ana es tan alta como Luis.",
+     "ja": "アナはルイスと同じくらい背が高い。"
+    },
+    {
+     "es": "Mi casa es tan grande como la tuya.",
+     "ja": "私の家は君の家と同じくらい大きい。"
+    },
+    {
+     "es": "No es tan caro como pensaba.",
+     "ja": "思っていたほど高くない。"
+    }
+   ]
+  },
+  {
+   "title": "tanto / tanta / tantos / tantas ＋ 名詞 ＋ como",
+   "body": "**名詞の数や量**が同じと言うときは、tan ではなく **tanto** を使い、名詞の性・数に合わせて形を変えます。\n・tanto dinero（男・単）／tanta agua（女・単）\n・tantos libros（男・複）／tantas amigas（女・複）\n後ろは同じく **como** です。動詞のあとに置いて副詞として使うと、tanto は形が変わりません（Trabajo tanto como tú.＝君と同じくらいよく働く）。\n見分け方は「**形容詞・副詞の前は tan、名詞の前は tanto**」です。",
+   "examples": [
+    {
+     "es": "Tengo tantos libros como tú.",
+     "ja": "私は君と同じくらい本を持っている。"
+    },
+    {
+     "es": "No tengo tanta hambre como ayer.",
+     "ja": "昨日ほどおなかがすいていない。"
+    },
+    {
+     "es": "Trabajo tanto como tú.",
+     "ja": "私は君と同じくらい働く。",
+     "note": "動詞のあとは形が変わらない"
+    }
+   ]
+  },
+  {
+   "title": "特別な形：mejor / peor / mayor / menor",
+   "body": "4つの形容詞は、más を付けず**専用の形**で比べます。\n・bueno → **mejor**（より良い） ×más bueno\n・malo → **peor**（より悪い） ×más malo\n・grande → **mayor**（年上の） ※大きさは más grande がふつう\n・pequeño → **menor**（年下の） ※大きさは más pequeño がふつう\n人の年齢を比べるとき、mayor / menor を使うのが定番です。🌎 中南米の話し言葉では、年上の意味で más grande と言うこともあります。mejor / peor は男女同じ形で、複数は mejores / peores です。\n副詞の bien・mal も同じ mejor・peor で比べます（Hablas mejor que yo.）。",
+   "examples": [
+    {
+     "es": "Este vino es mejor que ese.",
+     "ja": "このワインはそれより良い。"
+    },
+    {
+     "es": "Mi hermano es mayor que yo.",
+     "ja": "兄は私より年上だ。"
+    },
+    {
+     "es": "Hoy me siento peor que ayer.",
+     "ja": "今日は昨日より具合が悪い。"
+    }
+   ]
+  },
+  {
+   "title": "最上級：el / la más … de",
+   "body": "「〜の中でいちばん」は、比較級の前に**定冠詞**（el / la / los / las）を付けます。範囲を示すときは **de** を使います。\n・Madrid es **la ciudad más grande de** España.\n名詞を入れるときは「冠詞＋名詞＋más＋形容詞」の順です。名詞を省けば el más alto（いちばん背が高い人）のように言えます。\n**en** と言う人もいますが、標準は de です。範囲の前は de と覚えます。mejor・peor にも el / la を付けます（el mejor de la clase）。",
+   "examples": [
+    {
+     "es": "Es la ciudad más grande de España.",
+     "ja": "スペインでいちばん大きい都市だ。"
+    },
+    {
+     "es": "Ana es la más alta de la clase.",
+     "ja": "アナはクラスでいちばん背が高い。"
+    },
+    {
+     "es": "Este es el mejor restaurante del barrio.",
+     "ja": "ここが界隈でいちばんの店だ。",
+     "note": "de ＋ el ＝ del"
+    }
+   ]
+  },
+  {
+   "title": "-ísimo（muy の強調）",
+   "body": "形容詞の語尾を **-ísimo** に変えると、「とても〜」より強い「ものすごく〜」になります。muy caro ＝ **carísimo** です。\n・語尾の母音を取って -ísimo を付ける：grande → grand**ísimo**\n・性・数で形が変わる：carísimo / carísima / carísimos / carísimas\n・綴りが変わるもの：rico → **riquísimo**（c → qu）、largo → **larguísimo**（g → gu）\n・fácil → **facilísimo**（アクセント記号が消える）\n・mucho → **muchísimo**\n-ísimo の形に **muy を重ねて使う**ことはできません。×muy carísimo。",
+   "examples": [
+    {
+     "es": "Este bolso es carísimo.",
+     "ja": "このバッグはものすごく高い。"
+    },
+    {
+     "es": "La paella estaba riquísima.",
+     "ja": "パエリアはものすごくおいしかった。"
+    },
+    {
+     "es": "Gracias, muchísimas gracias.",
+     "ja": "ありがとう、本当にありがとう。"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ana es ___ alta que Luis.",
+   "ja": "アナはルイスより背が高い。",
+   "options": [
+    {
+     "text": "más",
+     "correct": true,
+     "why": "形容詞の前に más を置き、que で比べる相手を示す。"
+    },
+    {
+     "text": "tanto",
+     "correct": false,
+     "why": "tanto は名詞の数・量に使う形。形容詞 alta の前には使えない。"
+    },
+    {
+     "text": "tan",
+     "correct": false,
+     "why": "tan は「同じくらい」で、後ろは como になる。que と組み合わせると「より」の文にならない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Mi casa es tan grande ___ tu casa.",
+   "ja": "私の家は君の家と同じくらい大きい。",
+   "options": [
+    {
+     "text": "como",
+     "correct": true,
+     "why": "tan … como で「〜と同じくらい…」。"
+    },
+    {
+     "text": "de",
+     "correct": false,
+     "why": "de は数字や範囲の前に使う。ここは比べる相手の前なので合わない。"
+    },
+    {
+     "text": "que",
+     "correct": false,
+     "why": "tan … que は「〜ほどに…」という別の意味になる。「同じくらい」は como。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Tengo ___ libros como tú.",
+   "ja": "私は君と同じくらい本を持っている。",
+   "options": [
+    {
+     "text": "tanto",
+     "correct": false,
+     "why": "libros は男性複数なので tantos と形を合わせる必要がある。tanto は単数の形。"
+    },
+    {
+     "text": "tantos",
+     "correct": true,
+     "why": "名詞 libros（男・複）に合わせて tantos。後ろは como。"
+    },
+    {
+     "text": "tan",
+     "correct": false,
+     "why": "tan は形容詞・副詞の前。名詞の数・量には tanto の仲間を使う。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Este vino es ___ que ese.",
+   "ja": "このワインはそれより良い。",
+   "options": [
+    {
+     "text": "más mejor",
+     "correct": false,
+     "why": "mejor にはすでに「より良い」の意味がある。más を重ねることはできない。"
+    },
+    {
+     "text": "más bueno",
+     "correct": false,
+     "why": "bueno の比較級は専用の mejor。más bueno とは言わない。"
+    },
+    {
+     "text": "mejor",
+     "correct": true,
+     "why": "bueno（良い）の比較級は mejor。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Madrid es la ciudad más grande ___ España.",
+   "ja": "マドリードはスペインでいちばん大きい都市だ。",
+   "options": [
+    {
+     "text": "que",
+     "correct": false,
+     "why": "que は比べる相手の前。最上級では範囲を de で示す。"
+    },
+    {
+     "text": "en",
+     "correct": false,
+     "why": "最上級で範囲を示す標準の形は de。en も聞くが、まず de を覚える。"
+    },
+    {
+     "text": "de",
+     "correct": true,
+     "why": "最上級の範囲は de で示す。la ciudad más grande de España。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "ペドロは弟より背が高い。",
+   "tokens": [
+    "Pedro",
+    "es",
+    "más",
+    "alto",
+    "que",
+    "su",
+    "hermano."
+   ],
+   "accept": [],
+   "why": "más alto que ＋比べる相手。Pedro は男性なので alto。"
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Esta película es ___.",
+   "ja": "この映画はものすごくおもしろい。",
+   "options": [
+    {
+     "text": "interesantísima",
+     "correct": true,
+     "why": "película（女性）に合わせて -ísima。「ものすごくおもしろい」。"
+    },
+    {
+     "text": "interesantísimo",
+     "correct": false,
+     "why": "película は女性名詞なので、-ísimo も女性形 interesantísima にしないと合わない。"
+    },
+    {
+     "text": "muy interesantísima",
+     "correct": false,
+     "why": "-ísimo にはすでに「とても」の意味がある。muy を重ねるのは不可。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Mi hermana es ___ que yo.",
+   "ja": "姉は私より年上だ。",
+   "options": [
+    {
+     "text": "peor",
+     "correct": false,
+     "why": "peor は「より悪い」。年上という意味にならない。"
+    },
+    {
+     "text": "mayor",
+     "correct": true,
+     "why": "年齢の「年上」は mayor。"
+    },
+    {
+     "text": "mejor",
+     "correct": false,
+     "why": "mejor は「より良い」。年上という意味にならない。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "私は君と同じくらい友達がいる。（女友達）",
+   "tokens": [
+    "Tengo",
+    "tantas",
+    "amigas",
+    "como",
+    "tú."
+   ],
+   "accept": [],
+   "why": "名詞 amigas（女・複）に合わせて tantas。後ろは como。"
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Hablas ___ que yo.",
+   "ja": "君は私より上手に話す。",
+   "options": [
+    {
+     "text": "buenos",
+     "correct": false,
+     "why": "buenos は形容詞 bueno の複数形で、動詞 hablas を修飾できない。"
+    },
+    {
+     "text": "mejor",
+     "correct": true,
+     "why": "副詞 bien の比較級も mejor。「より上手に」。"
+    },
+    {
+     "text": "más bien",
+     "correct": false,
+     "why": "más bien は「むしろ」という意味。上手に話す、という比較にならない。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "menos",
+   "es": "menos",
+   "art": null,
+   "ja": "より少なく、〜ほどでない"
+  },
+  {
+   "id": "mejor",
+   "es": "mejor",
+   "art": null,
+   "ja": "より良い、より上手に"
+  },
+  {
+   "id": "peor",
+   "es": "peor",
+   "art": null,
+   "ja": "より悪い、より下手に"
+  },
+  {
+   "id": "bueno",
+   "es": "bueno",
+   "art": null,
+   "ja": "良い"
+  },
+  {
+   "id": "malo",
+   "es": "malo",
+   "art": null,
+   "ja": "悪い"
+  },
+  {
+   "id": "joven",
+   "es": "joven",
+   "art": null,
+   "ja": "若い"
+  },
+  {
+   "id": "viejo",
+   "es": "viejo",
+   "art": null,
+   "ja": "古い、年老いた"
+  },
+  {
+   "id": "rapido",
+   "es": "rápido",
+   "art": null,
+   "ja": "速い"
+  },
+  {
+   "id": "lento",
+   "es": "lento",
+   "art": null,
+   "ja": "遅い"
+  },
+  {
+   "id": "bajo",
+   "es": "bajo",
+   "art": null,
+   "ja": "背が低い、低い"
+  },
+  {
+   "id": "facil",
+   "es": "fácil",
+   "art": null,
+   "ja": "簡単な"
+  },
+  {
+   "id": "dificil",
+   "es": "difícil",
+   "art": null,
+   "ja": "難しい"
+  },
+  {
+   "id": "interesante",
+   "es": "interesante",
+   "art": null,
+   "ja": "おもしろい、興味深い"
+  },
+  {
+   "id": "aburrido",
+   "es": "aburrido",
+   "art": null,
+   "ja": "退屈な"
+  },
+  {
+   "id": "bonito",
+   "es": "bonito",
+   "art": null,
+   "ja": "きれいな、かわいい",
+   "latam": {
+    "es": "lindo",
+    "art": null,
+    "note": "中南米では lindo がよく使われる"
+   }
+  },
+  {
+   "id": "tan",
+   "es": "tan",
+   "art": null,
+   "ja": "こんなに、それほど"
+  },
+  {
+   "id": "tanto",
+   "es": "tanto",
+   "art": null,
+   "ja": "それほど多くの"
+  },
+  {
+   "id": "como_igual",
+   "es": "como",
+   "art": null,
+   "ja": "〜のように、〜と同じくらい"
+  },
+  {
+   "id": "clase",
+   "es": "clase",
+   "art": "la",
+   "ja": "クラス、授業"
+  }
+ ],
+ "phrases": [],
+ "speak": [
+  {
+   "es": "Ana es más alta que Luis.",
+   "ja": "アナはルイスより背が高い。",
+   "tip": "alta の a は日本語の「あ」と同じ。l は舌先を上の歯ぐきにつけて。"
+  },
+  {
+   "es": "Tengo tantos libros como tú.",
+   "ja": "私は君と同じくらい本を持っている。",
+   "tip": "tantos の t は舌先を前歯の裏に当てて。"
+  },
+  {
+   "es": "Este vino es mejor que ese.",
+   "ja": "このワインはそれより良い。",
+   "tip": "mejor の j は喉の奥のかすれた音（日本語のハ行より強く）。"
+  },
+  {
+   "es": "Madrid es la ciudad más grande de España.",
+   "ja": "マドリードはスペインでいちばん大きい都市だ。",
+   "tip": "ciudad の d は語末で弱く。ñ は「にゃ」のような音。"
+  },
+  {
+   "es": "La paella estaba riquísima.",
+   "ja": "パエリアはものすごくおいしかった。",
+   "tip": "riquísima は í にアクセント。ri-KÍ-si-ma。"
+  }
+ ]
+}

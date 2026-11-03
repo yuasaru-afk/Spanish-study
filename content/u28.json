@@ -1,0 +1,478 @@
+{
+ "id": "u28",
+ "no": 28,
+ "title": "「彼に」の代名詞と2つ重なるとき",
+ "summary": "「〜に」にあたる me / te / le / nos / os / les と、「〜を」の lo / la が重なると、le は se に変わる。順番は「に」→「を」。",
+ "points": {
+  "lines": [
+   "「〜に」：me, te, le, nos, os, les",
+   "「に」と「を」が並ぶ順は「に」→「を」",
+   "le / les ＋ lo / la は se lo / se la になる"
+  ],
+  "examples": [
+   {
+    "es": "¿Le das el libro? — Sí, se lo doy.",
+    "ja": "彼に本をあげる？ — うん、あげるよ。"
+   },
+   {
+    "es": "Te lo mando mañana.",
+    "ja": "明日それを君に送るよ。"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "間接目的語（〜に）の代名詞",
+   "body": "「〜に」にあたる語を**間接目的語**と言います。Doy el libro **a Ana**（アナに本をあげる）の a Ana がそれです。代名詞の形は次のとおりです。\n・私に **me**／君に **te**／彼・彼女・あなたに **le**\n・私たちに **nos**／君たちに **os**／彼ら・彼女ら・あなたがたに **les**\n3人称だけは lo/la と別の le / les を使うところが、u27 と違う点です。u9 の gustar（**Me** gusta…）の me / te / le も、実はこの「〜に」の代名詞です。\n🌎 os はスペインの「君たちに」。中南米では ustedes に対して les を使います。",
+   "examples": [
+    {
+     "es": "Me das el libro.",
+     "ja": "私に本をくれる。"
+    },
+    {
+     "es": "Le escribo un correo.",
+     "ja": "彼（彼女）にメールを書く。"
+    },
+    {
+     "es": "Os explico la lección.",
+     "ja": "君たちにレッスンを説明する。",
+     "note": "🌎 中南米では Les explico la lección."
+    }
+   ]
+  },
+  {
+   "title": "a él / a ella で誰かを明確にする",
+   "body": "le は「彼にも彼女にもあなたにも」使えるので、**誰のことか分からなく**なることがあります。必要なときに「a ＋ 人」を足して明確にします。\n・**Le** doy el libro **a él**.（彼に）／**a ella**（彼女に）／**a usted**（あなたに）\n・**Les** doy el libro **a ellos**.（彼らに）\n名詞で言うときも、代名詞 le を**くり返して入れる**のがふつうです。\n・**Le** doy el libro **a Ana**.\nつまり le と a Ana が両方入りますが、重複ではなく自然な形です。",
+   "examples": [
+    {
+     "es": "Le doy el libro a Ana.",
+     "ja": "アナに本をあげる。",
+     "note": "le と a Ana の両方を入れる"
+    },
+    {
+     "es": "Les doy un regalo a mis padres.",
+     "ja": "両親にプレゼントをあげる。"
+    },
+    {
+     "es": "Le hablo a usted.",
+     "ja": "あなたに話しています。",
+     "note": "a usted で相手をはっきりさせる"
+    }
+   ]
+  },
+  {
+   "title": "「に」と「を」が重なる：順番は「に」→「を」",
+   "body": "「彼にそれをあげる」のように、間接目的語と直接目的語の代名詞が**2つ重なる**ときは、順番が決まっています。\n・**「に」の代名詞 → 「を」の代名詞 → 動詞**（日本語の語順と同じ！）\n・**Me lo** das.（それを私にくれる）\n・**Te lo** mando.（それを君に送る）\n・**Nos las** explica.（それらを私たちに説明する）\nこの順番は逆にできません（×Lo me das）。2つの代名詞は離さず、動詞の直前に並べます。",
+   "examples": [
+    {
+     "es": "¿Me prestas tu bolígrafo? — Sí, te lo presto.",
+     "ja": "ボールペンを貸してくれる？ — うん、貸すよ。"
+    },
+    {
+     "es": "Te lo mando mañana.",
+     "ja": "明日それを君に送るよ。"
+    },
+    {
+     "es": "Nos las enseña hoy.",
+     "ja": "今日それらを私たちに見せてくれる。"
+    }
+   ]
+  },
+  {
+   "title": "le / les ＋ lo / la は se lo / se la",
+   "body": "「彼に」の le や les のあとに lo / la / los / las が続くと、**le / les が se に変わります**。le lo のように l の音が続くのを避けるためです。\n・¿Le das el libro? — Sí, **se lo** doy.\n・¿Les mandas las fotos? — Sí, **se las** mando.\nこの **se は再帰代名詞（u16）ではありません**。「彼に／彼らに」の le / les が変身したものです。\nse は「彼に／彼女に／あなたに／彼らに」のどれにもなるので、はっきりさせたいときは **se lo doy a ella** のように a を足します。後ろの lo/la/los/las は、あげる**もの**の性・数で決まります（libro なら lo、foto なら la）。",
+   "examples": [
+    {
+     "es": "¿Le das el libro? — Sí, se lo doy.",
+     "ja": "彼に本をあげる？ — うん、あげるよ。"
+    },
+    {
+     "es": "¿Les mandas las fotos? — Sí, se las mando.",
+     "ja": "彼らに写真を送る？ — うん、送るよ。"
+    },
+    {
+     "es": "Se lo doy a ella.",
+     "ja": "それを彼女にあげる。",
+     "note": "a ella で「誰に」をはっきりさせる"
+    }
+   ]
+  },
+  {
+   "title": "動詞が2つのとき：原形にくっつける",
+   "body": "u27 と同じく、代名詞は活用形の前に置くか、原形の後ろにくっつけます。2つ重なるときも同じで、**「に」→「を」の順のまま**動かしません。\n・**Se lo** voy a dar.＝Voy a dár**selo**.\n・**Te lo** quiero decir.＝Quiero decír**telo**.\n後ろに付けるときは、強く読む位置が動かないよう**アクセント記号**を付けます（dar → dárselo）。\n否定は no を最初に置きます：**No se lo** doy.",
+   "examples": [
+    {
+     "es": "Se lo voy a dar.",
+     "ja": "それを彼にあげるつもりだ。"
+    },
+    {
+     "es": "Voy a dárselo.",
+     "ja": "それを彼にあげるつもりだ。",
+     "note": "原形にくっつけるとアクセント記号"
+    },
+    {
+     "es": "No se lo digo.",
+     "ja": "それを彼には言わない。"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Le das el libro a Ana? — Sí, ___ lo doy.",
+   "ja": "アナに本をあげる？ — うん、あげるよ。",
+   "options": [
+    {
+     "text": "le",
+     "correct": false,
+     "why": "le lo は l の音が続くので言えない。「彼に」＋ lo の組み合わせは se lo になる。"
+    },
+    {
+     "text": "te",
+     "correct": false,
+     "why": "te は「君に」。アナ（第三者）にあげる文では使えない。"
+    },
+    {
+     "text": "se",
+     "correct": true,
+     "why": "le ＋ lo は se lo に変わる。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Les mandas las fotos? — Sí, ___ las mando.",
+   "ja": "彼らに写真を送る？ — うん、送るよ。",
+   "options": [
+    {
+     "text": "les",
+     "correct": false,
+     "why": "les las は l の音が続くので使わず、se に変える。"
+    },
+    {
+     "text": "nos",
+     "correct": false,
+     "why": "nos は「私たちに」。第三者に送る文では使えない。"
+    },
+    {
+     "text": "se",
+     "correct": true,
+     "why": "les ＋ las は se las に変わる。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Me prestas tu bolígrafo? — Sí, ___ lo presto.",
+   "ja": "ボールペンを貸してくれる？ — うん、貸すよ。",
+   "options": [
+    {
+     "text": "me",
+     "correct": false,
+     "why": "me は「私に」。貸す側（私）が君に貸すので te にする。"
+    },
+    {
+     "text": "te",
+     "correct": true,
+     "why": "相手の「君に」を答える側は te。te lo presto。me/te/nos/os は lo の前でも変わらない。"
+    },
+    {
+     "text": "se",
+     "correct": false,
+     "why": "se にするのは le / les が lo の前に来たとき。ここは相手が「私」なので te のまま。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "明日それを君に送るよ。",
+   "tokens": [
+    "Te",
+    "lo",
+    "mando",
+    "mañana."
+   ],
+   "accept": [
+    [
+     "Mañana",
+     "te",
+     "lo",
+     "mando."
+    ]
+   ],
+   "why": "順番は「に」(te) →「を」(lo) → 動詞。"
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Le das la carta a Ana? — Sí, se ___ doy.",
+   "ja": "アナに手紙をあげる？ — うん、あげるよ。",
+   "options": [
+    {
+     "text": "las",
+     "correct": false,
+     "why": "las は女性・複数。carta は1通なので単数 la。"
+    },
+    {
+     "text": "la",
+     "correct": true,
+     "why": "あげるものは la carta（女・単）なので la。se la doy。"
+    },
+    {
+     "text": "lo",
+     "correct": false,
+     "why": "lo は男性・単数。carta は女性名詞なので la にする。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Le doy el libro ___.",
+   "ja": "彼女に本をあげる。",
+   "options": [
+    {
+     "text": "de ella",
+     "correct": false,
+     "why": "de ella は「彼女の」。「彼女に」という意味にならない。"
+    },
+    {
+     "text": "ella",
+     "correct": false,
+     "why": "a がないと、誰に（間接目的語）なのかを示せない。「〜に」には a が必要。"
+    },
+    {
+     "text": "a ella",
+     "correct": true,
+     "why": "le は「彼にも彼女にも」使えるので、a ella で「彼女に」とはっきりさせる。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "それを彼にあげるつもりだ。",
+   "tokens": [
+    "Se",
+    "lo",
+    "voy",
+    "a",
+    "dar."
+   ],
+   "accept": [
+    [
+     "Voy",
+     "a",
+     "dárselo."
+    ]
+   ],
+   "why": "se lo を動詞 voy の前に並べる。原形にくっつけるなら Voy a dárselo."
+  },
+  {
+   "type": "choice",
+   "prompt": "正しい文は？",
+   "ja": "それ（el regalo）を君たちに渡す。（スペインの言い方）",
+   "options": [
+    {
+     "text": "Lo os doy.",
+     "correct": false,
+     "why": "「に」→「を」の順が逆になっている。os lo が正しい。"
+    },
+    {
+     "text": "Se lo doy.",
+     "correct": false,
+     "why": "se lo は第三者（彼・彼ら）に対する形。「君たち」への文にはならない（🌎 中南米では ustedes に対して se lo を使う）。"
+    },
+    {
+     "text": "Os lo doy.",
+     "correct": true,
+     "why": "os は vosotros に対する「君たちに」。lo は el regalo。「に」→「を」の順で正しい。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Les explicas la lección a los estudiantes? — Sí, se ___ explico.",
+   "ja": "学生たちにレッスンを説明する？ — うん、説明するよ。",
+   "options": [
+    {
+     "text": "las",
+     "correct": false,
+     "why": "las は複数。lección は1つなので la。"
+    },
+    {
+     "text": "lo",
+     "correct": false,
+     "why": "lo は男性・単数。lección は女性名詞なので la。"
+    },
+    {
+     "text": "la",
+     "correct": true,
+     "why": "explicas するのは la lección（女・単）。se la explico。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "それを彼に言わない。",
+   "tokens": [
+    "No",
+    "se",
+    "lo",
+    "digo."
+   ],
+   "accept": [],
+   "why": "否定の no は一番前。そのあとに se lo、動詞 digo。"
+  }
+ ],
+ "words": [
+  {
+   "id": "dar",
+   "es": "dar",
+   "art": null,
+   "ja": "あげる、渡す"
+  },
+  {
+   "id": "decir",
+   "es": "decir",
+   "art": null,
+   "ja": "言う"
+  },
+  {
+   "id": "regalar",
+   "es": "regalar",
+   "art": null,
+   "ja": "プレゼントする"
+  },
+  {
+   "id": "mandar",
+   "es": "mandar",
+   "art": null,
+   "ja": "送る"
+  },
+  {
+   "id": "explicar",
+   "es": "explicar",
+   "art": null,
+   "ja": "説明する"
+  },
+  {
+   "id": "prestar",
+   "es": "prestar",
+   "art": null,
+   "ja": "貸す"
+  },
+  {
+   "id": "ensenar",
+   "es": "enseñar",
+   "art": null,
+   "ja": "教える、見せる"
+  },
+  {
+   "id": "ofrecer",
+   "es": "ofrecer",
+   "art": null,
+   "ja": "提供する、勧める"
+  },
+  {
+   "id": "preguntar",
+   "es": "preguntar",
+   "art": null,
+   "ja": "たずねる"
+  },
+  {
+   "id": "contar",
+   "es": "contar",
+   "art": null,
+   "ja": "話す、数える"
+  },
+  {
+   "id": "se_pron",
+   "es": "se",
+   "art": null,
+   "ja": "le/les が lo の前で変わった形"
+  },
+  {
+   "id": "le_pron",
+   "es": "le",
+   "art": null,
+   "ja": "彼に、彼女に、あなたに"
+  },
+  {
+   "id": "les_pron",
+   "es": "les",
+   "art": null,
+   "ja": "彼らに、彼女らに、あなたがたに"
+  },
+  {
+   "id": "correo",
+   "es": "correo",
+   "art": "el",
+   "ja": "メール、郵便"
+  },
+  {
+   "id": "direccion",
+   "es": "dirección",
+   "art": "la",
+   "ja": "住所、方向"
+  },
+  {
+   "id": "boligrafo",
+   "es": "bolígrafo",
+   "art": "el",
+   "ja": "ボールペン",
+   "latam": {
+    "es": "pluma",
+    "art": "la",
+    "note": "メキシコなど。アルゼンチンは lapicera。スペインでは pluma は万年筆"
+   }
+  },
+  {
+   "id": "verdad",
+   "es": "verdad",
+   "art": "la",
+   "ja": "本当、真実"
+  },
+  {
+   "id": "pregunta",
+   "es": "pregunta",
+   "art": "la",
+   "ja": "質問"
+  }
+ ],
+ "phrases": [],
+ "speak": [
+  {
+   "es": "¿Le das el libro? — Sí, se lo doy.",
+   "ja": "彼に本をあげる？ — うん、あげるよ。",
+   "tip": "se lo doy は3語をひと息で。"
+  },
+  {
+   "es": "Te lo mando mañana.",
+   "ja": "明日それを君に送るよ。",
+   "tip": "mando の d は軽く。mañana の ñ は「にゃ」のような音。"
+  },
+  {
+   "es": "Les doy un regalo a mis padres.",
+   "ja": "両親にプレゼントをあげる。",
+   "tip": "regalo の g は喉の奥の軽い音。"
+  },
+  {
+   "es": "Se la explico a ella.",
+   "ja": "それを彼女に説明する。",
+   "tip": "explico の x は「ks」。"
+  },
+  {
+   "es": "Voy a dárselo.",
+   "ja": "それを彼にあげるつもりだ。",
+   "tip": "dárselo は á にアクセント。DÁ-se-lo。"
+  }
+ ]
+}

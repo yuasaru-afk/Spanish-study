@@ -1,0 +1,538 @@
+{
+ "id": "u21",
+ "no": 21,
+ "title": "点過去① 規則動詞",
+ "summary": "「昨日〜した」「去年〜した」と、終わった出来事を言う形。語尾の変化とアクセント記号が命。",
+ "points": {
+  "lines": [
+   "終わった過去の出来事は「点過去」で言う",
+   "-ar：-é -aste -ó -amos -asteis -aron",
+   "-er・-ir：-í -iste -ió -imos -isteis…"
+  ],
+  "examples": [
+   {
+    "es": "Ayer hablé con Ana.",
+    "ja": "昨日アナと話した。"
+   },
+   {
+    "es": "Anoche comimos paella.",
+    "ja": "昨夜パエリアを食べた。"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "点過去＝終わった出来事",
+   "body": "**点過去**は、過去に起きて**もう終わった出来事**を言う形です。「昨日、話した」「去年、引っ越した」のように、時間の線の上に**点を1つ打つ**イメージです。\nこの課では規則動詞（hablar / comer / vivir 型）だけ。現在形とは語尾がまったく別なので、まず語尾を覚えます。\n・hablar（-ar）\n・comer（-er）\n・vivir（-ir）\n不規則動詞は u22、「〜していた」という形は u23 で扱います。",
+   "examples": [
+    {
+     "es": "Ayer trabajé mucho.",
+     "ja": "昨日はたくさん働いた。"
+    },
+    {
+     "es": "El año pasado viví en Madrid.",
+     "ja": "去年はマドリードに住んでいた。",
+     "note": "もう終わった期間"
+    }
+   ]
+  },
+  {
+   "title": "-ar 動詞：hablar",
+   "body": "語幹 habl- に次の語尾を付けます。\n・yo habl**é**\n・tú habl**aste**\n・él・ella・usted habl**ó**\n・nosotros habl**amos**\n・vosotros habl**asteis**\n・ellos・ellas・ustedes habl**aron**\n🌎 hablasteis はスペインの「君たち」。中南米では ustedes hablaron と言います。\n注意：nosotros の hablamos は**現在形と同じ形**です。ayer などの言葉や前後の流れで、過去か現在かを見分けます。",
+   "examples": [
+    {
+     "es": "Tú hablaste con el camarero.",
+     "ja": "君はウェイターと話した。"
+    },
+    {
+     "es": "Hablamos ayer.",
+     "ja": "昨日話した。",
+     "note": "現在形と同じ形。ayer で過去と分かる"
+    },
+    {
+     "es": "¿Hablasteis con Pedro?",
+     "ja": "君たちはペドロと話した？",
+     "note": "🌎 中南米では ¿Hablaron con Pedro?"
+    }
+   ]
+  },
+  {
+   "title": "-er / -ir 動詞：comer と vivir",
+   "body": "-er と -ir は**語尾が同じ**で、1種類だけ覚えれば足ります。\n・yo com**í** / viv**í**\n・tú com**iste** / viv**iste**\n・él・ella・usted com**ió** / viv**ió**\n・nosotros com**imos** / viv**imos**\n・vosotros com**isteis** / viv**isteis**\n・ellos・ellas・ustedes com**ieron** / viv**ieron**\n-ar 動詞の語尾と見比べると、-é が -í に、-ó が -ió に変わっただけです。nosotros の vivimos は、-ir 動詞では現在形と同形になります。",
+   "examples": [
+    {
+     "es": "Comí en casa.",
+     "ja": "家で食べた。"
+    },
+    {
+     "es": "Ella vivió en Japón.",
+     "ja": "彼女は日本に住んでいた。"
+    },
+    {
+     "es": "Ellos escribieron un mensaje.",
+     "ja": "彼らはメッセージを書いた。"
+    }
+   ]
+  },
+  {
+   "title": "アクセント記号が意味を分ける",
+   "body": "点過去の yo と él・ella・usted は、**最後の母音にアクセント記号**が付きます（hablé, habló, comí, comió）。これを落とすと別の形になります。\n・habl**o**＝現在形（私は話す）\n・habl**ó**＝点過去（彼は話した）\n・habl**é**＝点過去（私は話した）\n記号があると、**最後の音節を強く読む**合図になります。hablo は「ha-blo」、habló は「ha-BLÓ」と読み方まで違うのです。メールなどで記号を落とすと、現在形と取り違えられます。\n-er / -ir 動詞の com**í** / com**ió** も、í や ó の上の記号を忘れやすいので注意しましょう。",
+   "examples": [
+    {
+     "es": "Hablo con mi madre.",
+     "ja": "母と話す。",
+     "note": "現在形"
+    },
+    {
+     "es": "Habló con mi madre.",
+     "ja": "彼は母と話した。",
+     "note": "点過去"
+    },
+    {
+     "es": "Hablé con mi madre.",
+     "ja": "母と話した。",
+     "note": "点過去（私）"
+    }
+   ]
+  },
+  {
+   "title": "過去を示す言葉",
+   "body": "点過去とよく一緒に出る言葉です。\n・ayer＝昨日、anteayer＝一昨日、anoche＝昨夜\n・la semana pasada＝先週\n・el mes pasado＝先月\n・el año pasado＝去年\npasado は「過ぎた」という意味で、la semana **pasada** のように名詞に合わせて形が変わります（男性 pasado、女性 pasada）。\n前置詞は付けません。×en el año pasado ではなく、**el año pasado** だけで「去年」です。",
+   "examples": [
+    {
+     "es": "La semana pasada visité a mi abuela.",
+     "ja": "先週、祖母を訪ねた。"
+    },
+    {
+     "es": "Anoche cené tarde.",
+     "ja": "昨夜は遅く夕食をとった。"
+    },
+    {
+     "es": "El mes pasado terminé el trabajo.",
+     "ja": "先月、仕事を終えた。"
+    }
+   ]
+  },
+  {
+   "title": "yo の形で綴りが変わる -car / -gar / -zar",
+   "body": "動詞の原形が **-car / -gar / -zar** で終わるとき、yo の点過去だけ綴りが変わります。理由は**音を守るため**です。\n・buscar → bus**qué**（c は e の前で別の音になるので qu に）\n・llegar → lle**gué**（g は e の前で別の音になるので gu に。u は読まない）\n・empezar → empe**cé**（z は e の前に置かない決まりなので c に）\nそのほか tocar → toqué、pagar → pagué、comenzar → comencé も同じです。他の人称（tú, él…）は綴りが変わりません（buscaste, llegó）。",
+   "examples": [
+    {
+     "es": "Busqué la llave.",
+     "ja": "鍵を探した。"
+    },
+    {
+     "es": "Llegué tarde ayer.",
+     "ja": "昨日は遅刻した（遅く着いた）。"
+    },
+    {
+     "es": "Empecé a estudiar el año pasado.",
+     "ja": "去年勉強を始めた。"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ayer yo ___ con Ana.",
+   "ja": "昨日、私はアナと話した。",
+   "options": [
+    {
+     "text": "hablé",
+     "correct": true,
+     "why": "yo の点過去は -ar 動詞なら -é。ayer で過去と分かる。"
+    },
+    {
+     "text": "habló",
+     "correct": false,
+     "why": "habló は él・ella の点過去。主語が yo なので合わない。"
+    },
+    {
+     "text": "hablo",
+     "correct": false,
+     "why": "hablo は現在形（話す）。ayer（昨日）と合わず、「昨日話す」になってしまう。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Tú ___ pizza anoche.",
+   "ja": "君は昨夜ピザを食べた。",
+   "options": [
+    {
+     "text": "comió",
+     "correct": false,
+     "why": "comió は él・ella・usted の形。tú には合わない。"
+    },
+    {
+     "text": "comiste",
+     "correct": true,
+     "why": "tú の点過去は -er 動詞なら -iste。anoche と合う。"
+    },
+    {
+     "text": "comes",
+     "correct": false,
+     "why": "comes は現在形。anoche（昨夜）の出来事には使えない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ella ___ en Madrid el año pasado.",
+   "ja": "彼女は去年マドリードに住んでいた。",
+   "options": [
+    {
+     "text": "vive",
+     "correct": false,
+     "why": "vive は現在形。el año pasado（去年）と合わない。"
+    },
+    {
+     "text": "vivió",
+     "correct": true,
+     "why": "él・ella・usted の点過去は -ió。vivió＝住んだ。"
+    },
+    {
+     "text": "viví",
+     "correct": false,
+     "why": "viví は yo の形。主語が ella なので合わない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "正しい文は？",
+   "ja": "彼女は上司と話した。",
+   "options": [
+    {
+     "text": "Hablé con el jefe.",
+     "correct": false,
+     "why": "hablé は yo の点過去で、「（私は）上司と話した」。話した人が違う。"
+    },
+    {
+     "text": "Hablo con el jefe.",
+     "correct": false,
+     "why": "記号のない hablo は yo の現在形で、「（私は）上司と話す」になる。"
+    },
+    {
+     "text": "Habló con el jefe.",
+     "correct": true,
+     "why": "habló（記号つき）は él・ella の点過去＝「話した」。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ayer ___ la llave.",
+   "ja": "昨日、鍵を探した。",
+   "options": [
+    {
+     "text": "busco",
+     "correct": false,
+     "why": "busco は現在形。ayer（昨日）と合わない。"
+    },
+    {
+     "text": "buscé",
+     "correct": false,
+     "why": "buscé と書くと、c が e の前なので別の音（スペインでは舌先を歯に当てる音）になってしまい、buscar と同じ k の音にならない。"
+    },
+    {
+     "text": "busqué",
+     "correct": true,
+     "why": "buscar の yo の点過去は c が qu に変わり busqué。e の前で c の音が変わるのを防ぐため。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ayer ___ tarde a casa.",
+   "ja": "昨日、遅く家に着いた。",
+   "options": [
+    {
+     "text": "llegé",
+     "correct": false,
+     "why": "llegé と書くと g が e の前で喉の奥の強い音に変わり、llegar の音と違ってしまう。"
+    },
+    {
+     "text": "llego",
+     "correct": false,
+     "why": "llego は現在形。ayer と合わない。"
+    },
+    {
+     "text": "llegué",
+     "correct": true,
+     "why": "llegar の yo の点過去は g が gu に変わり llegué。u は読まず、g の音を保つ。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "昨日、私たちはパエリアを食べた。",
+   "tokens": [
+    "Ayer",
+    "comimos",
+    "paella."
+   ],
+   "accept": [
+    [
+     "Comimos",
+     "paella",
+     "ayer."
+    ]
+   ],
+   "why": "comimos は comer の nosotros の点過去（現在形は comemos）。ayer と合う。"
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "去年、スペイン語の勉強を始めた。",
+   "tokens": [
+    "El",
+    "año",
+    "pasado",
+    "empecé",
+    "a",
+    "estudiar",
+    "español."
+   ],
+   "accept": [
+    [
+     "Empecé",
+     "a",
+     "estudiar",
+     "español",
+     "el",
+     "año",
+     "pasado."
+    ]
+   ],
+   "why": "empezar の yo は z が c に変わり empecé。empezar a ＋ 原形で「〜し始める」。「去年」は前置詞なしの el año pasado。"
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Anoche nosotros ___ en un restaurante.",
+   "ja": "昨夜、私たちはレストランで夕食をとった。",
+   "options": [
+    {
+     "text": "cenasteis",
+     "correct": false,
+     "why": "cenasteis は vosotros の形。nosotros とは合わない。"
+    },
+    {
+     "text": "cenamos",
+     "correct": true,
+     "why": "nosotros の -ar は点過去も cenamos（現在形と同形）。anoche で過去と分かる。"
+    },
+    {
+     "text": "cenaron",
+     "correct": false,
+     "why": "cenaron は ellos・ellas・ustedes の形。nosotros とは合わない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Vosotros ___ mucho ayer.",
+   "ja": "君たちは昨日たくさん食べたね。",
+   "options": [
+    {
+     "text": "coméis",
+     "correct": false,
+     "why": "coméis は現在形。ayer と合わない。"
+    },
+    {
+     "text": "comisteis",
+     "correct": true,
+     "why": "vosotros の点過去は -isteis。🌎 中南米では ustedes comieron。"
+    },
+    {
+     "text": "comieron",
+     "correct": false,
+     "why": "comieron は ellos・ustedes の形。スペインの「君たち」には comisteis を使う。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "ayer",
+   "es": "ayer",
+   "art": null,
+   "ja": "昨日"
+  },
+  {
+   "id": "anteayer",
+   "es": "anteayer",
+   "art": null,
+   "ja": "一昨日"
+  },
+  {
+   "id": "anoche",
+   "es": "anoche",
+   "art": null,
+   "ja": "昨夜"
+  },
+  {
+   "id": "semana_pasada",
+   "es": "la semana pasada",
+   "art": null,
+   "ja": "先週"
+  },
+  {
+   "id": "mes_pasado",
+   "es": "el mes pasado",
+   "art": null,
+   "ja": "先月"
+  },
+  {
+   "id": "ano_pasado",
+   "es": "el año pasado",
+   "art": null,
+   "ja": "去年"
+  },
+  {
+   "id": "celebrar",
+   "es": "celebrar",
+   "art": null,
+   "ja": "祝う・開く"
+  },
+  {
+   "id": "terminar",
+   "es": "terminar",
+   "art": null,
+   "ja": "終える"
+  },
+  {
+   "id": "tocar",
+   "es": "tocar",
+   "art": null,
+   "ja": "触れる・弾く"
+  },
+  {
+   "id": "romper",
+   "es": "romper",
+   "art": null,
+   "ja": "壊す・破る"
+  },
+  {
+   "id": "ganar",
+   "es": "ganar",
+   "art": null,
+   "ja": "勝つ・稼ぐ"
+  },
+  {
+   "id": "enviar",
+   "es": "enviar",
+   "art": null,
+   "ja": "送る"
+  },
+  {
+   "id": "cancelar",
+   "es": "cancelar",
+   "art": null,
+   "ja": "取り消す"
+  },
+  {
+   "id": "olvidar",
+   "es": "olvidar",
+   "art": null,
+   "ja": "忘れる"
+  },
+  {
+   "id": "comenzar",
+   "es": "comenzar",
+   "art": null,
+   "ja": "始まる・始める"
+  },
+  {
+   "id": "cartera",
+   "es": "cartera",
+   "art": "la",
+   "ja": "財布"
+  },
+  {
+   "id": "partido",
+   "es": "partido",
+   "art": "el",
+   "ja": "試合"
+  },
+  {
+   "id": "concierto",
+   "es": "concierto",
+   "art": "el",
+   "ja": "コンサート"
+  },
+  {
+   "id": "examen",
+   "es": "examen",
+   "art": "el",
+   "ja": "試験"
+  }
+ ],
+ "phrases": [
+  {
+   "es": "¿Qué hiciste ayer?",
+   "ja": "昨日は何をしたの？",
+   "scene": "昨日の出来事を話す",
+   "latam": null
+  },
+  {
+   "es": "Ayer comí con mis amigos.",
+   "ja": "昨日は友だちと食べた。",
+   "scene": "昨日の出来事を話す",
+   "latam": null
+  },
+  {
+   "es": "Llegué tarde.",
+   "ja": "遅れて着いた。",
+   "scene": "昨日の出来事を話す",
+   "latam": null
+  },
+  {
+   "es": "La semana pasada viajé a Sevilla.",
+   "ja": "先週セビリアに旅行した。",
+   "scene": "昨日の出来事を話す",
+   "latam": null
+  },
+  {
+   "es": "Terminé el trabajo.",
+   "ja": "仕事を終えた。",
+   "scene": "昨日の出来事を話す",
+   "latam": null
+  },
+  {
+   "es": "Olvidé la llave.",
+   "ja": "鍵を忘れた。",
+   "scene": "昨日の出来事を話す",
+   "latam": null
+  }
+ ],
+ "speak": [
+  {
+   "es": "Ayer hablé con mi madre.",
+   "ja": "昨日、母と話した。",
+   "tip": "hablé の最後の é を強く、はっきり読む。記号のない hablo とは強く読む場所が違う。"
+  },
+  {
+   "es": "Anoche cené en casa.",
+   "ja": "昨夜は家で夕食をとった。"
+  },
+  {
+   "es": "Llegué tarde ayer.",
+   "ja": "昨日は遅く着いた。",
+   "tip": "llegué の gu は g の音。u は読まない。"
+  },
+  {
+   "es": "El año pasado viví en Madrid.",
+   "ja": "去年はマドリードに住んでいた。"
+  }
+ ]
+}

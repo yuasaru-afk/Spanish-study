@@ -1,0 +1,576 @@
+{
+ "id": "u30",
+ "no": 30,
+ "title": "病院・体調",
+ "summary": "「頭が痛い」「熱がある」を言って、薬局や病院で困らないようにしよう。痛みは gustar と同じ形の me duele / me duelen。",
+ "points": {
+  "lines": [
+   "痛い：me duele ＋ 単数／ me duelen ＋ 複数",
+   "症状：tengo fiebre / tos / gripe",
+   "痛い場所には mi ではなく el / la / los / las"
+  ],
+  "examples": [
+   {
+    "es": "Me duele la cabeza.",
+    "ja": "頭が痛い。"
+   },
+   {
+    "es": "Me duelen las muelas.",
+    "ja": "奥歯が痛い。"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "Me duele ＋ 単数、Me duelen ＋ 複数",
+   "body": "「〜が痛い」は動詞 **doler** で言います。形は u9 の gustar とそっくりで、**痛い部分が主語**、痛む人は me / te / le…（〜に）です。\n・Me duele la cabeza.＝頭が私に痛い＝頭が痛い\n痛い部分が**単数なら duele、複数なら duelen**。動詞は部分の数に合わせます。\n・Me duelen los pies.（足が痛い、両足）\nそのほかの人は te（君）、le（彼・彼女・あなた）、nos、os、les を使います（A él le duele…）。\ndoler は **o → ue** に語幹が変わる動詞です（u18）。duele, duelen は 3 人称だけを使えば足ります。",
+   "examples": [
+    {
+     "es": "Me duele la cabeza.",
+     "ja": "頭が痛い。"
+    },
+    {
+     "es": "Me duelen los pies.",
+     "ja": "足が痛い。",
+     "note": "複数なので duelen"
+    },
+    {
+     "es": "¿Te duele el estómago?",
+     "ja": "おなかが痛い？"
+    }
+   ]
+  },
+  {
+   "title": "体の部分には mi ではなく el / la / los / las",
+   "body": "痛い場所を言うとき、**「私の頭」の mi は使いません**。持ち主は me で分かるので、定冠詞（el / la / los / las）を使います（u16 の「手を洗う」と同じ考え方です）。\n・Me duele **la** cabeza.（×Me duele mi cabeza.）\n・Me duelen **los** ojos.（目が痛い）\n人が変わっても同じで、A ella le duele **la** garganta.（彼女は喉が痛い）となります。\n「だれが」を強調したいときだけ、**a mí / a ti / a él** を足します（A mí me duele la cabeza.）。",
+   "examples": [
+    {
+     "es": "Me duelen los ojos.",
+     "ja": "目が痛い。"
+    },
+    {
+     "es": "A ella le duele la garganta.",
+     "ja": "彼女は喉が痛い。"
+    },
+    {
+     "es": "A mí me duele la espalda.",
+     "ja": "私は背中が痛い。",
+     "note": "a mí で「私は」を強調"
+    }
+   ]
+  },
+  {
+   "title": "体の部位の言葉",
+   "body": "まず覚える部位です。男女に気をつけます。\n・**la** cabeza（頭）、**el** estómago（胃、おなか）、**la** garganta（喉）、**la** muela（奥歯）\n・**la** espalda（背中）、**la** pierna（脚）、**el** pie（足）、**el** ojo（目）\n歯一般は **diente**、奥歯は **muela** です。「歯が痛い」は Me duele **un diente** / **una muela**（歯医者でよく使う）です。\nestómago は、おなか全体を指すことも、胃を指すこともあります。",
+   "examples": [
+    {
+     "es": "Me duele una muela.",
+     "ja": "奥歯が痛い。"
+    },
+    {
+     "es": "Me duele la garganta.",
+     "ja": "喉が痛い。"
+    },
+    {
+     "es": "Me duele la espalda.",
+     "ja": "背中が痛い。"
+    }
+   ]
+  },
+  {
+   "title": "tener ＋ 症状 と dolor de ＋ 部位",
+   "body": "熱・咳・風邪などは **tener**（持っている）で言います。冠詞は付けません。\n・Tengo **fiebre**.（熱がある）／Tengo **tos**.（咳が出る）／Tengo **gripe**.（インフルエンザ・ひどい風邪）\n痛みは **tener dolor de ＋ 部位** という言い方もできます。\n・Tengo dolor **de** cabeza.＝Me duele la cabeza.\n・Tengo dolor **de** estómago／**de** garganta.\n**風邪**は resfriado を使い、Estoy resfriado.（風邪をひいている）／Tengo un resfriado. と言います。\n🌎 中南米の一部（アルゼンチンなど）では、**resfrío** と言う地域があります。resfriado は広く通じます。\ngripe は、スペインでは「インフルエンザまたはひどい風邪」で、ふつうの風邪は resfriado です。",
+   "examples": [
+    {
+     "es": "Tengo fiebre y tos.",
+     "ja": "熱があって咳が出る。"
+    },
+    {
+     "es": "Tengo dolor de cabeza.",
+     "ja": "頭が痛い。",
+     "note": "Me duele la cabeza. と同じ"
+    },
+    {
+     "es": "Estoy resfriado.",
+     "ja": "風邪をひいている。",
+     "note": "🌎 中南米の一部では Tengo un resfrío."
+    }
+   ]
+  },
+  {
+   "title": "病院・薬局で伝える言い方",
+   "body": "体調を伝える定番です。\n・**Me siento mal.**（気分が悪い）／**Estoy mareado.**（めまいがする）\n・**Necesito un médico.**（医者が必要です）／**Quiero pedir cita.**（予約したい）\n・**¿Dónde hay una farmacia?**（薬局はどこ？）\n・**¿Tiene algo para la tos?**（咳に効く薬はありますか）\n・**Tengo alergia a …**（〜にアレルギーがある）\n急ぎのときは **urgencias**（救急）に行きます。保険は旅行前に確認しておくと安心です。\n「いつから？」は **¿Desde cuándo?**、答えは **Desde ayer.**（昨日から）です。",
+   "examples": [
+    {
+     "es": "Necesito un médico.",
+     "ja": "医者が必要です。"
+    },
+    {
+     "es": "¿Tiene algo para la tos?",
+     "ja": "咳に効く薬はありますか。"
+    },
+    {
+     "es": "Me duele desde ayer.",
+     "ja": "昨日から痛い。"
+    }
+   ]
+  },
+  {
+   "title": "薬の飲み方を聞く",
+   "body": "薬局や病院では、飲み方を聞いてメモします。\n・**¿Cuántas veces al día lo tomo?**（1日に何回飲みますか）\n・**¿Cada cuántas horas lo tomo?**（何時間おきに飲みますか）\n・**¿Lo tomo antes o después de comer?**（食前ですか食後ですか）\n答えの定番は次のとおりです。\n・**Una pastilla cada ocho horas.**（8時間おきに1錠）／**Tres veces al día.**（1日3回）\n・**Después de comer.**（食後）／**Antes de dormir.**（寝る前）\n**cada ＋ 時間**は「〜おきに」。lo は薬（el medicamento など男性名詞）を受ける代名詞で、u27 で習ったとおり、動詞の前に置きます。",
+   "examples": [
+    {
+     "es": "¿Cada cuántas horas lo tomo?",
+     "ja": "何時間おきに飲みますか。"
+    },
+    {
+     "es": "Una pastilla cada ocho horas.",
+     "ja": "8時間おきに1錠です。"
+    },
+    {
+     "es": "¿Lo tomo antes o después de comer?",
+     "ja": "食前ですか食後ですか。"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Me ___ la cabeza.",
+   "ja": "頭が痛い。",
+   "options": [
+    {
+     "text": "duelen",
+     "correct": false,
+     "why": "duelen は複数の部分に使う。la cabeza は単数なので duele。"
+    },
+    {
+     "text": "duelo",
+     "correct": false,
+     "why": "duelo は「私が痛む」のような1人称の形。痛む部分が主語なので3人称。"
+    },
+    {
+     "text": "duele",
+     "correct": true,
+     "why": "痛い部分 la cabeza が単数なので duele。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Me ___ los pies.",
+   "ja": "足が痛い。",
+   "options": [
+    {
+     "text": "duelen",
+     "correct": true,
+     "why": "痛い部分 los pies が複数なので duelen。"
+    },
+    {
+     "text": "duele",
+     "correct": false,
+     "why": "duele は単数用。los pies は複数なので duelen。"
+    },
+    {
+     "text": "dolemos",
+     "correct": false,
+     "why": "dolemos は「私たちが痛む」の形。ここでは部分が主語なので3人称。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Me duele ___ garganta.",
+   "ja": "喉が痛い。",
+   "options": [
+    {
+     "text": "la",
+     "correct": true,
+     "why": "garganta（女性）なので la。体の部分には定冠詞。"
+    },
+    {
+     "text": "el",
+     "correct": false,
+     "why": "garganta は女性名詞。男性の el では合わない。"
+    },
+    {
+     "text": "mi",
+     "correct": false,
+     "why": "体の部分に mi は使わない。持ち主は me で分かるので定冠詞を使う。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "おなかが痛い。",
+   "tokens": [
+    "Me",
+    "duele",
+    "el",
+    "estómago."
+   ],
+   "accept": [],
+   "why": "痛い部分 el estómago は単数なので duele。me は「私に」。"
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "A ella ___ duele la espalda.",
+   "ja": "彼女は背中が痛い。",
+   "options": [
+    {
+     "text": "le",
+     "correct": true,
+     "why": "a ella に対応するのは le。le duele。"
+    },
+    {
+     "text": "se",
+     "correct": false,
+     "why": "se は再帰代名詞や le の変身形。ここは「彼女に」の le がふつう。"
+    },
+    {
+     "text": "me",
+     "correct": false,
+     "why": "me は「私に」。a ella の文には使えない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "___ fiebre y tos.",
+   "ja": "熱があって咳が出る。",
+   "options": [
+    {
+     "text": "Soy",
+     "correct": false,
+     "why": "ser は性質や職業を言う動詞。熱があるという症状には使わない。"
+    },
+    {
+     "text": "Tengo",
+     "correct": true,
+     "why": "症状は tener で言う。Tengo fiebre y tos。"
+    },
+    {
+     "text": "Hago",
+     "correct": false,
+     "why": "hacer は「する・作る」。症状を言うときには使わない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Tengo dolor ___ cabeza.",
+   "ja": "頭が痛い。",
+   "options": [
+    {
+     "text": "de",
+     "correct": true,
+     "why": "dolor de ＋ 部位。Tengo dolor de cabeza。"
+    },
+    {
+     "text": "a",
+     "correct": false,
+     "why": "dolor a cabeza とは言わない。痛みの部位には de を使う。"
+    },
+    {
+     "text": "por",
+     "correct": false,
+     "why": "por は「〜のために」。dolor de cabeza という決まった言い方がある。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "1日に何回飲みますか。",
+   "tokens": [
+    "¿Cuántas",
+    "veces",
+    "al",
+    "día",
+    "lo",
+    "tomo?"
+   ],
+   "accept": [
+    [
+     "¿Cuántas",
+     "veces",
+     "lo",
+     "tomo",
+     "al",
+     "día?"
+    ]
+   ],
+   "why": "cuántas veces（何回）＋ al día（1日に）＋ lo tomo（それを飲む）。lo は薬を指す。"
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Una pastilla ___ ocho horas.",
+   "ja": "8時間おきに1錠。",
+   "options": [
+    {
+     "text": "cada",
+     "correct": true,
+     "why": "cada ＋ 時間で「〜おきに」。"
+    },
+    {
+     "text": "todo",
+     "correct": false,
+     "why": "todo は「全部の」。「〜おきに」の意味にならない。"
+    },
+    {
+     "text": "de",
+     "correct": false,
+     "why": "de ocho horas は「8時間の」。「おきに」を表す cada が必要。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "正しい言い方は？",
+   "ja": "風邪をひいている。",
+   "options": [
+    {
+     "text": "Soy resfriado.",
+     "correct": false,
+     "why": "resfriado は一時的な状態。ser ではなく estar を使う。"
+    },
+    {
+     "text": "Estoy resfriado.",
+     "correct": true,
+     "why": "一時的な体調は estar。resfriado＝風邪をひいている。"
+    },
+    {
+     "text": "Hago resfriado.",
+     "correct": false,
+     "why": "hacer は「する・作る」。風邪をひいている状態には使わない。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "doler",
+   "es": "doler",
+   "art": null,
+   "ja": "痛む"
+  },
+  {
+   "id": "dolor",
+   "es": "dolor",
+   "art": "el",
+   "ja": "痛み"
+  },
+  {
+   "id": "cabeza",
+   "es": "cabeza",
+   "art": "la",
+   "ja": "頭"
+  },
+  {
+   "id": "estomago",
+   "es": "estómago",
+   "art": "el",
+   "ja": "胃、おなか"
+  },
+  {
+   "id": "garganta",
+   "es": "garganta",
+   "art": "la",
+   "ja": "喉"
+  },
+  {
+   "id": "muela",
+   "es": "muela",
+   "art": "la",
+   "ja": "奥歯"
+  },
+  {
+   "id": "espalda",
+   "es": "espalda",
+   "art": "la",
+   "ja": "背中"
+  },
+  {
+   "id": "pierna",
+   "es": "pierna",
+   "art": "la",
+   "ja": "脚"
+  },
+  {
+   "id": "fiebre",
+   "es": "fiebre",
+   "art": "la",
+   "ja": "熱"
+  },
+  {
+   "id": "tos",
+   "es": "tos",
+   "art": "la",
+   "ja": "咳"
+  },
+  {
+   "id": "gripe",
+   "es": "gripe",
+   "art": "la",
+   "ja": "インフルエンザ、ひどい風邪"
+  },
+  {
+   "id": "resfriado",
+   "es": "resfriado",
+   "art": "el",
+   "ja": "風邪",
+   "latam": {
+    "es": "resfrío",
+    "art": "el",
+    "note": "中南米の一部（アルゼンチンなど）"
+   }
+  },
+  {
+   "id": "hospital",
+   "es": "hospital",
+   "art": "el",
+   "ja": "病院"
+  },
+  {
+   "id": "medicina",
+   "es": "medicina",
+   "art": "la",
+   "ja": "薬、医学"
+  },
+  {
+   "id": "pastilla",
+   "es": "pastilla",
+   "art": "la",
+   "ja": "錠剤"
+  },
+  {
+   "id": "receta",
+   "es": "receta",
+   "art": "la",
+   "ja": "処方箋、レシピ"
+  },
+  {
+   "id": "urgencias",
+   "es": "urgencias",
+   "art": null,
+   "ja": "救急"
+  },
+  {
+   "id": "cita",
+   "es": "cita",
+   "art": "la",
+   "ja": "予約、約束",
+   "latam": {
+    "es": "turno",
+    "art": "el",
+    "note": "アルゼンチンなどでは turno"
+   }
+  },
+  {
+   "id": "mareado",
+   "es": "mareado",
+   "art": null,
+   "ja": "めまいがする、酔った"
+  },
+  {
+   "id": "alergia",
+   "es": "alergia",
+   "art": "la",
+   "ja": "アレルギー"
+  }
+ ],
+ "phrases": [
+  {
+   "es": "Me duele la cabeza.",
+   "ja": "頭が痛い。",
+   "scene": "体調を伝える",
+   "latam": null
+  },
+  {
+   "es": "Me duele el estómago.",
+   "ja": "おなかが痛い。",
+   "scene": "体調を伝える",
+   "latam": null
+  },
+  {
+   "es": "Tengo fiebre.",
+   "ja": "熱があります。",
+   "scene": "体調を伝える",
+   "latam": null
+  },
+  {
+   "es": "Estoy resfriado.",
+   "ja": "風邪をひいています。",
+   "scene": "体調を伝える",
+   "latam": {
+    "es": "Tengo un resfrío."
+   }
+  },
+  {
+   "es": "Necesito un médico.",
+   "ja": "医者が必要です。",
+   "scene": "病院",
+   "latam": null
+  },
+  {
+   "es": "¿Dónde hay una farmacia?",
+   "ja": "薬局はどこですか。",
+   "scene": "薬局",
+   "latam": null
+  },
+  {
+   "es": "¿Tiene algo para la tos?",
+   "ja": "咳に効く薬はありますか。",
+   "scene": "薬局",
+   "latam": null
+  },
+  {
+   "es": "¿Cada cuántas horas lo tomo?",
+   "ja": "何時間おきに飲みますか。",
+   "scene": "薬の飲み方",
+   "latam": null
+  },
+  {
+   "es": "¿Lo tomo antes o después de comer?",
+   "ja": "食前ですか食後ですか。",
+   "scene": "薬の飲み方",
+   "latam": null
+  }
+ ],
+ "speak": [
+  {
+   "es": "Me duele la cabeza.",
+   "ja": "頭が痛い。",
+   "tip": "duele の ue は「うえ」とひと続きに。"
+  },
+  {
+   "es": "Tengo fiebre.",
+   "ja": "熱があります。",
+   "tip": "fiebre の ie は「いえ」とひと続きに。"
+  },
+  {
+   "es": "Me duelen las muelas.",
+   "ja": "奥歯が痛い。",
+   "tip": "duelen の最後の n をはっきり。"
+  },
+  {
+   "es": "Necesito un médico.",
+   "ja": "医者が必要です。",
+   "tip": "médico は mé に強いアクセント。"
+  },
+  {
+   "es": "¿Cada cuántas horas lo tomo?",
+   "ja": "何時間おきに飲みますか。",
+   "tip": "h は読まない。horas は「おら」に近く始める。"
+  }
+ ]
+}

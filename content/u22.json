@@ -1,0 +1,527 @@
+{
+ "id": "u22",
+ "no": 22,
+ "title": "点過去② 不規則動詞",
+ "summary": "ser/ir（fui）、tener（tuve）、estar、hacer、poder、venir、decir。語幹が変わるが、語尾は共通でアクセント記号は付かない。",
+ "points": {
+  "lines": [
+   "ser と ir は点過去が同じ形：fui, fue…",
+   "語幹が変わる：tuv- estuv- hic- pud- vin- dij-",
+   "語尾は -e -iste -o -imos -isteis -ieron"
+  ],
+  "examples": [
+   {
+    "es": "Ayer fui al médico.",
+    "ja": "昨日、医者に行った。"
+   },
+   {
+    "es": "Tuve un problema.",
+    "ja": "問題があった。"
+   }
+  ]
+ },
+ "explain": [
+  {
+   "title": "不規則でも語尾は共通",
+   "body": "u21 の規則動詞とは違い、不規則動詞は**語幹（動詞の前半分）が変わります**。ただし語尾は全員共通で、-ar / -er / -ir の区別もありません。\n・yo **-e**\n・tú **-iste**\n・él・ella・usted **-o**\n・nosotros **-imos**\n・vosotros **-isteis**\n・ellos・ellas・ustedes **-ieron**\n語幹をひとつ覚えたら、この語尾を付けるだけです。\n🌎 -isteis はスペインの「君たち」。中南米では ustedes ＋ -ieron を使います。",
+   "examples": [
+    {
+     "es": "Tuviste suerte.",
+     "ja": "君は運がよかった。"
+    },
+    {
+     "es": "Vinimos en tren.",
+     "ja": "私たちは電車で来た。"
+    }
+   ]
+  },
+  {
+   "title": "ser と ir は同じ形：fui, fuiste, fue…",
+   "body": "ser（〜だった）と ir（行った）は、点過去が**まったく同じ形**です。\n・yo **fui**\n・tú **fuiste**\n・él・ella・usted **fue**\n・nosotros **fuimos**\n・vosotros **fuisteis**\n・ellos・ellas・ustedes **fueron**\n見分け方は文の形です。**a ＋ 場所**が続けば ir（行った）、**名詞や形容詞**が続けば ser（〜だった）。",
+   "examples": [
+    {
+     "es": "Fui a Kioto.",
+     "ja": "京都に行った。",
+     "note": "a ＋ 場所＝ir"
+    },
+    {
+     "es": "Fue un día muy largo.",
+     "ja": "とても長い一日だった。",
+     "note": "名詞が続く＝ser"
+    },
+    {
+     "es": "Mi abuelo fue profesor.",
+     "ja": "祖父は教師だった。",
+     "note": "職業＝ser"
+    }
+   ]
+  },
+  {
+   "title": "tener と estar：tuv- / estuv-",
+   "body": "どちらも語幹が変わり、あとは共通の語尾です。\n・tener → **tuv-**：tuve, tuviste, tuvo, tuvimos, tuvisteis, tuvieron\n・estar → **estuv-**：estuve, estuviste, estuvo, estuvimos, estuvisteis, estuvieron\n現在形で estoy と変わったように、estar は不規則の代表です。estuve は「（その場所に）いた」と、終わった滞在を言う形になります。",
+   "examples": [
+    {
+     "es": "Tuve fiebre ayer.",
+     "ja": "昨日は熱があった。"
+    },
+    {
+     "es": "Estuve en Madrid una semana.",
+     "ja": "マドリードに1週間いた。"
+    },
+    {
+     "es": "Estuvimos en casa.",
+     "ja": "私たちは家にいた。"
+    }
+   ]
+  },
+  {
+   "title": "hacer / poder / venir / decir",
+   "body": "・hacer → **hic-**：hice, hiciste, **hizo**, hicimos, hicisteis, hicieron\n　（él は hico ではなく hizo。c を z にして音を保つため）\n・poder → **pud-**：pude, pudiste, pudo, pudimos, pudisteis, pudieron\n・venir → **vin-**：vine, viniste, vino, vinimos, vinisteis, vinieron\n・decir → **dij-**：dije, dijiste, dijo, dijimos, dijisteis, **dijeron**\n　（語幹が j で終わるので -ieron ではなく **-eron**）\nなお、点過去の pude は「その場面で実際にできた（やり遂げた）」、no pude は「やろうとしたができなかった」と、結果を表します。",
+   "examples": [
+    {
+     "es": "¿Qué hiciste el sábado?",
+     "ja": "土曜日は何をしたの？"
+    },
+    {
+     "es": "No pude venir.",
+     "ja": "来られなかった。"
+    },
+    {
+     "es": "Ella dijo la verdad.",
+     "ja": "彼女は本当のことを言った。"
+    }
+   ]
+  },
+  {
+   "title": "なぜアクセント記号が付かないのか",
+   "body": "u21 の hablé / habló には記号がありました。それは**最後の音節を強く読む**から、つまり母音で終わる語の通常の読み方（後ろから2番目を強く）とは違うからです。\n不規則動詞の tu**ve**、tu**vo**、di**je**、hi**ce** などは、**もともと語幹を強く読む**（TU-ve, DI-je）ので、通常の読み方どおり。だから記号が要りません。\nfui, fue も1音節の語なので記号は不要です。\nつまり、規則動詞は記号あり（hablé, comí）、不規則動詞の yo と él は記号なし（tuve, tuvo, fui, fue）と覚えると楽です。",
+   "examples": [
+    {
+     "es": "Hablé con él.",
+     "ja": "彼と話した。",
+     "note": "規則動詞：記号あり"
+    },
+    {
+     "es": "Tuve un examen.",
+     "ja": "試験があった。",
+     "note": "不規則動詞：記号なし"
+    }
+   ]
+  },
+  {
+   "title": "実際の場面で使う",
+   "body": "過去の出来事を一つずつ並べるときに使います。\n・Ayer **fui** al banco y **hice** la compra.（昨日は銀行に行って、買い物をした）\n・**Tuve** un problema, por eso no **pude** ir.（問題があって行けなかった）\n・El jefe **dijo** que sí.（上司は「いい」と言った）\n言い訳や報告で、「何をしたか／できなかったか」を言うのにとても便利です。",
+   "examples": [
+    {
+     "es": "Fui al banco y hice la compra.",
+     "ja": "銀行に行って買い物をした。"
+    },
+    {
+     "es": "Vine con mi hermano.",
+     "ja": "兄と一緒に来た。"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Yo ___ a Madrid el año pasado.",
+   "ja": "私は去年マドリードに行った。",
+   "options": [
+    {
+     "text": "fui",
+     "correct": true,
+     "why": "a ＋ 場所が続くので ir の点過去。yo は fui。"
+    },
+    {
+     "text": "fue",
+     "correct": false,
+     "why": "fue は él・ella の形。主語が yo なので合わない。"
+    },
+    {
+     "text": "voy",
+     "correct": false,
+     "why": "voy は ir の現在形。el año pasado（去年）と合わない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Mi abuelo ___ médico.",
+   "ja": "祖父は医者だった。",
+   "options": [
+    {
+     "text": "fui",
+     "correct": false,
+     "why": "fui は yo の形。主語が mi abuelo なので合わない。"
+    },
+    {
+     "text": "es",
+     "correct": false,
+     "why": "es は現在形。「祖父は医者である」になり、過去の意味が出ない。"
+    },
+    {
+     "text": "fue",
+     "correct": true,
+     "why": "名詞（médico）が続くので ser の点過去。él は fue。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？（主語は私）",
+   "es": "Ayer ___ mucho trabajo.",
+   "ja": "昨日は仕事がたくさんあった。",
+   "options": [
+    {
+     "text": "tengo",
+     "correct": false,
+     "why": "tengo は現在形。ayer（昨日）と合わない。"
+    },
+    {
+     "text": "tuvo",
+     "correct": false,
+     "why": "tuvo は él の形。主語が yo なので合わない。"
+    },
+    {
+     "text": "tuve",
+     "correct": true,
+     "why": "tener の yo の点過去は tuve（語幹 tuv-）。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Anoche nosotros ___ en casa.",
+   "ja": "昨夜、私たちは家にいた。",
+   "options": [
+    {
+     "text": "estuvimos",
+     "correct": true,
+     "why": "estar の nosotros の点過去は estuvimos。"
+    },
+    {
+     "text": "estuvieron",
+     "correct": false,
+     "why": "estuvieron は ellos の形。nosotros には合わない。"
+    },
+    {
+     "text": "estamos",
+     "correct": false,
+     "why": "estamos は現在形。anoche（昨夜）の出来事には使えない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "¿Qué ___ tú ayer?",
+   "ja": "昨日は何をしたの？",
+   "options": [
+    {
+     "text": "hiciste",
+     "correct": true,
+     "why": "hacer の tú の点過去は hiciste。"
+    },
+    {
+     "text": "hizo",
+     "correct": false,
+     "why": "hizo は él・ella の形。tú には合わない。"
+    },
+    {
+     "text": "haces",
+     "correct": false,
+     "why": "haces は現在形。「昨日」には使えない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ella ___ la tarea.",
+   "ja": "彼女は宿題をした。",
+   "options": [
+    {
+     "text": "hico",
+     "correct": false,
+     "why": "hico と書くと c が k の音になり、hacer の c の音と変わってしまう。そこで z にして hizo と書く。"
+    },
+    {
+     "text": "hizo",
+     "correct": true,
+     "why": "hacer の él・ella は hizo。c が z に変わる。"
+    },
+    {
+     "text": "hice",
+     "correct": false,
+     "why": "hice は yo の形。主語が ella なので合わない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "No ___ venir ayer.（私）",
+   "ja": "昨日は来られなかった。",
+   "options": [
+    {
+     "text": "pude",
+     "correct": true,
+     "why": "poder の yo の点過去は pude。実際にできなかったという結果を表す。"
+    },
+    {
+     "text": "puedo",
+     "correct": false,
+     "why": "puedo は現在形。「来られない」になり、昨日の出来事ではなくなる。"
+    },
+    {
+     "text": "pudo",
+     "correct": false,
+     "why": "pudo は él の形。主語が yo なので合わない。"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "空欄に入るのは？",
+   "es": "Ellos ___ la verdad.",
+   "ja": "彼らは本当のことを言った。",
+   "options": [
+    {
+     "text": "dijeron",
+     "correct": true,
+     "why": "decir は語幹が j で終わるので -ieron ではなく -eron。dijeron。"
+    },
+    {
+     "text": "dijieron",
+     "correct": false,
+     "why": "dij- のあとは -ieron ではなく -eron。j のあとに i は付けない。"
+    },
+    {
+     "text": "dicen",
+     "correct": false,
+     "why": "dicen は現在形。過去の出来事にならない。"
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "並べ替えてください",
+   "ja": "昨日、電車で来た。",
+   "tokens": [
+    "Ayer",
+    "vine",
+    "en",
+    "tren."
+   ],
+   "accept": [
+    [
+     "Vine",
+     "en",
+     "tren",
+     "ayer."
+    ],
+    [
+     "Vine",
+     "ayer",
+     "en",
+     "tren."
+    ]
+   ],
+   "why": "venir の yo の点過去は vine（記号なし）。"
+  },
+  {
+   "type": "choice",
+   "prompt": "正しい文は？",
+   "ja": "彼は昨日来た。",
+   "options": [
+    {
+     "text": "Ayer venió.",
+     "correct": false,
+     "why": "語幹が vin- に変わるので venió という形はない。"
+    },
+    {
+     "text": "Ayer vino.",
+     "correct": true,
+     "why": "venir の él は vino。語尾 -o は記号なしで、強く読むのは語幹の vi。"
+    },
+    {
+     "text": "Ayer vinó.",
+     "correct": false,
+     "why": "不規則動詞の él には記号が付かない。vino を VI-no と読むのが普通の強さ。"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "venir",
+   "es": "venir",
+   "art": null,
+   "ja": "来る"
+  },
+  {
+   "id": "reunion",
+   "es": "reunión",
+   "art": "la",
+   "ja": "会議・集まり"
+  },
+  {
+   "id": "jefe",
+   "es": "jefe",
+   "art": "el",
+   "ja": "上司"
+  },
+  {
+   "id": "boda",
+   "es": "boda",
+   "art": "la",
+   "ja": "結婚式"
+  },
+  {
+   "id": "vacaciones",
+   "es": "vacaciones",
+   "art": null,
+   "ja": "休暇（複数形で使う）"
+  },
+  {
+   "id": "ayuda",
+   "es": "ayuda",
+   "art": "la",
+   "ja": "助け"
+  },
+  {
+   "id": "secreto",
+   "es": "secreto",
+   "art": "el",
+   "ja": "秘密"
+  },
+  {
+   "id": "mentira",
+   "es": "mentira",
+   "art": "la",
+   "ja": "うそ"
+  },
+  {
+   "id": "razon",
+   "es": "razón",
+   "art": "la",
+   "ja": "理由・道理"
+  },
+  {
+   "id": "por_fin",
+   "es": "por fin",
+   "art": null,
+   "ja": "ついに"
+  },
+  {
+   "id": "entonces",
+   "es": "entonces",
+   "art": null,
+   "ja": "そのとき・それで"
+  },
+  {
+   "id": "pronto",
+   "es": "pronto",
+   "art": null,
+   "ja": "すぐ・早く"
+  },
+  {
+   "id": "aun",
+   "es": "aún",
+   "art": null,
+   "ja": "まだ"
+  },
+  {
+   "id": "noticia",
+   "es": "noticia",
+   "art": "la",
+   "ja": "ニュース"
+  },
+  {
+   "id": "sorpresa",
+   "es": "sorpresa",
+   "art": "la",
+   "ja": "驚き"
+  },
+  {
+   "id": "premio",
+   "es": "premio",
+   "art": "el",
+   "ja": "賞・賞品"
+  },
+  {
+   "id": "invitado",
+   "es": "invitado",
+   "art": "el",
+   "ja": "招待客"
+  }
+ ],
+ "phrases": [
+  {
+   "es": "Fui al médico.",
+   "ja": "医者に行った。",
+   "scene": "過去の出来事の報告",
+   "latam": null
+  },
+  {
+   "es": "Estuve enfermo.",
+   "ja": "病気だった。",
+   "scene": "過去の出来事の報告",
+   "latam": null
+  },
+  {
+   "es": "No pude venir.",
+   "ja": "来られなかった。",
+   "scene": "過去の出来事の報告",
+   "latam": null
+  },
+  {
+   "es": "Tuve un problema.",
+   "ja": "問題があった。",
+   "scene": "過去の出来事の報告",
+   "latam": null
+  },
+  {
+   "es": "¿Qué hiciste ayer?",
+   "ja": "昨日は何をしたの？",
+   "scene": "過去の出来事の報告",
+   "latam": null
+  },
+  {
+   "es": "Vine en tren.",
+   "ja": "電車で来た。",
+   "scene": "過去の出来事の報告",
+   "latam": null
+  },
+  {
+   "es": "Dijo que sí.",
+   "ja": "「はい」と言った。",
+   "scene": "過去の出来事の報告",
+   "latam": null
+  }
+ ],
+ "speak": [
+  {
+   "es": "Ayer fui al médico.",
+   "ja": "昨日、医者に行った。",
+   "tip": "médico の é にアクセント。fui は1音節で、u と i を続けて一息に読む。"
+  },
+  {
+   "es": "Tuve un problema.",
+   "ja": "問題があった。"
+  },
+  {
+   "es": "No pude venir.",
+   "ja": "来られなかった。"
+  },
+  {
+   "es": "Estuve en Madrid una semana.",
+   "ja": "マドリードに1週間いた。"
+  }
+ ]
+}
