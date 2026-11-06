@@ -5,7 +5,7 @@
  "summary": "「頭が痛い」「熱がある」を言って、薬局や病院で困らないようにしよう。痛みは gustar と同じ形の me duele / me duelen。",
  "points": {
   "lines": [
-   "痛い：me duele ＋ 単数／ me duelen ＋ 複数",
+   "痛い：me duele + 単数 / me duelen + 複数",
    "症状：tengo fiebre / tos / gripe",
    "痛い場所には mi ではなく el / la / los / las"
   ],
@@ -22,8 +22,8 @@
  },
  "explain": [
   {
-   "title": "Me duele ＋ 単数、Me duelen ＋ 複数",
-   "body": "「〜が痛い」は動詞 **doler** で言います。形は u9 の gustar とそっくりで、**痛い部分が主語**、痛む人は me / te / le…（〜に）です。\n・Me duele la cabeza.＝頭が私に痛い＝頭が痛い\n痛い部分が**単数なら duele、複数なら duelen**。動詞は部分の数に合わせます。\n・Me duelen los pies.（足が痛い、両足）\nそのほかの人は te（君）、le（彼・彼女・あなた）、nos、os、les を使います（A él le duele…）。\ndoler は **o → ue** に語幹が変わる動詞です（u18）。duele, duelen は 3 人称だけを使えば足ります。",
+   "title": "Me duele + 単数、Me duelen + 複数",
+   "body": "「〜が痛い」は動詞 **doler** で言います。形は u9 の gustar とそっくりで、**痛い部分が主語**、痛む人は me / te / le…（〜に）です。\n・Me duele la cabeza. = 頭が私に痛い = 頭が痛い\n痛い部分が**単数なら duele、複数なら duelen**。動詞は部分の数に合わせます。\n・Me duelen los pies.（足が痛い、両足）\nそのほかの人は te（君）、le（彼・彼女・あなた）、nos、os、les を使います（A él le duele…）。\ndoler は **o → ue** に語幹が変わる動詞です（u18）。duele, duelen は 3 人称だけを使えば足ります。",
    "examples": [
     {
      "es": "Me duele la cabeza.",
@@ -78,8 +78,8 @@
    ]
   },
   {
-   "title": "tener ＋ 症状 と dolor de ＋ 部位",
-   "body": "熱・咳・風邪などは **tener**（持っている）で言います。冠詞は付けません。\n・Tengo **fiebre**.（熱がある）／Tengo **tos**.（咳が出る）／Tengo **gripe**.（インフルエンザ・ひどい風邪）\n痛みは **tener dolor de ＋ 部位** という言い方もできます。\n・Tengo dolor **de** cabeza.＝Me duele la cabeza.\n・Tengo dolor **de** estómago／**de** garganta.\n**風邪**は resfriado を使い、Estoy resfriado.（風邪をひいている）／Tengo un resfriado. と言います。\n🌎 中南米の一部（アルゼンチンなど）では、**resfrío** と言う地域があります。resfriado は広く通じます。\ngripe は、スペインでは「インフルエンザまたはひどい風邪」で、ふつうの風邪は resfriado です。",
+   "title": "tener + 症状 と dolor de + 部位",
+   "body": "熱・咳・風邪などは **tener**（持っている）で言います。冠詞は付けません。\n・Tengo **fiebre**.（熱がある） / Tengo **tos**.（咳が出る） / Tengo **gripe**.（インフルエンザ・ひどい風邪）\n痛みは **tener dolor de + 部位** という言い方もできます。\n・Tengo dolor **de** cabeza. = Me duele la cabeza.\n・Tengo dolor **de** estómago / **de** garganta.\n**風邪**は resfriado を使い、Estoy resfriado.（風邪をひいている） / Tengo un resfriado. と言います。\n🌎 中南米の一部（アルゼンチンなど）では、**resfrío** と言う地域があります。resfriado は広く通じます。\ngripe は、スペインでは「インフルエンザまたはひどい風邪」で、ふつうの風邪は resfriado です。",
    "examples": [
     {
      "es": "Tengo fiebre y tos.",
@@ -99,7 +99,7 @@
   },
   {
    "title": "病院・薬局で伝える言い方",
-   "body": "体調を伝える定番です。\n・**Me siento mal.**（気分が悪い）／**Estoy mareado.**（めまいがする）\n・**Necesito un médico.**（医者が必要です）／**Quiero pedir cita.**（予約したい）\n・**¿Dónde hay una farmacia?**（薬局はどこ？）\n・**¿Tiene algo para la tos?**（咳に効く薬はありますか）\n・**Tengo alergia a …**（〜にアレルギーがある）\n急ぎのときは **urgencias**（救急）に行きます。保険は旅行前に確認しておくと安心です。\n「いつから？」は **¿Desde cuándo?**、答えは **Desde ayer.**（昨日から）です。",
+   "body": "体調を伝える定番です。\n・**Me siento mal.**（気分が悪い） / **Estoy mareado.**（めまいがする）\n・**Necesito un médico.**（医者が必要です） / **Quiero pedir cita.**（予約したい）\n・**¿Dónde hay una farmacia?**（薬局はどこ？）\n・**¿Tiene algo para la tos?**（咳に効く薬はありますか）\n・**Tengo alergia a …**（〜にアレルギーがある）\n急ぎのときは **urgencias**（救急）に行きます。保険は旅行前に確認しておくと安心です。\n「いつから？」は **¿Desde cuándo?**、答えは **Desde ayer.**（昨日から）です。",
    "examples": [
     {
      "es": "Necesito un médico.",
@@ -117,7 +117,7 @@
   },
   {
    "title": "薬の飲み方を聞く",
-   "body": "薬局や病院では、飲み方を聞いてメモします。\n・**¿Cuántas veces al día lo tomo?**（1日に何回飲みますか）\n・**¿Cada cuántas horas lo tomo?**（何時間おきに飲みますか）\n・**¿Lo tomo antes o después de comer?**（食前ですか食後ですか）\n答えの定番は次のとおりです。\n・**Una pastilla cada ocho horas.**（8時間おきに1錠）／**Tres veces al día.**（1日3回）\n・**Después de comer.**（食後）／**Antes de dormir.**（寝る前）\n**cada ＋ 時間**は「〜おきに」。lo は薬（el medicamento など男性名詞）を受ける代名詞で、u27 で習ったとおり、動詞の前に置きます。",
+   "body": "薬局や病院では、飲み方を聞いてメモします。\n・**¿Cuántas veces al día lo tomo?**（1日に何回飲みますか）\n・**¿Cada cuántas horas lo tomo?**（何時間おきに飲みますか）\n・**¿Lo tomo antes o después de comer?**（食前ですか食後ですか）\n答えの定番は次のとおりです。\n・**Una pastilla cada ocho horas.**（8時間おきに1錠） / **Tres veces al día.**（1日3回）\n・**Después de comer.**（食後） / **Antes de dormir.**（寝る前）\n**cada + 時間**は「〜おきに」。lo は薬（el medicamento など男性名詞）を受ける代名詞で、u27 で習ったとおり、動詞の前に置きます。",
    "examples": [
     {
      "es": "¿Cada cuántas horas lo tomo?",
@@ -272,7 +272,7 @@
     {
      "text": "de",
      "correct": true,
-     "why": "dolor de ＋ 部位。Tengo dolor de cabeza。"
+     "why": "dolor de + 部位。Tengo dolor de cabeza。"
     },
     {
      "text": "a",
@@ -308,7 +308,7 @@
      "día?"
     ]
    ],
-   "why": "cuántas veces（何回）＋ al día（1日に）＋ lo tomo（それを飲む）。lo は薬を指す。"
+   "why": "cuántas veces（何回） + al día（1日に） + lo tomo（それを飲む）。lo は薬を指す。"
   },
   {
    "type": "choice",
@@ -319,7 +319,7 @@
     {
      "text": "cada",
      "correct": true,
-     "why": "cada ＋ 時間で「〜おきに」。"
+     "why": "cada + 時間で「〜おきに」。"
     },
     {
      "text": "todo",
@@ -346,7 +346,7 @@
     {
      "text": "Estoy resfriado.",
      "correct": true,
-     "why": "一時的な体調は estar。resfriado＝風邪をひいている。"
+     "why": "一時的な体調は estar。resfriado = 風邪をひいている。"
     },
     {
      "text": "Hago resfriado.",

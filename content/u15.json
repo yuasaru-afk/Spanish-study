@@ -5,7 +5,7 @@
  "summary": "este / ese / aquel の使い分けと、値段・サイズ・色のたずね方。",
  "points": {
   "lines": [
-   "este / ese / aquel は近い／中間／遠いの3段",
+   "este / ese / aquel は近い / 中間 / 遠いの3段",
    "性と数で変わる：esta, estos, estas",
    "¿Cuánto cuesta? で値段をたずねる"
   ],
@@ -23,7 +23,7 @@
  "explain": [
   {
    "title": "este / ese / aquel：指す距離で3段階",
-   "body": "「この・その・あの」に当たる語が、スペイン語は3つです。\n・**este**：話し手の近く（この）\n・**ese**：相手の近く、または少し離れた物（その）\n・**aquel**：どちらからも遠い物（あの）\n日本語の「この・その・あの」とほぼ同じ感覚で使えます。名詞の前に置き、名詞に合わせて形が変わります。\n・este libro（この本）／ ese libro ／ aquel libro",
+   "body": "「この・その・あの」に当たる語が、スペイン語は3つです。\n・**este**：話し手の近く（この）\n・**ese**：相手の近く、または少し離れた物（その）\n・**aquel**：どちらからも遠い物（あの）\n日本語の「この・その・あの」とほぼ同じ感覚で使えます。名詞の前に置き、名詞に合わせて形が変わります。\n・este libro（この本） / ese libro / aquel libro",
    "examples": [
     {
      "es": "Quiero este libro.",
@@ -73,7 +73,7 @@
   },
   {
    "title": "値段とサイズ・色",
-   "body": "値段は **¿Cuánto cuesta?** です。複数の物なら **¿Cuánto cuestan?**。合計の支払いは **¿Cuánto es?**。\n・el euro は通貨単位。Cuesta diez euros.（10ユーロです）\nサイズは **talla**（服）、色は **color** で言い、色の形容詞は **名詞の後ろ** に置きます。\n・una camisa **roja**（赤いシャツ）／ zapatos **negros**（黒い靴）\n-o で終わる色（rojo, blanco, negro）は性・数で変わりますが、azul のように -o でないものは性が変わらず、数だけ変わります（azules）。",
+   "body": "値段は **¿Cuánto cuesta?** です。複数の物なら **¿Cuánto cuestan?**。合計の支払いは **¿Cuánto es?**。\n・el euro は通貨単位。Cuesta diez euros.（10ユーロです）\nサイズは **talla**（服）、色は **color** で言い、色の形容詞は **名詞の後ろ** に置きます。\n・una camisa **roja**（赤いシャツ） / zapatos **negros**（黒い靴）\n-o で終わる色（rojo, blanco, negro）は性・数で変わりますが、azul のように -o でないものは性が変わらず、数だけ変わります（azules）。",
    "examples": [
     {
      "es": "¿Cuánto cuestan los zapatos?",
@@ -333,7 +333,7 @@
    "id": "esto",
    "es": "esto / eso",
    "art": null,
-   "ja": "これ／それ（名前の分からない物）"
+   "ja": "これ / それ（名前の分からない物）"
   },
   {
    "id": "costar",

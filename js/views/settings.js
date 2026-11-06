@@ -56,6 +56,7 @@ export function render(root, ctx) {
       h('h2', {}, 'ダークモード'), seg(THEMES, s.theme, v => set({ theme: v })),
       h('h2', {}, '発音練習（声に出す）'), seg(SPEAK, s.speak, v => set({ speak: v })),
       h('h2', {}, '読み上げの速さ'), seg(RATES, s.rate, v => { set({ rate: v }); speak(window, 'Hola, ¿qué tal?', v); }),
+      h('h2', {}, '正解の音（ピンポン）'), seg(SPEAK, s.chime, v => set({ chime: v })),
       h('h2', {}, '学習記録のバックアップ'),
       h('p.muted', {}, '記録はこの iPhone の中だけにあります。機種変更の前などに書き出してください。'),
       h('button.btn2', { onclick: () => exportBackup(window, ctx.state, msg) }, '書き出す'),

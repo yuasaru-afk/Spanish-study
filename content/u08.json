@@ -6,7 +6,7 @@
  "points": {
   "lines": [
    "0〜15は丸ごと、31からは treinta y uno のように y でつなぐ",
-   "時刻は Es la una／Son las 〜。分は y でつなぐ",
+   "時刻は Es la una / Son las 〜。分は y でつなぐ",
    "曜日は小文字。「〜曜日に」は el lunes"
   ],
   "examples": [
@@ -37,7 +37,7 @@
   },
   {
    "title": "16〜100はしくみで作る",
-   "body": "・16〜19：**dieci** ＋ 1の位（1語）：dieciséis（16）、diecisiete（17）\n・20：**veinte**、21〜29：**veinti** ＋ 1の位（1語）：veintiuno（21）、veintidós（22）\n・30〜90：treinta（30）、cuarenta、cincuenta、sesenta、setenta、ochenta、noventa\n・31 以降は **y** でつなぐ（3語）：treinta **y** uno（31）、cuarenta **y** cinco（45）\n・100：**cien**",
+   "body": "・16〜19：**dieci** + 1の位（1語）：dieciséis（16）、diecisiete（17）\n・20：**veinte**、21〜29：**veinti** + 1の位（1語）：veintiuno（21）、veintidós（22）\n・30〜90：treinta（30）、cuarenta、cincuenta、sesenta、setenta、ochenta、noventa\n・31 以降は **y** でつなぐ（3語）：treinta **y** uno（31）、cuarenta **y** cinco（45）\n・100：**cien**",
    "examples": [
     {
      "es": "dieciséis",
@@ -184,7 +184,7 @@
     {
      "text": "Son las tres menos cuarto.",
      "correct": false,
-     "why": "これは「3時15分前」＝2時45分です。"
+     "why": "これは「3時15分前」 = 2時45分です。"
     }
    ]
   },
@@ -197,12 +197,12 @@
     {
      "text": "Diez y seis",
      "correct": false,
-     "why": "16〜19は dieci ＋ 1の位を1語で書きます：dieciséis。"
+     "why": "16〜19は dieci + 1の位を1語で書きます：dieciséis。"
     },
     {
      "text": "Dieciséis",
      "correct": true,
-     "why": "16〜19は dieci ＋ 1の位を1語で。dieciséis は最後の é に記号が付きます。"
+     "why": "16〜19は dieci + 1の位を1語で。dieciséis は最後の é に記号が付きます。"
     },
     {
      "text": "Sesenta",
@@ -230,7 +230,7 @@
     {
      "text": "Treinta y uno",
      "correct": true,
-     "why": "31 以降は 10の位 ＋ y ＋ 1の位の3語：treinta y uno。"
+     "why": "31 以降は 10の位 + y + 1の位の3語：treinta y uno。"
     }
    ]
   },
@@ -257,7 +257,7 @@
     {
      "text": "El lunes trabajo.",
      "correct": true,
-     "why": "「〜曜日に」は前置詞なしで el ＋曜日。"
+     "why": "「〜曜日に」は前置詞なしで el + 曜日。"
     },
     {
      "text": "En lunes trabajo.",

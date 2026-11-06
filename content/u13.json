@@ -23,7 +23,7 @@
  "explain": [
   {
    "title": "所有形容詞は名詞の前に置く",
-   "body": "「私の〜」「君の〜」は、**名詞の前** に所有形容詞を置いて言います。\n・mi（私の）／ tu（君の）／ su（彼・彼女・あなたの）\n・nuestro（私たちの）／ vuestro（君たちの）／ su（彼ら・あなたがたの）\n冠詞は付けません。**mi casa**（×la mi casa）です。\n注意：tu（君の）は記号なし。記号付きの tú は「君は」、mí は「私に」と別の語です。",
+   "body": "「私の〜」「君の〜」は、**名詞の前** に所有形容詞を置いて言います。\n・mi（私の） / tu（君の） / su（彼・彼女・あなたの）\n・nuestro（私たちの） / vuestro（君たちの） / su（彼ら・あなたがたの）\n冠詞は付けません。**mi casa**（×la mi casa）です。\n注意：tu（君の）は記号なし。記号付きの tú は「君は」、mí は「私に」と別の語です。",
    "examples": [
     {
      "es": "Mi casa es pequeña.",
@@ -76,8 +76,8 @@
    ]
   },
   {
-   "title": "su の曖昧さと de ＋ 人",
-   "body": "su / sus は「彼の・彼女の・あなたの・彼らの・あなたがたの」のすべてを表します。\n・Su casa es bonita. → 誰の家かは文脈で判断\n誰の物かをはっきりさせたいときは、**名詞 ＋ de ＋ 人** にします。\n・la casa **de ella**（彼女の家）\n・la casa **de usted**（あなたの家）\n・los padres **de Ana**（アナの両親）\n名詞に冠詞を付け、所有形容詞は付けません（×su casa de ella）。",
+   "title": "su の曖昧さと de + 人",
+   "body": "su / sus は「彼の・彼女の・あなたの・彼らの・あなたがたの」のすべてを表します。\n・Su casa es bonita. → 誰の家かは文脈で判断\n誰の物かをはっきりさせたいときは、**名詞 + de + 人** にします。\n・la casa **de ella**（彼女の家）\n・la casa **de usted**（あなたの家）\n・los padres **de Ana**（アナの両親）\n名詞に冠詞を付け、所有形容詞は付けません（×su casa de ella）。",
    "examples": [
     {
      "es": "La casa de ella es bonita.",
@@ -229,7 +229,7 @@
     {
      "text": "ella padres",
      "correct": false,
-     "why": "持ち主を名詞の前に直接置くことはできません。名詞 ＋ de ＋ 人 の順です。"
+     "why": "持ち主を名詞の前に直接置くことはできません。名詞 + de + 人 の順です。"
     },
     {
      "text": "los padres a ella",

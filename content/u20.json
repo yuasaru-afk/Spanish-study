@@ -2,10 +2,10 @@
  "id": "u20",
  "no": 20,
  "title": "現在進行形",
- "summary": "estar ＋ 現在分詞（-ando / -iendo）で「今まさに〜している」。不規則な形と、現在形との使い分け。",
+ "summary": "estar + 現在分詞（-ando / -iendo）で「今まさに〜している」。不規則な形と、現在形との使い分け。",
  "points": {
   "lines": [
-   "estar ＋ 現在分詞で「今〜している」",
+   "estar + 現在分詞で「今〜している」",
    "-ar → -ando、-er/-ir → -iendo",
    "leyendo, durmiendo など不規則もある"
   ],
@@ -22,8 +22,8 @@
  },
  "explain": [
   {
-   "title": "estar ＋ 現在分詞",
-   "body": "「今まさに〜している」は **estar の活用 ＋ 現在分詞** で言います。\n・estoy hablando（話している）\n・estás hablando\n・está hablando\n・estamos hablando\n・estáis hablando\n・están hablando\n現在分詞は**主語が変わっても形が変わりません**。変わるのは estar だけです。男女・単複の語尾も付きません。",
+   "title": "estar + 現在分詞",
+   "body": "「今まさに〜している」は **estar の活用 + 現在分詞** で言います。\n・estoy hablando（話している）\n・estás hablando\n・está hablando\n・estamos hablando\n・estáis hablando\n・están hablando\n現在分詞は**主語が変わっても形が変わりません**。変わるのは estar だけです。男女・単複の語尾も付きません。",
    "examples": [
     {
      "es": "Estoy trabajando.",
@@ -78,7 +78,7 @@
   },
   {
    "title": "現在形との違い",
-   "body": "現在形は**習慣・一般的なこと**、現在進行形は**今この瞬間**です。\n・Trabajo en Tokio.（東京で働いている＝職業・習慣）\n・Estoy trabajando.（今、仕事の最中）\n・¿Qué haces?（ふだん何をしている？／何してるの？）\n・¿Qué estás haciendo?（今、何をしているの？）\nスペイン語の進行形は日本語の「〜している」より**範囲が狭い**ので、状態には使いません。",
+   "body": "現在形は**習慣・一般的なこと**、現在進行形は**今この瞬間**です。\n・Trabajo en Tokio.（東京で働いている = 職業・習慣）\n・Estoy trabajando.（今、仕事の最中）\n・¿Qué haces?（ふだん何をしている？ / 何してるの？）\n・¿Qué estás haciendo?（今、何をしているの？）\nスペイン語の進行形は日本語の「〜している」より**範囲が狭い**ので、状態には使いません。",
    "examples": [
     {
      "es": "Vivo en Osaka.",
@@ -97,7 +97,7 @@
   },
   {
    "title": "日本語の「〜ている」と違うところ",
-   "body": "日本語の「〜ている」には、進行（食べている）のほかに**状態**（結婚している）や**習慣**（毎朝走っている）があります。スペイン語の進行形は**進行だけ**です。\n・結婚している → Estoy **casado**.（状態は estar ＋ 形容詞）\n・毎朝走っている → **Corro** todas las mañanas.（現在形）\n**近い予定**も進行形にしません。Mañana viajo a Madrid.（明日行く）と言い、×Mañana estoy viajando とは言いません。",
+   "body": "日本語の「〜ている」には、進行（食べている）のほかに**状態**（結婚している）や**習慣**（毎朝走っている）があります。スペイン語の進行形は**進行だけ**です。\n・結婚している → Estoy **casado**.（状態は estar + 形容詞）\n・毎朝走っている → **Corro** todas las mañanas.（現在形）\n**近い予定**も進行形にしません。Mañana viajo a Madrid.（明日行く）と言い、×Mañana estoy viajando とは言いません。",
    "examples": [
     {
      "es": "Estoy casado.",
@@ -233,7 +233,7 @@
     "tren."
    ],
    "accept": [],
-   "why": "estar（nosotros）＋ 現在分詞 esperando。"
+   "why": "estar（nosotros） + 現在分詞 esperando。"
   },
   {
    "type": "choice",

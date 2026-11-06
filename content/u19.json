@@ -41,7 +41,7 @@
   },
   {
    "title": "乗る：tomar el tren",
-   "body": "「電車に乗る・使う」は **tomar el tren** が基本です。tomar は u5 で習った -ar 動詞で、tomo, tomas, toma… と活用します。\n電車以外にも使えます。\n・tomar el metro（地下鉄に乗る）\n・tomar el autobús（バスに乗る）\n乗り物の名前の前に el を付けます。降りる・乗るの動作は subir（乗る）／bajar（降りる）です。",
+   "body": "「電車に乗る・使う」は **tomar el tren** が基本です。tomar は u5 で習った -ar 動詞で、tomo, tomas, toma… と活用します。\n電車以外にも使えます。\n・tomar el metro（地下鉄に乗る）\n・tomar el autobús（バスに乗る）\n乗り物の名前の前に el を付けます。降りる・乗るの動作は subir（乗る） / bajar（降りる）です。",
    "examples": [
     {
      "es": "Tomo el tren a las ocho.",
@@ -77,7 +77,7 @@
   },
   {
    "title": "乗り換え：transbordo と cambiar",
-   "body": "乗り換えは **hacer transbordo** か **cambiar de tren** と言います。\n・¿Tengo que **hacer transbordo**?（乗り換えが必要ですか）\n・Tengo que **cambiar de** tren en Madrid.（マドリードで乗り換えなければなりません）\ntener que ＋ 原形で「〜しなければならない」の意味です。cambiar は「替える」で、de の後ろに乗り物を置きます。",
+   "body": "乗り換えは **hacer transbordo** か **cambiar de tren** と言います。\n・¿Tengo que **hacer transbordo**?（乗り換えが必要ですか）\n・Tengo que **cambiar de** tren en Madrid.（マドリードで乗り換えなければなりません）\ntener que + 原形で「〜しなければならない」の意味です。cambiar は「替える」で、de の後ろに乗り物を置きます。",
    "examples": [
     {
      "es": "¿Tengo que hacer transbordo?",
@@ -113,7 +113,7 @@
   },
   {
    "title": "🌎 coger は中南米で使わない",
-   "body": "スペインでは「電車に乗る」を **coger el tren** とも言います（coger＝つかむ・取る）。ただし**中南米の多くの国では coger は失礼な意味になります**。\n旅行者は、どちらの地域でも安全な **tomar** を基本にしましょう。スペインの人が coger を使っているのを聞いても、自分では tomar で通じます。\nほかに、切符は🌎 boleto、窓口は🌎 boletería（国による）、バスも国ごとに違う語があります（メキシコでは市内バスを camión とも言う）。",
+   "body": "スペインでは「電車に乗る」を **coger el tren** とも言います（coger = つかむ・取る）。ただし**中南米の多くの国では coger は失礼な意味になります**。\n旅行者は、どちらの地域でも安全な **tomar** を基本にしましょう。スペインの人が coger を使っているのを聞いても、自分では tomar で通じます。\nほかに、切符は🌎 boleto、窓口は🌎 boletería（国による）、バスも国ごとに違う語があります（メキシコでは市内バスを camión とも言う）。",
    "examples": [
     {
      "es": "Tomo el tren.",
@@ -148,7 +148,7 @@
     {
      "text": "ida",
      "correct": true,
-     "why": "de ida＝片道（行きだけ）。"
+     "why": "de ida = 片道（行きだけ）。"
     }
    ]
   },
@@ -171,7 +171,7 @@
     {
      "text": "ida y vuelta",
      "correct": true,
-     "why": "de ida y vuelta＝行きと帰り、つまり往復。"
+     "why": "de ida y vuelta = 行きと帰り、つまり往復。"
     }
    ]
   },
@@ -188,7 +188,7 @@
     "tren?"
    ],
    "accept": [],
-   "why": "de qué andén（どのホームから）＋ sale（出る）＋ el tren。"
+   "why": "de qué andén（どのホームから） + sale（出る） + el tren。"
   },
   {
    "type": "choice",
@@ -249,7 +249,7 @@
     {
      "text": "transbordo",
      "correct": true,
-     "why": "hacer transbordo＝乗り換える。"
+     "why": "hacer transbordo = 乗り換える。"
     },
     {
      "text": "salida",
@@ -295,7 +295,7 @@
     {
      "text": "retraso",
      "correct": true,
-     "why": "llevar retraso＝遅れている。"
+     "why": "llevar retraso = 遅れている。"
     },
     {
      "text": "horario",
@@ -329,7 +329,7 @@
     {
      "text": "¿Dónde está la salida?",
      "correct": true,
-     "why": "出口は la salida。場所を聞くので dónde ＋ estar。"
+     "why": "出口は la salida。場所を聞くので dónde + estar。"
     },
     {
      "text": "¿Dónde está el retraso?",

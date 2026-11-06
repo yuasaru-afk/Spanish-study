@@ -232,7 +232,7 @@
    "type": "choice",
    "prompt": "空欄に入る文字は？",
    "es": "ma___ana",
-   "ja": "明日／朝",
+   "ja": "明日 / 朝",
    "options": [
     {
      "text": "n",

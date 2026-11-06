@@ -23,7 +23,7 @@
  "explain": [
   {
    "title": "主語の代名詞",
-   "body": "「私・君・彼…」は次のとおりです。\n・**yo**（私）／ **tú**（君）／ **él**（彼）・**ella**（彼女）・**usted**（あなた・ていねい）\n・**nosotros / nosotras**（私たち）／ **vosotros / vosotras**（君たち）／ **ellos / ellas**（彼ら・彼女ら）・**ustedes**（あなた方）\n-as の形は全員が女性のときに使います。\n🌎 **vosotros はスペインだけ**。中南米では「君たち」も **ustedes** で言います。",
+   "body": "「私・君・彼…」は次のとおりです。\n・**yo**（私） / **tú**（君） / **él**（彼）・**ella**（彼女）・**usted**（あなた・ていねい）\n・**nosotros / nosotras**（私たち） / **vosotros / vosotras**（君たち） / **ellos / ellas**（彼ら・彼女ら）・**ustedes**（あなた方）\n-as の形は全員が女性のときに使います。\n🌎 **vosotros はスペインだけ**。中南米では「君たち」も **ustedes** で言います。",
    "examples": [
     {
      "es": "yo",
@@ -41,7 +41,7 @@
   },
   {
    "title": "ser の6つの形",
-   "body": "ser は英語の be に当たる「〜です」。主語ごとに形が変わります（不規則なので丸ごと覚えます）。\n・yo **soy** ／ tú **eres** ／ él・ella・usted **es**\n・nosotros **somos** ／ vosotros **sois** ／ ellos・ellas・ustedes **son**\nusted は「あなた」ですが、動詞は él・ella と同じ形を使います。",
+   "body": "ser は英語の be に当たる「〜です」。主語ごとに形が変わります（不規則なので丸ごと覚えます）。\n・yo **soy** / tú **eres** / él・ella・usted **es**\n・nosotros **somos** / vosotros **sois** / ellos・ellas・ustedes **son**\nusted は「あなた」ですが、動詞は él・ella と同じ形を使います。",
    "examples": [
     {
      "es": "Yo soy japonés.",
@@ -91,7 +91,7 @@
   },
   {
    "title": "形容詞・国籍も男女と数をそろえる",
-   "body": "形容詞は説明する人・物の **性と数** に合わせて形が変わります。\n・-o の形容詞：alto（男性）／ alta（女性）／ altos ／ altas\n・国籍：japonés ／ japonesa、español ／ española（女性は -a を足す。japonés は記号が消える）\n・-e や子音で終わる形容詞は男女同じ：grande、inteligente\n職業名だけを言うときは、ふつう冠詞を付けません：Soy ingeniero.（形容詞が付くと Soy un buen ingeniero. のように un を付けます）",
+   "body": "形容詞は説明する人・物の **性と数** に合わせて形が変わります。\n・-o の形容詞：alto（男性） / alta（女性） / altos / altas\n・国籍：japonés / japonesa、español / española（女性は -a を足す。japonés は記号が消える）\n・-e や子音で終わる形容詞は男女同じ：grande、inteligente\n職業名だけを言うときは、ふつう冠詞を付けません：Soy ingeniero.（形容詞が付くと Soy un buen ingeniero. のように un を付けます）",
    "examples": [
     {
      "es": "Ella es alta.",
@@ -245,7 +245,7 @@
     "Japón."
    ],
    "accept": [],
-   "why": "出身は ser de ＋場所。主語の yo は省略できます。"
+   "why": "出身は ser de + 場所。主語の yo は省略できます。"
   },
   {
    "type": "choice",
@@ -305,7 +305,7 @@
    "id": "el_pron",
    "es": "él / ella",
    "art": null,
-   "ja": "彼／彼女"
+   "ja": "彼 / 彼女"
   },
   {
    "id": "usted",
@@ -333,7 +333,7 @@
    "id": "ellos",
    "es": "ellos / ellas",
    "art": null,
-   "ja": "彼ら／彼女ら"
+   "ja": "彼ら / 彼女ら"
   },
   {
    "id": "ustedes",

@@ -2,12 +2,12 @@
  "id": "u29",
  "no": 29,
  "title": "現在完了",
- "summary": "「もう食べた」「パエリアを食べたことがある」は haber ＋ 過去分詞。スペインでは「今日・今週」の出来事にも使う。点過去との使い分けを理屈でつかもう。",
+ "summary": "「もう食べた」「パエリアを食べたことがある」は haber + 過去分詞。スペインでは「今日・今週」の出来事にも使う。点過去との使い分けを理屈でつかもう。",
  "points": {
   "lines": [
-   "現在完了＝ haber の現在形 ＋ 過去分詞",
+   "現在完了 = haber の現在形 + 過去分詞",
    "過去分詞：-ar → -ado、-er / -ir → -ido",
-   "ya（もう）／ todavía no（まだ）／ alguna vez（今までに）"
+   "ya（もう） / todavía no（まだ） / alguna vez（今までに）"
   ],
   "examples": [
    {
@@ -22,8 +22,8 @@
  },
  "explain": [
   {
-   "title": "現在完了＝「今とつながる過去」",
-   "body": "現在完了は、**haber の現在形＋過去分詞**で作ります。「〜した」「〜したことがある」「〜してしまった（今もその結果がある）」を表し、**過去の出来事を今の視点から見る**形です。\n・He comido.＝食べた（今おなかがいっぱい、というつながりがある）\nhaber は「持つ」の tener とは別の動詞で、現在完了を作るための**助動詞**として使います。英語の have ＋ 過去分詞に近い考え方です。",
+   "title": "現在完了 = 「今とつながる過去」",
+   "body": "現在完了は、**haber の現在形 + 過去分詞**で作ります。「〜した」「〜したことがある」「〜してしまった（今もその結果がある）」を表し、**過去の出来事を今の視点から見る**形です。\n・He comido. = 食べた（今おなかがいっぱい、というつながりがある）\nhaber は「持つ」の tener とは別の動詞で、現在完了を作るための**助動詞**として使います。英語の have + 過去分詞に近い考え方です。",
    "examples": [
     {
      "es": "He comido.",
@@ -41,7 +41,7 @@
   },
   {
    "title": "haber の活用",
-   "body": "haber の現在形は次のとおり不規則です。\n・yo **he**／tú **has**／él・ella・usted **ha**\n・nosotros **hemos**／vosotros **habéis**／ellos・ellas・ustedes **han**\n🌎 habéis はスペインの「君たち」。中南米では ustedes **han** を使います。\n否定は no を haber の前に、目的語の代名詞（u27・u28）も **haber の前**に置きます。haber と過去分詞のあいだには**何も入れません**。\n・No **he** comido. ／ **Lo** he visto.（それを見た）",
+   "body": "haber の現在形は次のとおり不規則です。\n・yo **he** / tú **has** / él・ella・usted **ha**\n・nosotros **hemos** / vosotros **habéis** / ellos・ellas・ustedes **han**\n🌎 habéis はスペインの「君たち」。中南米では ustedes **han** を使います。\n否定は no を haber の前に、目的語の代名詞（u27・u28）も **haber の前**に置きます。haber と過去分詞のあいだには**何も入れません**。\n・No **he** comido. / **Lo** he visto.（それを見た）",
    "examples": [
     {
      "es": "No he comido todavía.",
@@ -61,7 +61,7 @@
   },
   {
    "title": "過去分詞の作り方",
-   "body": "規則どおりなら、語幹に**-ado**（-ar 動詞）か**-ido**（-er / -ir 動詞）を付けます。\n・hablar → habl**ado**／comer → com**ido**／vivir → viv**ido**\n現在完了では、過去分詞は**主語に合わせて形が変わらず**、常に -o で終わります（Ella ha comido. ×comida）。\n語幹が a・e・o で終わる -er / -ir 動詞は、-ido の i に**アクセント記号**が付きます：leer → le**í**do、traer → tra**í**do、creer → cre**í**do。",
+   "body": "規則どおりなら、語幹に**-ado**（-ar 動詞）か**-ido**（-er / -ir 動詞）を付けます。\n・hablar → habl**ado** / comer → com**ido** / vivir → viv**ido**\n現在完了では、過去分詞は**主語に合わせて形が変わらず**、常に -o で終わります（Ella ha comido. ×comida）。\n語幹が a・e・o で終わる -er / -ir 動詞は、-ido の i に**アクセント記号**が付きます：leer → le**í**do、traer → tra**í**do、creer → cre**í**do。",
    "examples": [
     {
      "es": "Ana ha hablado con él.",
@@ -80,7 +80,7 @@
   },
   {
    "title": "不規則な過去分詞",
-   "body": "次の7つは形が決まっているので、そのまま覚えます。\n・hacer → **hecho**／decir → **dicho**／ver → **visto**／escribir → **escrito**\n・volver → **vuelto**／abrir → **abierto**／poner → **puesto**\nこれらから作った動詞も同じ形です（describir → descrito、devolver → devuelto）。romper → roto も不規則な形です。\n使い方は規則形と同じです：He hecho la tarea.（宿題をした）。",
+   "body": "次の7つは形が決まっているので、そのまま覚えます。\n・hacer → **hecho** / decir → **dicho** / ver → **visto** / escribir → **escrito**\n・volver → **vuelto** / abrir → **abierto** / poner → **puesto**\nこれらから作った動詞も同じ形です（describir → descrito、devolver → devuelto）。romper → roto も不規則な形です。\n使い方は規則形と同じです：He hecho la tarea.（宿題をした）。",
    "examples": [
     {
      "es": "He hecho la tarea.",
@@ -120,7 +120,7 @@
   },
   {
    "title": "🌎 スペインでは「今日」も現在完了、中南米では点過去",
-   "body": "ここが現在完了でいちばん迷うところです。\n**スペイン**：まだ終わっていない時間（hoy 今日、esta mañana 今朝、esta semana 今週、este año 今年）の出来事に**現在完了**を使います。\n・**Hoy he comido** paella.（今日パエリアを食べた）\n**中南米の多く**：その言い方より**点過去**がふつうです。\n・**Hoy comí** paella.\n理屈は、スペインは「今日はまだ続いている」と感じて**今とつながる**＝現在完了、中南米は「食べたことは終わった」と感じて**終わった出来事**＝点過去、という見方の違いです。\nどちらの地域でも、**ayer（昨日）・la semana pasada（先週）・en 2020** のように今と切れた時間には点過去を使います（Ayer fui al cine.）。点過去は u21〜22 で習ったとおりです。\n地域差は大きく、スペイン国内にも点過去を好む人がいます。hace un rato（さっき）はスペインでも両方聞きます。迷ったら、スペインでは「今日・今週・今年なら現在完了、きのう以前なら点過去」と考えれば通じます。",
+   "body": "ここが現在完了でいちばん迷うところです。\n**スペイン**：まだ終わっていない時間（hoy 今日、esta mañana 今朝、esta semana 今週、este año 今年）の出来事に**現在完了**を使います。\n・**Hoy he comido** paella.（今日パエリアを食べた）\n**中南米の多く**：その言い方より**点過去**がふつうです。\n・**Hoy comí** paella.\n理屈は、スペインは「今日はまだ続いている」と感じて**今とつながる** = 現在完了、中南米は「食べたことは終わった」と感じて**終わった出来事** = 点過去、という見方の違いです。\nどちらの地域でも、**ayer（昨日）・la semana pasada（先週）・en 2020** のように今と切れた時間には点過去を使います（Ayer fui al cine.）。点過去は u21〜22 で習ったとおりです。\n地域差は大きく、スペイン国内にも点過去を好む人がいます。hace un rato（さっき）はスペインでも両方聞きます。迷ったら、スペインでは「今日・今週・今年なら現在完了、きのう以前なら点過去」と考えれば通じます。",
    "examples": [
     {
      "es": "Hoy he comido paella.",
@@ -228,7 +228,7 @@
      "todavía."
     ]
    ],
-   "why": "todavía no ＋ he comido。no は haber の前。"
+   "why": "todavía no + he comido。no は haber の前。"
   },
   {
    "type": "choice",
@@ -239,7 +239,7 @@
     {
      "text": "alguna vez",
      "correct": true,
-     "why": "alguna vez＝今までに。経験をたずねる定番。"
+     "why": "alguna vez = 今までに。経験をたずねる定番。"
     },
     {
      "text": "todavía no",
@@ -309,7 +309,7 @@
     "película?"
    ],
    "accept": [],
-   "why": "haber の has ＋ 過去分詞 visto。haber と過去分詞のあいだには何も入れない。"
+   "why": "haber の has + 過去分詞 visto。haber と過去分詞のあいだには何も入れない。"
   },
   {
    "type": "choice",

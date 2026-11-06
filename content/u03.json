@@ -59,7 +59,7 @@
   },
   {
    "title": "定冠詞 el / la と不定冠詞 un / una",
-   "body": "英語の the と a に当たるものが、名詞の性で形を変えます。\n・「その〜」（相手もどれか分かっている）：男性 **el**、女性 **la**\n・「ある〜／ひとつの〜」（初めて話題に出す）：男性 **un**、女性 **una**\n例：Tengo un coche.（車を1台持っている）→ El coche es rojo.（その車は赤い）",
+   "body": "英語の the と a に当たるものが、名詞の性で形を変えます。\n・「その〜」（相手もどれか分かっている）：男性 **el**、女性 **la**\n・「ある〜 / ひとつの〜」（初めて話題に出す）：男性 **un**、女性 **una**\n例：Tengo un coche.（車を1台持っている）→ El coche es rojo.（その車は赤い）",
    "examples": [
     {
      "es": "un libro",
@@ -95,7 +95,7 @@
   },
   {
    "title": "人は性別で語尾が変わる",
-   "body": "人を表す語は、相手の性別に合わせます。\n・el chico（男の子）／ la chica（女の子）\n・el amigo（男の友達）／ la amiga（女の友達）\n・-e や -ista で終わる語は形が同じで、冠詞だけ変わります：el estudiante ／ la estudiante",
+   "body": "人を表す語は、相手の性別に合わせます。\n・el chico（男の子） / la chica（女の子）\n・el amigo（男の友達） / la amiga（女の友達）\n・-e や -ista で終わる語は形が同じで、冠詞だけ変わります：el estudiante / la estudiante",
    "examples": [
     {
      "es": "la amiga",
@@ -400,13 +400,13 @@
    "id": "chico",
    "es": "chico / chica",
    "art": null,
-   "ja": "男の子／女の子"
+   "ja": "男の子 / 女の子"
   },
   {
    "id": "amigo",
    "es": "amigo / amiga",
    "art": null,
-   "ja": "友達（男性／女性）"
+   "ja": "友達（男性 / 女性）"
   },
   {
    "id": "estudiante",

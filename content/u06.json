@@ -23,7 +23,7 @@
  "explain": [
   {
    "title": "estar の6つの形",
-   "body": "estar も「〜です／〜にいる」ですが、ser とは使う場面が違います。形は次のとおり。\n・yo **estoy** ／ tú **estás** ／ él・ella・usted **está**\n・nosotros **estamos** ／ vosotros **estáis** ／ ellos・ellas・ustedes **están**\nestoy と estamos 以外はアクセント記号が付きます（estás, está, estáis, están。強く読む位置の印）。",
+   "body": "estar も「〜です / 〜にいる」ですが、ser とは使う場面が違います。形は次のとおり。\n・yo **estoy** / tú **estás** / él・ella・usted **está**\n・nosotros **estamos** / vosotros **estáis** / ellos・ellas・ustedes **están**\nestoy と estamos 以外はアクセント記号が付きます（estás, está, estáis, están。強く読む位置の印）。",
    "examples": [
     {
      "es": "Estoy bien.",
@@ -69,7 +69,7 @@
   },
   {
    "title": "ser と estar の使い分け",
-   "body": "日本語ではどちらも「です」なので、ここが日本語話者の一番のつまずきどころです。\n・**ser**：それが **何者か・どんな性質か**（変わらない・定義）\n・**estar**：**どこにあるか**、**今どうなっているか**（状態）\n同じ形容詞でも意味が変わります。\n・Es aburrido.（彼は退屈な人だ＝性質）／ Está aburrido.（彼は今退屈している＝状態）\n・Es listo.（頭がいい）／ Está listo.（準備ができている）",
+   "body": "日本語ではどちらも「です」なので、ここが日本語話者の一番のつまずきどころです。\n・**ser**：それが **何者か・どんな性質か**（変わらない・定義）\n・**estar**：**どこにあるか**、**今どうなっているか**（状態）\n同じ形容詞でも意味が変わります。\n・Es aburrido.（彼は退屈な人だ = 性質） / Está aburrido.（彼は今退屈している = 状態）\n・Es listo.（頭がいい） / Está listo.（準備ができている）",
    "examples": [
     {
      "es": "La sopa es fría.",
@@ -193,12 +193,12 @@
     {
      "text": "Está lista.",
      "correct": true,
-     "why": "estar ＋ listo は「準備ができている」状態。ella なので lista。"
+     "why": "estar + listo は「準備ができている」状態。ella なので lista。"
     },
     {
      "text": "Es lista.",
      "correct": false,
-     "why": "ser ＋ listo は「頭がいい」という性質の意味になります。"
+     "why": "ser + listo は「頭がいい」という性質の意味になります。"
     }
    ]
   },
@@ -327,7 +327,7 @@
    "id": "listo",
    "es": "listo / lista",
    "art": null,
-   "ja": "（estar）準備ができた／（ser）頭がいい"
+   "ja": "（estar）準備ができた / （ser）頭がいい"
   },
   {
    "id": "abierto",

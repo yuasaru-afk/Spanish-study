@@ -2,6 +2,7 @@
 import { h, rich } from '../dom.js';
 import { checkChoice, checkOrder, fillSentence, isSpanish } from '../check.js';
 import { speak } from '../speech.js';
+import { chime } from '../sound.js';
 import { esLine } from './common.js';
 
 // 答えたら onAnswer(ok) を呼び、結果と next ボタン（＋文法ノートへのリンク）を出す
@@ -11,6 +12,7 @@ export function renderQuestion(ctx, q, body, actions, opts) {
   if (q.es) body.append(h('div.es', { lang: 'es', style: 'margin:8px 0' }, q.es));
   body.append(h('div.muted', {}, q.ja));
   const done = (ok, box) => {
+    if (ok && ctx.state.settings.chime) chime(window);
     opts.onAnswer(ok);
     body.append(box);
     actions.replaceChildren(...[

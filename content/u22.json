@@ -23,7 +23,7 @@
  "explain": [
   {
    "title": "不規則でも語尾は共通",
-   "body": "u21 の規則動詞とは違い、不規則動詞は**語幹（動詞の前半分）が変わります**。ただし語尾は全員共通で、-ar / -er / -ir の区別もありません。\n・yo **-e**\n・tú **-iste**\n・él・ella・usted **-o**\n・nosotros **-imos**\n・vosotros **-isteis**\n・ellos・ellas・ustedes **-ieron**\n語幹をひとつ覚えたら、この語尾を付けるだけです。\n🌎 -isteis はスペインの「君たち」。中南米では ustedes ＋ -ieron を使います。",
+   "body": "u21 の規則動詞とは違い、不規則動詞は**語幹（動詞の前半分）が変わります**。ただし語尾は全員共通で、-ar / -er / -ir の区別もありません。\n・yo **-e**\n・tú **-iste**\n・él・ella・usted **-o**\n・nosotros **-imos**\n・vosotros **-isteis**\n・ellos・ellas・ustedes **-ieron**\n語幹をひとつ覚えたら、この語尾を付けるだけです。\n🌎 -isteis はスペインの「君たち」。中南米では ustedes + -ieron を使います。",
    "examples": [
     {
      "es": "Tuviste suerte.",
@@ -37,22 +37,22 @@
   },
   {
    "title": "ser と ir は同じ形：fui, fuiste, fue…",
-   "body": "ser（〜だった）と ir（行った）は、点過去が**まったく同じ形**です。\n・yo **fui**\n・tú **fuiste**\n・él・ella・usted **fue**\n・nosotros **fuimos**\n・vosotros **fuisteis**\n・ellos・ellas・ustedes **fueron**\n見分け方は文の形です。**a ＋ 場所**が続けば ir（行った）、**名詞や形容詞**が続けば ser（〜だった）。",
+   "body": "ser（〜だった）と ir（行った）は、点過去が**まったく同じ形**です。\n・yo **fui**\n・tú **fuiste**\n・él・ella・usted **fue**\n・nosotros **fuimos**\n・vosotros **fuisteis**\n・ellos・ellas・ustedes **fueron**\n見分け方は文の形です。**a + 場所**が続けば ir（行った）、**名詞や形容詞**が続けば ser（〜だった）。",
    "examples": [
     {
      "es": "Fui a Kioto.",
      "ja": "京都に行った。",
-     "note": "a ＋ 場所＝ir"
+     "note": "a + 場所 = ir"
     },
     {
      "es": "Fue un día muy largo.",
      "ja": "とても長い一日だった。",
-     "note": "名詞が続く＝ser"
+     "note": "名詞が続く = ser"
     },
     {
      "es": "Mi abuelo fue profesor.",
      "ja": "祖父は教師だった。",
-     "note": "職業＝ser"
+     "note": "職業 = ser"
     }
    ]
   },
@@ -110,7 +110,7 @@
   },
   {
    "title": "実際の場面で使う",
-   "body": "過去の出来事を一つずつ並べるときに使います。\n・Ayer **fui** al banco y **hice** la compra.（昨日は銀行に行って、買い物をした）\n・**Tuve** un problema, por eso no **pude** ir.（問題があって行けなかった）\n・El jefe **dijo** que sí.（上司は「いい」と言った）\n言い訳や報告で、「何をしたか／できなかったか」を言うのにとても便利です。",
+   "body": "過去の出来事を一つずつ並べるときに使います。\n・Ayer **fui** al banco y **hice** la compra.（昨日は銀行に行って、買い物をした）\n・**Tuve** un problema, por eso no **pude** ir.（問題があって行けなかった）\n・El jefe **dijo** que sí.（上司は「いい」と言った）\n言い訳や報告で、「何をしたか / できなかったか」を言うのにとても便利です。",
    "examples": [
     {
      "es": "Fui al banco y hice la compra.",
@@ -133,7 +133,7 @@
     {
      "text": "fui",
      "correct": true,
-     "why": "a ＋ 場所が続くので ir の点過去。yo は fui。"
+     "why": "a + 場所が続くので ir の点過去。yo は fui。"
     },
     {
      "text": "fue",

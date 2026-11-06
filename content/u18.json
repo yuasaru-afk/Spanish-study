@@ -2,7 +2,7 @@
  "id": "u18",
  "no": 18,
  "title": "語幹が変わる動詞",
- "summary": "querer, poder, preferir, pedir は語幹の母音が変わる。nosotros と vosotros だけ変わらない理由と、querer/poder ＋ 原形の使い方。",
+ "summary": "querer, poder, preferir, pedir は語幹の母音が変わる。nosotros と vosotros だけ変わらない理由と、querer/poder + 原形の使い方。",
  "points": {
   "lines": [
    "querer → quiero（e が ie に変わる）",
@@ -38,7 +38,7 @@
   },
   {
    "title": "e→ie と o→ue",
-   "body": "代表的な2タイプです。\n**e → ie**：querer（欲しい）／preferir（好む）／pensar（思う）\n・quiero, quieres, quiere, queremos, queréis, quieren\n・prefiero, prefieres, prefiere, preferimos, preferís, prefieren\n**o → ue**：poder（できる）／dormir（眠る）／volver（戻る）\n・puedo, puedes, puede, podemos, podéis, pueden\n語尾は、-er/-ir 動詞の普通の語尾（-o, -es, -e, -emos, -éis, -en など）です。",
+   "body": "代表的な2タイプです。\n**e → ie**：querer（欲しい） / preferir（好む） / pensar（思う）\n・quiero, quieres, quiere, queremos, queréis, quieren\n・prefiero, prefieres, prefiere, preferimos, preferís, prefieren\n**o → ue**：poder（できる） / dormir（眠る） / volver（戻る）\n・puedo, puedes, puede, podemos, podéis, pueden\n語尾は、-er/-ir 動詞の普通の語尾（-o, -es, -e, -emos, -éis, -en など）です。",
    "examples": [
     {
      "es": "Prefiero el pescado.",
@@ -85,7 +85,7 @@
    ]
   },
   {
-   "title": "querer / poder ＋ 原形",
+   "title": "querer / poder + 原形",
    "body": "querer と poder のあとには、**活用しない原形**を置きます。\n・Quiero **comer**.（食べたい）\n・¿Puedo **pagar** con tarjeta?（カードで払えますか）\n2つめの動詞は人称に合わせて変えません。×Quiero como. とは言いません。\nquerer のあとに名詞を置けば「〜が欲しい」（Quiero un café.）、原形を置けば「〜したい」になります。\nていねいに頼むときは ¿Puede ayudarme?（手伝っていただけますか）のように poder を使います。Quiero はやや直接的なので、お店では Quisiera… もよく使います。",
    "examples": [
     {
@@ -198,7 +198,7 @@
     "tarjeta?"
    ],
    "accept": [],
-   "why": "poder ＋ 原形。yo の形 puedo のあとに pagar を原形のまま置く。"
+   "why": "poder + 原形。yo の形 puedo のあとに pagar を原形のまま置く。"
   },
   {
    "type": "choice",
@@ -253,7 +253,7 @@
     {
      "text": "Quiero a comer.",
      "correct": false,
-     "why": "a は入れない。querer ＋ 原形で「〜したい」。"
+     "why": "a は入れない。querer + 原形で「〜したい」。"
     },
     {
      "text": "Quiero como.",

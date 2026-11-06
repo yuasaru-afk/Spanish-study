@@ -5,7 +5,7 @@
  "summary": "「〜して」「〜してください」「〜しないで」の形。tú と usted で形が違い、お店や道案内では usted を使う。",
  "points": {
   "lines": [
-   "tú の肯定命令＝él の現在形と同じ：habla, come",
+   "tú の肯定命令 = él の現在形と同じ：habla, come",
    "usted は逆の母音：hable, coma",
    "否定は tú が no hables、usted が no hable"
   ],
@@ -88,7 +88,7 @@
   },
   {
    "title": "否定命令：「〜しないで」は形が変わる",
-   "body": "否定のとき、tú の形は肯定と**別物**になります。no ＋ 動詞で、母音を usted と同じく入れ替えた形に -s を付けます。\n・-ar：no habl**es**（話さないで）\n・-er / -ir：no com**as**、no escrib**as**\nusted への否定は肯定と同じ形に no を付けるだけ。\n・no **hable**、no **coma**\n肯定が habla なのに否定が no hables になる点が、つまずきやすいところです。\nなお、不規則も否定では usted と同じ系統の形に tú の -s が付きます（no hagas, no digas, no vayas）。",
+   "body": "否定のとき、tú の形は肯定と**別物**になります。no + 動詞で、母音を usted と同じく入れ替えた形に -s を付けます。\n・-ar：no habl**es**（話さないで）\n・-er / -ir：no com**as**、no escrib**as**\nusted への否定は肯定と同じ形に no を付けるだけ。\n・no **hable**、no **coma**\n肯定が habla なのに否定が no hables になる点が、つまずきやすいところです。\nなお、不規則も否定では usted と同じ系統の形に tú の -s が付きます（no hagas, no digas, no vayas）。",
    "examples": [
     {
      "es": "No hables tan rápido.",
@@ -105,8 +105,8 @@
    ]
   },
   {
-   "title": "代名詞は後ろにくっつく（肯定）／前に置く（否定）",
-   "body": "再帰動詞の命令では、代名詞の位置が決まっています。\n・**肯定**：動詞の**後ろにくっつける**。levantarse → **levántate**（起きて）、sentarse → **siéntate**（座って）\n・**否定**：動詞の**前**に置く。**no te levantes**、**no te sientes**\nくっつけると強く読む位置が後ろから3番目になるので、**アクセント記号**が付きます（levanta ＋ te → levántate）。usted なら **siéntese**、**levántese**。\nこの課では siéntate / levántate 程度を押さえれば十分です。",
+   "title": "代名詞は後ろにくっつく（肯定） / 前に置く（否定）",
+   "body": "再帰動詞の命令では、代名詞の位置が決まっています。\n・**肯定**：動詞の**後ろにくっつける**。levantarse → **levántate**（起きて）、sentarse → **siéntate**（座って）\n・**否定**：動詞の**前**に置く。**no te levantes**、**no te sientes**\nくっつけると強く読む位置が後ろから3番目になるので、**アクセント記号**が付きます（levanta + te → levántate）。usted なら **siéntese**、**levántese**。\nこの課では siéntate / levántate 程度を押さえれば十分です。",
    "examples": [
     {
      "es": "Siéntate aquí.",
@@ -124,7 +124,7 @@
   },
   {
    "title": "お店・道案内の丁寧な頼み方",
-   "body": "知らない人やお店では **usted の命令**か **¿Puede ＋ 原形？** を使います。\n・命令：**Siga** todo recto. / **Gire** a la izquierda. / **Cruce** la calle.（道案内で聞く形）\n・依頼：**¿Puede** repetir, por favor? / **¿Puede** hablar más despacio?\n命令形は簡潔で、**por favor** を付ければ失礼ではありません。¿Puede…? は質問の形なので、さらに柔らかく聞こえます。\n頼むときは ¿Puede…? と Perdone / Disculpe を添えると丁寧です。道を教わるときは、相手が siga / gire と言うのを聞き取れるようにしましょう。",
+   "body": "知らない人やお店では **usted の命令**か **¿Puede + 原形？** を使います。\n・命令：**Siga** todo recto. / **Gire** a la izquierda. / **Cruce** la calle.（道案内で聞く形）\n・依頼：**¿Puede** repetir, por favor? / **¿Puede** hablar más despacio?\n命令形は簡潔で、**por favor** を付ければ失礼ではありません。¿Puede…? は質問の形なので、さらに柔らかく聞こえます。\n頼むときは ¿Puede…? と Perdone / Disculpe を添えると丁寧です。道を教わるときは、相手が siga / gire と言うのを聞き取れるようにしましょう。",
    "examples": [
     {
      "es": "Perdone, ¿puede repetir, por favor?",
@@ -151,7 +151,7 @@
     {
      "text": "Abre",
      "correct": true,
-     "why": "tú の肯定命令は él の現在形と同じ形＝abre。"
+     "why": "tú の肯定命令は él の現在形と同じ形 = abre。"
     },
     {
      "text": "Abres",
@@ -253,7 +253,7 @@
     {
      "text": "Gire",
      "correct": true,
-     "why": "girar の usted の命令形は -ar なので -e＝gire。"
+     "why": "girar の usted の命令形は -ar なので -e = gire。"
     }
    ]
   },
@@ -276,7 +276,7 @@
     {
      "text": "comas",
      "correct": true,
-     "why": "tú への否定命令は、-er 動詞なら -as＝no comas。"
+     "why": "tú への否定命令は、-er 動詞なら -as = no comas。"
     }
    ]
   },
@@ -344,7 +344,7 @@
     {
      "text": "¿Puede hablar más despacio, por favor?",
      "correct": true,
-     "why": "¿Puede ＋ 原形？は丁寧な依頼の形。por favor も添える。"
+     "why": "¿Puede + 原形？は丁寧な依頼の形。por favor も添える。"
     },
     {
      "text": "No hablar despacio.",

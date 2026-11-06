@@ -1,13 +1,13 @@
 {
  "id": "u12",
  "no": 12,
- "title": "tener / ir / hacer と ir a ＋原形",
- "summary": "不規則に変わる3つの動詞。ir a ＋原形で「〜するつもり」。",
+ "title": "tener / ir / hacer と ir a + 原形",
+ "summary": "不規則に変わる3つの動詞。ir a + 原形で「〜するつもり」。",
  "points": {
   "lines": [
    "tener：tengo, tienes, tiene, tenemos…",
    "ir：voy, vas, va, vamos, vais, van",
-   "ir a ＋原形で「〜するつもり・〜しよう」"
+   "ir a + 原形で「〜するつもり・〜しよう」"
   ],
   "examples": [
    {
@@ -23,7 +23,7 @@
  "explain": [
   {
    "title": "tener：持つ、そして「〜歳」",
-   "body": "tener は yo だけでなく、tú・él・ellos でも語幹が変わる不規則動詞です。\n・yo **tengo** ／ tú **tienes** ／ él・ella・usted **tiene**\n・nosotros **tenemos** ／ vosotros **tenéis** ／ ellos・ellas・ustedes **tienen**\nnosotros と vosotros だけは語幹が ten- のまま。そこ以外は tien- か teng-、と覚えます。\n意味は「持つ」。年齢もこれで言い、日本語の「〜歳です」は **tener ＋ 数字 ＋ años** です。ser は使いません。",
+   "body": "tener は yo だけでなく、tú・él・ellos でも語幹が変わる不規則動詞です。\n・yo **tengo** / tú **tienes** / él・ella・usted **tiene**\n・nosotros **tenemos** / vosotros **tenéis** / ellos・ellas・ustedes **tienen**\nnosotros と vosotros だけは語幹が ten- のまま。そこ以外は tien- か teng-、と覚えます。\n意味は「持つ」。年齢もこれで言い、日本語の「〜歳です」は **tener + 数字 + años** です。ser は使いません。",
    "examples": [
     {
      "es": "Tengo un hermano.",
@@ -40,7 +40,7 @@
    ]
   },
   {
-   "title": "tener ＋ 名詞の言い方",
+   "title": "tener + 名詞の言い方",
    "body": "日本語では「お腹がすいた」「のどが渇いた」と状態で言うところを、スペイン語では「〜を持っている」で言います。\n・tener hambre（お腹がすいている）\n・tener sed（のどが渇いている）\n・tener sueño（眠い）\n・tener prisa（急いでいる）\n・tener calor（暑い）\n「とても」は muy ではなく **mucho** を使います：Tengo mucha hambre.（hambre の性に合わせて mucha）。",
    "examples": [
     {
@@ -59,7 +59,7 @@
   },
   {
    "title": "ir：行く",
-   "body": "ir は形が元の ir と全然違う、完全な不規則動詞です。\n・yo **voy** ／ tú **vas** ／ él・ella・usted **va**\n・nosotros **vamos** ／ vosotros **vais** ／ ellos・ellas・ustedes **van**\n行き先の前には **a** を置きます：Voy a Madrid.（マドリードへ行く）。a la playa のように、後ろに冠詞が付くこともあります。\n🌎 vais は vosotros の形。中南米では van を使います。",
+   "body": "ir は形が元の ir と全然違う、完全な不規則動詞です。\n・yo **voy** / tú **vas** / él・ella・usted **va**\n・nosotros **vamos** / vosotros **vais** / ellos・ellas・ustedes **van**\n行き先の前には **a** を置きます：Voy a Madrid.（マドリードへ行く）。a la playa のように、後ろに冠詞が付くこともあります。\n🌎 vais は vosotros の形。中南米では van を使います。",
    "examples": [
     {
      "es": "Voy a la playa.",
@@ -72,13 +72,13 @@
     {
      "es": "Vamos al cine.",
      "ja": "映画に行きます。",
-     "note": "a ＋ el は al になる。"
+     "note": "a + el は al になる。"
     }
    ]
   },
   {
-   "title": "ir a ＋原形：近い未来・つもり",
-   "body": "**ir の活用形 ＋ a ＋ 動詞の原形** で、「〜するつもり」「〜しよう」という近い未来を表します。日本語の「〜しに行く」とは違い、実際に出かけなくても使えます。\n・Voy a estudiar.（勉強するつもり）\n・Vamos a comer.（食べよう／食べるつもりです）\nvamos a ＋原形は「〜しましょう」と誘う言い方にもなります。変わるのは ir の部分だけで、後ろの動詞はいつも原形です。a を忘れないこと。",
+   "title": "ir a + 原形：近い未来・つもり",
+   "body": "**ir の活用形 + a + 動詞の原形** で、「〜するつもり」「〜しよう」という近い未来を表します。日本語の「〜しに行く」とは違い、実際に出かけなくても使えます。\n・Voy a estudiar.（勉強するつもり）\n・Vamos a comer.（食べよう / 食べるつもりです）\nvamos a + 原形は「〜しましょう」と誘う言い方にもなります。変わるのは ir の部分だけで、後ろの動詞はいつも原形です。a を忘れないこと。",
    "examples": [
     {
      "es": "Voy a trabajar mañana.",
@@ -96,7 +96,7 @@
   },
   {
    "title": "hacer：作る・する",
-   "body": "hacer は yo だけが不規則（hago）で、あとは規則どおりです。\n・yo **hago** ／ tú haces ／ él・ella・usted hace\n・nosotros hacemos ／ vosotros hacéis ／ ellos・ellas・ustedes hacen\n「作る」「する」の両方を表し、tarea（宿題）や ejercicio（運動）にも使います。質問 ¿Qué haces?（何してるの？）は、よく使う決まり文句です。",
+   "body": "hacer は yo だけが不規則（hago）で、あとは規則どおりです。\n・yo **hago** / tú haces / él・ella・usted hace\n・nosotros hacemos / vosotros hacéis / ellos・ellas・ustedes hacen\n「作る」「する」の両方を表し、tarea（宿題）や ejercicio（運動）にも使います。質問 ¿Qué haces?（何してるの？）は、よく使う決まり文句です。",
    "examples": [
     {
      "es": "Hago la tarea.",
@@ -194,7 +194,7 @@
     "paella."
    ],
    "accept": [],
-   "why": "ir a ＋原形で「〜するつもり」。a を忘れないこと。"
+   "why": "ir a + 原形で「〜するつもり」。a を忘れないこと。"
   },
   {
    "type": "choice",
@@ -214,7 +214,7 @@
     {
      "text": "Voy a trabajar mañana.",
      "correct": true,
-     "why": "voy a ＋原形で近い未来。"
+     "why": "voy a + 原形で近い未来。"
     }
    ]
   },
@@ -274,7 +274,7 @@
     "hacer?"
    ],
    "accept": [],
-   "why": "vas a ＋原形（hacer）で「〜するつもり」。tú に向けて聞いています。"
+   "why": "vas a + 原形（hacer）で「〜するつもり」。tú に向けて聞いています。"
   },
   {
    "type": "choice",

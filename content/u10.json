@@ -6,7 +6,7 @@
  "points": {
   "lines": [
    "席は Una mesa para dos, por favor.",
-   "注文は Quiero／Quisiera（ていねい）／Para mí 〜",
+   "注文は Quiero / Quisiera（ていねい） / Para mí 〜",
    "会計は La cuenta, por favor."
   ],
   "examples": [
@@ -70,7 +70,7 @@
   },
   {
    "title": "飲み物の頼み方",
-   "body": "・水：**agua con gas**（炭酸入り）／ **agua sin gas**（炭酸なし）。日本と違い、水は注文するのがふつうです。\n・ビール：スペインでは小さめの生ビールを **una caña** と言います。\n・ワイン：**vino tinto**（赤）／ **vino blanco**（白）",
+   "body": "・水：**agua con gas**（炭酸入り） / **agua sin gas**（炭酸なし）。日本と違い、水は注文するのがふつうです。\n・ビール：スペインでは小さめの生ビールを **una caña** と言います。\n・ワイン：**vino tinto**（赤） / **vino blanco**（白）",
    "examples": [
     {
      "es": "Agua sin gas, por favor.",
@@ -214,7 +214,7 @@
     "tarjeta?"
    ],
    "accept": [],
-   "why": "puedo（私はできる）＋動詞の原形 pagar。「カードで」は con tarjeta。"
+   "why": "puedo（私はできる） + 動詞の原形 pagar。「カードで」は con tarjeta。"
   },
   {
    "type": "choice",
@@ -422,7 +422,7 @@
    "id": "rico",
    "es": "rico / rica",
    "art": null,
-   "ja": "おいしい（食べ物）；（ser ＋人）お金持ちの"
+   "ja": "おいしい（食べ物）；（ser + 人）お金持ちの"
   },
   {
    "id": "paella",

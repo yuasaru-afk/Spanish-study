@@ -22,7 +22,7 @@
  },
  "explain": [
   {
-   "title": "点過去＝終わった出来事",
+   "title": "点過去 = 終わった出来事",
    "body": "**点過去**は、過去に起きて**もう終わった出来事**を言う形です。「昨日、話した」「去年、引っ越した」のように、時間の線の上に**点を1つ打つ**イメージです。\nこの課では規則動詞（hablar / comer / vivir 型）だけ。現在形とは語尾がまったく別なので、まず語尾を覚えます。\n・hablar（-ar）\n・comer（-er）\n・vivir（-ir）\n不規則動詞は u22、「〜していた」という形は u23 で扱います。",
    "examples": [
     {
@@ -76,7 +76,7 @@
   },
   {
    "title": "アクセント記号が意味を分ける",
-   "body": "点過去の yo と él・ella・usted は、**最後の母音にアクセント記号**が付きます（hablé, habló, comí, comió）。これを落とすと別の形になります。\n・habl**o**＝現在形（私は話す）\n・habl**ó**＝点過去（彼は話した）\n・habl**é**＝点過去（私は話した）\n記号があると、**最後の音節を強く読む**合図になります。hablo は「ha-blo」、habló は「ha-BLÓ」と読み方まで違うのです。メールなどで記号を落とすと、現在形と取り違えられます。\n-er / -ir 動詞の com**í** / com**ió** も、í や ó の上の記号を忘れやすいので注意しましょう。",
+   "body": "点過去の yo と él・ella・usted は、**最後の母音にアクセント記号**が付きます（hablé, habló, comí, comió）。これを落とすと別の形になります。\n・habl**o** = 現在形（私は話す）\n・habl**ó** = 点過去（彼は話した）\n・habl**é** = 点過去（私は話した）\n記号があると、**最後の音節を強く読む**合図になります。hablo は「ha-blo」、habló は「ha-BLÓ」と読み方まで違うのです。メールなどで記号を落とすと、現在形と取り違えられます。\n-er / -ir 動詞の com**í** / com**ió** も、í や ó の上の記号を忘れやすいので注意しましょう。",
    "examples": [
     {
      "es": "Hablo con mi madre.",
@@ -97,7 +97,7 @@
   },
   {
    "title": "過去を示す言葉",
-   "body": "点過去とよく一緒に出る言葉です。\n・ayer＝昨日、anteayer＝一昨日、anoche＝昨夜\n・la semana pasada＝先週\n・el mes pasado＝先月\n・el año pasado＝去年\npasado は「過ぎた」という意味で、la semana **pasada** のように名詞に合わせて形が変わります（男性 pasado、女性 pasada）。\n前置詞は付けません。×en el año pasado ではなく、**el año pasado** だけで「去年」です。",
+   "body": "点過去とよく一緒に出る言葉です。\n・ayer = 昨日、anteayer = 一昨日、anoche = 昨夜\n・la semana pasada = 先週\n・el mes pasado = 先月\n・el año pasado = 去年\npasado は「過ぎた」という意味で、la semana **pasada** のように名詞に合わせて形が変わります（男性 pasado、女性 pasada）。\n前置詞は付けません。×en el año pasado ではなく、**el año pasado** だけで「去年」です。",
    "examples": [
     {
      "es": "La semana pasada visité a mi abuela.",
@@ -193,7 +193,7 @@
     {
      "text": "vivió",
      "correct": true,
-     "why": "él・ella・usted の点過去は -ió。vivió＝住んだ。"
+     "why": "él・ella・usted の点過去は -ió。vivió = 住んだ。"
     },
     {
      "text": "viví",
@@ -220,7 +220,7 @@
     {
      "text": "Habló con el jefe.",
      "correct": true,
-     "why": "habló（記号つき）は él・ella の点過去＝「話した」。"
+     "why": "habló（記号つき）は él・ella の点過去 = 「話した」。"
     }
    ]
   },
@@ -312,7 +312,7 @@
      "pasado."
     ]
    ],
-   "why": "empezar の yo は z が c に変わり empecé。empezar a ＋ 原形で「〜し始める」。「去年」は前置詞なしの el año pasado。"
+   "why": "empezar の yo は z が c に変わり empecé。empezar a + 原形で「〜し始める」。「去年」は前置詞なしの el año pasado。"
   },
   {
    "type": "choice",

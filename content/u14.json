@@ -59,7 +59,7 @@
   },
   {
    "title": "位置を表す言葉",
-   "body": "場所は estar の後ろに、位置を表す語を置いて言います。\n・**al lado de** ＋ 名詞：〜の隣\n・**delante de**：〜の前　／　**detrás de**：〜の後ろ\n・**enfrente de**：〜の向かい　／　**entre A y B**：AとBの間\n・cerca de / lejos de：〜の近く／遠く\nde の後ろに el が来ると **del** に変わります：al lado **del** banco（de ＋ el ＝ del）。la や una の前では変わりません：al lado **de la** farmacia。",
+   "body": "場所は estar の後ろに、位置を表す語を置いて言います。\n・**al lado de** + 名詞：〜の隣\n・**delante de**：〜の前 / **detrás de**：〜の後ろ\n・**enfrente de**：〜の向かい / **entre A y B**：AとBの間\n・cerca de / lejos de：〜の近く / 遠く\nde の後ろに el が来ると **del** に変わります：al lado **del** banco（de + el = del）。la や una の前では変わりません：al lado **de la** farmacia。",
    "examples": [
     {
      "es": "La farmacia está al lado del banco.",
@@ -77,7 +77,7 @@
   },
   {
    "title": "道を教える言葉",
-   "body": "道を教えるときに、そのまま使える形です（相手が usted のときの言い方）。\n・**Siga todo recto.**（まっすぐ進んでください）\n・**Gire a la derecha / a la izquierda.**（右／左に曲がってください）\n・**Cruce la calle.**（通りを渡ってください）\n・**En el semáforo**（信号のところで）, **en la esquina**（角で）\nどれも命令に聞こえますが、道案内では普通の丁寧な言い方です。\n🌎 中南米では todo recto の代わりに（todo）derecho、girar の代わりに doblar もよく使います。",
+   "body": "道を教えるときに、そのまま使える形です（相手が usted のときの言い方）。\n・**Siga todo recto.**（まっすぐ進んでください）\n・**Gire a la derecha / a la izquierda.**（右 / 左に曲がってください）\n・**Cruce la calle.**（通りを渡ってください）\n・**En el semáforo**（信号のところで）, **en la esquina**（角で）\nどれも命令に聞こえますが、道案内では普通の丁寧な言い方です。\n🌎 中南米では todo recto の代わりに（todo）derecho、girar の代わりに doblar もよく使います。",
    "examples": [
     {
      "es": "Siga todo recto.",
@@ -250,17 +250,17 @@
     {
      "text": "al",
      "correct": false,
-     "why": "al は a ＋ el。ここは al lado の後ろなので de ＋ el ＝ del。"
+     "why": "al は a + el。ここは al lado の後ろなので de + el = del。"
     },
     {
      "text": "del",
      "correct": true,
-     "why": "de ＋ el は del に変わります。"
+     "why": "de + el は del に変わります。"
     },
     {
      "text": "de el",
      "correct": false,
-     "why": "de el とは書きません。de ＋ el は必ず del に縮めます。"
+     "why": "de el とは書きません。de + el は必ず del に縮めます。"
     }
    ]
   },

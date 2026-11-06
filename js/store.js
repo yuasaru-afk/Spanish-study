@@ -7,7 +7,7 @@ const KEY = 'es-app-v1';
 export function defaultState() {
   return {
     version: 1,
-    settings: { fontSize: 'm', theme: 'auto', speak: false, rate: 0.9 },
+    settings: { fontSize: 'm', theme: 'auto', speak: false, rate: 0.9, chime: true },
     units: {},
     resume: null,
     cards: {},
@@ -38,7 +38,7 @@ export function migrateStage(stage) {
   return stage;
 }
 
-const ALLOWED = { fontSize: ['s', 'm', 'l', 'xl'], theme: ['auto', 'light', 'dark'], speak: [false, true], rate: [0.7, 0.9, 1.0] };
+const ALLOWED = { fontSize: ['s', 'm', 'l', 'xl'], theme: ['auto', 'light', 'dark'], speak: [false, true], rate: [0.7, 0.9, 1.0], chime: [false, true] };
 const STAGES = ['points', 'practice', 'words', 'explain', 'phrases', 'speak'];
 const isPos = p => isObj(p) && STAGES.includes(p.stage) && Number.isInteger(p.index) && p.index >= 0;
 const isCount = n => Number.isInteger(n) && n >= -1;

@@ -2,10 +2,10 @@
  "id": "u17",
  "no": 17,
  "title": "天気と季節",
- "summary": "hace ＋ 名詞で寒い・暑い・晴れ・風が強い。雨と雪は動詞 llueve / nieva。季節名も覚えよう。",
+ "summary": "hace + 名詞で寒い・暑い・晴れ・風が強い。雨と雪は動詞 llueve / nieva。季節名も覚えよう。",
  "points": {
   "lines": [
-   "寒い・暑い・晴れは hace ＋ 名詞",
+   "寒い・暑い・晴れは hace + 名詞",
    "雨・雪は動詞 llueve / nieva（主語なし）",
    "曇りは está nublado、霧は hay niebla"
   ],
@@ -23,7 +23,7 @@
  "explain": [
   {
    "title": "¿Qué tiempo hace?（天気を聞く・答える）",
-   "body": "天気を聞くときは ¿**Qué tiempo hace**?（どんな天気？）です。tiempo は「天気」のほか「時間」の意味もあります。\n答えは **hace ＋ 名詞** で、hace は**いつも3人称単数**の形です。\n・Hace **frío**.（寒い）\n・Hace **calor**.（暑い）\n・Hace **sol**.（晴れている）\n・Hace **viento**.（風が強い）\n・Hace buen / mal tiempo.（天気がいい／悪い）",
+   "body": "天気を聞くときは ¿**Qué tiempo hace**?（どんな天気？）です。tiempo は「天気」のほか「時間」の意味もあります。\n答えは **hace + 名詞** で、hace は**いつも3人称単数**の形です。\n・Hace **frío**.（寒い）\n・Hace **calor**.（暑い）\n・Hace **sol**.（晴れている）\n・Hace **viento**.（風が強い）\n・Hace buen / mal tiempo.（天気がいい / 悪い）",
    "examples": [
     {
      "es": "¿Qué tiempo hace hoy?",
@@ -41,7 +41,7 @@
   },
   {
    "title": "「とても」は mucho（muy ではない）",
-   "body": "frío・calor・sol・viento は**名詞**です。名詞を強めるのは **mucho**（ここでは男性単数の mucho）。形容詞を強める muy は使いません。\n・Hace **mucho** frío.（とても寒い）\n・Hace **mucho** calor.（とても暑い）\n日本語の「寒い」「暑い」は形容詞なので、つい Es frío. や Es muy calor. と言いたくなりますが、天気は hace を使います。\n人が「寒い・暑い」と感じるときは別で、**tener ＋ frío / calor**：Tengo frío.（私は寒い）。",
+   "body": "frío・calor・sol・viento は**名詞**です。名詞を強めるのは **mucho**（ここでは男性単数の mucho）。形容詞を強める muy は使いません。\n・Hace **mucho** frío.（とても寒い）\n・Hace **mucho** calor.（とても暑い）\n日本語の「寒い」「暑い」は形容詞なので、つい Es frío. や Es muy calor. と言いたくなりますが、天気は hace を使います。\n人が「寒い・暑い」と感じるときは別で、**tener + frío / calor**：Tengo frío.（私は寒い）。",
    "examples": [
     {
      "es": "Hace mucho viento.",
@@ -78,7 +78,7 @@
   },
   {
    "title": "曇り・霧・嵐：está と hay",
-   "body": "状態を形容詞で言うときは **está ＋ 形容詞**：\n・Está **nublado**.（曇っている）\n・Está **despejado**.（晴れ渡っている）\nものが「ある」ときは **hay ＋ 名詞**：\n・**Hay** niebla.（霧が出ている）\n・**Hay** tormenta.（嵐だ）\nniebla に hace を付けないのがポイント。hace は frío・calor・sol・viento など決まった語と組み合わせます。",
+   "body": "状態を形容詞で言うときは **está + 形容詞**：\n・Está **nublado**.（曇っている）\n・Está **despejado**.（晴れ渡っている）\nものが「ある」ときは **hay + 名詞**：\n・**Hay** niebla.（霧が出ている）\n・**Hay** tormenta.（嵐だ）\nniebla に hace を付けないのがポイント。hace は frío・calor・sol・viento など決まった語と組み合わせます。",
    "examples": [
     {
      "es": "Hoy está nublado.",
@@ -161,12 +161,12 @@
     {
      "text": "hace",
      "correct": true,
-     "why": "calor は名詞。天気は hace ＋ 名詞で言う。"
+     "why": "calor は名詞。天気は hace + 名詞で言う。"
     },
     {
      "text": "tiene",
      "correct": false,
-     "why": "tiene は人が暑く感じるとき（tiene calor＝彼は暑い）。天気そのものには使わない。"
+     "why": "tiene は人が暑く感じるとき（tiene calor = 彼は暑い）。天気そのものには使わない。"
     },
     {
      "text": "es",
@@ -216,7 +216,7 @@
      "invierno."
     ]
    ],
-   "why": "季節は en ＋ invierno。雪は動詞 nieva で、mucho は動詞のあと。"
+   "why": "季節は en + invierno。雪は動詞 nieva で、mucho は動詞のあと。"
   },
   {
    "type": "choice",
@@ -304,7 +304,7 @@
     {
      "text": "Hay niebla.",
      "correct": true,
-     "why": "niebla は「ある」で言う。hay ＋ 名詞。"
+     "why": "niebla は「ある」で言う。hay + 名詞。"
     }
    ]
   },
@@ -326,7 +326,7 @@
     {
      "text": "Tengo frío.",
      "correct": true,
-     "why": "人が寒く感じるときは tener ＋ frío。"
+     "why": "人が寒く感じるときは tener + frío。"
     }
    ]
   },

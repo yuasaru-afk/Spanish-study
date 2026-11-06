@@ -23,7 +23,7 @@
  "explain": [
   {
    "title": "直接目的語（〜を）をくり返さない",
-   "body": "「〜を」にあたる語を**直接目的語**と言います。tengo **el libro**（私は本を持っている）の el libro がそれです。\n日本語は「持ってるよ」と目的語を言わずに済ませますが、スペイン語は一度出た名詞を**代名詞に置き換えて動詞の前に入れる**のがふつうです。\n・¿Tienes el libro? — Sí, **lo** tengo.\nここで lo は「それを」＝ el libro。名詞が男性・単数だから lo になります。",
+   "body": "「〜を」にあたる語を**直接目的語**と言います。tengo **el libro**（私は本を持っている）の el libro がそれです。\n日本語は「持ってるよ」と目的語を言わずに済ませますが、スペイン語は一度出た名詞を**代名詞に置き換えて動詞の前に入れる**のがふつうです。\n・¿Tienes el libro? — Sí, **lo** tengo.\nここで lo は「それを」 = el libro。名詞が男性・単数だから lo になります。",
    "examples": [
     {
      "es": "¿Tienes el libro? — Sí, lo tengo.",
@@ -36,8 +36,8 @@
    ]
   },
   {
-   "title": "lo / la / los / las ＋ me / te / nos / os",
-   "body": "3人称（彼・彼女・それ）の「〜を」は、指している名詞の**性と数**で形が決まります。\n・男性・単数 **lo**（el libro）／女性・単数 **la**（la llave）\n・男性・複数 **los**（los billetes）／女性・複数 **las**（las entradas）\n1・2人称は名詞の性に関係なく次の形です。\n・私を **me**／君を **te**／私たちを **nos**／君たちを **os**\n🌎 os は vosotros 用で、中南米では ustedes に対して los / las を使います。\nme, te, nos, os は u16 の再帰代名詞と同じ形ですが、ここでは「自分」ではなく**ほかの人**を指します。",
+   "title": "lo / la / los / las + me / te / nos / os",
+   "body": "3人称（彼・彼女・それ）の「〜を」は、指している名詞の**性と数**で形が決まります。\n・男性・単数 **lo**（el libro） / 女性・単数 **la**（la llave）\n・男性・複数 **los**（los billetes） / 女性・複数 **las**（las entradas）\n1・2人称は名詞の性に関係なく次の形です。\n・私を **me** / 君を **te** / 私たちを **nos** / 君たちを **os**\n🌎 os は vosotros 用で、中南米では ustedes に対して los / las を使います。\nme, te, nos, os は u16 の再帰代名詞と同じ形ですが、ここでは「自分」ではなく**ほかの人**を指します。",
    "examples": [
     {
      "es": "¿Tienes las llaves? — No, no las tengo.",
@@ -56,8 +56,8 @@
    ]
   },
   {
-   "title": "人が目的語のとき：a ＋ 人 → la / lo",
-   "body": "人を目的語にするときは、名詞の前に **a** が付きます（Veo **a** María. ＝マリアに会う、見かける）。この a は「〜に」ではなく、人だとわかる印です。\n代名詞に置き換えると a は消えて、名詞の性で lo / la になります。\n・Veo a María. → **La** veo.\n・Conozco a Pedro. → **Lo** conozco.\n複数の人なら los / las です。「conocer」は「知り合いだ、会ったことがある」の意味で、私の形は conozco と不規則です。",
+   "title": "人が目的語のとき：a + 人 → la / lo",
+   "body": "人を目的語にするときは、名詞の前に **a** が付きます（Veo **a** María. = マリアに会う、見かける）。この a は「〜に」ではなく、人だとわかる印です。\n代名詞に置き換えると a は消えて、名詞の性で lo / la になります。\n・Veo a María. → **La** veo.\n・Conozco a Pedro. → **Lo** conozco.\n複数の人なら los / las です。「conocer」は「知り合いだ、会ったことがある」の意味で、私の形は conozco と不規則です。",
    "examples": [
     {
      "es": "Veo a María. → La veo.",
@@ -75,7 +75,7 @@
   },
   {
    "title": "位置：動詞の前、または原形・現在分詞の後ろ",
-   "body": "代名詞は**活用した動詞のすぐ前**に置き、否定の no はその前です（No **lo** tengo.）。\n動詞が2つ続くとき（querer ＋ 原形、ir a ＋ 原形）は、u16 の再帰動詞と同じく次の2通りで、意味は同じです。\n・活用形の前：**Lo** quiero comprar.\n・原形の後ろにくっつける：Quiero comprar**lo**.\n現在進行形も同様で、**Lo** estoy leyendo. か Estoy leyéndo**lo**. です。後ろに付けると、強く読む位置が動かないようにアクセント記号が付きます（leyendo → leyéndolo）。",
+   "body": "代名詞は**活用した動詞のすぐ前**に置き、否定の no はその前です（No **lo** tengo.）。\n動詞が2つ続くとき（querer + 原形、ir a + 原形）は、u16 の再帰動詞と同じく次の2通りで、意味は同じです。\n・活用形の前：**Lo** quiero comprar.\n・原形の後ろにくっつける：Quiero comprar**lo**.\n現在進行形も同様で、**Lo** estoy leyendo. か Estoy leyéndo**lo**. です。後ろに付けると、強く読む位置が動かないようにアクセント記号が付きます（leyendo → leyéndolo）。",
    "examples": [
     {
      "es": "No lo tengo.",
@@ -105,7 +105,7 @@
     {
      "es": "¿Entiendes? — Sí, lo entiendo.",
      "ja": "わかる？ — うん、わかるよ。",
-     "note": "lo＝そのこと"
+     "note": "lo = そのこと"
     }
    ]
   }
@@ -292,7 +292,7 @@
     {
      "text": "lo",
      "correct": false,
-     "why": "lo は「それを／彼を」。相手の「君」を指すので te になる。"
+     "why": "lo は「それを / 彼を」。相手の「君」を指すので te になる。"
     },
     {
      "text": "me",

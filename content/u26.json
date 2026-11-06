@@ -2,12 +2,12 @@
  "id": "u26",
  "no": 26,
  "title": "比較",
- "summary": "「〜より大きい」「〜と同じくらい」「〜でいちばん」を言おう。más / menos ＋ 形容詞 ＋ que が土台で、mejor・peor など特別な形も覚える。",
+ "summary": "「〜より大きい」「〜と同じくらい」「〜でいちばん」を言おう。más / menos + 形容詞 + que が土台で、mejor・peor など特別な形も覚える。",
  "points": {
   "lines": [
-   "より〜：más（menos）＋形容詞＋ que",
-   "同じくらい：tan ＋形容詞＋ como",
-   "いちばん〜：el / la más ＋形容詞＋ de"
+   "より〜：más（menos） + 形容詞 + que",
+   "同じくらい：tan + 形容詞 + como",
+   "いちばん〜：el / la más + 形容詞 + de"
   ],
   "examples": [
    {
@@ -22,8 +22,8 @@
  },
  "explain": [
   {
-   "title": "más / menos ＋ 形容詞 ＋ que（〜より）",
-   "body": "「A は B より〜だ」は、形容詞の前に **más**（より多く）か **menos**（より少なく）を置き、比べる相手の前に **que** を付けます。\n・más alto **que** …（〜より背が高い）\n・menos caro **que** …（〜より安い）\n形容詞の形は**主語の性・数に合わせる**だけで、más が付いても変わりません（alta, altos…）。日本語の「より」は比べる相手の後ろに来ますが、スペイン語は que が相手の**前**です。\n数や量と比べるときだけは que ではなく **de** を使います（más de diez＝10より多い）。",
+   "title": "más / menos + 形容詞 + que（〜より）",
+   "body": "「A は B より〜だ」は、形容詞の前に **más**（より多く）か **menos**（より少なく）を置き、比べる相手の前に **que** を付けます。\n・más alto **que** …（〜より背が高い）\n・menos caro **que** …（〜より安い）\n形容詞の形は**主語の性・数に合わせる**だけで、más が付いても変わりません（alta, altos…）。日本語の「より」は比べる相手の後ろに来ますが、スペイン語は que が相手の**前**です。\n数や量と比べるときだけは que ではなく **de** を使います（más de diez = 10より多い）。",
    "examples": [
     {
      "es": "Ana es más alta que Luis.",
@@ -41,7 +41,7 @@
    ]
   },
   {
-   "title": "tan ＋ 形容詞 ＋ como（同じくらい）",
+   "title": "tan + 形容詞 + como（同じくらい）",
    "body": "程度が同じなら、形容詞の前に **tan**、相手の前に **como** を置きます。「A は B と同じくらい〜だ」です。\n・tan alto **como** …（〜と同じくらい背が高い）\ntan は形容詞や副詞の前につく短い形で、形は変わりません。否定にすると「〜ほどは…でない」の意味になります。\nただし como は que と別物なので、**tan … que ではなく tan … como** と覚えます（tan … que は別の意味になります）。",
    "examples": [
     {
@@ -59,8 +59,8 @@
    ]
   },
   {
-   "title": "tanto / tanta / tantos / tantas ＋ 名詞 ＋ como",
-   "body": "**名詞の数や量**が同じと言うときは、tan ではなく **tanto** を使い、名詞の性・数に合わせて形を変えます。\n・tanto dinero（男・単）／tanta agua（女・単）\n・tantos libros（男・複）／tantas amigas（女・複）\n後ろは同じく **como** です。動詞のあとに置いて副詞として使うと、tanto は形が変わりません（Trabajo tanto como tú.＝君と同じくらいよく働く）。\n見分け方は「**形容詞・副詞の前は tan、名詞の前は tanto**」です。",
+   "title": "tanto / tanta / tantos / tantas + 名詞 + como",
+   "body": "**名詞の数や量**が同じと言うときは、tan ではなく **tanto** を使い、名詞の性・数に合わせて形を変えます。\n・tanto dinero（男・単） / tanta agua（女・単）\n・tantos libros（男・複） / tantas amigas（女・複）\n後ろは同じく **como** です。動詞のあとに置いて副詞として使うと、tanto は形が変わりません（Trabajo tanto como tú. = 君と同じくらいよく働く）。\n見分け方は「**形容詞・副詞の前は tan、名詞の前は tanto**」です。",
    "examples": [
     {
      "es": "Tengo tantos libros como tú.",
@@ -97,7 +97,7 @@
   },
   {
    "title": "最上級：el / la más … de",
-   "body": "「〜の中でいちばん」は、比較級の前に**定冠詞**（el / la / los / las）を付けます。範囲を示すときは **de** を使います。\n・Madrid es **la ciudad más grande de** España.\n名詞を入れるときは「冠詞＋名詞＋más＋形容詞」の順です。名詞を省けば el más alto（いちばん背が高い人）のように言えます。\n**en** と言う人もいますが、標準は de です。範囲の前は de と覚えます。mejor・peor にも el / la を付けます（el mejor de la clase）。",
+   "body": "「〜の中でいちばん」は、比較級の前に**定冠詞**（el / la / los / las）を付けます。範囲を示すときは **de** を使います。\n・Madrid es **la ciudad más grande de** España.\n名詞を入れるときは「冠詞 + 名詞 + más + 形容詞」の順です。名詞を省けば el más alto（いちばん背が高い人）のように言えます。\n**en** と言う人もいますが、標準は de です。範囲の前は de と覚えます。mejor・peor にも el / la を付けます（el mejor de la clase）。",
    "examples": [
     {
      "es": "Es la ciudad más grande de España.",
@@ -110,13 +110,13 @@
     {
      "es": "Este es el mejor restaurante del barrio.",
      "ja": "ここが界隈でいちばんの店だ。",
-     "note": "de ＋ el ＝ del"
+     "note": "de + el = del"
     }
    ]
   },
   {
    "title": "-ísimo（muy の強調）",
-   "body": "形容詞の語尾を **-ísimo** に変えると、「とても〜」より強い「ものすごく〜」になります。muy caro ＝ **carísimo** です。\n・語尾の母音を取って -ísimo を付ける：grande → grand**ísimo**\n・性・数で形が変わる：carísimo / carísima / carísimos / carísimas\n・綴りが変わるもの：rico → **riquísimo**（c → qu）、largo → **larguísimo**（g → gu）\n・fácil → **facilísimo**（アクセント記号が消える）\n・mucho → **muchísimo**\n-ísimo の形に **muy を重ねて使う**ことはできません。×muy carísimo。",
+   "body": "形容詞の語尾を **-ísimo** に変えると、「とても〜」より強い「ものすごく〜」になります。muy caro = **carísimo** です。\n・語尾の母音を取って -ísimo を付ける：grande → grand**ísimo**\n・性・数で形が変わる：carísimo / carísima / carísimos / carísimas\n・綴りが変わるもの：rico → **riquísimo**（c → qu）、largo → **larguísimo**（g → gu）\n・fácil → **facilísimo**（アクセント記号が消える）\n・mucho → **muchísimo**\n-ísimo の形に **muy を重ねて使う**ことはできません。×muy carísimo。",
    "examples": [
     {
      "es": "Este bolso es carísimo.",
@@ -263,7 +263,7 @@
     "hermano."
    ],
    "accept": [],
-   "why": "más alto que ＋比べる相手。Pedro は男性なので alto。"
+   "why": "más alto que + 比べる相手。Pedro は男性なので alto。"
   },
   {
    "type": "choice",

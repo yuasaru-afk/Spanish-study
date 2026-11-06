@@ -73,7 +73,7 @@
   },
   {
    "title": "現在形の使いどころ",
-   "body": "現在形は日本語の「〜する／〜している」の両方をカバーします。\n・習慣：Trabajo en Tokio.（東京で働いている）\n・今のこと：¿Qué buscas?（何を探しているの？）\n・近い予定：Mañana viajo a Madrid.（明日マドリードへ行く）",
+   "body": "現在形は日本語の「〜する / 〜している」の両方をカバーします。\n・習慣：Trabajo en Tokio.（東京で働いている）\n・今のこと：¿Qué buscas?（何を探しているの？）\n・近い予定：Mañana viajo a Madrid.（明日マドリードへ行く）",
    "examples": [
     {
      "es": "¿Qué buscas?",
@@ -95,7 +95,7 @@
     },
     {
      "es": "¿Hablan inglés?",
-     "ja": "君たち英語話せる？（🌎 中南米）／あなた方は英語を話しますか？"
+     "ja": "君たち英語話せる？（🌎 中南米） / あなた方は英語を話しますか？"
     }
    ]
   }
@@ -110,7 +110,7 @@
     {
      "text": "hablo",
      "correct": true,
-     "why": "yo の語尾は -o。habl- ＋ o で hablo。"
+     "why": "yo の語尾は -o。habl- + o で hablo。"
     },
     {
      "text": "habla",
@@ -138,7 +138,7 @@
     {
      "text": "trabajas",
      "correct": true,
-     "why": "tú の語尾は -as。trabaj- ＋ as で trabajas。"
+     "why": "tú の語尾は -as。trabaj- + as で trabajas。"
     },
     {
      "text": "trabajo",
@@ -166,7 +166,7 @@
     {
      "text": "estudiamos",
      "correct": true,
-     "why": "nosotros の語尾は -amos。estudi- ＋ amos で estudiamos。"
+     "why": "nosotros の語尾は -amos。estudi- + amos で estudiamos。"
     }
    ]
   },
@@ -179,7 +179,7 @@
     {
      "text": "toma",
      "correct": true,
-     "why": "ella の語尾は -a。tom- ＋ a で toma。tomar は「飲む」にも使います。"
+     "why": "ella の語尾は -a。tom- + a で toma。tomar は「飲む」にも使います。"
     },
     {
      "text": "tomas",
@@ -207,7 +207,7 @@
     {
      "text": "necesita",
      "correct": true,
-     "why": "usted は él・ella と同じ語尾 -a。necesit- ＋ a で necesita。"
+     "why": "usted は él・ella と同じ語尾 -a。necesit- + a で necesita。"
     },
     {
      "text": "necesito",
@@ -232,7 +232,7 @@
      "ellos."
     ]
    ],
-   "why": "ellos の語尾は -an。主語＋動詞＋目的語の順がふつうです。"
+   "why": "ellos の語尾は -an。主語 + 動詞 + 目的語の順がふつうです。"
   },
   {
    "type": "choice",
@@ -287,7 +287,7 @@
     {
      "text": "llega",
      "correct": true,
-     "why": "el tren（電車・単数）は él と同じ扱い。lleg- ＋ a で llega。"
+     "why": "el tren（電車・単数）は él と同じ扱い。lleg- + a で llega。"
     }
    ]
   }

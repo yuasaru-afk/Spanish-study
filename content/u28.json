@@ -7,7 +7,7 @@
   "lines": [
    "「〜に」：me, te, le, nos, os, les",
    "「に」と「を」が並ぶ順は「に」→「を」",
-   "le / les ＋ lo / la は se lo / se la になる"
+   "le / les + lo / la は se lo / se la になる"
   ],
   "examples": [
    {
@@ -23,7 +23,7 @@
  "explain": [
   {
    "title": "間接目的語（〜に）の代名詞",
-   "body": "「〜に」にあたる語を**間接目的語**と言います。Doy el libro **a Ana**（アナに本をあげる）の a Ana がそれです。代名詞の形は次のとおりです。\n・私に **me**／君に **te**／彼・彼女・あなたに **le**\n・私たちに **nos**／君たちに **os**／彼ら・彼女ら・あなたがたに **les**\n3人称だけは lo/la と別の le / les を使うところが、u27 と違う点です。u9 の gustar（**Me** gusta…）の me / te / le も、実はこの「〜に」の代名詞です。\n🌎 os はスペインの「君たちに」。中南米では ustedes に対して les を使います。",
+   "body": "「〜に」にあたる語を**間接目的語**と言います。Doy el libro **a Ana**（アナに本をあげる）の a Ana がそれです。代名詞の形は次のとおりです。\n・私に **me** / 君に **te** / 彼・彼女・あなたに **le**\n・私たちに **nos** / 君たちに **os** / 彼ら・彼女ら・あなたがたに **les**\n3人称だけは lo/la と別の le / les を使うところが、u27 と違う点です。u9 の gustar（**Me** gusta…）の me / te / le も、実はこの「〜に」の代名詞です。\n🌎 os はスペインの「君たちに」。中南米では ustedes に対して les を使います。",
    "examples": [
     {
      "es": "Me das el libro.",
@@ -42,7 +42,7 @@
   },
   {
    "title": "a él / a ella で誰かを明確にする",
-   "body": "le は「彼にも彼女にもあなたにも」使えるので、**誰のことか分からなく**なることがあります。必要なときに「a ＋ 人」を足して明確にします。\n・**Le** doy el libro **a él**.（彼に）／**a ella**（彼女に）／**a usted**（あなたに）\n・**Les** doy el libro **a ellos**.（彼らに）\n名詞で言うときも、代名詞 le を**くり返して入れる**のがふつうです。\n・**Le** doy el libro **a Ana**.\nつまり le と a Ana が両方入りますが、重複ではなく自然な形です。",
+   "body": "le は「彼にも彼女にもあなたにも」使えるので、**誰のことか分からなく**なることがあります。必要なときに「a + 人」を足して明確にします。\n・**Le** doy el libro **a él**.（彼に） / **a ella**（彼女に） / **a usted**（あなたに）\n・**Les** doy el libro **a ellos**.（彼らに）\n名詞で言うときも、代名詞 le を**くり返して入れる**のがふつうです。\n・**Le** doy el libro **a Ana**.\nつまり le と a Ana が両方入りますが、重複ではなく自然な形です。",
    "examples": [
     {
      "es": "Le doy el libro a Ana.",
@@ -79,8 +79,8 @@
    ]
   },
   {
-   "title": "le / les ＋ lo / la は se lo / se la",
-   "body": "「彼に」の le や les のあとに lo / la / los / las が続くと、**le / les が se に変わります**。le lo のように l の音が続くのを避けるためです。\n・¿Le das el libro? — Sí, **se lo** doy.\n・¿Les mandas las fotos? — Sí, **se las** mando.\nこの **se は再帰代名詞（u16）ではありません**。「彼に／彼らに」の le / les が変身したものです。\nse は「彼に／彼女に／あなたに／彼らに」のどれにもなるので、はっきりさせたいときは **se lo doy a ella** のように a を足します。後ろの lo/la/los/las は、あげる**もの**の性・数で決まります（libro なら lo、foto なら la）。",
+   "title": "le / les + lo / la は se lo / se la",
+   "body": "「彼に」の le や les のあとに lo / la / los / las が続くと、**le / les が se に変わります**。le lo のように l の音が続くのを避けるためです。\n・¿Le das el libro? — Sí, **se lo** doy.\n・¿Les mandas las fotos? — Sí, **se las** mando.\nこの **se は再帰代名詞（u16）ではありません**。「彼に / 彼らに」の le / les が変身したものです。\nse は「彼に / 彼女に / あなたに / 彼らに」のどれにもなるので、はっきりさせたいときは **se lo doy a ella** のように a を足します。後ろの lo/la/los/las は、あげる**もの**の性・数で決まります（libro なら lo、foto なら la）。",
    "examples": [
     {
      "es": "¿Le das el libro? — Sí, se lo doy.",
@@ -99,7 +99,7 @@
   },
   {
    "title": "動詞が2つのとき：原形にくっつける",
-   "body": "u27 と同じく、代名詞は活用形の前に置くか、原形の後ろにくっつけます。2つ重なるときも同じで、**「に」→「を」の順のまま**動かしません。\n・**Se lo** voy a dar.＝Voy a dár**selo**.\n・**Te lo** quiero decir.＝Quiero decír**telo**.\n後ろに付けるときは、強く読む位置が動かないよう**アクセント記号**を付けます（dar → dárselo）。\n否定は no を最初に置きます：**No se lo** doy.",
+   "body": "u27 と同じく、代名詞は活用形の前に置くか、原形の後ろにくっつけます。2つ重なるときも同じで、**「に」→「を」の順のまま**動かしません。\n・**Se lo** voy a dar. = Voy a dár**selo**.\n・**Te lo** quiero decir. = Quiero decír**telo**.\n後ろに付けるときは、強く読む位置が動かないよう**アクセント記号**を付けます（dar → dárselo）。\n否定は no を最初に置きます：**No se lo** doy.",
    "examples": [
     {
      "es": "Se lo voy a dar.",
@@ -127,7 +127,7 @@
     {
      "text": "le",
      "correct": false,
-     "why": "le lo は l の音が続くので言えない。「彼に」＋ lo の組み合わせは se lo になる。"
+     "why": "le lo は l の音が続くので言えない。「彼に」 + lo の組み合わせは se lo になる。"
     },
     {
      "text": "te",
@@ -137,7 +137,7 @@
     {
      "text": "se",
      "correct": true,
-     "why": "le ＋ lo は se lo に変わる。"
+     "why": "le + lo は se lo に変わる。"
     }
    ]
   },
@@ -160,7 +160,7 @@
     {
      "text": "se",
      "correct": true,
-     "why": "les ＋ las は se las に変わる。"
+     "why": "les + las は se las に変わる。"
     }
    ]
   },

@@ -3,7 +3,13 @@ import { h } from '../dom.js';
 import { speak } from '../speech.js';
 
 export function sayButton(ctx, text, label = '🔊', rate) {
-  return h('button.say', { 'aria-label': `読み上げ: ${text}`, onclick: e => { e.stopPropagation(); speak(window, text, rate ?? ctx.state.settings.rate); } }, label);
+  const say = () => speak(window, text, rate ?? ctx.state.settings.rate);
+  // 指が触れた瞬間に読む（click は指を離してからなので遅れる）。キーボードの click（detail 0）も読む
+  return h('button.say', {
+    'aria-label': `読み上げ: ${text}`,
+    onpointerdown: e => { e.stopPropagation(); say(); },
+    onclick: e => { e.stopPropagation(); if (e.detail === 0) say(); },
+  }, label);
 }
 
 // スペイン語の1行（文字＋読み上げ）

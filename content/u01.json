@@ -6,7 +6,7 @@
  "points": {
   "lines": [
    "ていねいなあいさつは時間帯で変わる（días / tardes / noches）",
-   "名前は Me llamo ＋名前。相手には ¿Cómo te llamas?",
+   "名前は Me llamo + 名前。相手には ¿Cómo te llamas?",
    "くだけた相手は tú、目上・初対面は usted"
   ],
   "examples": [
@@ -23,7 +23,7 @@
  "explain": [
   {
    "title": "時間帯であいさつが変わる",
-   "body": "**Hola** はいつでも使える「やあ／こんにちは」。ていねいに言うときは時間帯で使い分けます。\n・**Buenos días**：朝〜昼食まで\n・**Buenas tardes**：昼食後〜夕食まで\n・**Buenas noches**：夜（別れぎわの「おやすみ」にも）\nスペインは昼食が14時ごろ、夕食が21時ごろと遅いので、夜8時でも **Buenas tardes** と言うことがあります。",
+   "body": "**Hola** はいつでも使える「やあ / こんにちは」。ていねいに言うときは時間帯で使い分けます。\n・**Buenos días**：朝〜昼食まで\n・**Buenas tardes**：昼食後〜夕食まで\n・**Buenas noches**：夜（別れぎわの「おやすみ」にも）\nスペインは昼食が14時ごろ、夕食が21時ごろと遅いので、夜8時でも **Buenas tardes** と言うことがあります。",
    "examples": [
     {
      "es": "Buenos días.",
@@ -35,7 +35,7 @@
     },
     {
      "es": "Buenas noches.",
-     "ja": "こんばんは／おやすみなさい。"
+     "ja": "こんばんは / おやすみなさい。"
     }
    ]
   },
@@ -45,7 +45,7 @@
    "examples": [
     {
      "es": "¿Qué tal?",
-     "ja": "元気？／調子はどう？"
+     "ja": "元気？ / 調子はどう？"
     },
     {
      "es": "¡Hola!",
@@ -60,7 +60,7 @@
   },
   {
    "title": "名前の言い方",
-   "body": "「私は〜という名前です」は **Me llamo 〜**。直訳すると「私は自分を〜と呼ぶ」です。\n相手の名前を聞くときは **¿Cómo te llamas?**（直訳：君は自分を何と呼ぶ？）。\n初対面のあいさつ「はじめまして」は **Mucho gusto**、または **Encantado**（話し手が男性）／**Encantada**（話し手が女性）。",
+   "body": "「私は〜という名前です」は **Me llamo 〜**。直訳すると「私は自分を〜と呼ぶ」です。\n相手の名前を聞くときは **¿Cómo te llamas?**（直訳：君は自分を何と呼ぶ？）。\n初対面のあいさつ「はじめまして」は **Mucho gusto**、または **Encantado**（話し手が男性） / **Encantada**（話し手が女性）。",
    "examples": [
     {
      "es": "Me llamo Takashi.",
@@ -248,7 +248,7 @@
     "Ana."
    ],
    "accept": [],
-   "why": "あいさつの後に Me llamo ＋名前。me は llamo の前に置きます。"
+   "why": "あいさつの後に Me llamo + 名前。me は llamo の前に置きます。"
   },
   {
    "type": "choice",
@@ -278,7 +278,7 @@
    "id": "hola",
    "es": "hola",
    "art": null,
-   "ja": "やあ／こんにちは"
+   "ja": "やあ / こんにちは"
   },
   {
    "id": "buenos_dias",
@@ -296,13 +296,13 @@
    "id": "buenas_noches",
    "es": "buenas noches",
    "art": null,
-   "ja": "こんばんは／おやすみ"
+   "ja": "こんばんは / おやすみ"
   },
   {
    "id": "que_tal",
    "es": "¿qué tal?",
    "art": null,
-   "ja": "元気？／どう？"
+   "ja": "元気？ / どう？"
   },
   {
    "id": "bien",
@@ -368,7 +368,7 @@
    "id": "vale",
    "es": "vale",
    "art": null,
-   "ja": "OK／わかった（スペインでよく使う）",
+   "ja": "OK / わかった（スペインでよく使う）",
    "latam": {
     "es": "está bien",
     "art": null
@@ -384,7 +384,7 @@
    "id": "encantado",
    "es": "encantado / encantada",
    "art": null,
-   "ja": "はじめまして（男性／女性が言う）"
+   "ja": "はじめまして（男性 / 女性が言う）"
   },
   {
    "id": "mucho_gusto",

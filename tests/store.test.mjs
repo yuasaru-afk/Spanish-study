@@ -10,7 +10,7 @@ const fake = (init = {}) => {
   return { getItem: k => (m.has(k) ? m.get(k) : null), setItem: (k, v) => m.set(k, String(v)) };
 };
 
-test('初期状態の設定値', () => assert.deepEqual(defaultState().settings, { fontSize: 'm', theme: 'auto', speak: false, rate: 0.9 }));
+test('初期状態の設定値', () => assert.deepEqual(defaultState().settings, { fontSize: 'm', theme: 'auto', speak: false, rate: 0.9, chime: true }));
 
 test('保存データがなければ初期状態', () => assert.deepEqual(load(fake()), defaultState()));
 

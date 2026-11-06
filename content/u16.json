@@ -22,8 +22,8 @@
  },
  "explain": [
   {
-   "title": "再帰動詞＝自分に返る動作",
-   "body": "原形の語尾に **-se** が付く動詞を**再帰動詞**と言います（levantar**se**）。動作が**自分自身に返ってくる**動詞です。\n・levantar＝（人や物を）起こす、持ち上げる\n・levantarse＝（自分を起こす→）起きる\n日本語では「自分を」と言わない動作（起きる、シャワーを浴びる、寝る）が、スペイン語では再帰動詞になることが多いのです。",
+   "title": "再帰動詞 = 自分に返る動作",
+   "body": "原形の語尾に **-se** が付く動詞を**再帰動詞**と言います（levantar**se**）。動作が**自分自身に返ってくる**動詞です。\n・levantar = （人や物を）起こす、持ち上げる\n・levantarse = （自分を起こす→）起きる\n日本語では「自分を」と言わない動作（起きる、シャワーを浴びる、寝る）が、スペイン語では再帰動詞になることが多いのです。",
    "examples": [
     {
      "es": "Levanto la mano.",
@@ -58,7 +58,7 @@
   },
   {
    "title": "代名詞の位置",
-   "body": "代名詞は活用した動詞の**すぐ前**です。否定の no はその前に置きます。\n動詞が2つ並ぶとき（ir a ＋ 原形、querer ＋ 原形）は、次の2通りがあり、意味は同じです。\n・活用形の前：Me voy a duchar.\n・原形の後ろにくっつける：Voy a ducharme.\nただし原形の前にはさんで **Voy a me duchar.** とは言えません。",
+   "body": "代名詞は活用した動詞の**すぐ前**です。否定の no はその前に置きます。\n動詞が2つ並ぶとき（ir a + 原形、querer + 原形）は、次の2通りがあり、意味は同じです。\n・活用形の前：Me voy a duchar.\n・原形の後ろにくっつける：Voy a ducharme.\nただし原形の前にはさんで **Voy a me duchar.** とは言えません。",
    "examples": [
     {
      "es": "No me levanto temprano.",
@@ -114,7 +114,7 @@
   },
   {
    "title": "名前を言う me llamo も再帰動詞",
-   "body": "Me llamo Ana. も再帰動詞です。llamar＝呼ぶ・電話する、**llamarse**＝（自分を〜と呼ぶ→）〜という名前だ。\n・¿Cómo **te llamas**?（君の名前は？）\n・¿Cómo **se llama** usted?（お名前は？）\nme llamo だけでなく、te llamas、se llama、nos llamamos も同じ仕組みです。\n再帰代名詞が付かない Llamo a Ana. は「アナに電話する」になるので注意。",
+   "body": "Me llamo Ana. も再帰動詞です。llamar = 呼ぶ・電話する、**llamarse** = （自分を〜と呼ぶ→）〜という名前だ。\n・¿Cómo **te llamas**?（君の名前は？）\n・¿Cómo **se llama** usted?（お名前は？）\nme llamo だけでなく、te llamas、se llama、nos llamamos も同じ仕組みです。\n再帰代名詞が付かない Llamo a Ana. は「アナに電話する」になるので注意。",
    "examples": [
     {
      "es": "¿Cómo te llamas?",
@@ -142,7 +142,7 @@
     {
      "text": "me levanto",
      "correct": true,
-     "why": "yo の再帰代名詞は me。me ＋ levanto。"
+     "why": "yo の再帰代名詞は me。me + levanto。"
     },
     {
      "text": "levanto",
@@ -198,7 +198,7 @@
     {
      "text": "me",
      "correct": false,
-     "why": "me llama は「私に電話する／私を呼ぶ」になり、名前を言う文にならない。"
+     "why": "me llama は「私に電話する / 私を呼ぶ」になり、名前を言う文にならない。"
     }
    ]
   },
@@ -335,7 +335,7 @@
     {
      "text": "Llama Ana.",
      "correct": false,
-     "why": "再帰代名詞がないと「アナに電話する／アナを呼ぶ」の意味になる。"
+     "why": "再帰代名詞がないと「アナに電話する / アナを呼ぶ」の意味になる。"
     },
     {
      "text": "Se llama Ana.",

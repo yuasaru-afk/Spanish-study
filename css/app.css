@@ -41,7 +41,7 @@
 :root[data-font="xl"] { --fs: 23px; }
 
 * { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; touch-action: manipulation; }
 body {
   margin: 0; background: var(--bg); color: var(--text);
   font: var(--fs)/1.6 -apple-system, "Hiragino Sans", "Segoe UI", "Meiryo UI", sans-serif;
