@@ -19,9 +19,11 @@ export async function renderList(root, ctx) {
 }
 
 // fromQuiz は練習問題の「文法ノートで見る」から来た時。上に「クイズに戻る」を出す
+// ふつうに開いた時は「次のノート」が主ボタン。確認問題は解かなくても先へ進める
 export async function renderUnit(root, ctx, unitId, fromQuiz) {
-  const unit = await ctx.content.loadUnit(unitId);
+  const [unit, index] = await Promise.all([ctx.content.loadUnit(unitId), ctx.content.loadIndex()]);
   if (!root.isConnected) return;
+  const next = index[index.findIndex(u => u.id === unitId) + 1];
   const back = fromQuiz
     ? h('button.back', { onclick: () => ctx.go(`#/u/${unitId}`) }, '‹ クイズに戻る')
     : h('button.back', { onclick: () => ctx.go('#/grammar') }, '‹ 文法ノート');
@@ -35,14 +37,17 @@ export async function renderUnit(root, ctx, unitId, fromQuiz) {
         x.examples?.length ? h('div.note', {}, x.examples.map(ex => h('div', { style: 'margin:6px 0' }, esLine(ctx, ex.es), h('div', {}, ex.ja), ex.note ? h('div.muted', {}, ex.note) : null))) : null))),
     fromQuiz
       ? h('div.actions', {}, h('button.btn', { onclick: () => ctx.go(`#/u/${unitId}`) }, 'クイズに戻る'))
-      : h('div.actions', {}, h('button.btn', { onclick: () => ctx.go(`#/gq/${unitId}`) }, '確認問題を解く（3問）')),
+      : h('div.actions', {},
+        next ? h('button.btn', { onclick: () => ctx.go(`#/grammar/${next.id}`) }, `次のノート：${next.no} ${next.title} ›`) : null,
+        h(next ? 'button.btn2' : 'button.btn', { onclick: () => ctx.go(`#/gq/${unitId}`) }, '確認問題を解く（3問）')),
   );
 }
 
 // 文法ノートの確認問題（3問）。正解の XP は 5、1問につき1日1回まで。途中で閉じたら最初から
 export async function renderQuiz(root, ctx, unitId) {
-  const unit = await ctx.content.loadUnit(unitId);
+  const [unit, index] = await Promise.all([ctx.content.loadUnit(unitId), ctx.content.loadIndex()]);
   if (!root.isConnected) return;
+  const next = index[index.findIndex(u => u.id === unitId) + 1];
   const today = dayNumber(new Date());
   const order = grammarQuiz(unit, today);
   const beforeXp = ctx.state.xp;
@@ -52,7 +57,8 @@ export async function renderQuiz(root, ctx, unitId) {
     window.scrollTo(0, 0);
     if (k >= order.length) {
       ctx.reward = { title: '確認問題 おわり', beforeXp, earned: [], buttons: [
-        { label: '文法ノートへ', hash: `#/grammar/${unitId}`, primary: true }, { label: 'ホームへ', hash: '#/' }] };
+        next ? { label: `次のノート：${next.no} ${next.title} ›`, hash: `#/grammar/${next.id}`, primary: true } : null,
+        { label: '文法ノートへ', hash: `#/grammar/${unitId}`, primary: !next }, { label: 'ホームへ', hash: '#/' }].filter(Boolean) };
       return renderReward(root, ctx);
     }
     const i = order[k];
