@@ -4,9 +4,11 @@ export function canSpeak(win) {
   return Boolean(win.speechSynthesis && win.SpeechSynthesisUtterance);
 }
 
+// 端末に入っている声を先に選ぶ。ネット経由の声（PC の Chrome の Google 声など）は毎回取りに行くので遅い
 function pickVoice(win) {
-  const voices = win.speechSynthesis.getVoices() || [];
-  return voices.find(v => v.lang === 'es-ES') || voices.find(v => /^es[-_]/i.test(v.lang)) || null;
+  const voices = (win.speechSynthesis.getVoices() || []).filter(v => /^es[-_]/i.test(v.lang));
+  const rank = v => (v.localService ? 0 : 2) + (/^es[-_]ES$/i.test(v.lang) ? 0 : 1);
+  return voices.sort((a, b) => rank(a) - rank(b))[0] || null;
 }
 
 export function speak(win, text, rate) {
@@ -21,18 +23,19 @@ export function speak(win, text, rate) {
   win.speechSynthesis.speak(u);
 }
 
-// iPhone は最初の読み上げが遅いので、最初に画面を触った時に無音で一度読ませて準備しておく
+// iPhone は最初の読み上げが遅いので、最初に画面をタップした時に無音で一度読ませて準備しておく。
+// 指が触れただけ（pointerdown）では音を出す許可が出ないブラウザがあるので click で
 export function warmUpSpeech(win) {
   if (!canSpeak(win)) return;
   const once = () => {
-    win.removeEventListener('pointerdown', once, true);
+    win.removeEventListener('click', once, true);
     win.speechSynthesis.getVoices();
     const u = new win.SpeechSynthesisUtterance(' ');
     u.volume = 0;
     u.lang = 'es-ES';
     win.speechSynthesis.speak(u);
   };
-  win.addEventListener('pointerdown', once, true);
+  win.addEventListener('click', once, true);
 }
 
 const recognizer = win => win.SpeechRecognition || win.webkitSpeechRecognition;

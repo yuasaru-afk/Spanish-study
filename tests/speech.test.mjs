@@ -59,6 +59,17 @@ test('speak は es-ES の声を選び lang と速さを渡す', () => {
   assert.equal(spoken[0].voice.name, 'c');
 });
 
+test('speak は端末内の声をネット経由の es-ES より先に選ぶ', () => {
+  const spoken = [];
+  const voices = [{ lang: 'es-ES', name: 'net', localService: false }, { lang: 'es-MX', name: 'local', localService: true }];
+  const win = {
+    speechSynthesis: { getVoices: () => voices, cancel() {}, speak: u => spoken.push(u) },
+    SpeechSynthesisUtterance: class { constructor(t) { this.text = t; } },
+  };
+  speak(win, 'Hola', 1);
+  assert.equal(spoken[0].voice.name, 'local');
+});
+
 test('speak は es-ES がなければ他の es 声', () => {
   const spoken = [];
   const win = {
