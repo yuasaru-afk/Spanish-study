@@ -102,8 +102,10 @@ p { margin: .4em 0; }
 .unit.done { color: var(--muted); }
 .unit.now { border-color: var(--accent); background: var(--note-bg); font-weight: 700; }
 .unit:disabled { opacity: .55; }
-.menu { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 12px; }
-.menu button { min-height: 56px; border: none; border-radius: 12px; background: var(--chip); font-size: .9em; }
+.iconbar { display: flex; gap: 2px; }
+.iconbtn { display: flex; flex-direction: column; align-items: center; min-width: 48px; min-height: 42px; padding: 2px 4px; border: none; border-radius: 10px; background: none; color: var(--muted); line-height: 1.2; }
+.iconbtn .ic { font-size: 1.25em; }
+.iconbtn .lb { font-size: .7em; white-space: nowrap; }
 
 /* 単語カード・評価ボタン */
 .flash { text-align: center; padding: 26px 12px; cursor: pointer; }
@@ -138,8 +140,6 @@ p { margin: .4em 0; }
 .levelcard { display: block; width: 100%; text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; margin: 4px 0 12px; }
 .levelcard .progress { margin: 6px 0 4px; }
 .lvrow { display: flex; justify-content: space-between; align-items: baseline; }
-.streak { font-weight: 700; color: var(--accent-text); }
-.menu.menu4 { grid-template-columns: repeat(4, 1fr); }
 .wordbtns { display: grid; gap: 8px; margin: 10px 0; }
 .wordlist { list-style: none; padding: 0; margin: 4px 0 12px; }
 .wordlist li { border-bottom: 1px solid var(--line); padding: 8px 0; }

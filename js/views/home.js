@@ -5,6 +5,9 @@ import { levelInfo } from '../progress.js';
 import { REVIEW_EVERY } from '../store.js';
 import { progressBar } from './common.js';
 
+// 画面上部のアイコン（ユニット一覧の下まで行かなくても押せるように）
+const MENU = [['#/grammar', '📘', '文法ノート'], ['#/words', '🃏', '単語集'], ['#/stats', '📈', '記録'], ['#/settings', '⚙', '設定']];
+
 // 終えたユニットの教材（振り返りの材料）
 export async function doneUnits(ctx, index) {
   const ids = index.filter(u => ctx.state.units[u.id]?.done).map(u => u.id);
@@ -29,10 +32,11 @@ export async function render(root, ctx) {
   const nextUnit = index.find(u => !st.units[u.id]?.done && isUnlocked(index, st.units, u.id));
 
   root.append(
-    h('div.topbar', {}, h('span.title', {}, '¡Hola!'), h('span.streak', {}, `🔥 ${st.streak.count}日連続`)),
+    h('div.topbar', {}, h('span.title', {}, '¡Hola!'), h('nav.iconbar', {}, MENU.map(([hash, icon, label]) =>
+      h('button.iconbtn', { 'aria-label': label, onclick: () => ctx.go(hash) }, h('span.ic', {}, icon), h('span.lb', {}, label))))),
     h('div.body', {},
       h('button.levelcard', { onclick: () => ctx.go('#/stats') },
-        h('div.lvrow', {}, h('b', {}, `レベル ${lv.level}`), h('span.muted', {}, `今日 ${st.daily[today] || 0} XP`)),
+        h('div.lvrow', {}, h('b', {}, `レベル ${lv.level}`), h('span.muted', {}, `🔥 ${st.streak.count}日連続・今日 ${st.daily[today] || 0} XP`)),
         progressBar(lv.into / lv.need),
         h('div.muted', {}, `次のレベルまで ${lv.need - lv.into} XP ›`)),
       resumeUnit
@@ -53,11 +57,6 @@ export async function render(root, ctx) {
         return h('li', {}, h(`button.unit${done ? '.done' : ''}${now ? '.now' : ''}`, { disabled: !open, onclick: () => ctx.go(`#/u/${u.id}`) },
           h('span.no', {}, u.no), h('span.name', {}, u.title), h('span', {}, done ? '✓' : open ? '▶' : '🔒')));
       })),
-      h('div.menu.menu4', {},
-        h('button', { onclick: () => ctx.go('#/grammar') }, '📘', h('br'), '文法ノート'),
-        h('button', { onclick: () => ctx.go('#/words') }, '🃏', h('br'), '単語集'),
-        h('button', { onclick: () => ctx.go('#/stats') }, '📈', h('br'), '記録'),
-        h('button', { onclick: () => ctx.go('#/settings') }, '⚙', h('br'), '設定')),
     ),
   );
 }
